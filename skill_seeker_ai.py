@@ -19,7 +19,7 @@ def get_ai_recommendation(user_input):
     prompt = f"User is looking to learn new skills. They mentioned: {user_input}. What skill should they learn next and why?"
     import OpenAI
     client = openai.OpenAI()
-   def get_ai_recommendation(user_input):
+def get_ai_recommendation(user_input):
     response = client.chat.completions.create(
         model="gpt-4",
         messages=[
@@ -27,8 +27,7 @@ def get_ai_recommendation(user_input):
             {"role": "user", "content": user_input}]
 
     )
-   
-    return response.choices[0].message.content
+   return response.choices[0].message.content
 
 # Streamlit UI
 st.title("🧠 Skill Seeker Lab AI")
