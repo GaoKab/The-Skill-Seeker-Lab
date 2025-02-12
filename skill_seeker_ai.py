@@ -17,11 +17,13 @@ def get_courses(skill):
 # Function to generate AI-based skill recommendation
 def get_ai_recommendation(user_input):
     prompt = f"User is looking to learn new skills. They mentioned: {user_input}. What skill should they learn next and why?"
-    response = openai.ChatCompletion.create(
+    client = openai.OpenAI()
+    response = client.chat.completions.create(
         model="gpt-4",
-        messages=[{"role": "system", "content": "You are a helpful assistant that suggests the best skills to learn."},{"role": "user", "content": prompt}]
+        messages=[{"role": "system", "content": "You are a helpful assistant that suggests the best skills to learn."},
+        {"role": "user", "content": prompt}]
     )
-    ai_recommendation =response["choices"][0]["message"]["content"]
+    ai_recommendation = response.choices[0].message.content
 
 # Streamlit UI
 st.title("🧠 Skill Seeker Lab AI")
