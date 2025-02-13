@@ -19,8 +19,10 @@ def get_ai_recommendation(user_input):
     prompt = f"User is looking to learn new skills. They mentioned: {user_input}. What skill should they learn next and why?"
     import openai
 
-client = openai.Client()
+import streamlit as st
 
+openai.api_key = st.secrets["OPENAI_API_KEY"]
+client = openai.Client()
 def get_ai_recommendation(user_input):
     response = client.chat.completions.create(
         model="gpt-4",
