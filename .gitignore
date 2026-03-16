@@ -1,0 +1,9 @@
+# Session logs (runtime files, not tracked)
+logs/*.log
+logs/*.json
+logs/*.txt
+
+# Python
+__pycache__/
+*.pyc
+.env

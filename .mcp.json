@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/home/user/The-Skill-Seeker-Lab",
+        "/home/user/The-Skill-Seeker-Lab/logs"
+      ]
+    }
+  }
+}
