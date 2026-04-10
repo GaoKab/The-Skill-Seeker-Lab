@@ -211,3 +211,158 @@ class Version:
             created_at=data["created_at"],
             created_by=data.get("created_by", "author"),
         )
+
+
+# --- Institution & Review Models ---
+
+INSTITUTION_TYPES = [
+    ("university", "University", "Academic institution"),
+    ("research_lab", "Research Lab", "Dedicated research organization"),
+    ("think_tank", "Think Tank", "Policy or strategy research organization"),
+    ("corporate_rd", "Corporate R&D", "Corporate research and development"),
+    ("government", "Government Agency", "Government-funded research body"),
+    ("independent", "Independent", "Independent research collective or studio"),
+]
+
+MEMBER_ROLES = [
+    ("admin", "Admin", "Manages the institution on NodeRail"),
+    ("researcher", "Researcher", "Publishes and develops work"),
+    ("reviewer", "Reviewer", "Reviews and evaluates work"),
+    ("reader", "Reader", "Browses and cites work"),
+]
+
+REVIEW_STATUSES = [
+    ("requested", "Requested", "Review has been requested"),
+    ("in_progress", "In Progress", "Reviewer is evaluating"),
+    ("completed", "Completed", "Review is complete"),
+    ("declined", "Declined", "Reviewer declined the request"),
+]
+
+REVIEW_VERDICTS = [
+    ("validated", "Validated", "Work meets the required level of rigor"),
+    ("needs_revision", "Needs Revision", "Work has merit but requires changes"),
+    ("novel", "Novel", "Work represents a genuinely new contribution"),
+    ("not_ready", "Not Ready", "Work is not yet at the required level"),
+]
+
+
+@dataclass
+class Institution:
+    """An organization with members who publish and review on NodeRail."""
+    name: str
+    institution_type: str
+    description: str
+    id: str = field(default_factory=_uuid)
+    created_at: str = field(default_factory=_now)
+    website: str = ""
+    contact_email: str = ""
+
+    def to_dict(self) -> dict:
+        return {
+            "id": self.id,
+            "name": self.name,
+            "institution_type": self.institution_type,
+            "description": self.description,
+            "created_at": self.created_at,
+            "website": self.website,
+            "contact_email": self.contact_email,
+        }
+
+    @classmethod
+    def from_dict(cls, data: dict) -> "Institution":
+        return cls(
+            id=data["id"],
+            name=data["name"],
+            institution_type=data["institution_type"],
+            description=data["description"],
+            created_at=data["created_at"],
+            website=data.get("website", ""),
+            contact_email=data.get("contact_email", ""),
+        )
+
+
+@dataclass
+class Member:
+    """A person affiliated with an institution on NodeRail."""
+    name: str
+    institution_id: str
+    role: str  # admin, researcher, reviewer, reader
+    id: str = field(default_factory=_uuid)
+    created_at: str = field(default_factory=_now)
+    expertise: str = ""
+    email: str = ""
+
+    def to_dict(self) -> dict:
+        return {
+            "id": self.id,
+            "name": self.name,
+            "institution_id": self.institution_id,
+            "role": self.role,
+            "created_at": self.created_at,
+            "expertise": self.expertise,
+            "email": self.email,
+        }
+
+    @classmethod
+    def from_dict(cls, data: dict) -> "Member":
+        return cls(
+            id=data["id"],
+            name=data["name"],
+            institution_id=data["institution_id"],
+            role=data["role"],
+            created_at=data["created_at"],
+            expertise=data.get("expertise", ""),
+            email=data.get("email", ""),
+        )
+
+
+@dataclass
+class Review:
+    """An expert evaluation of a structure on NodeRail.
+    Permanently attached to the node's lineage."""
+    node_id: str
+    reviewer_id: str  # Member ID
+    verdict: str  # validated, needs_revision, novel, not_ready
+    status: str = "requested"
+    id: str = field(default_factory=_uuid)
+    created_at: str = field(default_factory=_now)
+    completed_at: str = ""
+    # Structured evaluation
+    is_rigorous: str = ""       # Is this at the required level of rigor?
+    is_novel: str = ""          # Is this genuinely new?
+    what_is_missing: str = ""   # What needs to change?
+    summary: str = ""           # Overall assessment
+    requested_by: str = ""      # Member ID of who requested
+
+    def to_dict(self) -> dict:
+        return {
+            "id": self.id,
+            "node_id": self.node_id,
+            "reviewer_id": self.reviewer_id,
+            "verdict": self.verdict,
+            "status": self.status,
+            "created_at": self.created_at,
+            "completed_at": self.completed_at,
+            "is_rigorous": self.is_rigorous,
+            "is_novel": self.is_novel,
+            "what_is_missing": self.what_is_missing,
+            "summary": self.summary,
+            "requested_by": self.requested_by,
+        }
+
+    @classmethod
+    def from_dict(cls, data: dict) -> "Review":
+        return cls(
+            id=data["id"],
+            node_id=data["node_id"],
+            reviewer_id=data["reviewer_id"],
+            verdict=data.get("verdict", ""),
+            status=data.get("status", "requested"),
+            created_at=data["created_at"],
+            completed_at=data.get("completed_at", ""),
+            is_rigorous=data.get("is_rigorous", ""),
+            is_novel=data.get("is_novel", ""),
+            what_is_missing=data.get("what_is_missing", ""),
+            summary=data.get("summary", ""),
+            requested_by=data.get("requested_by", ""),
+        )

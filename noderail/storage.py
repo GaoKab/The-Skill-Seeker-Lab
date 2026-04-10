@@ -9,7 +9,7 @@ import json
 import os
 from typing import Optional
 
-from .models import Node, Edge, Version
+from .models import Node, Edge, Version, Institution, Member, Review
 
 
 DEFAULT_STORE_PATH = os.path.join(
@@ -19,7 +19,10 @@ DEFAULT_STORE_PATH = os.path.join(
 
 
 def _empty_store() -> dict:
-    return {"nodes": {}, "edges": {}, "versions": {}}
+    return {
+        "nodes": {}, "edges": {}, "versions": {},
+        "institutions": {}, "members": {}, "reviews": {},
+    }
 
 
 class NodeRailStore:
@@ -324,3 +327,113 @@ class NodeRailStore:
             "contradictions": self.get_contradictions(),
             "hubs": self.get_hub_nodes(),
         }
+
+    # --- Institutions ---
+
+    def add_institution(self, inst: Institution) -> Institution:
+        if "institutions" not in self._data:
+            self._data["institutions"] = {}
+        self._data["institutions"][inst.id] = inst.to_dict()
+        self._save()
+        return inst
+
+    def get_institution(self, inst_id: str) -> Optional[Institution]:
+        if "institutions" not in self._data:
+            return None
+        data = self._data["institutions"].get(inst_id)
+        return Institution.from_dict(data) if data else None
+
+    def get_all_institutions(self) -> list[Institution]:
+        if "institutions" not in self._data:
+            return []
+        return [Institution.from_dict(d) for d in self._data["institutions"].values()]
+
+    # --- Members ---
+
+    def add_member(self, member: Member) -> Member:
+        if "members" not in self._data:
+            self._data["members"] = {}
+        self._data["members"][member.id] = member.to_dict()
+        self._save()
+        return member
+
+    def get_member(self, member_id: str) -> Optional[Member]:
+        if "members" not in self._data:
+            return None
+        data = self._data["members"].get(member_id)
+        return Member.from_dict(data) if data else None
+
+    def get_members_by_institution(self, inst_id: str) -> list[Member]:
+        if "members" not in self._data:
+            return []
+        return [
+            Member.from_dict(d) for d in self._data["members"].values()
+            if d["institution_id"] == inst_id
+        ]
+
+    def get_all_members(self) -> list[Member]:
+        if "members" not in self._data:
+            return []
+        return [Member.from_dict(d) for d in self._data["members"].values()]
+
+    def get_reviewers(self) -> list[Member]:
+        """Get all members with reviewer role."""
+        if "members" not in self._data:
+            return []
+        return [
+            Member.from_dict(d) for d in self._data["members"].values()
+            if d["role"] == "reviewer"
+        ]
+
+    # --- Reviews ---
+
+    def add_review(self, review: Review) -> Review:
+        if "reviews" not in self._data:
+            self._data["reviews"] = {}
+        self._data["reviews"][review.id] = review.to_dict()
+        self._save()
+        return review
+
+    def update_review(self, review: Review):
+        if "reviews" not in self._data:
+            self._data["reviews"] = {}
+        self._data["reviews"][review.id] = review.to_dict()
+        self._save()
+
+    def get_review(self, review_id: str) -> Optional[Review]:
+        if "reviews" not in self._data:
+            return None
+        data = self._data["reviews"].get(review_id)
+        return Review.from_dict(data) if data else None
+
+    def get_reviews_for_node(self, node_id: str) -> list[Review]:
+        if "reviews" not in self._data:
+            return []
+        return [
+            Review.from_dict(d) for d in self._data["reviews"].values()
+            if d["node_id"] == node_id
+        ]
+
+    def get_reviews_by_reviewer(self, reviewer_id: str) -> list[Review]:
+        if "reviews" not in self._data:
+            return []
+        return [
+            Review.from_dict(d) for d in self._data["reviews"].values()
+            if d["reviewer_id"] == reviewer_id
+        ]
+
+    def get_pending_reviews(self) -> list[Review]:
+        if "reviews" not in self._data:
+            return []
+        return [
+            Review.from_dict(d) for d in self._data["reviews"].values()
+            if d["status"] in ("requested", "in_progress")
+        ]
+
+    def get_completed_reviews(self) -> list[Review]:
+        if "reviews" not in self._data:
+            return []
+        return [
+            Review.from_dict(d) for d in self._data["reviews"].values()
+            if d["status"] == "completed"
+        ]

@@ -9,8 +9,9 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 from noderail.models import (
-    Node, Edge, Version,
+    Node, Edge, Version, Institution, Member, Review,
     NODE_TYPES, RELATIONSHIP_TYPES, EVOLUTION_TYPES, STATUS_LEVELS,
+    INSTITUTION_TYPES, MEMBER_ROLES, REVIEW_STATUSES, REVIEW_VERDICTS,
     _now,
 )
 from noderail.storage import NodeRailStore
@@ -101,7 +102,7 @@ st.sidebar.markdown("---")
 
 page = st.sidebar.radio(
     "Navigate",
-    ["Home", "Establish", "Connect", "Evolve", "Explore", "Workspace", "Insights", "Publish", "Canon"],
+    ["Home", "Establish", "Connect", "Evolve", "Explore", "Workspace", "Insights", "Review", "Institutions", "Publish", "Canon"],
     label_visibility="collapsed",
 )
 
@@ -1234,6 +1235,490 @@ elif page == "Insights":
             "(need 5+ connections).</span>",
             unsafe_allow_html=True,
         )
+
+
+# ===========================================================================
+# REVIEW
+# ===========================================================================
+
+elif page == "Review":
+    st.markdown("## Review")
+    st.markdown(
+        "<span style='color:#888;'>"
+        "Expert evaluation of intellectual work. Reviews become "
+        "permanent lineage.</span>",
+        unsafe_allow_html=True,
+    )
+    st.markdown("")
+
+    reviewers = store.get_reviewers()
+    nodes = store.get_all_nodes()
+    pending = store.get_pending_reviews()
+    completed = store.get_completed_reviews()
+
+    # Summary
+    col1, col2, col3 = st.columns(3)
+    col1.metric("Pending reviews", len(pending))
+    col2.metric("Completed reviews", len(completed))
+    col3.metric("Registered reviewers", len(reviewers))
+
+    st.markdown("---")
+
+    review_tab1, review_tab2, review_tab3 = st.tabs([
+        "Request Review", "Evaluate", "Review History"
+    ])
+
+    # --- Request a review ---
+    with review_tab1:
+        st.markdown("#### Request expert review")
+        st.markdown(
+            "<span style='color:#888; font-size:13px;'>"
+            "Submit a structure for expert evaluation. The reviewer will "
+            "assess rigor, novelty, and completeness.</span>",
+            unsafe_allow_html=True,
+        )
+        st.markdown("")
+
+        if not nodes:
+            st.info("No structures to review. Go to **Establish** first.")
+        elif not reviewers:
+            st.info(
+                "No reviewers registered yet. Add reviewers in "
+                "**Institutions** first."
+            )
+        else:
+            with st.form("request_review", clear_on_submit=True):
+                node_options = {
+                    n.id: f"{n.title} ({n.node_type})"
+                    for n in sorted(nodes, key=lambda x: x.title)
+                }
+                review_node_id = st.selectbox(
+                    "Structure to review",
+                    list(node_options.keys()),
+                    format_func=lambda x: node_options[x],
+                )
+
+                reviewer_options = {}
+                for r in reviewers:
+                    inst = store.get_institution(r.institution_id)
+                    inst_name = inst.name if inst else "Independent"
+                    label = f"{r.name} — {inst_name}"
+                    if r.expertise:
+                        label += f" ({r.expertise})"
+                    reviewer_options[r.id] = label
+
+                review_reviewer_id = st.selectbox(
+                    "Assign to reviewer",
+                    list(reviewer_options.keys()),
+                    format_func=lambda x: reviewer_options[x],
+                )
+
+                submitted = st.form_submit_button(
+                    "Request review", type="primary"
+                )
+
+                if submitted:
+                    review = Review(
+                        node_id=review_node_id,
+                        reviewer_id=review_reviewer_id,
+                        verdict="",
+                        status="requested",
+                    )
+                    store.add_review(review)
+                    node_title = node_options[review_node_id]
+                    reviewer_name = reviewer_options[review_reviewer_id]
+                    st.success(
+                        f"Review requested: **{node_title}** → {reviewer_name}"
+                    )
+                    st.rerun()
+
+    # --- Evaluate (reviewer fills this in) ---
+    with review_tab2:
+        st.markdown("#### Evaluate a structure")
+        st.markdown(
+            "<span style='color:#888; font-size:13px;'>"
+            "Complete a pending review with a structured evaluation.</span>",
+            unsafe_allow_html=True,
+        )
+        st.markdown("")
+
+        if not pending:
+            st.info("No pending reviews.")
+        else:
+            # Select pending review
+            pending_options = {}
+            for r in pending:
+                node = store.get_node(r.node_id)
+                reviewer = store.get_member(r.reviewer_id)
+                if node and reviewer:
+                    pending_options[r.id] = (
+                        f"{node.title} — assigned to {reviewer.name} "
+                        f"({r.status})"
+                    )
+
+            if not pending_options:
+                st.info("No valid pending reviews.")
+            else:
+                selected_review_id = st.selectbox(
+                    "Select review",
+                    list(pending_options.keys()),
+                    format_func=lambda x: pending_options[x],
+                )
+
+                review_obj = store.get_review(selected_review_id)
+                if review_obj:
+                    node = store.get_node(review_obj.node_id)
+                    if node:
+                        # Show the structure being reviewed
+                        with st.expander(
+                            f"View: {node.title}", expanded=True
+                        ):
+                            type_l = dict(
+                                (t[0], t[1]) for t in NODE_TYPES
+                            ).get(node.node_type, node.node_type)
+                            st.markdown(
+                                f"**{node.title}** — {type_l} · "
+                                f"v{node.current_version} · {node.status}"
+                            )
+                            st.markdown(node.description)
+
+                    # Evaluation form
+                    with st.form("evaluate_form", clear_on_submit=False):
+                        st.markdown("**Structured evaluation:**")
+
+                        is_rigorous = st.text_area(
+                            "Is this at the required level of rigor?",
+                            placeholder=(
+                                "Assess the precision, coherence, and "
+                                "intellectual depth of this structure."
+                            ),
+                            height=80,
+                        )
+
+                        is_novel = st.text_area(
+                            "Is this genuinely new?",
+                            placeholder=(
+                                "Does this represent a new contribution, "
+                                "or does it replicate existing work?"
+                            ),
+                            height=80,
+                        )
+
+                        what_missing = st.text_area(
+                            "What is missing or needs to change?",
+                            placeholder=(
+                                "Specific gaps, weaknesses, or areas "
+                                "that need development."
+                            ),
+                            height=80,
+                        )
+
+                        summary = st.text_area(
+                            "Overall assessment",
+                            placeholder="Your summary judgment.",
+                            height=80,
+                        )
+
+                        verdict_keys = [v[0] for v in REVIEW_VERDICTS]
+                        verdict_labels = dict(
+                            (v[0], v[1]) for v in REVIEW_VERDICTS
+                        )
+                        verdict = st.selectbox(
+                            "Verdict",
+                            verdict_keys,
+                            format_func=lambda x: verdict_labels[x],
+                        )
+
+                        submitted = st.form_submit_button(
+                            "Submit evaluation", type="primary"
+                        )
+
+                        if submitted and summary.strip():
+                            review_obj.status = "completed"
+                            review_obj.completed_at = _now()
+                            review_obj.verdict = verdict
+                            review_obj.is_rigorous = is_rigorous.strip()
+                            review_obj.is_novel = is_novel.strip()
+                            review_obj.what_is_missing = what_missing.strip()
+                            review_obj.summary = summary.strip()
+                            store.update_review(review_obj)
+                            st.success(
+                                f"Review completed: **{verdict_labels[verdict]}**"
+                            )
+                            st.rerun()
+                        elif submitted:
+                            st.warning(
+                                "Please provide at least an overall assessment."
+                            )
+
+    # --- Review history ---
+    with review_tab3:
+        st.markdown("#### Review history")
+        st.markdown(
+            "<span style='color:#888; font-size:13px;'>"
+            "All completed reviews — permanently part of each "
+            "structure's lineage.</span>",
+            unsafe_allow_html=True,
+        )
+        st.markdown("")
+
+        if not completed:
+            st.info("No completed reviews yet.")
+        else:
+            for r in completed:
+                node = store.get_node(r.node_id)
+                reviewer = store.get_member(r.reviewer_id)
+                if node and reviewer:
+                    verdict_l = dict(
+                        (v[0], v[1]) for v in REVIEW_VERDICTS
+                    ).get(r.verdict, r.verdict)
+
+                    verdict_colors = {
+                        "validated": "#2E7D6F",
+                        "novel": "#6B4C9A",
+                        "needs_revision": "#8B6914",
+                        "not_ready": "#C0392B",
+                    }
+                    v_color = verdict_colors.get(r.verdict, "#888")
+
+                    with st.expander(
+                        f"{node.title} — {verdict_l} "
+                        f"(reviewed by {reviewer.name})"
+                    ):
+                        st.markdown(
+                            f"<span style='color:{v_color}; font-size:13px; "
+                            f"font-weight:600; letter-spacing:0.5px; "
+                            f"text-transform:uppercase;'>{verdict_l}</span>",
+                            unsafe_allow_html=True,
+                        )
+                        st.markdown(
+                            f"Reviewed by **{reviewer.name}** · "
+                            f"{r.completed_at[:10] if r.completed_at else ''}"
+                        )
+
+                        if r.is_rigorous:
+                            st.markdown(f"**Rigor:** {r.is_rigorous}")
+                        if r.is_novel:
+                            st.markdown(f"**Novelty:** {r.is_novel}")
+                        if r.what_is_missing:
+                            st.markdown(f"**Missing:** {r.what_is_missing}")
+                        if r.summary:
+                            st.markdown(f"**Summary:** {r.summary}")
+
+
+# ===========================================================================
+# INSTITUTIONS
+# ===========================================================================
+
+elif page == "Institutions":
+    st.markdown("## Institutions")
+    st.markdown(
+        "<span style='color:#888;'>"
+        "Organizations whose researchers publish and review on NodeRail.</span>",
+        unsafe_allow_html=True,
+    )
+    st.markdown("")
+
+    institutions = store.get_all_institutions()
+
+    inst_tab1, inst_tab2, inst_tab3 = st.tabs([
+        "Dashboard", "Register Institution", "Add Member"
+    ])
+
+    # --- Dashboard ---
+    with inst_tab1:
+        if not institutions:
+            st.info(
+                "No institutions registered yet. Use the "
+                "**Register Institution** tab to add one."
+            )
+        else:
+            for inst in institutions:
+                members = store.get_members_by_institution(inst.id)
+                type_l = dict(
+                    (t[0], t[1]) for t in INSTITUTION_TYPES
+                ).get(inst.institution_type, inst.institution_type)
+
+                researchers = [m for m in members if m.role == "researcher"]
+                inst_reviewers = [m for m in members if m.role == "reviewer"]
+
+                with st.expander(
+                    f"**{inst.name}** — {type_l} · "
+                    f"{len(members)} members",
+                    expanded=True,
+                ):
+                    st.markdown(inst.description)
+                    if inst.website:
+                        st.markdown(f"Website: {inst.website}")
+
+                    st.markdown("")
+
+                    # Member metrics
+                    mc1, mc2, mc3, mc4 = st.columns(4)
+                    mc1.metric("Total members", len(members))
+                    mc2.metric("Researchers", len(researchers))
+                    mc3.metric("Reviewers", len(inst_reviewers))
+
+                    # Count reviews by institution reviewers
+                    inst_reviews = []
+                    for reviewer in inst_reviewers:
+                        inst_reviews.extend(
+                            store.get_reviews_by_reviewer(reviewer.id)
+                        )
+                    completed_count = len(
+                        [r for r in inst_reviews if r.status == "completed"]
+                    )
+                    mc4.metric("Reviews completed", completed_count)
+
+                    # Member list
+                    if members:
+                        st.markdown("")
+                        st.markdown(
+                            "<span style='color:#666; font-size:11px; "
+                            "letter-spacing:1px; text-transform:uppercase;'>"
+                            "MEMBERS</span>",
+                            unsafe_allow_html=True,
+                        )
+                        for m in members:
+                            role_l = dict(
+                                (r[0], r[1]) for r in MEMBER_ROLES
+                            ).get(m.role, m.role)
+                            exp = f" — {m.expertise}" if m.expertise else ""
+                            st.markdown(
+                                f"**{m.name}** · {role_l}{exp}"
+                            )
+
+    # --- Register Institution ---
+    with inst_tab2:
+        st.markdown("#### Register a new institution")
+        st.markdown(
+            "<span style='color:#888; font-size:13px;'>"
+            "Add an organization to NodeRail. Members can then be "
+            "added as researchers and reviewers.</span>",
+            unsafe_allow_html=True,
+        )
+        st.markdown("")
+
+        with st.form("register_inst", clear_on_submit=True):
+            inst_name = st.text_input(
+                "Institution name",
+                placeholder="e.g., MIT Media Lab, Santa Fe Institute",
+            )
+
+            inst_type_keys = [t[0] for t in INSTITUTION_TYPES]
+            inst_type_labels = dict(
+                (t[0], t[1]) for t in INSTITUTION_TYPES
+            )
+            inst_type = st.selectbox(
+                "Type",
+                inst_type_keys,
+                format_func=lambda x: inst_type_labels[x],
+            )
+
+            inst_desc = st.text_area(
+                "Description",
+                placeholder="What this institution does and why it's on NodeRail.",
+                height=100,
+            )
+
+            inst_website = st.text_input(
+                "Website",
+                placeholder="https://...",
+            )
+
+            inst_email = st.text_input(
+                "Contact email",
+                placeholder="admin@institution.edu",
+            )
+
+            submitted = st.form_submit_button(
+                "Register", type="primary"
+            )
+
+            if submitted and inst_name.strip():
+                new_inst = Institution(
+                    name=inst_name.strip(),
+                    institution_type=inst_type,
+                    description=inst_desc.strip(),
+                    website=inst_website.strip(),
+                    contact_email=inst_email.strip(),
+                )
+                store.add_institution(new_inst)
+                st.success(f"Registered: **{new_inst.name}**")
+                st.rerun()
+            elif submitted:
+                st.warning("Institution name is required.")
+
+    # --- Add Member ---
+    with inst_tab3:
+        st.markdown("#### Add a member")
+        st.markdown(
+            "<span style='color:#888; font-size:13px;'>"
+            "Add a researcher, reviewer, or admin to an institution.</span>",
+            unsafe_allow_html=True,
+        )
+        st.markdown("")
+
+        if not institutions:
+            st.info("Register an institution first.")
+        else:
+            with st.form("add_member", clear_on_submit=True):
+                inst_options = {
+                    i.id: i.name for i in institutions
+                }
+                member_inst_id = st.selectbox(
+                    "Institution",
+                    list(inst_options.keys()),
+                    format_func=lambda x: inst_options[x],
+                )
+
+                member_name = st.text_input(
+                    "Name", placeholder="Dr. Jane Smith",
+                )
+
+                role_keys = [r[0] for r in MEMBER_ROLES]
+                role_labels = dict(
+                    (r[0], r[1]) for r in MEMBER_ROLES
+                )
+                member_role = st.selectbox(
+                    "Role",
+                    role_keys,
+                    format_func=lambda x: role_labels[x],
+                )
+
+                member_expertise = st.text_input(
+                    "Area of expertise",
+                    placeholder=(
+                        "e.g., cognitive science, human factors, "
+                        "measurement theory"
+                    ),
+                )
+
+                member_email = st.text_input(
+                    "Email", placeholder="jane@institution.edu",
+                )
+
+                submitted = st.form_submit_button(
+                    "Add member", type="primary"
+                )
+
+                if submitted and member_name.strip():
+                    new_member = Member(
+                        name=member_name.strip(),
+                        institution_id=member_inst_id,
+                        role=member_role,
+                        expertise=member_expertise.strip(),
+                        email=member_email.strip(),
+                    )
+                    store.add_member(new_member)
+                    st.success(
+                        f"Added: **{new_member.name}** as "
+                        f"{role_labels[member_role]} at "
+                        f"{inst_options[member_inst_id]}"
+                    )
+                    st.rerun()
+                elif submitted:
+                    st.warning("Name is required.")
 
 
 # ===========================================================================
