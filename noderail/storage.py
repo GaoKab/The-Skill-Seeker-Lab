@@ -194,3 +194,133 @@ class NodeRailStore:
                 for s in ["exploratory", "developing", "stable", "canonical", "archived"]
             },
         }
+
+    # --- Gap Detection / Structural Analysis ---
+
+    def get_orphaned_nodes(self) -> list[Node]:
+        """Nodes with zero connections — isolated from the graph."""
+        all_edges = self.get_all_edges()
+        connected_ids = set()
+        for e in all_edges:
+            connected_ids.add(e.source_id)
+            connected_ids.add(e.target_id)
+        return [n for n in self.get_all_nodes() if n.id not in connected_ids]
+
+    def get_unsupported_frameworks(self) -> list[Node]:
+        """Frameworks that have no concepts supporting them."""
+        frameworks = self.get_nodes_by_type("framework")
+        unsupported = []
+        for fw in frameworks:
+            edges = self.get_edges_for_node(fw.id)
+            has_support = any(
+                e.target_id == fw.id and e.relationship in ("supports", "derives_from")
+                for e in edges
+            )
+            if not has_support:
+                unsupported.append(fw)
+        return unsupported
+
+    def get_unmeasured_concepts(self) -> list[Node]:
+        """Concepts that have no measurement connected to them."""
+        concepts = self.get_nodes_by_type("concept")
+        measurements = self.get_nodes_by_type("measurement")
+        measurement_ids = {m.id for m in measurements}
+
+        unmeasured = []
+        for concept in concepts:
+            edges = self.get_edges_for_node(concept.id)
+            has_measurement = any(
+                (e.source_id in measurement_ids or e.target_id in measurement_ids)
+                for e in edges
+            )
+            if not has_measurement:
+                unmeasured.append(concept)
+        return unmeasured
+
+    def get_unsupported_inquiries(self) -> list[Node]:
+        """Inquiries with no supporting field notes or evidence."""
+        inquiries = self.get_nodes_by_type("inquiry")
+        field_notes = self.get_nodes_by_type("field_note")
+        fn_ids = {fn.id for fn in field_notes}
+
+        unsupported = []
+        for inq in inquiries:
+            edges = self.get_edges_for_node(inq.id)
+            has_field_note = any(
+                (e.source_id in fn_ids and e.target_id == inq.id)
+                for e in edges
+            )
+            if not has_field_note:
+                unsupported.append(inq)
+        return unsupported
+
+    def get_stale_nodes(self, max_version: int = 1) -> list[Node]:
+        """Structures still at v1 with no evolution — never developed beyond creation."""
+        return [
+            n for n in self.get_all_nodes()
+            if n.current_version <= max_version and n.status not in ("archived",)
+        ]
+
+    def get_long_exploratory(self) -> list[Node]:
+        """Structures stuck in 'exploratory' status that have connections,
+        suggesting they may be ready to advance to 'developing'."""
+        exploratory = self.get_nodes_by_status("exploratory")
+        ready = []
+        for node in exploratory:
+            edges = self.get_edges_for_node(node.id)
+            if len(edges) >= 2:  # connected enough to potentially advance
+                ready.append(node)
+        return ready
+
+    def get_unoperationalized_frameworks(self) -> list[Node]:
+        """Frameworks with no project operationalizing them."""
+        frameworks = self.get_nodes_by_type("framework")
+        projects = self.get_nodes_by_type("project")
+        project_ids = {p.id for p in projects}
+
+        unop = []
+        for fw in frameworks:
+            edges = self.get_edges_for_node(fw.id)
+            has_project = any(
+                e.source_id in project_ids and e.relationship == "operationalizes"
+                for e in edges
+            )
+            if not has_project:
+                unop.append(fw)
+        return unop
+
+    def get_contradictions(self) -> list[tuple[Node, Node, Edge]]:
+        """All 'challenges' relationships — active tensions in the system."""
+        edges = self.get_all_edges()
+        contradictions = []
+        for e in edges:
+            if e.relationship == "challenges":
+                src = self.get_node(e.source_id)
+                tgt = self.get_node(e.target_id)
+                if src and tgt:
+                    contradictions.append((src, tgt, e))
+        return contradictions
+
+    def get_hub_nodes(self, min_connections: int = 5) -> list[tuple[Node, int]]:
+        """Most-connected structures — the hubs of the knowledge graph."""
+        nodes = self.get_all_nodes()
+        hubs = []
+        for node in nodes:
+            count = len(self.get_edges_for_node(node.id))
+            if count >= min_connections:
+                hubs.append((node, count))
+        return sorted(hubs, key=lambda x: x[1], reverse=True)
+
+    def run_full_analysis(self) -> dict:
+        """Run all gap detection checks and return a structured report."""
+        return {
+            "orphaned": self.get_orphaned_nodes(),
+            "unsupported_frameworks": self.get_unsupported_frameworks(),
+            "unmeasured_concepts": self.get_unmeasured_concepts(),
+            "unsupported_inquiries": self.get_unsupported_inquiries(),
+            "stale": self.get_stale_nodes(),
+            "long_exploratory": self.get_long_exploratory(),
+            "unoperationalized": self.get_unoperationalized_frameworks(),
+            "contradictions": self.get_contradictions(),
+            "hubs": self.get_hub_nodes(),
+        }

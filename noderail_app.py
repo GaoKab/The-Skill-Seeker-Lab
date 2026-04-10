@@ -95,7 +95,7 @@ st.sidebar.markdown("---")
 
 page = st.sidebar.radio(
     "Navigate",
-    ["Home", "Establish", "Connect", "Evolve", "Explore", "Workspace", "Canon"],
+    ["Home", "Establish", "Connect", "Evolve", "Explore", "Workspace", "Insights", "Canon"],
     label_visibility="collapsed",
 )
 
@@ -1005,6 +1005,229 @@ elif page == "Workspace":
                 f"Showing {len(ws_nodes)} of {len(nodes)} structures</span>",
                 unsafe_allow_html=True,
             )
+
+
+# ===========================================================================
+# INSIGHTS
+# ===========================================================================
+
+elif page == "Insights":
+    st.markdown("## Insights")
+    st.markdown(
+        "<span style='color:#888;'>"
+        "What your system sees that you might not. Gaps, tensions, "
+        "and structures ready to advance.</span>",
+        unsafe_allow_html=True,
+    )
+    st.markdown("")
+
+    analysis = store.run_full_analysis()
+
+    # --- Summary metrics ---
+    total_issues = (
+        len(analysis["orphaned"])
+        + len(analysis["unmeasured_concepts"])
+        + len(analysis["unsupported_inquiries"])
+        + len(analysis["unoperationalized"])
+    )
+    total_opportunities = (
+        len(analysis["long_exploratory"])
+        + len(analysis["contradictions"])
+    )
+
+    col1, col2, col3, col4 = st.columns(4)
+    col1.metric("Structural gaps", total_issues)
+    col2.metric("Ready to advance", len(analysis["long_exploratory"]))
+    col3.metric("Active tensions", len(analysis["contradictions"]))
+    col4.metric("Hub structures", len(analysis["hubs"]))
+
+    st.markdown("---")
+
+    # --- Active Tensions (most intellectually interesting) ---
+    st.markdown("#### Active tensions")
+    st.markdown(
+        "<span style='color:#888; font-size:13px;'>"
+        "Structures that challenge each other — unresolved contradictions "
+        "in the system.</span>",
+        unsafe_allow_html=True,
+    )
+    if analysis["contradictions"]:
+        for src, tgt, edge in analysis["contradictions"]:
+            st.markdown(
+                f"**{src.title}** ({src.node_type}) "
+                f"*challenges* **{tgt.title}** ({tgt.node_type})"
+            )
+            if edge.description:
+                st.markdown(
+                    f"<span style='color:#666; font-size:12px; margin-left:16px;'>"
+                    f"{edge.description}</span>",
+                    unsafe_allow_html=True,
+                )
+    else:
+        st.markdown(
+            "<span style='color:#555;'>No active tensions. "
+            "This may mean the system is coherent — or that "
+            "challenges haven't been recorded yet.</span>",
+            unsafe_allow_html=True,
+        )
+
+    st.markdown("---")
+
+    # --- Ready to Advance ---
+    st.markdown("#### Ready to advance")
+    st.markdown(
+        "<span style='color:#888; font-size:13px;'>"
+        "Structures still marked 'exploratory' but with enough connections "
+        "to suggest they've matured beyond that status.</span>",
+        unsafe_allow_html=True,
+    )
+    if analysis["long_exploratory"]:
+        for node in analysis["long_exploratory"]:
+            edge_count = len(store.get_edges_for_node(node.id))
+            type_label = dict(
+                (t[0], t[1]) for t in NODE_TYPES
+            ).get(node.node_type, node.node_type)
+            st.markdown(
+                f"**{node.title}** — {type_label} · "
+                f"{edge_count} connections · still exploratory"
+            )
+    else:
+        st.markdown(
+            "<span style='color:#555;'>No structures ready to advance.</span>",
+            unsafe_allow_html=True,
+        )
+
+    st.markdown("---")
+
+    # --- Unmeasured Concepts ---
+    st.markdown("#### Unmeasured concepts")
+    st.markdown(
+        "<span style='color:#888; font-size:13px;'>"
+        "Concepts with no measurement connected. If a concept matters, "
+        "how would you observe or quantify it?</span>",
+        unsafe_allow_html=True,
+    )
+    if analysis["unmeasured_concepts"]:
+        for node in analysis["unmeasured_concepts"]:
+            st.markdown(f"**{node.title}**")
+    else:
+        st.markdown(
+            "<span style='color:#555;'>All concepts have at least "
+            "one measurement connected.</span>",
+            unsafe_allow_html=True,
+        )
+
+    st.markdown("---")
+
+    # --- Unsupported Inquiries ---
+    st.markdown("#### Inquiries without field evidence")
+    st.markdown(
+        "<span style='color:#888; font-size:13px;'>"
+        "Open questions with no field notes feeding into them. "
+        "These inquiries are purely theoretical — no grounded "
+        "observations yet.</span>",
+        unsafe_allow_html=True,
+    )
+    if analysis["unsupported_inquiries"]:
+        for node in analysis["unsupported_inquiries"]:
+            st.markdown(f"**{node.title}**")
+    else:
+        st.markdown(
+            "<span style='color:#555;'>All inquiries have supporting "
+            "field notes.</span>",
+            unsafe_allow_html=True,
+        )
+
+    st.markdown("---")
+
+    # --- Unoperationalized Frameworks ---
+    st.markdown("#### Frameworks without projects")
+    st.markdown(
+        "<span style='color:#888; font-size:13px;'>"
+        "Frameworks that no project operationalizes. Theory without "
+        "application — is that intentional?</span>",
+        unsafe_allow_html=True,
+    )
+    if analysis["unoperationalized"]:
+        for node in analysis["unoperationalized"]:
+            st.markdown(f"**{node.title}**")
+    else:
+        st.markdown(
+            "<span style='color:#555;'>All frameworks have at least "
+            "one project operationalizing them.</span>",
+            unsafe_allow_html=True,
+        )
+
+    st.markdown("---")
+
+    # --- Orphaned Nodes ---
+    st.markdown("#### Orphaned structures")
+    st.markdown(
+        "<span style='color:#888; font-size:13px;'>"
+        "Structures with zero connections — completely isolated "
+        "from the graph.</span>",
+        unsafe_allow_html=True,
+    )
+    if analysis["orphaned"]:
+        for node in analysis["orphaned"]:
+            type_label = dict(
+                (t[0], t[1]) for t in NODE_TYPES
+            ).get(node.node_type, node.node_type)
+            st.markdown(f"**{node.title}** — {type_label}")
+    else:
+        st.markdown(
+            "<span style='color:#2E7D6F;'>No orphaned structures. "
+            "Everything is connected.</span>",
+            unsafe_allow_html=True,
+        )
+
+    st.markdown("---")
+
+    # --- Stale structures ---
+    stale = analysis["stale"]
+    if stale:
+        with st.expander(
+            f"Stale structures — {len(stale)} still at v1 (never evolved)"
+        ):
+            for node in stale:
+                type_label = dict(
+                    (t[0], t[1]) for t in NODE_TYPES
+                ).get(node.node_type, node.node_type)
+                st.markdown(
+                    f"**{node.title}** — {type_label} · {node.status}"
+                )
+
+    # --- Hubs ---
+    st.markdown("#### Knowledge hubs")
+    st.markdown(
+        "<span style='color:#888; font-size:13px;'>"
+        "The most connected structures in your graph — "
+        "where intellectual weight concentrates.</span>",
+        unsafe_allow_html=True,
+    )
+    if analysis["hubs"]:
+        for node, count in analysis["hubs"]:
+            type_label = dict(
+                (t[0], t[1]) for t in NODE_TYPES
+            ).get(node.node_type, node.node_type)
+            bar_width = min(count * 8, 100)
+            st.markdown(
+                f"**{node.title}** — {type_label} · "
+                f"{count} connections"
+            )
+            st.markdown(
+                f"<div style='background:#1E2230; border-radius:4px; "
+                f"height:8px; width:100%; margin-bottom:12px;'>"
+                f"<div style='background:#4A6FA5; border-radius:4px; "
+                f"height:8px; width:{bar_width}%;'></div></div>",
+                unsafe_allow_html=True,
+            )
+    else:
+        st.markdown(
+            "<span style='color:#555;'>No hub structures yet "
+            "(need 5+ connections).</span>",
+            unsafe_allow_html=True,
+        )
 
 
 # ===========================================================================
