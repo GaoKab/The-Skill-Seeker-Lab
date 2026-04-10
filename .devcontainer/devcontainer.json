@@ -5,7 +5,7 @@
   "customizations": {
     "codespaces": {
       "openFiles": [
-        "README.md",
+        "noderail_app.py",
         "skill_seeker_ai.py"
       ]
     },
@@ -19,7 +19,7 @@
   },
   "updateContentCommand": "[ -f packages.txt ] && sudo apt update && sudo apt upgrade -y && sudo xargs apt install -y <packages.txt; [ -f requirements.txt ] && pip3 install --user -r requirements.txt; pip3 install --user streamlit; echo '✅ Packages installed and Requirements met'",
   "postAttachCommand": {
-    "server": "streamlit run skill_seeker_ai.py --server.enableCORS false --server.enableXsrfProtection false"
+    "server": "streamlit run noderail_app.py --server.enableCORS false --server.enableXsrfProtection false"
   },
   "portsAttributes": {
     "8501": {
