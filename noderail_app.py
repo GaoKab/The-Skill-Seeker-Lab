@@ -15,6 +15,12 @@ from noderail.models import (
 )
 from noderail.storage import NodeRailStore
 from noderail.graph_utils import build_graph_html, build_lineage_html
+from noderail.export import (
+    export_node_markdown,
+    export_graph_markdown,
+    export_graph_html,
+    export_graph_json,
+)
 
 
 # --- Page Config ---
@@ -95,7 +101,7 @@ st.sidebar.markdown("---")
 
 page = st.sidebar.radio(
     "Navigate",
-    ["Home", "Establish", "Connect", "Evolve", "Explore", "Workspace", "Insights", "Canon"],
+    ["Home", "Establish", "Connect", "Evolve", "Explore", "Workspace", "Insights", "Publish", "Canon"],
     label_visibility="collapsed",
 )
 
@@ -1228,6 +1234,179 @@ elif page == "Insights":
             "(need 5+ connections).</span>",
             unsafe_allow_html=True,
         )
+
+
+# ===========================================================================
+# PUBLISH
+# ===========================================================================
+
+elif page == "Publish":
+    st.markdown("## Publish")
+    st.markdown(
+        "<span style='color:#888;'>"
+        "Export your intellectual work as shareable artifacts.</span>",
+        unsafe_allow_html=True,
+    )
+    st.markdown("")
+
+    nodes = store.get_all_nodes()
+
+    if not nodes:
+        st.info("No structures to publish. Go to **Establish** first.")
+    else:
+        publish_tab1, publish_tab2, publish_tab3, publish_tab4 = st.tabs([
+            "Single Structure", "Full Graph (Markdown)", "Interactive Graph (HTML)", "Raw Data (JSON)"
+        ])
+
+        # --- Tab 1: Single structure markdown ---
+        with publish_tab1:
+            st.markdown(
+                "<span style='color:#888; font-size:13px;'>"
+                "Export a single structure with its connections, "
+                "lineage, and full evolution history.</span>",
+                unsafe_allow_html=True,
+            )
+            st.markdown("")
+
+            node_options = {
+                n.id: f"{n.title} ({_type_label.get(n.node_type, n.node_type)})"
+                for n in sorted(nodes, key=lambda x: x.title)
+            }
+
+            # Import needed label maps
+            _type_label_map = dict((t[0], t[1]) for t in NODE_TYPES)
+
+            selected_id = st.selectbox(
+                "Select structure to export",
+                list(node_options.keys()),
+                format_func=lambda x: node_options[x],
+                key="publish_node_select",
+            )
+
+            if selected_id:
+                md_content = export_node_markdown(store, selected_id)
+                node = store.get_node(selected_id)
+
+                # Preview
+                with st.expander("Preview", expanded=True):
+                    st.markdown(md_content)
+
+                # Download
+                st.download_button(
+                    label="Download Markdown",
+                    data=md_content,
+                    file_name=f"noderail_{node.title.lower().replace(' ', '_')}.md",
+                    mime="text/markdown",
+                )
+
+        # --- Tab 2: Full graph markdown ---
+        with publish_tab2:
+            st.markdown(
+                "<span style='color:#888; font-size:13px;'>"
+                "Export the entire knowledge graph as a structured "
+                "markdown document — every structure, connection, "
+                "and status.</span>",
+                unsafe_allow_html=True,
+            )
+            st.markdown("")
+
+            if st.button("Generate full graph export", key="gen_graph_md"):
+                with st.spinner("Generating..."):
+                    graph_md = export_graph_markdown(store)
+
+                st.session_state["graph_md"] = graph_md
+
+            if "graph_md" in st.session_state:
+                graph_md = st.session_state["graph_md"]
+
+                with st.expander("Preview (first 200 lines)"):
+                    preview_lines = graph_md.split("\n")[:200]
+                    st.markdown("\n".join(preview_lines))
+                    if len(graph_md.split("\n")) > 200:
+                        st.markdown("*... truncated for preview ...*")
+
+                st.download_button(
+                    label="Download Full Graph Markdown",
+                    data=graph_md,
+                    file_name="noderail_full_graph.md",
+                    mime="text/markdown",
+                    key="dl_graph_md",
+                )
+
+        # --- Tab 3: Interactive HTML graph ---
+        with publish_tab3:
+            st.markdown(
+                "<span style='color:#888; font-size:13px;'>"
+                "Export the knowledge graph as a standalone HTML file "
+                "anyone can open in a browser — no server needed.</span>",
+                unsafe_allow_html=True,
+            )
+            st.markdown("")
+
+            if st.button("Generate interactive graph", key="gen_graph_html"):
+                with st.spinner("Generating..."):
+                    graph_html = export_graph_html(store)
+
+                st.session_state["graph_html"] = graph_html
+
+            if "graph_html" in st.session_state:
+                graph_html = st.session_state["graph_html"]
+
+                stats = store.stats()
+                st.markdown(
+                    f"<span style='color:#555; font-size:12px;'>"
+                    f"Generated: {stats['total_nodes']} nodes, "
+                    f"{stats['total_edges']} edges, "
+                    f"{len(graph_html):,} bytes</span>",
+                    unsafe_allow_html=True,
+                )
+
+                st.download_button(
+                    label="Download Interactive Graph (HTML)",
+                    data=graph_html,
+                    file_name="noderail_graph.html",
+                    mime="text/html",
+                    key="dl_graph_html",
+                )
+
+        # --- Tab 4: Raw JSON ---
+        with publish_tab4:
+            st.markdown(
+                "<span style='color:#888; font-size:13px;'>"
+                "Export the raw graph data as JSON — nodes, edges, "
+                "versions. Use this to back up, migrate, or integrate "
+                "with other systems.</span>",
+                unsafe_allow_html=True,
+            )
+            st.markdown("")
+
+            if st.button("Generate JSON export", key="gen_json"):
+                with st.spinner("Generating..."):
+                    json_content = export_graph_json(store)
+
+                st.session_state["json_export"] = json_content
+
+            if "json_export" in st.session_state:
+                json_content = st.session_state["json_export"]
+
+                st.markdown(
+                    f"<span style='color:#555; font-size:12px;'>"
+                    f"{len(json_content):,} bytes</span>",
+                    unsafe_allow_html=True,
+                )
+
+                with st.expander("Preview"):
+                    st.code(json_content[:3000], language="json")
+                    if len(json_content) > 3000:
+                        st.markdown("*... truncated for preview ...*")
+
+                st.download_button(
+                    label="Download JSON",
+                    data=json_content,
+                    file_name="noderail_export.json",
+                    mime="application/json",
+                    key="dl_json",
+                )
 
 
 # ===========================================================================
