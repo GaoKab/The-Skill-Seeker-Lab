@@ -13,7 +13,7 @@ import os
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from noderail.models import Node, Edge, Version, _now
+from noderail.models import Node, Edge, Version, Institution, Member, Review, _now
 from noderail.storage import NodeRailStore
 
 
@@ -598,16 +598,252 @@ def seed():
     print("Added evolution history to 5 structures.\n")
 
     # ===================================================================
+    # INSTITUTIONS
+    # ===================================================================
+
+    hcs_lab = Institution(
+        name="Human Capacity Science Lab",
+        institution_type="research_lab",
+        description=(
+            "The founding research lab for Human Capacity Science. "
+            "Develops the core frameworks, measurements, and applied "
+            "systems that make up the HCS body of work."
+        ),
+        website="https://noderail.web.app",
+    )
+    store.add_institution(hcs_lab)
+
+    sfi = Institution(
+        name="Santa Fe Institute",
+        institution_type="research_lab",
+        description=(
+            "Independent research institute focused on complex adaptive "
+            "systems. Potential collaborator on capacity modeling and "
+            "systems-level human performance research."
+        ),
+        website="https://santafe.edu",
+    )
+    store.add_institution(sfi)
+
+    mit_media = Institution(
+        name="MIT Media Lab",
+        institution_type="university",
+        description=(
+            "Interdisciplinary research lab at MIT. Relevant work on "
+            "human-computer interaction, digital wellbeing, and "
+            "cognitive load in technological environments."
+        ),
+        website="https://media.mit.edu",
+    )
+    store.add_institution(mit_media)
+
+    print(f"  + 3 institutions registered\n")
+
+    # ===================================================================
+    # MEMBERS
+    # ===================================================================
+
+    # HCS Lab members
+    founder = Member(
+        name="Gao Kab",
+        institution_id=hcs_lab.id,
+        role="admin",
+        expertise="Human Capacity Science, framework design, systems thinking",
+    )
+    store.add_member(founder)
+
+    hcs_researcher_1 = Member(
+        name="Dr. Amara Chen",
+        institution_id=hcs_lab.id,
+        role="researcher",
+        expertise="Cognitive load measurement, psychometrics",
+    )
+    store.add_member(hcs_researcher_1)
+
+    # SFI reviewers
+    sfi_reviewer_1 = Member(
+        name="Dr. Marcus Torres",
+        institution_id=sfi.id,
+        role="reviewer",
+        expertise="Complex systems, dynamical modeling, human performance",
+    )
+    store.add_member(sfi_reviewer_1)
+
+    sfi_reviewer_2 = Member(
+        name="Dr. Leah Okonkwo",
+        institution_id=sfi.id,
+        role="reviewer",
+        expertise="Network science, organizational behavior, resilience theory",
+    )
+    store.add_member(sfi_reviewer_2)
+
+    # MIT reviewers
+    mit_reviewer_1 = Member(
+        name="Dr. Raj Patel",
+        institution_id=mit_media.id,
+        role="reviewer",
+        expertise="Digital wellbeing, HCI, attention economics",
+    )
+    store.add_member(mit_reviewer_1)
+
+    mit_researcher_1 = Member(
+        name="Dr. Sofia Andersson",
+        institution_id=mit_media.id,
+        role="researcher",
+        expertise="Emotional computing, physiological measurement, UX research",
+    )
+    store.add_member(mit_researcher_1)
+
+    print(f"  + 6 members added across 3 institutions\n")
+
+    # ===================================================================
+    # SAMPLE REVIEWS
+    # ===================================================================
+
+    # Review 1: HCS framework reviewed by SFI complex systems expert
+    review_hcs = Review(
+        node_id=hcs.id,
+        reviewer_id=sfi_reviewer_1.id,
+        verdict="validated",
+        status="completed",
+        completed_at=_now(),
+        is_rigorous=(
+            "The framework demonstrates strong internal coherence. "
+            "The distinction between capacity (dynamic state) and "
+            "capability (stable trait) is well-drawn and addresses a "
+            "genuine gap in existing human performance models. The "
+            "multi-dimensional approach to capacity is sound."
+        ),
+        is_novel=(
+            "Yes. While individual components (cognitive load, emotional "
+            "regulation, environmental factors) exist in separate "
+            "literatures, the integration into a unified dynamic capacity "
+            "model is genuinely new. The treatment of capacity as a "
+            "fluctuating resource rather than a fixed attribute is the "
+            "key innovation."
+        ),
+        what_is_missing=(
+            "The framework would benefit from more formal mathematical "
+            "specification of capacity dynamics — how the window opens "
+            "and closes, what the interaction terms are between "
+            "dimensions. Currently the model is qualitative."
+        ),
+        summary=(
+            "Human Capacity Science represents a legitimate new framework "
+            "with clear differentiation from existing models. Validated "
+            "as a developing framework with strong foundations. "
+            "Recommend advancing to stable status once the measurement "
+            "instruments (HBI) are formally specified."
+        ),
+        requested_by=founder.id,
+    )
+    store.add_review(review_hcs)
+
+    # Review 2: HBI reviewed by MIT measurement expert
+    review_hbi = Review(
+        node_id=hbi.id,
+        reviewer_id=mit_reviewer_1.id,
+        verdict="needs_revision",
+        status="completed",
+        completed_at=_now(),
+        is_rigorous=(
+            "The conceptual basis for HBI is solid — measuring "
+            "bandwidth across cognitive, emotional, and environmental "
+            "dimensions is well-motivated. However, the instrument "
+            "specification needs more detail on item construction, "
+            "scoring methodology, and psychometric validation plans."
+        ),
+        is_novel=(
+            "The multi-dimensional, repeatable-use design is "
+            "differentiated from existing instruments (which tend to "
+            "be one-time assessments). The idea of lightweight "
+            "repeated measurement of capacity state is new and "
+            "practically valuable."
+        ),
+        what_is_missing=(
+            "1. Formal item pool and scoring rubric. "
+            "2. Pilot validation data. "
+            "3. Test-retest reliability plan. "
+            "4. Sensitivity analysis — can HBI detect the state "
+            "changes the Capacity Window Model predicts?"
+        ),
+        summary=(
+            "HBI has a strong theoretical foundation and a genuine "
+            "gap to fill. It is not yet at measurement-ready status. "
+            "Needs a formal specification round before it can be "
+            "validated as an instrument."
+        ),
+        requested_by=founder.id,
+    )
+    store.add_review(review_hbi)
+
+    # Review 3: Emotional Residue reviewed as novel concept
+    review_er = Review(
+        node_id=emotional_residue.id,
+        reviewer_id=sfi_reviewer_2.id,
+        verdict="novel",
+        status="completed",
+        completed_at=_now(),
+        is_rigorous=(
+            "The concept is clearly defined and distinguishable from "
+            "adjacent constructs (stress, burnout, emotional labor). "
+            "The temporal dimension — residue decaying at different "
+            "rates depending on source — adds meaningful specificity."
+        ),
+        is_novel=(
+            "Yes. While emotional aftereffects are discussed in "
+            "psychology, the framing of 'residue' as an invisible "
+            "capacity drain with differential decay rates is a "
+            "genuinely new conceptual contribution. The connection "
+            "to capacity (rather than to mood or wellbeing) is the "
+            "distinguishing move."
+        ),
+        what_is_missing=(
+            "Empirical grounding. The concept is well-articulated "
+            "theoretically but needs observational data. What does "
+            "emotional residue look like in measurable terms? How "
+            "would you detect it in real time?"
+        ),
+        summary=(
+            "Emotional Residue is a novel concept that fills a real "
+            "gap between emotional experience and capacity theory. "
+            "Recommend advancing and connecting to measurement work."
+        ),
+        requested_by=founder.id,
+    )
+    store.add_review(review_er)
+
+    # One pending review
+    review_pending = Review(
+        node_id=capacity_window.id,
+        reviewer_id=sfi_reviewer_1.id,
+        verdict="",
+        status="requested",
+        requested_by=founder.id,
+    )
+    store.add_review(review_pending)
+
+    print(f"  + 3 completed reviews, 1 pending\n")
+
+    # ===================================================================
     # SUMMARY
     # ===================================================================
 
     stats = store.stats()
+    institutions = store.get_all_institutions()
+    members = store.get_all_members()
+    completed_reviews = store.get_completed_reviews()
+    pending_reviews = store.get_pending_reviews()
+
     print("=" * 50)
     print("SEED COMPLETE")
     print("=" * 50)
-    print(f"  Nodes:       {stats['total_nodes']}")
-    print(f"  Connections: {stats['total_edges']}")
-    print(f"  Versions:    {stats['total_versions']}")
+    print(f"  Nodes:        {stats['total_nodes']}")
+    print(f"  Connections:  {stats['total_edges']}")
+    print(f"  Versions:     {stats['total_versions']}")
+    print(f"  Institutions: {len(institutions)}")
+    print(f"  Members:      {len(members)}")
+    print(f"  Reviews:      {len(completed_reviews)} completed, {len(pending_reviews)} pending")
     print()
     print("  By type:")
     for t, count in stats["by_type"].items():
