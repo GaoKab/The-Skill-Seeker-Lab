@@ -35,14 +35,17 @@ NODE_SHAPES = {
 EDGE_COLORS = {
     "derives_from": "#888888",
     "extends": "#4A6FA5",
+    "refines": "#5B8DBF",
     "challenges": "#C0392B",
     "applies_to": "#2E7D6F",
+    "supports": "#3D8B6E",
+    "operationalizes": "#4A9A7D",
     "diverges_from": "#8B6914",
 }
 
 STATUS_BORDER = {
-    "draft": "#AAAAAA",
-    "active": "#4A6FA5",
+    "exploratory": "#AAAAAA",
+    "developing": "#4A6FA5",
     "stable": "#2E7D6F",
     "canonical": "#6B4C9A",
     "archived": "#666666",
@@ -84,8 +87,11 @@ def build_graph_html(
         label_map = {
             "derives_from": "derives from",
             "extends": "extends",
+            "refines": "refines",
             "challenges": "challenges",
             "applies_to": "applies to",
+            "supports": "supports",
+            "operationalizes": "operationalizes",
             "diverges_from": "diverges from",
         }
         vis_edges.append({
@@ -178,6 +184,8 @@ def build_lineage_html(
         "reinterpretation": "#8B6914",
         "application": "#2E7D6F",
         "divergence": "#C0392B",
+        "split": "#D4A574",
+        "merge": "#7B68AE",
     }
 
     items_html = ""

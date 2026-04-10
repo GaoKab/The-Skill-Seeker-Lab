@@ -191,6 +191,6 @@ class NodeRailStore:
             },
             "by_status": {
                 s: len([n for n in nodes if n.status == s])
-                for s in ["draft", "active", "stable", "canonical", "archived"]
+                for s in ["exploratory", "developing", "stable", "canonical", "archived"]
             },
         }

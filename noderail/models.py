@@ -13,11 +13,14 @@ the intellectual seriousness of the work it structures:
         project     — A bounded initiative applying one or more frameworks
 
     Relationship Types (Edges):
-        derives_from  — This work originates from a prior structure
-        extends       — This work builds upon and expands existing work
-        challenges    — This work questions or contradicts existing work
-        applies_to    — This work operationalizes or implements existing work
-        diverges_from — This work breaks away to form a new direction
+        derives_from     — This work originates from a prior structure
+        extends          — This work builds upon and expands existing work
+        refines          — This work sharpens or clarifies existing work
+        challenges       — This work questions or contradicts existing work
+        applies_to       — This work is used in a specific domain or context
+        supports         — This work strengthens or underpins existing work
+        operationalizes  — This work makes a framework or concept actionable
+        diverges_from    — This work breaks away to form a new direction
 
     Evolution Types (Versions):
         refinement        — Sharpening precision without changing direction
@@ -25,13 +28,15 @@ the intellectual seriousness of the work it structures:
         reinterpretation  — Recasting meaning in a new light
         application       — Moving from theory to practice
         divergence        — Breaking from the original trajectory
+        split             — One object becomes multiple more specific objects
+        merge             — Several objects brought together into a coherent whole
 
     Status Levels:
-        draft      — Work in progress, not yet stable
-        active     — Under development, open to evolution
-        stable     — Mature, unlikely to change significantly
-        canonical  — Curated, authoritative version
-        archived   — Preserved but no longer active
+        exploratory — Early thinking, still open and unstable
+        developing  — Actively being shaped and extended
+        stable      — Mature, a working reference point
+        canonical   — Central, trusted, authoritative version
+        archived    — No longer current, preserved for lineage
 """
 
 from dataclasses import dataclass, field
@@ -54,8 +59,11 @@ NODE_TYPES = [
 RELATIONSHIP_TYPES = [
     ("derives_from", "Derives from", "This work originates from a prior structure"),
     ("extends", "Extends", "This work builds upon and expands existing work"),
+    ("refines", "Refines", "This work sharpens or clarifies existing work"),
     ("challenges", "Challenges", "This work questions or contradicts existing work"),
-    ("applies_to", "Applies to", "This work operationalizes or implements existing work"),
+    ("applies_to", "Applies to", "This work is used in a specific domain or context"),
+    ("supports", "Supports", "This work strengthens or underpins existing work"),
+    ("operationalizes", "Operationalizes", "This work makes a framework or concept actionable"),
     ("diverges_from", "Diverges from", "This work breaks away to form a new direction"),
 ]
 
@@ -65,14 +73,16 @@ EVOLUTION_TYPES = [
     ("reinterpretation", "Reinterpretation", "Recasting meaning in a new light"),
     ("application", "Application", "Moving from theory to practice"),
     ("divergence", "Divergence", "Breaking from the original trajectory"),
+    ("split", "Split", "One object becomes multiple more specific objects"),
+    ("merge", "Merge", "Several objects brought together into a coherent whole"),
 ]
 
 STATUS_LEVELS = [
-    ("draft", "Draft", "Work in progress, not yet stable"),
-    ("active", "Active", "Under development, open to evolution"),
-    ("stable", "Stable", "Mature, unlikely to change significantly"),
-    ("canonical", "Canonical", "Curated, authoritative version"),
-    ("archived", "Archived", "Preserved but no longer active"),
+    ("exploratory", "Exploratory", "Early thinking, still open and unstable"),
+    ("developing", "Developing", "Actively being shaped and extended"),
+    ("stable", "Stable", "Mature, a working reference point"),
+    ("canonical", "Canonical", "Central, trusted, authoritative version"),
+    ("archived", "Archived", "No longer current, preserved for lineage"),
 ]
 
 
@@ -96,7 +106,7 @@ class Node:
     created_at: str = field(default_factory=_now)
     updated_at: str = field(default_factory=_now)
     created_by: str = "author"
-    status: str = "draft"
+    status: str = "exploratory"
     tags: list[str] = field(default_factory=list)
     current_version: int = 1
 
@@ -124,7 +134,7 @@ class Node:
             created_at=data["created_at"],
             updated_at=data["updated_at"],
             created_by=data.get("created_by", "author"),
-            status=data.get("status", "draft"),
+            status=data.get("status", "exploratory"),
             tags=data.get("tags", []),
             current_version=data.get("current_version", 1),
         )
@@ -135,7 +145,7 @@ class Edge:
     """A typed relationship between two nodes."""
     source_id: str
     target_id: str
-    relationship: str  # derives_from, extends, challenges, applies_to, diverges_from
+    relationship: str  # derives_from, extends, refines, challenges, applies_to, supports, operationalizes, diverges_from
     id: str = field(default_factory=_uuid)
     created_at: str = field(default_factory=_now)
     description: str = ""
@@ -167,7 +177,7 @@ class Version:
     """A tracked evolution of a node. Every change creates lineage."""
     node_id: str
     version_number: int
-    evolution_type: str  # refinement, extension, reinterpretation, application, divergence
+    evolution_type: str  # refinement, extension, reinterpretation, application, divergence, split, merge
     title: str
     description: str
     changes: str  # What specifically changed

@@ -88,14 +88,14 @@ store = get_store()
 st.sidebar.markdown("### ◆ NodeRail")
 st.sidebar.markdown(
     "<span style='color:#666; font-size:12px; letter-spacing:1px;'>"
-    "STRUCTURED RESEARCH ENVIRONMENT</span>",
+    "PUBLISHING SYSTEM FOR LIVING KNOWLEDGE</span>",
     unsafe_allow_html=True,
 )
 st.sidebar.markdown("---")
 
 page = st.sidebar.radio(
     "Navigate",
-    ["Home", "Establish", "Connect", "Evolve", "Explore", "Canon"],
+    ["Home", "Establish", "Connect", "Evolve", "Explore", "Workspace", "Canon"],
     label_visibility="collapsed",
 )
 
@@ -247,12 +247,48 @@ elif page == "Establish":
 
     st.markdown("---")
 
+    # Type-specific prompts
+    TYPE_PROMPTS = {
+        "concept": {
+            "title_hint": "Name this concept precisely",
+            "desc_label": "Definition",
+            "desc_hint": "What does this refer to? Why does it matter? What distinguishes it?",
+        },
+        "framework": {
+            "title_hint": "Name this framework",
+            "desc_label": "Architecture",
+            "desc_hint": "What does this organize? What problem does it help structure? What are its components?",
+        },
+        "measurement": {
+            "title_hint": "Name this measurement or metric",
+            "desc_label": "Specification",
+            "desc_hint": "What does this assess or indicate? How is it observed or quantified?",
+        },
+        "field_note": {
+            "title_hint": "Title this observation",
+            "desc_label": "Observation",
+            "desc_hint": "What was observed? Why might it matter? What context produced this?",
+        },
+        "inquiry": {
+            "title_hint": "State the question or tension",
+            "desc_label": "The unresolved question",
+            "desc_hint": "What remains unresolved? What makes this worth investigating?",
+        },
+        "project": {
+            "title_hint": "Name this project or initiative",
+            "desc_label": "Purpose",
+            "desc_hint": "What is being built, tested, or applied? What intellectual work does it operationalize?",
+        },
+    }
+
+    prompts = TYPE_PROMPTS.get(selected_type, TYPE_PROMPTS["concept"])
+
     # Creation form
     with st.form("establish_form", clear_on_submit=True):
-        title = st.text_input("Title", placeholder="Name this structure")
+        title = st.text_input("Title", placeholder=prompts["title_hint"])
         description = st.text_area(
-            "Description",
-            placeholder="Define what this is, what it contains, and why it matters.",
+            prompts["desc_label"],
+            placeholder=prompts["desc_hint"],
             height=150,
         )
         tags_input = st.text_input(
@@ -263,7 +299,7 @@ elif page == "Establish":
         # Initial status
         status = st.selectbox(
             "Initial status",
-            [s[0] for s in STATUS_LEVELS[:3]],  # draft, active, stable
+            [s[0] for s in STATUS_LEVELS[:3]],  # exploratory, developing, stable
             format_func=lambda x: dict((s[0], s[1]) for s in STATUS_LEVELS)[x],
         )
 
@@ -463,7 +499,7 @@ elif page == "Evolve":
             st.markdown(
                 "<span style='color:#888; font-size:13px;'>"
                 "Is this a refinement, extension, reinterpretation, "
-                "application, or divergence?</span>",
+                "application, divergence, split, or merge?</span>",
                 unsafe_allow_html=True,
             )
 
@@ -603,7 +639,7 @@ elif page == "Explore":
         else:
             st.info("No structures match the current filters.")
 
-        # Node detail view
+        # Node detail view — 5-question object anatomy
         st.markdown("---")
         st.markdown("#### Inspect structure")
 
@@ -621,35 +657,223 @@ elif page == "Explore":
                 type_label = dict((t[0], t[1]) for t in NODE_TYPES).get(node.node_type, node.node_type)
                 status_label = dict((s[0], s[1]) for s in STATUS_LEVELS).get(node.status, node.status)
 
+                # A. What is this?
+                st.markdown(
+                    f"<div style='border-left:3px solid #4A6FA5; padding-left:12px; margin:12px 0;'>"
+                    f"<span style='color:#666; font-size:11px; letter-spacing:1px; "
+                    f"text-transform:uppercase;'>WHAT IS THIS</span><br>"
+                    f"<span style='font-size:1.3em; font-weight:500;'>{node.title}</span><br>"
+                    f"<span style='color:#888; font-size:13px;'>{type_label} · Created {node.created_at[:10]}</span>"
+                    f"</div>",
+                    unsafe_allow_html=True,
+                )
+
+                # B. What is its current status?
                 col1, col2, col3, col4 = st.columns(4)
-                col1.metric("Type", type_label)
-                col2.metric("Status", status_label)
-                col3.metric("Version", f"v{node.current_version}")
+                col1.metric("Status", status_label)
+                col2.metric("Version", f"v{node.current_version}")
+                col3.metric("Type", type_label)
                 col4.metric("Tags", ", ".join(node.tags) if node.tags else "—")
 
-                st.markdown(f"**{node.title}**")
+                # Core definition
+                st.markdown("")
                 st.markdown(node.description)
 
-                # Connections
-                connected = store.get_connected_nodes(node.id)
-                if connected:
+                # C. Where did it come from? (upstream lineage)
+                upstream = store.get_lineage(node.id)
+                incoming = [
+                    (other, edge) for other, edge in store.get_connected_nodes(node.id)
+                    if edge.target_id == node.id
+                ]
+                if upstream or incoming:
                     st.markdown("")
-                    st.markdown("**Connections:**")
-                    for other, edge in connected:
+                    st.markdown(
+                        "<span style='color:#666; font-size:11px; letter-spacing:1px; "
+                        "text-transform:uppercase;'>WHERE IT CAME FROM</span>",
+                        unsafe_allow_html=True,
+                    )
+                    shown = set()
+                    for other, edge in upstream:
+                        if other.id not in shown:
+                            rel_label = dict((r[0], r[1]) for r in RELATIONSHIP_TYPES).get(
+                                edge.relationship, edge.relationship
+                            )
+                            st.markdown(f"  ← *{rel_label}* **{other.title}** ({other.node_type})")
+                            shown.add(other.id)
+                    for other, edge in incoming:
+                        if other.id not in shown:
+                            rel_label = dict((r[0], r[1]) for r in RELATIONSHIP_TYPES).get(
+                                edge.relationship, edge.relationship
+                            )
+                            st.markdown(f"  ← *{rel_label}* **{other.title}** ({other.node_type})")
+                            shown.add(other.id)
+
+                # D. What has it become? (downstream influence)
+                outgoing = [
+                    (other, edge) for other, edge in store.get_connected_nodes(node.id)
+                    if edge.source_id == node.id
+                ]
+                if outgoing:
+                    st.markdown("")
+                    st.markdown(
+                        "<span style='color:#666; font-size:11px; letter-spacing:1px; "
+                        "text-transform:uppercase;'>WHAT IT INFLUENCED</span>",
+                        unsafe_allow_html=True,
+                    )
+                    for other, edge in outgoing:
                         rel_label = dict((r[0], r[1]) for r in RELATIONSHIP_TYPES).get(
                             edge.relationship, edge.relationship
                         )
-                        direction = "→" if edge.source_id == node.id else "←"
-                        st.markdown(
-                            f"  {direction} *{rel_label}* → **{other.title}** ({other.node_type})"
-                        )
+                        st.markdown(f"  → *{rel_label}* **{other.title}** ({other.node_type})")
 
-                # Lineage
+                # E. What changed over time? (evolution log)
                 versions = store.get_versions_for_node(node.id)
-                if versions and len(versions) > 1:
+                if versions:
                     st.markdown("")
+                    st.markdown(
+                        "<span style='color:#666; font-size:11px; letter-spacing:1px; "
+                        "text-transform:uppercase;'>EVOLUTION</span>",
+                        unsafe_allow_html=True,
+                    )
                     lineage_html = build_lineage_html(node, versions)
                     components.html(lineage_html, height=120, scrolling=False)
+
+                    if len(versions) > 1:
+                        with st.expander("Full version history"):
+                            for v in reversed(versions):
+                                evo_label = dict((e[0], e[1]) for e in EVOLUTION_TYPES).get(
+                                    v.evolution_type, v.evolution_type
+                                )
+                                st.markdown(
+                                    f"**v{v.version_number}** — {evo_label}  \n"
+                                    f"<span style='color:#888; font-size:13px;'>"
+                                    f"{v.changes}</span>  \n"
+                                    f"<span style='color:#555; font-size:11px;'>"
+                                    f"{v.created_at[:10]}</span>",
+                                    unsafe_allow_html=True,
+                                )
+
+
+# ===========================================================================
+# WORKSPACE
+# ===========================================================================
+
+elif page == "Workspace":
+    st.markdown("## Workspace")
+    st.markdown(
+        "<span style='color:#888;'>"
+        "A filtered working area for active development within a domain.</span>",
+        unsafe_allow_html=True,
+    )
+    st.markdown("")
+
+    nodes = store.get_all_nodes()
+
+    if not nodes:
+        st.info("No structures yet. Go to **Establish** to begin.")
+    else:
+        # Collect all unique tags across nodes
+        all_tags = sorted(set(tag for n in nodes for tag in n.tags))
+
+        # Filters
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            ws_filter_type = st.multiselect(
+                "Filter by type",
+                [t[0] for t in NODE_TYPES],
+                format_func=lambda x: dict((t[0], t[1]) for t in NODE_TYPES)[x],
+            )
+        with col2:
+            ws_filter_status = st.multiselect(
+                "Filter by status",
+                [s[0] for s in STATUS_LEVELS],
+                format_func=lambda x: dict((s[0], s[1]) for s in STATUS_LEVELS)[x],
+            )
+        with col3:
+            ws_filter_tags = st.multiselect(
+                "Filter by tags",
+                all_tags,
+            ) if all_tags else None
+
+        # Apply filters
+        ws_nodes = nodes
+        if ws_filter_type:
+            ws_nodes = [n for n in ws_nodes if n.node_type in ws_filter_type]
+        if ws_filter_status:
+            ws_nodes = [n for n in ws_nodes if n.status in ws_filter_status]
+        if ws_filter_tags:
+            ws_nodes = [n for n in ws_nodes if any(t in n.tags for t in ws_filter_tags)]
+
+        if not ws_nodes:
+            st.info("No structures match the current filters.")
+        else:
+            # Show filtered graph
+            ws_ids = {n.id for n in ws_nodes}
+            ws_edges = [
+                e for e in store.get_all_edges()
+                if e.source_id in ws_ids and e.target_id in ws_ids
+            ]
+            if len(ws_nodes) > 1 or ws_edges:
+                html = build_graph_html(ws_nodes, ws_edges, height="350px")
+                components.html(html, height=370, scrolling=False)
+
+            st.markdown("---")
+
+            # List view
+            for node in sorted(ws_nodes, key=lambda n: n.updated_at, reverse=True):
+                type_label = dict((t[0], t[1]) for t in NODE_TYPES).get(
+                    node.node_type, node.node_type
+                )
+                status_label = dict((s[0], s[1]) for s in STATUS_LEVELS).get(
+                    node.status, node.status
+                )
+
+                status_colors = {
+                    "exploratory": "#AAAAAA", "developing": "#4A6FA5",
+                    "stable": "#2E7D6F", "canonical": "#6B4C9A",
+                    "archived": "#666666",
+                }
+                s_color = status_colors.get(node.status, "#888")
+
+                with st.expander(
+                    f"**{node.title}**  —  {type_label} · v{node.current_version}"
+                ):
+                    st.markdown(
+                        f"<span style='color:{s_color}; font-size:11px; "
+                        f"letter-spacing:1px; text-transform:uppercase; "
+                        f"font-weight:600;'>{status_label}</span>"
+                        f"&nbsp;&nbsp;"
+                        f"<span style='color:#555; font-size:11px;'>"
+                        f"Updated {node.updated_at[:10]}</span>",
+                        unsafe_allow_html=True,
+                    )
+                    st.markdown(node.description)
+
+                    if node.tags:
+                        st.markdown(
+                            f"<span style='color:#555; font-size:12px;'>"
+                            f"Tags: {', '.join(node.tags)}</span>",
+                            unsafe_allow_html=True,
+                        )
+
+                    # Show connections
+                    connected = store.get_connected_nodes(node.id)
+                    if connected:
+                        conn_strs = []
+                        for other, edge in connected:
+                            rel_label = dict((r[0], r[1]) for r in RELATIONSHIP_TYPES).get(
+                                edge.relationship, edge.relationship
+                            )
+                            direction = "→" if edge.source_id == node.id else "←"
+                            conn_strs.append(f"{direction} *{rel_label}* **{other.title}**")
+                        st.markdown(" · ".join(conn_strs))
+
+            st.markdown("")
+            st.markdown(
+                f"<span style='color:#555; font-size:12px;'>"
+                f"Showing {len(ws_nodes)} of {len(nodes)} structures</span>",
+                unsafe_allow_html=True,
+            )
 
 
 # ===========================================================================
