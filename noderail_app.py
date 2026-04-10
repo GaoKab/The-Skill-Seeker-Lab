@@ -1268,13 +1268,12 @@ elif page == "Publish":
             )
             st.markdown("")
 
+            _type_label_map = dict((t[0], t[1]) for t in NODE_TYPES)
+
             node_options = {
-                n.id: f"{n.title} ({_type_label.get(n.node_type, n.node_type)})"
+                n.id: f"{n.title} ({_type_label_map.get(n.node_type, n.node_type)})"
                 for n in sorted(nodes, key=lambda x: x.title)
             }
-
-            # Import needed label maps
-            _type_label_map = dict((t[0], t[1]) for t in NODE_TYPES)
 
             selected_id = st.selectbox(
                 "Select structure to export",
