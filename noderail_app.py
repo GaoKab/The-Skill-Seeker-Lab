@@ -352,10 +352,55 @@ elif page == "Establish":
                 )
                 store.add_edge(edge)
 
-            st.success(f"Established: **{node.title}** ({selected_type})")
+            st.session_state["last_created_node_id"] = node.id
             st.rerun()
         elif submitted:
             st.warning("A title is required.")
+
+    # Post-creation: show the object in structural context
+    if "last_created_node_id" in st.session_state:
+        created_id = st.session_state.pop("last_created_node_id")
+        node = store.get_node(created_id)
+        if node:
+            st.markdown("---")
+            type_label = dict((t[0], t[1]) for t in NODE_TYPES).get(node.node_type, node.node_type)
+            st.success(f"Established: **{node.title}** ({type_label})")
+
+            # Show it in the graph immediately
+            all_nodes = store.get_all_nodes()
+            all_edges = store.get_all_edges()
+            if all_nodes:
+                st.markdown(
+                    "<span style='color:#666; font-size:11px; letter-spacing:1px; "
+                    "text-transform:uppercase;'>YOUR STRUCTURE IN CONTEXT</span>",
+                    unsafe_allow_html=True,
+                )
+                html = build_graph_html(
+                    all_nodes, all_edges,
+                    highlight_node_id=created_id,
+                    height="350px",
+                )
+                components.html(html, height=370, scrolling=False)
+
+            # Show connections if any
+            connected = store.get_connected_nodes(node.id)
+            if connected:
+                for other, edge in connected:
+                    rel_label = dict((r[0], r[1]) for r in RELATIONSHIP_TYPES).get(
+                        edge.relationship, edge.relationship
+                    )
+                    st.markdown(f"  → *{rel_label}* **{other.title}**")
+
+            # Inline next actions
+            st.markdown("")
+            col_a, col_b, col_c = st.columns(3)
+            with col_a:
+                st.markdown(
+                    "<span style='color:#888; font-size:12px;'>"
+                    "This structure now has a history. You can "
+                    "**connect** it to other work or **evolve** it anytime.</span>",
+                    unsafe_allow_html=True,
+                )
 
 
 # ===========================================================================
@@ -752,6 +797,92 @@ elif page == "Explore":
                                     f"{v.created_at[:10]}</span>",
                                     unsafe_allow_html=True,
                                 )
+
+                # --- Inline actions (Connect + Evolve without leaving) ---
+                st.markdown("---")
+                act_col1, act_col2 = st.columns(2)
+
+                # Inline quick-connect
+                with act_col1:
+                    st.markdown(
+                        "<span style='color:#666; font-size:11px; letter-spacing:1px; "
+                        "text-transform:uppercase;'>QUICK CONNECT</span>",
+                        unsafe_allow_html=True,
+                    )
+                    other_nodes = [n for n in filtered_nodes if n.id != node.id]
+                    if other_nodes:
+                        with st.form(f"qconnect_{node.id}", clear_on_submit=True):
+                            qc_options = {n.id: f"{n.title} ({n.node_type})" for n in other_nodes}
+                            qc_target = st.selectbox(
+                                "To",
+                                list(qc_options.keys()),
+                                format_func=lambda x: qc_options[x],
+                                key=f"qc_target_{node.id}",
+                            )
+                            rel_keys = [r[0] for r in RELATIONSHIP_TYPES]
+                            rel_labels_map = dict((r[0], r[1]) for r in RELATIONSHIP_TYPES)
+                            qc_rel = st.selectbox(
+                                "Relationship",
+                                rel_keys,
+                                format_func=lambda x: rel_labels_map[x],
+                                key=f"qc_rel_{node.id}",
+                            )
+                            if st.form_submit_button("Connect", type="secondary"):
+                                edge = Edge(
+                                    source_id=node.id,
+                                    target_id=qc_target,
+                                    relationship=qc_rel,
+                                )
+                                store.add_edge(edge)
+                                st.success(f"Connected → {qc_options[qc_target]}")
+                                st.rerun()
+                    else:
+                        st.markdown(
+                            "<span style='color:#555; font-size:12px;'>"
+                            "No other structures in current view to connect to.</span>",
+                            unsafe_allow_html=True,
+                        )
+
+                # Inline quick-evolve
+                with act_col2:
+                    st.markdown(
+                        "<span style='color:#666; font-size:11px; letter-spacing:1px; "
+                        "text-transform:uppercase;'>QUICK EVOLVE</span>",
+                        unsafe_allow_html=True,
+                    )
+                    with st.form(f"qevolve_{node.id}", clear_on_submit=True):
+                        evo_keys = [e[0] for e in EVOLUTION_TYPES]
+                        evo_labels_map = dict((e[0], e[1]) for e in EVOLUTION_TYPES)
+                        qe_type = st.selectbox(
+                            "Type",
+                            evo_keys,
+                            format_func=lambda x: evo_labels_map[x],
+                            key=f"qe_type_{node.id}",
+                        )
+                        qe_changes = st.text_input(
+                            "What changed?",
+                            placeholder="Brief description of what evolved",
+                            key=f"qe_changes_{node.id}",
+                        )
+                        if st.form_submit_button("Record", type="secondary"):
+                            if qe_changes.strip():
+                                new_ver = node.current_version + 1
+                                version = Version(
+                                    node_id=node.id,
+                                    version_number=new_ver,
+                                    evolution_type=qe_type,
+                                    title=node.title,
+                                    description=node.description,
+                                    changes=qe_changes.strip(),
+                                )
+                                store.add_version(version)
+                                node.current_version = new_ver
+                                node.updated_at = _now()
+                                store.update_node(node)
+                                st.success(f"Recorded v{new_ver} ({qe_type})")
+                                st.rerun()
+                            else:
+                                st.warning("Describe what changed.")
 
 
 # ===========================================================================
