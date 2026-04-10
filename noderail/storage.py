@@ -437,3 +437,37 @@ class NodeRailStore:
             Review.from_dict(d) for d in self._data["reviews"].values()
             if d["status"] == "completed"
         ]
+
+    # --- Full-Text Search ---
+
+    def search_nodes(self, query: str) -> list[Node]:
+        """Search nodes by title, description, and tags (case-insensitive).
+
+        Returns matching Node objects sorted by relevance:
+        title match > description match > tag match.
+        """
+        if not query or not query.strip():
+            return []
+
+        q = query.lower().strip()
+        scored: list[tuple[int, Node]] = []
+
+        for data in self._data["nodes"].values():
+            score = 0
+            title = data.get("title", "").lower()
+            description = data.get("description", "").lower()
+            tags = [t.lower() for t in data.get("tags", [])]
+
+            if q in title:
+                score += 3
+            if q in description:
+                score += 2
+            if any(q in tag for tag in tags):
+                score += 1
+
+            if score > 0:
+                scored.append((score, Node.from_dict(data)))
+
+        # Sort by score descending, then by title for stable ordering
+        scored.sort(key=lambda x: (-x[0], x[1].title.lower()))
+        return [node for _, node in scored]

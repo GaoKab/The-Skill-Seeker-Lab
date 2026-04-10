@@ -152,6 +152,41 @@ if page == "Home":
     st.markdown("")
     st.markdown("")
 
+    # Search
+    search_query = st.text_input(
+        "Search nodes",
+        placeholder="Search nodes by title, description, or tags...",
+        label_visibility="collapsed",
+    )
+    if search_query:
+        search_results = store.search_nodes(search_query)
+        if search_results:
+            st.markdown(f"**{len(search_results)}** result{'s' if len(search_results) != 1 else ''} found")
+            for node in search_results:
+                snippet = node.description[:120].replace("\n", " ")
+                if len(node.description) > 120:
+                    snippet += "..."
+                st.markdown(
+                    f"<div style='padding:8px 12px; margin:4px 0; "
+                    f"background:#141820; border:1px solid #1E2230; border-radius:6px;'>"
+                    f"<span style='font-weight:600;'>{node.title}</span> "
+                    f"<span class='node-type-badge' style='background:#1A1D24; "
+                    f"color:#888; margin-left:8px;'>{node.node_type}</span> "
+                    f"<span class='status-badge' style='background:#1A1D24; "
+                    f"color:#666; margin-left:4px;'>{node.status}</span>"
+                    f"<br/><span style='color:#777; font-size:0.9em;'>{snippet}</span>"
+                    f"</div>",
+                    unsafe_allow_html=True,
+                )
+        else:
+            st.markdown(
+                f"<span style='color:#666;'>No results for \"{search_query}\"</span>",
+                unsafe_allow_html=True,
+            )
+
+    st.markdown("")
+    st.markdown("")
+
     # What this is
     col1, col2 = st.columns([1, 1])
 
@@ -492,11 +527,18 @@ elif page == "Connect":
                     rel_label = dict((r[0], r[1]) for r in RELATIONSHIP_TYPES).get(
                         edge.relationship, edge.relationship
                     )
-                    st.markdown(
-                        f"**{src.title}** → *{rel_label}* → **{tgt.title}**"
-                        + (f"  \n<span style='color:#666; font-size:12px;'>{edge.description}</span>" if edge.description else ""),
-                        unsafe_allow_html=True,
-                    )
+                    edge_col1, edge_col2 = st.columns([5, 1])
+                    with edge_col1:
+                        st.markdown(
+                            f"**{src.title}** → *{rel_label}* → **{tgt.title}**"
+                            + (f"  \n<span style='color:#666; font-size:12px;'>{edge.description}</span>" if edge.description else ""),
+                            unsafe_allow_html=True,
+                        )
+                    with edge_col2:
+                        with st.form(key=f"delete_edge_{edge.id}"):
+                            if st.form_submit_button("🗑", help="Delete this connection"):
+                                store.delete_edge(edge.id)
+                                st.rerun()
         else:
             st.markdown("<span style='color:#555;'>No connections yet.</span>", unsafe_allow_html=True)
 
@@ -890,6 +932,28 @@ elif page == "Explore":
                                 st.rerun()
                             else:
                                 st.warning("Describe what changed.")
+
+                # --- Danger zone (delete node) ---
+                with st.expander("Danger zone"):
+                    st.warning(
+                        "Deleting this structure is permanent. "
+                        "All associated edges and version history will also be removed."
+                    )
+                    if st.button("Delete this structure", key=f"delete_node_{node.id}"):
+                        st.session_state[f"confirm_delete_{node.id}"] = True
+
+                    if st.session_state.get(f"confirm_delete_{node.id}", False):
+                        st.error(f"Are you sure you want to delete **{node.title}**? This cannot be undone.")
+                        col_yes, col_no = st.columns(2)
+                        with col_yes:
+                            if st.button("Yes, delete permanently", key=f"confirm_yes_{node.id}", type="primary"):
+                                store.delete_node(node.id)
+                                st.session_state.pop(f"confirm_delete_{node.id}", None)
+                                st.rerun()
+                        with col_no:
+                            if st.button("Cancel", key=f"confirm_no_{node.id}"):
+                                st.session_state.pop(f"confirm_delete_{node.id}", None)
+                                st.rerun()
 
 
 # ===========================================================================
