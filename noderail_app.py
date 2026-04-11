@@ -527,18 +527,35 @@ elif page == "Connect":
                     rel_label = dict((r[0], r[1]) for r in RELATIONSHIP_TYPES).get(
                         edge.relationship, edge.relationship
                     )
-                    edge_col1, edge_col2 = st.columns([5, 1])
-                    with edge_col1:
-                        st.markdown(
-                            f"**{src.title}** → *{rel_label}* → **{tgt.title}**"
-                            + (f"  \n<span style='color:#666; font-size:12px;'>{edge.description}</span>" if edge.description else ""),
-                            unsafe_allow_html=True,
-                        )
-                    with edge_col2:
-                        with st.form(key=f"delete_edge_{edge.id}"):
-                            if st.form_submit_button("🗑", help="Delete this connection"):
-                                store.delete_edge(edge.id)
-                                st.rerun()
+                    with st.expander(
+                        f"**{src.title}** → *{rel_label}* → **{tgt.title}**"
+                    ):
+                        if edge.description:
+                            st.markdown(
+                                f"<span style='color:#666; font-size:12px;'>"
+                                f"{edge.description}</span>",
+                                unsafe_allow_html=True,
+                            )
+                        st.markdown("")
+                        delete_key = f"confirm_del_edge_{edge.id}"
+                        if st.button(
+                            "Remove this connection",
+                            key=f"del_edge_{edge.id}",
+                            type="secondary",
+                        ):
+                            st.session_state[delete_key] = True
+                        if st.session_state.get(delete_key, False):
+                            st.warning("This will permanently remove this connection.")
+                            col_yes, col_no = st.columns(2)
+                            with col_yes:
+                                if st.button("Yes, remove", key=f"yes_del_{edge.id}"):
+                                    store.delete_edge(edge.id)
+                                    st.session_state.pop(delete_key, None)
+                                    st.rerun()
+                            with col_no:
+                                if st.button("Cancel", key=f"cancel_del_{edge.id}"):
+                                    st.session_state.pop(delete_key, None)
+                                    st.rerun()
         else:
             st.markdown("<span style='color:#555;'>No connections yet.</span>", unsafe_allow_html=True)
 
