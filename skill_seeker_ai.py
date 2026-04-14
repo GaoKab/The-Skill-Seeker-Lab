@@ -25,7 +25,7 @@ def get_courses(skill):
 # Function to generate AI-based skill recommendation
 def get_ai_recommendation(user_input):
     response = client.chat.completions.create(
-        model="gpt-4",
+        model="gpt-3.5-turbo",
         messages=[
             {
                 "role": "system",
