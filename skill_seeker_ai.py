@@ -2,9 +2,14 @@ import streamlit as st
 import openai
 import requests
 
-# Set up OpenAI API key from Streamlit secrets
-openai.api_key = st.secrets.get("OPENAI_API_KEY", "")
-client = openai.Client()
+# Set up OpenAI API key from Streamlit secrets or environment
+try:
+    api_key = st.secrets["OPENAI_API_KEY"]
+except (FileNotFoundError, KeyError):
+    import os
+    api_key = os.environ.get("OPENAI_API_KEY", "")
+
+client = openai.Client(api_key=api_key) if api_key else None
 
 
 # Function to fetch real-time course recommendations
@@ -53,10 +58,13 @@ user_budget = st.selectbox(
 
 # AI-generated recommendation
 if st.button("Get My Skill Recommendation"):
-    ai_recommendation = get_ai_recommendation(
-        f"Goal: {user_goal}, Interest: {user_interest}, Challenge: {user_challenge}"
-    )
-    st.success(f"**AI-Powered Skill Recommendation:** {ai_recommendation}")
+    if not client:
+        st.error("OpenAI API key not configured. Add it to `.streamlit/secrets.toml` or set the OPENAI_API_KEY environment variable.")
+    else:
+        ai_recommendation = get_ai_recommendation(
+            f"Goal: {user_goal}, Interest: {user_interest}, Challenge: {user_challenge}"
+        )
+        st.success(f"**AI-Powered Skill Recommendation:** {ai_recommendation}")
 
     # Fetch real-time courses
     courses = get_courses(user_interest)
