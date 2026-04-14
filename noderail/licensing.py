@@ -1,85 +1,171 @@
 """
-NodeRail Licensing Strategy
+NodeRail Licensing Strategy (v2)
 
 Decision: Continuity Standard = Open | Platform = Proprietary
 
-This reflects the strategic balance between trust (academics prefer
-open standards) and defensibility (the platform is the business).
+Infrastructure requires two things:
+- Openness where trust, portability, and ecosystem growth matter
+- Control where governance, validation, and intelligence create value
 """
 
 LICENSING_STRATEGY = {
-    "decision": "Continuity Standard = Open. Platform = Proprietary.",
+    "decision": "The Continuity Standard is open. The NodeRail platform is proprietary.",
+
+    "principle": (
+        "NodeRail is building knowledge infrastructure. Infrastructure "
+        "requires openness where trust, portability, and ecosystem growth "
+        "matter — and control where governance, validation, and intelligence "
+        "create value."
+    ),
+
+    # =================================================================
+    # OPEN LAYER
+    # =================================================================
 
     "open_components": {
         "continuity_standard": {
             "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+            "what": (
+                "The knowledge structure vocabulary: concepts, frameworks, "
+                "measurements, relationships, evolution types, status levels. "
+                "The specification that defines how knowledge should be "
+                "structured, versioned, and governed."
+            ),
             "rationale": (
-                "The Continuity Standard defines how knowledge should be "
-                "structured, versioned, and governed. Making it open "
-                "builds trust with academics, enables adoption by other "
-                "platforms, and positions NodeRail as the reference "
-                "implementation. If others build on the standard, "
-                "NodeRail benefits from ecosystem growth. CC BY 4.0 "
-                "requires attribution, so NodeRail is always credited."
+                "Making the standard open builds academic and institutional "
+                "trust, enables ecosystem adoption, prevents lock-in, and "
+                "positions NodeRail as the reference implementation. If "
+                "others build on the standard, they build toward NodeRail's "
+                "vocabulary, not away from it."
             ),
         },
         "data_model_spec": {
             "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+            "what": (
+                "The formal specification of node types, relationship types, "
+                "evolution types, and status levels. The shared vocabulary "
+                "that makes interoperability possible."
+            ),
             "rationale": (
-                "The node types, relationship types, evolution types, "
-                "and status levels are part of the standard. Publishing "
-                "them openly lets other tools interoperate. This creates "
-                "a network effect around the vocabulary itself."
+                "Publishing the data model openly lets other tools "
+                "interoperate. This creates a network effect around the "
+                "vocabulary itself."
             ),
         },
         "export_format": {
             "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+            "what": (
+                "The JSON export format and structured schema. The format "
+                "users receive when they export their data."
+            ),
             "rationale": (
-                "The JSON export format should be open so that users "
-                "are never locked in. Data portability builds trust "
-                "and is increasingly required by regulation."
+                "Data portability builds trust and is increasingly required "
+                "by regulation. Users must never feel locked in."
             ),
         },
     },
 
+    # =================================================================
+    # PROPRIETARY LAYER
+    # =================================================================
+
     "proprietary_components": {
         "platform_code": {
-            "what": "The NodeRail web application, API, and infrastructure",
+            "what": (
+                "The NodeRail web application, API, and infrastructure — "
+                "everything that runs noderail.web.app."
+            ),
             "rationale": (
-                "This is the product. The code that runs noderail.web.app, "
-                "the review workflow engine, the graph analytics, the "
-                "institutional management — all proprietary. This is "
-                "what competitors would need to rebuild, and it's "
-                "protected by copyright."
+                "This is the product. The code, the review workflow engine, "
+                "the graph analytics, the institutional management — all "
+                "proprietary. This is where trust is enforced, quality is "
+                "maintained, intelligence is generated, and value is captured."
             ),
         },
         "review_system": {
-            "what": "The expert review pipeline and matching algorithm",
-            "rationale": (
-                "The structured review process — how reviewers are matched, "
+            "what": (
+                "The expert review pipeline: how reviewers are matched, "
                 "how evaluations are structured, how reviews gate DOI "
-                "issuance — is a competitive advantage. Open-sourcing "
-                "this would hand competitors the governance layer."
+                "issuance and canon advancement."
+            ),
+            "rationale": (
+                "The governance layer is a competitive advantage. "
+                "Open-sourcing it would hand competitors the trust engine."
             ),
         },
         "insights_engine": {
-            "what": "Gap detection, structural analysis, graph intelligence",
+            "what": (
+                "Gap detection, structural analysis, graph intelligence — "
+                "the system that surfaces what's missing, what's stuck, "
+                "and what's ready to advance."
+            ),
             "rationale": (
-                "The system that surfaces unmeasured concepts, unsupported "
-                "inquiries, stale structures, and knowledge hubs is a "
-                "differentiator. This is the 'thinking amplifier' layer."
+                "This is the 'thinking amplifier' layer. It's what makes "
+                "NodeRail active rather than passive."
             ),
         },
         "ai_api": {
-            "what": "The AI attribution API and access control",
+            "what": (
+                "The AI attribution API: structured access to validated "
+                "knowledge with provenance, rate limiting, and access control."
+            ),
             "rationale": (
-                "The API that serves structured knowledge to AI systems "
-                "with attribution and provenance is a primary revenue "
-                "source. The implementation, rate limiting, and access "
-                "control are proprietary."
+                "Primary long-term revenue source. The implementation, "
+                "access control, and attribution enforcement are proprietary."
             ),
         },
     },
+
+    # =================================================================
+    # STANDARD GOVERNANCE (NEW)
+    # =================================================================
+
+    "standard_governance": {
+        "principle": (
+            "NodeRail maintains the canonical Continuity Standard. "
+            "The standard evolves through a governed process, not "
+            "through uncontrolled forks."
+        ),
+        "rules": [
+            {
+                "rule": "All changes to the standard are versioned",
+                "detail": (
+                    "Every update to the Continuity Standard receives a "
+                    "version number and a changelog. Breaking changes require "
+                    "a major version bump."
+                ),
+            },
+            {
+                "rule": "Extensions are allowed but cannot claim canonical status",
+                "detail": (
+                    "Anyone can extend the vocabulary (add new node types, "
+                    "relationship types, etc.) for their own use. But only "
+                    "NodeRail-governed updates to the standard are canonical. "
+                    "Extensions must be clearly marked as non-standard."
+                ),
+            },
+            {
+                "rule": "Compatibility rules are defined",
+                "detail": (
+                    "Tools that claim compatibility with the Continuity "
+                    "Standard must support the full canonical vocabulary. "
+                    "Extensions are optional. This prevents fragmentation."
+                ),
+            },
+            {
+                "rule": "NodeRail acts as standard steward",
+                "detail": (
+                    "NodeRail convenes an advisory process for major standard "
+                    "changes. This may evolve into a formal standards body "
+                    "as adoption grows. Until then, NodeRail is the steward."
+                ),
+            },
+        ],
+    },
+
+    # =================================================================
+    # TRADEMARK
+    # =================================================================
 
     "trademark": {
         "name": "NodeRail",
@@ -91,12 +177,17 @@ LICENSING_STRATEGY = {
         ],
     },
 
+    # =================================================================
+    # STRATEGIC SUMMARY
+    # =================================================================
+
     "summary": (
-        "Open the standard, close the platform. This gives NodeRail "
-        "the trust of open-source and the defensibility of proprietary "
-        "software. The standard grows the ecosystem. The platform "
-        "captures the value. Competitors can build on the Continuity "
-        "Standard — but they'd be building toward NodeRail's vocabulary, "
-        "not away from it."
+        "Open standard → ecosystem growth. "
+        "Proprietary platform → value capture. "
+        "Standard governance → trust and coherence. "
+        "Structured knowledge → AI advantage.\n\n"
+        "The standard grows the ecosystem. The platform captures the value. "
+        "Competitors can build on the Continuity Standard — but they'd be "
+        "building toward NodeRail's vocabulary, not away from it."
     ),
 }

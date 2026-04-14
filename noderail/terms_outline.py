@@ -1,5 +1,5 @@
 """
-NodeRail Terms of Service — Structural Outline
+NodeRail Terms of Service — Structural Outline (v2)
 
 Strategic/legal reference document. Not executable code.
 Defines the key provisions that must appear in NodeRail's Terms
@@ -9,6 +9,86 @@ This is an outline for legal counsel, not a final legal document.
 Every section should be reviewed by an attorney before publication.
 """
 
+
+# ===================================================================
+# PLAIN-LANGUAGE SUMMARY (must appear at top of published ToS)
+# ===================================================================
+
+PLAIN_LANGUAGE_SUMMARY = {
+    "title": "What this means for you",
+    "purpose": (
+        "This summary appears at the top of the published Terms of Service "
+        "so users understand their rights without reading legal text."
+    ),
+    "points": [
+        {
+            "heading": "You own your work",
+            "plain": (
+                "Everything you create on NodeRail belongs to you. "
+                "We only have permission to display and serve it "
+                "through the platform."
+            ),
+        },
+        {
+            "heading": "DOIs are permanent",
+            "plain": (
+                "Once your work receives a DOI, it stays published "
+                "forever — even if you delete your account. That's "
+                "how DOIs work. You agree to this when you accept a DOI."
+            ),
+        },
+        {
+            "heading": "Reviews are opinions",
+            "plain": (
+                "Expert reviews are professional opinions, not guarantees. "
+                "If a reviewer validates something that later turns out "
+                "to be wrong, that's not their fault or ours."
+            ),
+        },
+        {
+            "heading": "AI access respects you",
+            "plain": (
+                "If AI systems access your work through our API, they "
+                "must credit you. They can reference your work with "
+                "attribution. They cannot train on it without a separate "
+                "agreement. You can opt out of AI access entirely."
+            ),
+        },
+        {
+            "heading": "You can leave anytime",
+            "plain": (
+                "You can export all your data and delete your account "
+                "whenever you want. DOI-linked work stays published "
+                "(see above), but everything else is removed."
+            ),
+        },
+        {
+            "heading": "We don't sell your data",
+            "plain": (
+                "We don't sell, rent, or trade your personal data or "
+                "content to anyone. Ever."
+            ),
+        },
+        {
+            "heading": "Your work survives even if we don't",
+            "plain": (
+                "If NodeRail ever shuts down, all DOI-linked work gets "
+                "deposited with Zenodo (backed by CERN) so your DOIs "
+                "keep resolving. We give at least 6 months notice."
+            ),
+        },
+    ],
+}
+
+
+# ===================================================================
+# CORE PROMISE
+# ===================================================================
+
+CORE_PROMISE = (
+    "You own your work. NodeRail ensures it survives, remains "
+    "attributable, and is used responsibly."
+)
 
 # ===================================================================
 # 1. CONTENT OWNERSHIP

@@ -33,14 +33,40 @@ def set_style(doc):
 def export_positioning():
     from noderail.positioning import (
         CATEGORY, TAGLINES, ELEVATOR_PITCH_30_SEC, ELEVATOR_PITCH_2_MIN,
-        COMPETITORS, POSITIONING_MATRIX, POSITIONING_STATEMENT,
+        COMPETITORS, COMPETITOR_ONE_LINERS, POSITIONING_MATRIX,
+        POSITIONING_STATEMENT, THE_PROBLEM, THE_SHIFT, ENABLES,
     )
 
     doc = Document()
     set_style(doc)
 
-    doc.add_heading('NodeRail™ — Competitor Positioning & Messaging', 0)
+    doc.add_heading('NodeRail™ — Positioning & Messaging', 0)
     doc.add_paragraph('Strategic reference document. Confidential.', style='Intense Quote')
+
+    # The Problem
+    doc.add_heading('The Problem', level=1)
+    doc.add_paragraph(THE_PROBLEM['headline'])
+    doc.add_paragraph('We still build knowledge in systems that:')
+    for f in THE_PROBLEM['failures']:
+        doc.add_paragraph(f, style='List Bullet')
+    doc.add_paragraph(THE_PROBLEM['consequence'])
+
+    # The Shift
+    doc.add_heading('The Shift', level=1)
+    doc.add_paragraph(THE_SHIFT['key_insight'])
+    table = doc.add_table(rows=1, cols=2)
+    table.style = 'Light Grid Accent 1'
+    table.rows[0].cells[0].text = 'From'
+    table.rows[0].cells[1].text = 'To'
+    for fr, to in zip(THE_SHIFT['from'], THE_SHIFT['to']):
+        row = table.add_row()
+        row.cells[0].text = fr
+        row.cells[1].text = to
+
+    # What NodeRail Enables
+    doc.add_heading('What NodeRail Enables', level=1)
+    for key, val in ENABLES.items():
+        doc.add_paragraph(f'{key.title()}: {val}', style='List Bullet')
 
     # Category
     doc.add_heading('Category Definition', level=1)
@@ -62,8 +88,13 @@ def export_positioning():
     for para in ELEVATOR_PITCH_2_MIN.split('\n\n'):
         doc.add_paragraph(para)
 
+    # One-liners
+    doc.add_heading('Quick Competitor One-Liners', level=1)
+    for name, line in COMPETITOR_ONE_LINERS.items():
+        doc.add_paragraph(line, style='List Bullet')
+
     # Competitors
-    doc.add_heading('Competitor Positioning', level=1)
+    doc.add_heading('Detailed Competitor Positioning', level=1)
     for name, data in COMPETITORS.items():
         display_name = name.replace('_', ' ').title()
         doc.add_heading(f'vs. {display_name}', level=2)
@@ -109,6 +140,7 @@ def export_terms():
         DATA_STORAGE_PRIVACY, INSTITUTIONAL_DATA_AGREEMENTS,
         ACCOUNT_TERMINATION, DOI_PERMANENCE,
         TERMS_SECTIONS, ADDITIONAL_SECTIONS_TODO,
+        PLAIN_LANGUAGE_SUMMARY, CORE_PROMISE,
     )
 
     sections = {
@@ -130,6 +162,22 @@ def export_terms():
         'Every section should be reviewed by an attorney before publication.',
         style='Intense Quote',
     )
+
+    # Core promise
+    doc.add_heading('Core Promise', level=1)
+    doc.add_paragraph(CORE_PROMISE)
+
+    # Plain-language summary
+    doc.add_heading('What This Means For You', level=1)
+    doc.add_paragraph(
+        '(This section appears at the top of the published Terms '
+        'so users understand their rights without reading legal text.)'
+    )
+    for point in PLAIN_LANGUAGE_SUMMARY['points']:
+        doc.add_heading(point['heading'], level=2)
+        doc.add_paragraph(point['plain'])
+
+    doc.add_page_break()
 
     for info in TERMS_SECTIONS:
         section_data = sections[info['key']]
@@ -281,10 +329,14 @@ def export_licensing():
     doc.add_heading('Decision', level=1)
     doc.add_paragraph(LICENSING_STRATEGY['decision'])
 
+    doc.add_heading('Principle', level=1)
+    doc.add_paragraph(LICENSING_STRATEGY['principle'])
+
     doc.add_heading('Open Components (CC BY 4.0)', level=1)
     for key, data in LICENSING_STRATEGY['open_components'].items():
         doc.add_heading(key.replace('_', ' ').title(), level=2)
         doc.add_paragraph(f'License: {data["license"]}')
+        doc.add_paragraph(f'What: {data["what"]}')
         doc.add_paragraph(data['rationale'])
 
     doc.add_heading('Proprietary Components', level=1)
@@ -292,6 +344,14 @@ def export_licensing():
         doc.add_heading(key.replace('_', ' ').title(), level=2)
         doc.add_paragraph(f'What: {data["what"]}')
         doc.add_paragraph(data['rationale'])
+
+    # Standard Governance (new)
+    doc.add_heading('Standard Governance', level=1)
+    gov = LICENSING_STRATEGY['standard_governance']
+    doc.add_paragraph(gov['principle'])
+    for rule in gov['rules']:
+        doc.add_heading(rule['rule'], level=2)
+        doc.add_paragraph(rule['detail'])
 
     doc.add_heading('Trademark', level=1)
     doc.add_paragraph(f'Name: {LICENSING_STRATEGY["trademark"]["name"]}')
