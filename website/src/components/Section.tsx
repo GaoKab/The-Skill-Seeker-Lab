@@ -26,10 +26,10 @@ export function FadeIn({
 }) {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 24 }}
+      initial={{ opacity: 0, y: 28 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-60px" }}
-      transition={{ duration: 0.6, delay }}
+      viewport={{ once: true, margin: "-50px" }}
+      transition={{ duration: 0.55, delay, ease: [0.22, 1, 0.36, 1] }}
       className={className}
     >
       {children}
@@ -49,23 +49,24 @@ export function SectionHeader({
   light?: boolean
 }) {
   return (
-    <FadeIn className="text-center max-w-3xl mx-auto mb-16">
+    <FadeIn className="text-center max-w-3xl mx-auto mb-14">
       {label && (
-        <span className="inline-block text-teal-600 font-semibold text-sm tracking-wide uppercase mb-3">
+        <span className="inline-block bg-[#e0f2fe] text-[#0284c7] font-black text-xs tracking-widest uppercase px-4 py-1.5 rounded-full mb-4">
           {label}
         </span>
       )}
       <h2
-        className={`text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight ${
-          light ? "text-white" : "text-slate-900"
+        className={`text-3xl md:text-4xl lg:text-5xl font-black leading-tight ${
+          light ? "text-white" : "text-gray-900"
         }`}
+        style={{ fontFamily: "Nunito, sans-serif" }}
       >
         {title}
       </h2>
       {subtitle && (
         <p
           className={`mt-5 text-lg leading-relaxed ${
-            light ? "text-slate-300" : "text-slate-600"
+            light ? "text-sky-100" : "text-gray-500"
           }`}
         >
           {subtitle}
