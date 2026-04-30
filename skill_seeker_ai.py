@@ -2,9 +2,6 @@ import streamlit as st
 import openai
 import requests
 
-# Set up OpenAI API key (Replace 'your-api-key' with your actual key)
-openai.api_key = "your-api-key"
-
 # Function to fetch real-time course recommendations
 def get_courses(skill):
     api_url = f"https://www.udemy.com/api-2.0/courses/?search={skill}"
@@ -14,15 +11,10 @@ def get_courses(skill):
         return [course['title'] for course in courses][:3]
     return []
 
-# Function to generate AI-based skill recommendation
-def get_ai_recommendation(user_input):
-    prompt = f"User is looking to learn new skills. They mentioned: {user_input}. What skill should they learn next and why?"
-    import openai
-
-import streamlit as st
-
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 client = openai.Client()
+
+# Function to generate AI-based skill recommendation
 def get_ai_recommendation(user_input):
     response = client.chat.completions.create(
         model="gpt-4",
