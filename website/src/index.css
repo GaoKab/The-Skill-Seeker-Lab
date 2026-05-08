@@ -1,11 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --font-display: "Nunito", system-ui, sans-serif;
-  --font-sans: "Nunito Sans", system-ui, sans-serif;
-
+  --font-display: "Fredoka", system-ui, sans-serif;
+  --font-sans: "Nunito", system-ui, sans-serif;
   --color-cream: #fffbf5;
-  --color-warm-gray: #f5f1eb;
 }
 
 html {
@@ -21,6 +19,28 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
+}
+
+/* Claymorphism shadow system */
+.clay {
+  box-shadow:
+    6px 6px 12px rgba(0,0,0,0.08),
+    inset -2px -2px 4px rgba(0,0,0,0.04),
+    inset 2px 2px 4px rgba(255,255,255,0.5);
+}
+
+.clay-sm {
+  box-shadow:
+    4px 4px 8px rgba(0,0,0,0.06),
+    inset -1px -1px 3px rgba(0,0,0,0.03),
+    inset 1px 1px 3px rgba(255,255,255,0.4);
+}
+
+.clay-pressed {
+  box-shadow:
+    2px 2px 4px rgba(0,0,0,0.06),
+    inset 2px 2px 6px rgba(0,0,0,0.08),
+    inset -1px -1px 3px rgba(255,255,255,0.3);
 }
 
 /* Marker-style text highlights */
