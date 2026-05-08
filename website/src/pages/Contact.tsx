@@ -1,28 +1,29 @@
 import { useState } from "react"
 import { motion } from "motion/react"
-import { Section, FadeIn } from "../components/Section"
+import { FadeIn } from "../components/Section"
 import { MessageCircle, Send } from "lucide-react"
 
 function PageHero() {
   return (
-    <section className="relative bg-gradient-to-br from-[#0ea5e9] via-[#38bdf8] to-[#7dd3fc] pt-32 pb-24 px-6 overflow-hidden">
-      <div className="absolute top-20 right-[12%] w-28 h-28 bg-white/10 rounded-full" />
-      <div className="max-w-7xl mx-auto relative z-10">
-        <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-2xl">👋</motion.span>
+    <section className="relative bg-[#dbeafe] pt-32 pb-20 px-6 overflow-hidden">
+      <div className="absolute top-20 right-[12%] w-14 h-14 rounded-full bg-[#93c5fd]/30" />
+      <div className="absolute bottom-14 left-[8%] w-10 h-10 rounded-xl bg-[#fbbf24]/20 rotate-12" />
+      <div className="absolute top-32 right-[28%] text-3xl text-[#bfdbfe]/50 font-black rotate-45 select-none">✦</div>
+      <div className="max-w-4xl mx-auto relative z-10">
+        <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="inline-block bg-white text-gray-800 font-black text-sm px-4 py-2 rounded-full rotate-1 shadow-sm mb-6">👋 Get in touch</motion.span>
         <motion.h1
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}
-          className="text-4xl md:text-6xl font-black text-white mt-4 max-w-3xl leading-tight" style={{ fontFamily: "Nunito, sans-serif" }}
+          className="text-4xl md:text-6xl font-black text-gray-900 leading-tight" style={{ fontFamily: "Nunito, sans-serif" }}
         >
-          Enroll your child or ask us anything.
+          Enroll your child or <span className="marker-blue">ask us anything</span>.
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }}
-          className="mt-6 text-lg text-white/90 max-w-2xl leading-relaxed"
+          className="mt-6 text-lg text-gray-600 max-w-2xl leading-relaxed"
         >
           Whether you're ready to enroll or just have questions — we're here. Fill out the form, WhatsApp us, or call. We respond within 24 hours.
         </motion.p>
       </div>
-      <div className="absolute bottom-0 left-0 right-0"><svg viewBox="0 0 1440 60" fill="none" className="w-full"><path d="M0,30 C360,60 720,0 1440,30 L1440,60 L0,60 Z" fill="#fffbf5" /></svg></div>
     </section>
   )
 }
@@ -32,7 +33,7 @@ function ContactForm() {
 
   if (submitted) {
     return (
-      <Section className="bg-[#fffbf5]">
+      <section className="py-20 px-6 bg-[#fffbf5]">
         <div className="max-w-2xl mx-auto text-center">
           <FadeIn>
             <span className="text-6xl block mb-4">🎉</span>
@@ -40,34 +41,33 @@ function ContactForm() {
             <p className="text-gray-500 text-lg">Thank you for reaching out. A member of our team will get back to you within 24 hours. If it's urgent, WhatsApp us directly.</p>
           </FadeIn>
         </div>
-      </Section>
+      </section>
     )
   }
 
   return (
-    <Section className="bg-[#fffbf5]">
+    <section className="py-20 px-6 bg-[#fffbf5]">
       <div className="max-w-6xl mx-auto grid lg:grid-cols-5 gap-12">
-        {/* Form */}
         <FadeIn className="lg:col-span-3">
           <h2 className="text-2xl font-black text-gray-900 mb-8" style={{ fontFamily: "Nunito, sans-serif" }}>Send us a message 📩</h2>
           <form onSubmit={(e) => { e.preventDefault(); setSubmitted(true) }} className="space-y-5">
             <div className="grid sm:grid-cols-2 gap-5">
               <div>
                 <label className="block text-sm font-bold text-gray-700 mb-1.5">Your Name</label>
-                <input type="text" required placeholder="e.g. Mpho Kabelo" className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#0ea5e9] focus:border-transparent bg-white" />
+                <input type="text" required placeholder="e.g. Mpho Kabelo" className="w-full border-[3px] border-dashed border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:border-[#f97316] bg-white transition-colors" />
               </div>
               <div>
                 <label className="block text-sm font-bold text-gray-700 mb-1.5">Phone Number</label>
-                <input type="tel" required placeholder="+267 71 234 567" className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#0ea5e9] focus:border-transparent bg-white" />
+                <input type="tel" required placeholder="+267 71 234 567" className="w-full border-[3px] border-dashed border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:border-[#f97316] bg-white transition-colors" />
               </div>
             </div>
             <div>
               <label className="block text-sm font-bold text-gray-700 mb-1.5">Email Address</label>
-              <input type="email" required placeholder="your@email.com" className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#0ea5e9] focus:border-transparent bg-white" />
+              <input type="email" required placeholder="your@email.com" className="w-full border-[3px] border-dashed border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:border-[#f97316] bg-white transition-colors" />
             </div>
             <div>
               <label className="block text-sm font-bold text-gray-700 mb-1.5">I'm interested in</label>
-              <select required className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#0ea5e9] focus:border-transparent bg-white">
+              <select required className="w-full border-[3px] border-dashed border-gray-200 rounded-xl px-4 py-3 text-gray-900 focus:outline-none focus:border-[#f97316] bg-white transition-colors">
                 <option value="">Select an option</option>
                 <option value="young-speakers">🌱 Young Speakers (Ages 6–10)</option>
                 <option value="rising-voices">🔥 Rising Voices (Ages 11–14)</option>
@@ -80,15 +80,15 @@ function ContactForm() {
             </div>
             <div>
               <label className="block text-sm font-bold text-gray-700 mb-1.5">Child's Age (if enrolling)</label>
-              <input type="text" placeholder="e.g. 12" className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#0ea5e9] focus:border-transparent bg-white" />
+              <input type="text" placeholder="e.g. 12" className="w-full border-[3px] border-dashed border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:border-[#f97316] bg-white transition-colors" />
             </div>
             <div>
               <label className="block text-sm font-bold text-gray-700 mb-1.5">Your Message</label>
-              <textarea rows={4} placeholder="Tell us about your child, your goals, or any questions you have..." className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#0ea5e9] focus:border-transparent resize-none bg-white" />
+              <textarea rows={4} placeholder="Tell us about your child, your goals, or any questions you have..." className="w-full border-[3px] border-dashed border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:border-[#f97316] resize-none bg-white transition-colors" />
             </div>
             <motion.button
               type="submit"
-              className="w-full bg-[#0ea5e9] hover:bg-[#0284c7] text-white font-black py-4 rounded-full text-lg flex items-center justify-center gap-2 shadow-lg shadow-sky-200 transition-colors"
+              className="w-full bg-[#f97316] hover:bg-[#ea580c] text-white font-black py-4 rounded-full text-lg flex items-center justify-center gap-2 shadow-lg shadow-orange-200 transition-colors"
               style={{ fontFamily: "Nunito, sans-serif" }}
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
@@ -98,9 +98,8 @@ function ContactForm() {
           </form>
         </FadeIn>
 
-        {/* Sidebar */}
         <FadeIn className="lg:col-span-2" delay={0.15}>
-          <div className="bg-white rounded-3xl border border-gray-100 shadow-sm p-8 space-y-8">
+          <div className="bg-white rounded-3xl border-[3px] border-dashed border-gray-200/60 p-8 space-y-8">
             <div>
               <h3 className="font-black text-lg text-gray-900 mb-4" style={{ fontFamily: "Nunito, sans-serif" }}>Contact Information</h3>
               <ul className="space-y-4">
@@ -118,13 +117,13 @@ function ContactForm() {
                 </li>
               </ul>
             </div>
-            <div className="border-t border-gray-100 pt-6">
+            <div className="border-t-2 border-dashed border-gray-100 pt-6">
               <h3 className="font-black text-lg text-gray-900 mb-3" style={{ fontFamily: "Nunito, sans-serif" }}>Prefer WhatsApp? 💬</h3>
               <p className="text-gray-500 text-sm mb-4">Most parents find it easiest to reach us on WhatsApp. Tap below to start a conversation.</p>
               <motion.a
                 href="https://wa.me/26771234567?text=Hi%2C%20I'm%20interested%20in%20Find%20Your%20Voice%20for%20my%20child."
                 target="_blank" rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white font-black py-3 px-6 rounded-full transition-colors w-full shadow-lg shadow-green-200"
+                className="flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white font-black py-3 px-6 rounded-full transition-colors w-full shadow-md shadow-green-200"
                 style={{ fontFamily: "Nunito, sans-serif" }}
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
@@ -133,14 +132,14 @@ function ContactForm() {
                 Chat on WhatsApp
               </motion.a>
             </div>
-            <div className="border-t border-gray-100 pt-6">
+            <div className="border-t-2 border-dashed border-gray-100 pt-6">
               <h3 className="font-black text-lg text-gray-900 mb-3" style={{ fontFamily: "Nunito, sans-serif" }}>Response Time ⚡</h3>
               <p className="text-gray-500 text-sm">We respond to all inquiries within 24 hours. WhatsApp messages are usually answered within a few hours during business days.</p>
             </div>
           </div>
         </FadeIn>
       </div>
-    </Section>
+    </section>
   )
 }
 
@@ -155,23 +154,28 @@ function FAQ() {
   ]
 
   return (
-    <Section className="bg-white">
-      <FadeIn>
-        <h2 className="text-3xl font-black text-gray-900 text-center mb-12" style={{ fontFamily: "Nunito, sans-serif" }}>Frequently Asked Questions 🤔</h2>
-      </FadeIn>
-      <div className="max-w-3xl mx-auto space-y-4">
-        {faqs.map((faq, i) => (
-          <FadeIn key={faq.q} delay={i * 0.06}>
-            <div className="bg-[#fffbf5] p-6 rounded-2xl border border-gray-100">
-              <h3 className="font-black text-gray-900 mb-2 flex items-center gap-2" style={{ fontFamily: "Nunito, sans-serif" }}>
-                <span>{faq.emoji}</span> {faq.q}
-              </h3>
-              <p className="text-gray-500 leading-relaxed">{faq.a}</p>
-            </div>
-          </FadeIn>
-        ))}
+    <section className="py-20 px-6 bg-white">
+      <div className="max-w-3xl mx-auto">
+        <FadeIn>
+          <p className="text-sm font-black text-[#7c3aed] uppercase tracking-widest mb-4 text-center">FAQ</p>
+          <h2 className="text-3xl md:text-5xl font-black text-gray-900 text-center mb-14" style={{ fontFamily: "Nunito, sans-serif" }}>
+            Frequently Asked <span className="marker-purple">Questions</span> 🤔
+          </h2>
+        </FadeIn>
+        <div className="space-y-4">
+          {faqs.map((faq, i) => (
+            <FadeIn key={faq.q} delay={i * 0.06}>
+              <div className="bg-[#fffbf5] p-6 rounded-2xl border-[3px] border-dashed border-gray-200/60">
+                <h3 className="font-black text-gray-900 mb-2 flex items-center gap-2" style={{ fontFamily: "Nunito, sans-serif" }}>
+                  <span>{faq.emoji}</span> {faq.q}
+                </h3>
+                <p className="text-gray-500 leading-relaxed">{faq.a}</p>
+              </div>
+            </FadeIn>
+          ))}
+        </div>
       </div>
-    </Section>
+    </section>
   )
 }
 

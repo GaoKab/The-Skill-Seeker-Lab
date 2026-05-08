@@ -25,54 +25,58 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-white shadow-md" : "bg-[#fffbf5]"
+        scrolled ? "bg-white/95 backdrop-blur-sm shadow-sm" : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        {/* Logo */}
         <Link to="/" className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-2xl bg-[#0ea5e9] flex items-center justify-center shadow-md">
+          <div className="w-10 h-10 rounded-2xl bg-[#f97316] flex items-center justify-center shadow-md rotate-3">
             <span className="text-white font-black text-xl" style={{ fontFamily: "Nunito, sans-serif" }}>F</span>
           </div>
           <div>
             <span className="font-black text-xl text-gray-900 leading-none" style={{ fontFamily: "Nunito, sans-serif" }}>
               Find Your Voice
             </span>
-            <p className="text-[10px] text-[#0ea5e9] font-bold uppercase tracking-widest leading-none mt-0.5">
+            <p className="text-[10px] text-[#f97316] font-bold uppercase tracking-widest leading-none mt-0.5">
               Youth Academy
             </p>
           </div>
         </Link>
 
-        {/* Desktop links */}
-        <div className="hidden md:flex items-center gap-6">
+        <div className="hidden md:flex items-center gap-1">
           {links.map((link) => (
             <Link
               key={link.to}
               to={link.to}
-              className={`text-sm font-bold transition-colors rounded-full px-3 py-1.5 ${
+              className={`text-sm font-bold transition-colors px-3 py-1.5 rounded-lg relative ${
                 pathname === link.to
-                  ? "bg-[#e0f2fe] text-[#0284c7]"
-                  : "text-gray-600 hover:text-gray-900 hover:bg-gray-100"
+                  ? "text-gray-900"
+                  : "text-gray-500 hover:text-gray-900"
               }`}
               style={{ fontFamily: "Nunito, sans-serif" }}
             >
               {link.label}
+              {pathname === link.to && (
+                <motion.div
+                  layoutId="nav-indicator"
+                  className="absolute -bottom-0.5 left-2 right-2 h-[3px] bg-[#f97316] rounded-full"
+                  transition={{ type: "spring", stiffness: 400, damping: 30 }}
+                />
+              )}
             </Link>
           ))}
-          <Link to="/contact">
+          <Link to="/contact" className="ml-3">
             <motion.button
-              className="bg-[#0ea5e9] text-white px-6 py-2.5 rounded-full text-sm font-black shadow-lg shadow-sky-200 hover:bg-[#0284c7] transition-colors"
+              className="bg-[#f97316] text-white px-5 py-2 rounded-full text-sm font-black shadow-md shadow-orange-200 hover:bg-[#ea580c] transition-colors"
               style={{ fontFamily: "Nunito, sans-serif" }}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Enroll Now ✨
+              Enroll Now
             </motion.button>
           </Link>
         </div>
 
-        {/* Mobile toggle */}
         <button
           className="md:hidden text-gray-700 w-10 h-10 flex items-center justify-center rounded-xl hover:bg-gray-100"
           onClick={() => setOpen(!open)}
@@ -81,7 +85,6 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile menu */}
       <AnimatePresence>
         {open && (
           <motion.div
@@ -99,7 +102,7 @@ export default function Navbar() {
                   onClick={() => setOpen(false)}
                   className={`text-base font-bold py-2.5 px-4 rounded-xl ${
                     pathname === link.to
-                      ? "bg-[#e0f2fe] text-[#0284c7]"
+                      ? "bg-[#fff7ed] text-[#f97316]"
                       : "text-gray-600"
                   }`}
                   style={{ fontFamily: "Nunito, sans-serif" }}
@@ -110,10 +113,10 @@ export default function Navbar() {
               <Link
                 to="/contact"
                 onClick={() => setOpen(false)}
-                className="bg-[#0ea5e9] text-white px-6 py-3 rounded-full text-base font-black text-center mt-2 shadow-lg shadow-sky-200"
+                className="bg-[#f97316] text-white px-6 py-3 rounded-full text-base font-black text-center mt-2 shadow-md shadow-orange-200"
                 style={{ fontFamily: "Nunito, sans-serif" }}
               >
-                Enroll Now ✨
+                Enroll Now
               </Link>
             </div>
           </motion.div>

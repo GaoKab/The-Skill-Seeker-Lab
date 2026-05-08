@@ -4,26 +4,6 @@
   --font-display: "Nunito", system-ui, sans-serif;
   --font-sans: "Nunito Sans", system-ui, sans-serif;
 
-  --color-brand-teal: #0ea5e9;
-  --color-brand-teal-dark: #0284c7;
-  --color-brand-teal-light: #e0f2fe;
-
-  --color-brand-yellow: #fbbf24;
-  --color-brand-yellow-dark: #d97706;
-  --color-brand-yellow-light: #fef3c7;
-
-  --color-brand-coral: #fb923c;
-  --color-brand-coral-dark: #ea580c;
-  --color-brand-coral-light: #ffedd5;
-
-  --color-brand-purple: #a78bfa;
-  --color-brand-purple-dark: #7c3aed;
-  --color-brand-purple-light: #ede9fe;
-
-  --color-brand-green: #34d399;
-  --color-brand-green-dark: #059669;
-  --color-brand-green-light: #d1fae5;
-
   --color-cream: #fffbf5;
   --color-warm-gray: #f5f1eb;
 }
@@ -41,4 +21,30 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
+}
+
+/* Marker-style text highlights */
+.marker-yellow {
+  background: linear-gradient(to top, #fde68a 35%, transparent 35%);
+  padding: 0 2px;
+}
+
+.marker-green {
+  background: linear-gradient(to top, #bbf7d0 35%, transparent 35%);
+  padding: 0 2px;
+}
+
+.marker-blue {
+  background: linear-gradient(to top, #bfdbfe 35%, transparent 35%);
+  padding: 0 2px;
+}
+
+.marker-purple {
+  background: linear-gradient(to top, #ddd6fe 35%, transparent 35%);
+  padding: 0 2px;
+}
+
+.marker-coral {
+  background: linear-gradient(to top, #fed7aa 35%, transparent 35%);
+  padding: 0 2px;
 }
