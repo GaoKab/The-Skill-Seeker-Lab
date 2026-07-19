@@ -2,6 +2,8 @@
 
 These are pre-tech-pack spec sheets: enough for a manufacturer to quote and cut a first sample. A full tech pack per style (flat sketches, graded measurement charts, BOM, construction pages) gets built from these during sampling — see `04-production-roadmap.md`.
 
+**Every style is cut on the EWAH Curve Block and must pass the movement & coverage protocol in `06-curved-body-fit-framework.md` (squat, hinge, floor, overhead, run, heat — target tug count: zero) before approval.** The fit-failure → engineering-response table in that framework is part of the brief to every pattern maker and factory.
+
 **Global standards (apply to every style unless noted):**
 - Size range: **XS–3XL** (extended range is core to the brand, not an afterthought — grade for curvier proportions: fuller hip/seat ratio, higher rise, longer torso options)
 - Stitching: flatlock or coverstitch on all body seams (no chafe); bartacks at stress points (slit tops, pocket corners, zip ends)
@@ -12,7 +14,31 @@ These are pre-tech-pack spec sheets: enough for a manufacturer to quote and cut 
 
 ---
 
-## HERO — Warrior Flow Dress (Pleat Flow capsule)
+## HERO — Sculpt Tunic (Sculpt capsule)
+
+Not a generic long shirt — a technical training top. The eight engineering requirements (from framework Part 5):
+
+| Requirement | Construction answer |
+|---|---|
+| Fuller bust without pulling | Dart-equivalent shaping in the sculpted seam lines; added front panel length; zoned stretch allocation |
+| Gentle waist definition | Contour seams shape the silhouette without compression |
+| Floats over the stomach | Engineered float: semi-fitted through the ribs, structured A-flare released from the waist seam |
+| Rear coverage without gripping | Hem circumference sized to clear the seat; fabric drape weight anchors the hem off the body |
+| Stays down lifting & squatting | Curved shirttail hem (back dips below seat), side slits placed for stride; passes squat/hinge/overhead tests tug-free |
+| Vents heat without transparency | Opacity-specified vent zones (back mesh or perforation), wet-tested in every colorway |
+| Works short and tall | Designed for Petite/Tall length variants from day one — shaping height is the graded variable |
+| Beautiful outside the gym | Full design language: sculpted seams, curved hem, matte gold branding |
+
+| Field | Spec |
+|---|---|
+| Silhouette | Long-sleeve half-zip mock-neck tunic, semi-fit bodice, engineered-float lower, asymmetric wrap-style curved hem covering the seat |
+| Sleeves | Full length, thumbhole cuffs |
+| Fabric | Compression performance knit A (body); vent zones in matched mesh |
+| Branding | Gold "EWAH" chest left + vertical spine at back neck |
+| Length (M) | HPS–front hem ~78 cm, back dips +6 cm |
+| Colorways | Onyx, Aubergine |
+
+## HERO PARTNER — Warrior Flow Dress (Pleat Flow capsule) — *moved to Phase 2*
 
 | Field | Spec |
 |---|---|
@@ -38,7 +64,9 @@ These are pre-tech-pack spec sheets: enough for a manufacturer to quote and cut 
 | Length (M) | HPS–front hem 92 cm, HPS–back hem 98 cm |
 | Colorways | Aubergine (signature), Onyx |
 
-## Curve Legging (Sculpt capsule)
+## Curve Legging (Sculpt capsule) — the hero's partner
+
+One job: **eliminate waist gaping while fitting fuller hips and thighs** (framework Failures 1, 4, 5).
 
 | Field | Spec |
 |---|---|
@@ -49,10 +77,9 @@ These are pre-tech-pack spec sheets: enough for a manufacturer to quote and cut 
 | Fabric | Compression knit A, 220–240 gsm |
 | Grading note | Grade waist:hip at curvier ratio (approx. 0.72–0.75 W:H, vs. industry 0.78–0.80) |
 
-## Sculpt Tunic + Flow Training Dress (Sculpt capsule)
+## Flow Training Dress (Sculpt capsule)
 
-- **Sculpt Tunic:** half-zip mock neck, long sleeve, asymmetric wrap hem covering seat; pairs with Curve Legging as a set. Fabric A.
-- **Flow Training Dress:** sleeveless princess-seam bodice, two-tier flared skirt, built-in shorts. Fabric A body, lighter knit C tiers.
+- Sleeveless princess-seam bodice, two-tier flared skirt, built-in shorts. Fabric A body, lighter knit C tiers.
 
 ## Pleat Flow supporting styles
 

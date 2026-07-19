@@ -1,18 +1,22 @@
 # EWAH — Gym Wear Production Line
 
-> **Sculpted, not exposed.**
-> Strength in flow. Beauty in balance.
+> **Your body was never the sizing problem. The clothes were.**
 
-EWAH is a modest-performance training line born from a simple decision: *stop buying training clothes — produce what I actually wear at the gym.* Every piece is engineered (not resized) for African and curvier bodies, combining real performance fabric with feminine, covered silhouettes.
+**EWAH creates sculpted performance wear for African and curvier bodies — engineered for coverage, movement and power.**
 
-## Brand pillars
+Born from a simple decision: *stop buying training clothes — produce what I actually wear at the gym.* The deeper problem EWAH solves is not modesty alone: most activewear is designed around a narrow body standard, then stretched into larger sizes. That fails fuller busts, smaller waists, wider hips, fuller thighs, prominent glutes, and shorter torsos. EWAH is **performance wear designed from the African curved body outward — not resized into it afterward.** Not "plus-size activewear" (a woman can be curvy at a size 6, 10, 16, or 24), and not "African-inspired activewear" — proportion-first engineering at every size.
 
-| Pillar | What it means in product |
+## The three principles
+
+| Principle | What it means in product |
 |---|---|
-| Sculpted, not exposed | Contouring seam lines and structured fits that flatter without revealing |
-| Hidden performance | Built-in shorts, phone pockets, squat-proof fabric — invisible from the outside |
-| Modest. Powerful. Feminine. | Coverage-first silhouettes (dresses, tunics, pleats) that still perform |
-| African–Asian fusion | Wrap fronts, asymmetry, flow pants — inspired, not costume-like |
+| **Built for curves** | The garment blocks, proportions, and seam placements are developed around curvy body architectures — not inclusive sizing bolted onto a straight block |
+| **Engineered coverage** | Coverage holds during squatting, bending, lifting, running, and floor work — modesty is functional in motion, not merely visual standing still |
+| **Sculpted, not exposed** | The clothes celebrate shape without tracing or exaggerating every part of the body |
+
+Supporting codes: hidden performance (built-in shorts, phone pockets, squat-proof fabric) and African–Asian fusion (wrap, asymmetry, flow — inspired, not costume-like).
+
+The foundation of the whole design system is the **Curved Body Fit Framework** (`06-curved-body-fit-framework.md`): the body architectures, fit failures, movement standards, and coverage tests every EWAH garment is engineered against — read it before anything else.
 
 ## Signature design codes
 
@@ -58,6 +62,7 @@ Branding is always **gold** — embroidery or heat-transfer, matte finish.
 | `03-fabrics-and-materials.md` | Fabric specifications, trims, and sourcing guidance |
 | `04-production-roadmap.md` | Sampling → grading → production, with MOQs, costs, and timeline |
 | `05-phase-1-launch-plan.md` | The focused first drop: which styles, colors, sizes, and quantities |
+| `06-curved-body-fit-framework.md` | **The foundation** — fit profiles, fit-failure engineering, movement & coverage standards |
 | `boards/` | The original design boards these documents are built from |
 
 ## Design boards

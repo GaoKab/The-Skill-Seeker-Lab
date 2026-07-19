@@ -1,19 +1,19 @@
 # EWAH Phase 1 Launch Plan
 
-The boards already declare it: **Phase 1 launch focus = Sculpt + Pleat Flow.** This plan narrows that to a producible, fundable first drop.
+**The launch is the founding pair: Sculpt Tunic + Curve Legging.** Together they solve the most immediate fit conflict curvier women face — **waist versus curves** — and they are the proof of the brand thesis: designed from the body outward, not resized into it. Everything in this drop exists to support that pair. (Prerequisite: the pair is developed against `06-curved-body-fit-framework.md` — the Curve Block, the fit-failure responses, and the movement/coverage test protocol come first.)
 
 ## The drop: 4 styles
 
-| # | Style | Capsule | Why it leads | Colors | Units |
+| # | Style | Role | Why | Colors | Units |
 |---|---|---|---|---|---|
-| 1 | **Warrior Flow Dress** ★ | Pleat Flow | Hero product — carries every design code (pleats, slit, built-in shorts, phone pocket, sculpted bodice, back branding) | Onyx | 250 |
-| 2 | **Purple Sculpt Tunic Dress** | Sculpt | The modest-performance statement; unique in market (long-sleeve training dress) | Aubergine, Onyx | 200 |
-| 3 | **Curve Legging** | Sculpt | The volume seller + the fit-credibility proof ("engineered, not resized") | Onyx | 300 |
-| 4 | **Oversized T-Shirt Dress** | Ease | Low-cost entry item, easiest production, layers over everything above | Bone, Onyx | 250 |
+| 1 | **Sculpt Tunic** ★ | **Hero** | The technical training top: fuller bust without pulling, gentle waist definition, floats over the stomach, covers the rear without gripping, stays down in squats and lifts, vents without transparency, beautiful outside the gym (full spec: framework Part 5) | Onyx, Aubergine | 300 |
+| 2 | **Curve Legging** ★ | **Hero partner** | One job: eliminate waist gaping while fitting fuller hips and thighs — the fit-credibility proof | Onyx | 300 |
+| 3 | **Purple Sculpt Tunic Dress** | Statement | The modest-performance flagship silhouette; unique in market (long-sleeve training dress); shares the Tunic's block and fabric | Aubergine | 150 |
+| 4 | **Oversized T-Shirt Dress** | Entry | Low-cost, easiest production, layers over the pair; brings the "covers shorts completely" promise at an accessible price | Bone, Onyx | 250 |
 
-**Total ≈ 1,000 units.** Everything else (Pleated T-Shirt Dress, Flow Pleat Skirt, Warrior Flow rust pieces, Summer Line) is Phase 2+ — sample later on proven fabric platforms.
+**Total ≈ 1,000 units.** The Warrior Flow Dress, pleated styles, rust Warrior Flow capsule, and Summer Line move to Phase 2+ — sampled later on proven blocks and fabric platforms.
 
-Why this mix works as an outfit system: Curve Legging + T-Shirt Dress = the everyday modest gym uniform; Sculpt Tunic Dress = the cold-day/statement piece; Warrior Flow Dress = the flagship. Customers can buy one piece or the full system.
+Why this mix works: the Tunic + Legging pair is *the outfit* — the everyday answer to "nothing fits my waist and my hips at the same time." The Tunic Dress extends the hero block into a statement piece for near-zero additional development, and the T-Shirt Dress is the low-risk entry point. Market the pair as a pair: **"the pair that finally fits."**
 
 ## Size range
 XS–3XL from day one, weighted to the middle-plus of the curve (indicative curve: XS 5% · S 12% · M 20% · L 22% · XL 18% · 2XL 13% · 3XL 10%). Extended sizing at launch **is** the brand promise — don't defer 2XL/3XL to "later."
@@ -31,6 +31,8 @@ XS–3XL from day one, weighted to the middle-plus of the curve (indicative curv
 - Reorder placed on the hero style within 60 days of launch
 
 ## Phase 2 trigger list (pre-planned, not pre-committed)
+- **Warrior Flow Dress** — the design-code showcase (pleats, slit, built-in shorts, phone pocket), built on the proven Curve Block bodice
+- Petite Curve + Tall Curve length variants of the founding pair (framework Phase 2 — same block, adjusted lengths)
 - Pleated T-Shirt Dress + Flow Pleat Skirt (reuse pleat fabric B already developed)
 - Back Variation Dress (upgrade of hero, same block)
 - Summer Line 01 timed to the warm season (fabric A-light development)
