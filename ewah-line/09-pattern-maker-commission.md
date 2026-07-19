@@ -1,6 +1,8 @@
 # Pattern Maker / Sample Maker Commission Pack — Founder Testing Round
 
-Everything needed to commission the two funded looks: who to look for, what to send, the outreach message, the scope of work, the agreement terms, and how to compare quotes. Goal: samples on your body, iterated through real training, without factory minimums or factory lead times.
+> **Route note:** the operative sourcing plan is the **manufacturer route** (`10-manufacturer-route.md`) — factory sample development with production intent. This local-maker pack is the **fallback** (if factory sampling stalls or a block needs hands-on correction, §6 of doc `10`) — and its measurement sheet (§6) and screening logic apply to both routes.
+
+Everything needed to commission the funded looks locally: who to look for, what to send, the outreach message, the scope of work, the agreement terms, and how to compare quotes. Goal: samples on your body, iterated through real training, without factory minimums or factory lead times.
 
 ## 1. Who you're looking for
 

@@ -65,10 +65,11 @@ Branding is always **gold** — embroidery or heat-transfer, matte finish.
 | `06-curved-body-fit-framework.md` | **The foundation** — fit profiles, fit-failure engineering, movement & coverage standards |
 | `07-development-plan.md` | **The operative plan** — frozen 5-piece capsule, design standard filter, fit system, prototype order, testing & validation, IP strategy |
 | `08-product-brief-warrior-flow-dresskort.md` | Product Development Brief for Prototype 1 — the first garment into pattern making |
-| `09-pattern-maker-commission.md` | Commission pack for the 2-look founder round: outreach, scope, agreement, quote comparison |
+| `09-pattern-maker-commission.md` | Fallback route: local pattern-maker commission pack (also holds the measurement sheet) |
+| `10-manufacturer-route.md` | **Operative sourcing plan** — factory sample development: RFQ package + template, vetting filters, costs, remote fit loop |
 | `boards/` | The original design boards these documents are built from |
 
-**Current status:** concept phase closed. First capsule frozen at five products (`07` §1). **Founder testing round: Warrior Flow Dress-Skort + Sculpt Flow Set + Throw-On Layer Dress** — the layer dress chosen as the one funded long dress; the Warrior Flow Wrap Dress and Flow Maxi Overlay defer to Phase 2 as statement pieces (`07` §5). Next action: take measurements (`09` §6) and send the commission outreach (`09` §3) to 2–3 pattern makers.
+**Current status:** concept phase closed. First capsule frozen at five products (`07` §1). **Founder testing round: Warrior Flow Dress-Skort + Sculpt Flow Set + Throw-On Layer Dress** — the layer dress chosen as the one funded long dress; the Warrior Flow Wrap Dress and Flow Maxi Overlay defer to Phase 2 as statement pieces (`07` §5). **Sourcing route: manufacturer** (`10`) — factory sample development with production intent; local maker (`09`) is the fallback. Next action: take measurements (`09` §6), shortlist 5–8 manufacturers, send the RFQ (`10` §3) to the best 3.
 
 ## Design boards
 
