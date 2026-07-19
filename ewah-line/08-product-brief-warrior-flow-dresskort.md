@@ -5,7 +5,7 @@
 | **Product code** | EWAH-P1-WFDS |
 | **Capsule** | First capsule — Prototype 1 (documented first: carries most of EWAH's signature language) |
 | **Status** | Brief approved → commission technical flats |
-| **Reference imagery** | `boards/summer-line-01.png` (style 01), `boards/warrior-flow-dress-hero.png` (liner + pleat language) |
+| **Reference imagery** | `boards/summer-line-01.png` (style 01), `boards/warrior-flow-dress-hero.png` (liner + pleat language), `boards/wrap-dresskort-reference-onyx.png` (wrap bodice + wrap skirt language at training length) |
 | **Governing documents** | Design Standard + fit system (`07-development-plan.md`), Curved Body Fit Framework (`06`), fabric platforms (`03`) |
 
 ---

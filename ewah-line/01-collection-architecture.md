@@ -112,6 +112,23 @@ Catalogue of every style shown on the design boards, organized by capsule. Each 
 - Sash tie waist
 - Long flowing split skirt over slim pants — full coverage with dramatic movement
 
+### Warrior Flow Wrap Dress (refined evolution of the Split Dress)
+- Long-sleeve wrap neckline, contoured seams, in Rust
+- **Obi-style cinched wrap belt** at the waist — the African–Asian fusion signature made structural
+- Dual side slits over legging; built-in short
+- 4-way stretch, breathable, lightweight — "Squat. Lift. Flow."
+- Tone-on-tone vertical EWAH spine branding
+- *Engineered for movement. Designed for presence. Made for every body.*
+- (See `boards/warrior-flow-wrap-dress-rust.png`)
+
+### Flow Maxi Overlay Dress
+- Sleeveless mock-neck maxi overlay worn over matching bike shorts
+- Dual deep front slits — full stride freedom, dramatic flow
+- Refined version adds sculpted bodice seam map + set-in waistband, tone-on-tone EWAH at hem panel
+- Colorway introduces a **rose/terracotta tone ("Rose Clay") — candidate addition to the palette**
+- Controlled-movement category (see safety note below)
+- (See `boards/flow-maxi-overlay-dress-rose-1.png`, `-2.png`)
+
 ---
 
 ## S1 — EWAH Summer Line 01
@@ -147,6 +164,24 @@ Sculpted seams · Breathable performance · Modest coverage · Built-in shorts �
 Fabric promise: **Lightweight · Breathable · Sweat-wicking · 4-way stretch**
 
 ---
+
+## 05 — Recovery & Layer
+
+### Throw-On Layer Dress
+- Long-length sleeveless layer dress, soft drape, small side slits
+- Worn over bike shorts or leggings — *Move. Recover. Restore.*
+- Warmup, recovery, gym-to-street; the honest "layer/controlled-movement" garment category
+- Colorways: Cocoa (new warm brown tone), Onyx, Black, Olive
+- (See `boards/throw-on-layer-dress.jpeg`)
+
+> **Safety/positioning note (applies to Throw-On Layer Dress and Flow Maxi Overlay Dress):** long loose fabric around machines can be unsafe. These are marketed honestly as layer / warmup / recovery / controlled-movement garments — never as universally suitable for every gym activity (`07-development-plan.md` §6).
+
+## Prototype 1 reference imagery
+
+### Wrap Dress-Skort look (Onyx)
+- Sleeveless wrap bodice + wrap skirt over built-in shorts, tie waist, contrast gold topstitch on seam lines
+- **Not a new style — direct visual reference for the Warrior Flow Dress-Skort (P1)**: shows the wrap language at training length
+- (See `boards/wrap-dresskort-reference-onyx.png`)
 
 ## Related silhouette: Sculpt + Flow Set (transitional)
 - Structured short-sleeve top with flutter sleeve and sculpted seams
