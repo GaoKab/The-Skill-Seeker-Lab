@@ -30,7 +30,7 @@ Do **not** send the whole repository or business plans — briefs and references
 >
 > I'm developing the first prototypes for EWAH, a performance-wear brand engineered for African and curvier bodies. I'm looking for a pattern maker/sample maker with stretch and activewear experience for a paid two-garment prototype round, with fittings on me as the fit model.
 >
-> The work: (1) a sleeveless training dress with a wrap front, mixed pleated and smooth skirt panels, and an attached liner short — I have a full written brief with measurements, seam maps, and construction notes; (2) a two-piece set: structured short-sleeve top and loose tapered training pants. Fabrics are performance knits (nylon-elastane and a pleat-holding poly); I can supply fabric or we can source together.
+> The work: (1) a sleeveless training dress with a wrap front, mixed pleated and smooth skirt panels, and an attached liner short — I have a full written brief with measurements, seam maps, and construction notes; (2) a two-piece set: structured short-sleeve top and loose tapered training pants; (3) a simple long sleeveless layer dress with soft drape and side slits. Fabrics are performance knits (nylon-elastane and a pleat-holding poly) plus a drape jersey; I can supply fabric or we can source together.
 >
 > I'd like: first pattern + toile/first sample, two fitting revisions per garment, and final corrected patterns delivered to me in cut-ready form (paper or digital). I'd ask you to sign a short agreement confirming the patterns and designs remain my property.
 >
@@ -38,18 +38,18 @@ Do **not** send the whole repository or business plans — briefs and references
 >
 > [Your name]
 
-## 4. Scope of work — two looks, three garments
+## 4. Scope of work — three looks, four garments
 
-| Item | Look 1: Warrior Flow Dress-Skort | Look 2: Sculpt Flow Set (top + pant) |
-|---|---|---|
-| Pattern drafting | From brief `08`, on founder's measurements as base block | Top: sculpted seams, fluted short sleeve. Pant: loose taper, sculpted seams, elastic cuff, side pockets, wide waistband |
-| Samples | Sample 1 → fitting → corrections → Sample 2 → fitting → final tweaks | Same cycle per piece |
-| Fittings | Minimum 2 per garment, on the founder, including movement checks (squat, hinge, reach — from `08` §10) | Same |
-| Deliverables | Final corrected pattern (all pieces, notched, labeled, seam allowances stated), final sample garment, construction notes | Same |
-| Fabric | Supplied by EWAH (~2.5 m platform A + ~1 m platform B per dress; ~3.5 m total for the set) | Same |
-| Not in scope | Grading, tech packs, production — this round proves fit only | — |
+| Item | Look 1: Warrior Flow Dress-Skort | Look 2: Sculpt Flow Set (top + pant) | Look 3: Throw-On Layer Dress |
+|---|---|---|---|
+| Pattern drafting | From brief `08`, on founder's measurements as base block | Top: sculpted seams, fluted short sleeve. Pant: loose taper, sculpted seams, elastic cuff, side pockets, wide waistband | Sleeveless long layer dress, soft drape, small side slits, no liner (layers over own shorts/leggings) — simplest pattern in the round |
+| Samples | Sample 1 → fitting → corrections → Sample 2 → fitting → final tweaks | Same cycle per piece | One sample + one correction round is usually enough |
+| Fittings | Minimum 2 per garment, on the founder, including movement checks (squat, hinge, reach — from `08` §10) | Same | 1–2 fittings; drape + length + slit height checks |
+| Deliverables | Final corrected pattern (all pieces, notched, labeled, seam allowances stated), final sample garment, construction notes | Same | Same |
+| Fabric | Supplied by EWAH (~2.5 m platform A + ~1 m platform B per dress; ~3.5 m total for the set) | Same | ~2.5 m soft drape jersey (platform D or C weight) |
+| Not in scope | Grading, tech packs, production — this round proves fit only | — | — |
 
-**Budget frame (adjust to local market):** custom pattern + 2-sample development typically runs **$150–450 per garment** with an independent maker (dress at the top of the range due to pleats + liner; set pieces simpler). Total round estimate **$450–1,100** plus fabric (~$60–150). Get two or three quotes; the cheapest is not the goal — the one who asks fit questions is.
+**Budget frame (adjust to local market):** custom pattern + 2-sample development typically runs **$150–450 per garment** with an independent maker (dress-skort at the top of the range due to pleats + liner; layer dress at the very bottom, ~$100–200 with its single revision). Total round estimate **$550–1,300** plus fabric (~$80–200). If quotes come in high, drop Look 3 first — it's an accessory to the test, not the test. Get two or three quotes; the cheapest is not the goal — the one who asks fit questions is.
 
 ## 5. Agreement terms (one page, plain language)
 

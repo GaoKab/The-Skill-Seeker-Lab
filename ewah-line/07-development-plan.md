@@ -83,18 +83,21 @@ Generated imagery gives direction; a pattern maker cannot manufacture from it. E
 
 Do not prototype everything simultaneously. Each prototype answers questions the next one depends on.
 
-### Founder testing round — budget: 2 looks
+### Founder testing round — the funded looks
 
-The first sampling round is funded for **two looks only**, made for the founder's personal training use (fit model zero, worn in real sessions daily). Chosen for maximum learning per unit of money and complete wardrobe coverage:
+The first sampling round is made for the founder's personal training use (fit model zero, worn in real sessions daily). Chosen for maximum learning per unit of money and complete wardrobe coverage:
 
 | Look | Product | Why it's in the round |
 |---|---|---|
 | **Look 1** | **Warrior Flow Dress-Skort** | Tests nearly the whole thesis in one garment: sculpted bodice, asymmetric wrap, pleat/smooth mix, built-in shorts + pocket, coverage in motion. Brief: `08` |
 | **Look 2** | **Sculpt Flow Set** (top + flow pant) | Tests the separates construction family; fills non-dress training days; each piece also wear-tests against existing wardrobe items |
+| **Look 3** | **Throw-On Layer Dress** — chosen from the three long dresses | The one long dress in the round: worn over Looks 1–2 every session (warmup, recovery, gym-to-street) = maximum wear-test hours; simplest and cheapest pattern (no liner, no wrap, no pleats); proves the Recovery & Layer category |
 
-*Budget fallback:* the set is two patterns/two samples. If three garments total exceed budget, Look 2 becomes the **Summer Sculpt Tunic Dress** (one pattern, tests the fitted-tunic block + standalone modest wear).
+*Long-dress decision:* of the three long dresses (Throw-On Layer, Flow Maxi Overlay, Warrior Flow Wrap Dress), **one** is funded — the Throw-On Layer Dress. The **Warrior Flow Wrap Dress** (obi belt, most signature language, most expensive to sample) is deferred as the Phase 2 statement piece, to be sampled once the blocks are proven; the rose Flow Maxi Overlay follows it.
 
-*Deferred from this round:* Center Pleat Training Dress (reuses bodice lessons Look 1 will teach), Oversized T-Shirt Dress (cheapest to make, teaches least — simple jersey block, no curve engineering).
+*Budget fallback:* the set is two patterns/two samples. If four garments total exceed budget, drop Look 3 first (it's an accessory to the test, not the test), then swap Look 2 for the **Summer Sculpt Tunic Dress** (one pattern).
+
+*Deferred from this round:* Center Pleat Training Dress (reuses bodice lessons Look 1 will teach), Oversized T-Shirt Dress (cheapest to make, teaches least — simple jersey block, no curve engineering), Warrior Flow Wrap Dress + Flow Maxi Overlay (statement pieces for proven blocks).
 
 ### Full prototype sequence (as funding allows)
 

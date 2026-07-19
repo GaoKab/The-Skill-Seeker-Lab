@@ -68,7 +68,7 @@ Branding is always **gold** — embroidery or heat-transfer, matte finish.
 | `09-pattern-maker-commission.md` | Commission pack for the 2-look founder round: outreach, scope, agreement, quote comparison |
 | `boards/` | The original design boards these documents are built from |
 
-**Current status:** concept phase closed. First capsule frozen at five products (`07` §1). **Founder testing round funded at 2 looks: Warrior Flow Dress-Skort + Sculpt Flow Set** (`07` §5). Next action: take measurements (`09` §6) and send the commission outreach (`09` §3) to 2–3 pattern makers. Later-phase styles (Warrior Flow Wrap Dress, Flow Maxi Overlay Dress, Throw-On Layer Dress) are catalogued in `01` — the capsule stays frozen.
+**Current status:** concept phase closed. First capsule frozen at five products (`07` §1). **Founder testing round: Warrior Flow Dress-Skort + Sculpt Flow Set + Throw-On Layer Dress** — the layer dress chosen as the one funded long dress; the Warrior Flow Wrap Dress and Flow Maxi Overlay defer to Phase 2 as statement pieces (`07` §5). Next action: take measurements (`09` §6) and send the commission outreach (`09` §3) to 2–3 pattern makers.
 
 ## Design boards
 
