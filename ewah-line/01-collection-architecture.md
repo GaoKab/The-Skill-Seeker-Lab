@@ -61,6 +61,14 @@ Catalogue of every style shown on the design boards, organized by capsule. Each 
 - Vertical gold EWAH branding at upper back
 - "Creates a strong, contoured back"
 
+### Side Flow Dress
+- Sleeveless fitted bodice with smooth front skirt panel
+- Pleats set into a deep side opening — "pleats open with every step"
+- Designed for range, made for confidence
+- Gold emblem at front hem
+- Onyx
+- (See `boards/pleat-flow-dress-lineup.png`)
+
 ### Warrior Flow Dress ★ (hero product)
 - Sleeveless, crew neck, fitted through the bodice
 - Pleats concentrated at the back and sides; smooth front panel

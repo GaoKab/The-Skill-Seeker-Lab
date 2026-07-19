@@ -67,7 +67,7 @@ Branding is always **gold** — embroidery or heat-transfer, matte finish.
 | `08-product-brief-warrior-flow-dresskort.md` | Product Development Brief for Prototype 1 — the first garment into pattern making |
 | `boards/` | The original design boards these documents are built from |
 
-**Current status:** concept phase closed. First capsule frozen at five products (`07` §1). Next action: technical flats for the Warrior Flow Dress-Skort from its brief (`08`).
+**Current status:** concept phase closed. First capsule frozen at five products (`07` §1). **Founder testing round funded at 2 looks: Warrior Flow Dress-Skort + Sculpt Flow Set** (`07` §5). Next action: technical flats for the Warrior Flow Dress-Skort from its brief (`08`).
 
 ## Design boards
 
@@ -78,3 +78,4 @@ Branding is always **gold** — embroidery or heat-transfer, matte finish.
 | Purple Sculpt Tunic Dress + Pleated Back Variation | `boards/sculpt-tunic-dress-and-pleated-back.png` |
 | Ease T-Shirt Dress styles | `boards/ease-tshirt-dress-styles.png` |
 | Summer Line 01 — "Sculpted in Motion" | `boards/summer-line-01.png` |
+| Pleat Flow dress lineup (Warrior Flow, back detail, Center Pleat, Side Flow) | `boards/pleat-flow-dress-lineup.png` |

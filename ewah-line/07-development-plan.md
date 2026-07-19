@@ -83,11 +83,26 @@ Generated imagery gives direction; a pattern maker cannot manufacture from it. E
 
 Do not prototype everything simultaneously. Each prototype answers questions the next one depends on.
 
+### Founder testing round — budget: 2 looks
+
+The first sampling round is funded for **two looks only**, made for the founder's personal training use (fit model zero, worn in real sessions daily). Chosen for maximum learning per unit of money and complete wardrobe coverage:
+
+| Look | Product | Why it's in the round |
+|---|---|---|
+| **Look 1** | **Warrior Flow Dress-Skort** | Tests nearly the whole thesis in one garment: sculpted bodice, asymmetric wrap, pleat/smooth mix, built-in shorts + pocket, coverage in motion. Brief: `08` |
+| **Look 2** | **Sculpt Flow Set** (top + flow pant) | Tests the separates construction family; fills non-dress training days; each piece also wear-tests against existing wardrobe items |
+
+*Budget fallback:* the set is two patterns/two samples. If three garments total exceed budget, Look 2 becomes the **Summer Sculpt Tunic Dress** (one pattern, tests the fitted-tunic block + standalone modest wear).
+
+*Deferred from this round:* Center Pleat Training Dress (reuses bodice lessons Look 1 will teach), Oversized T-Shirt Dress (cheapest to make, teaches least — simple jersey block, no curve engineering).
+
+### Full prototype sequence (as funding allows)
+
 | Order | Prototype | What it proves |
 |---|---|---|
-| **P1** | Warrior Flow Dress-Skort | The core proposition: sculpting, asymmetry, pleats, coverage and movement in one garment |
-| **P2** | Summer Sculpt Tunic Dress | Curvy fit + modesty + standalone wear + warm-weather comfort |
-| **P3** | Sculpt Flow Set | Expansion into separates (top block + pant block) |
+| **P1** | Warrior Flow Dress-Skort *(Look 1)* | The core proposition: sculpting, asymmetry, pleats, coverage and movement in one garment |
+| **P2** | Sculpt Flow Set *(Look 2)* | Expansion into separates (top block + pant block) |
+| **P3** | Summer Sculpt Tunic Dress | Curvy fit + modesty + standalone wear + warm-weather comfort |
 | P4–P5 | Center Pleat Training Dress, Oversized T-Shirt Dress | Proceed **only after P1–P3 patterns are working** — they reuse the proven bodice, pleat, and coverage solutions |
 
 ## 6. Test the products like equipment
