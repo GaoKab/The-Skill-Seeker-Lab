@@ -67,6 +67,8 @@ Branding is always **gold** — embroidery or heat-transfer, matte finish.
 | `08-product-brief-warrior-flow-dresskort.md` | Product Development Brief for Prototype 1 — the first garment into pattern making |
 | `09-pattern-maker-commission.md` | Fallback route: local pattern-maker commission pack (also holds the measurement sheet) |
 | `10-manufacturer-route.md` | **Operative sourcing plan** — factory sample development: RFQ package + template, vetting filters, costs, remote fit loop |
+| `11-manufacturer-shortlist.md` | Researched candidate factories + how to verify "we produce for Alo/Skims" claims + objective quality standards |
+| `12-future-roadmap.md` | Post-capsule future: Sculpt Bra, hair-conscious accessories, seamless Curve Block, fit-profile commerce |
 | `boards/` | The original design boards these documents are built from |
 
 **Current status:** concept phase closed. First capsule frozen at five products (`07` §1). **Founder testing round: Warrior Flow Dress-Skort + Sculpt Flow Set + Throw-On Layer Dress** — the layer dress chosen as the one funded long dress; the Warrior Flow Wrap Dress and Flow Maxi Overlay defer to Phase 2 as statement pieces (`07` §5). **Sourcing route: manufacturer** (`10`) — factory sample development with production intent; local maker (`09`) is the fallback. Next action: take measurements (`09` §6), shortlist 5–8 manufacturers, send the RFQ (`10` §3) to the best 3.
