@@ -1,5 +1,7 @@
 # EWAH Phase 1 Launch Plan
 
+> **⚠️ Superseded on the product list:** the first capsule is now **frozen at five hero products** in `07-development-plan.md` §1 (Warrior Flow Dress-Skort, Summer Sculpt Tunic Dress, Center Pleat Training Dress, Sculpt Flow Set, Oversized Training T-Shirt Dress). The Sculpt Tunic + Curve Legging pair below moves to a later phase; its fit logic is carried by the frozen five. This document remains valid for launch mechanics: sizing curve, drop model, channel strategy, and success criteria.
+
 **The launch is the founding pair: Sculpt Tunic + Curve Legging.** Together they solve the most immediate fit conflict curvier women face — **waist versus curves** — and they are the proof of the brand thesis: designed from the body outward, not resized into it. Everything in this drop exists to support that pair. (Prerequisite: the pair is developed against `06-curved-body-fit-framework.md` — the Curve Block, the fit-failure responses, and the movement/coverage test protocol come first.)
 
 ## The drop: 4 styles

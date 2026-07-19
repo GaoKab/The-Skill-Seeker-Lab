@@ -63,7 +63,11 @@ Branding is always **gold** — embroidery or heat-transfer, matte finish.
 | `04-production-roadmap.md` | Sampling → grading → production, with MOQs, costs, and timeline |
 | `05-phase-1-launch-plan.md` | The focused first drop: which styles, colors, sizes, and quantities |
 | `06-curved-body-fit-framework.md` | **The foundation** — fit profiles, fit-failure engineering, movement & coverage standards |
+| `07-development-plan.md` | **The operative plan** — frozen 5-piece capsule, design standard filter, fit system, prototype order, testing & validation, IP strategy |
+| `08-product-brief-warrior-flow-dresskort.md` | Product Development Brief for Prototype 1 — the first garment into pattern making |
 | `boards/` | The original design boards these documents are built from |
+
+**Current status:** concept phase closed. First capsule frozen at five products (`07` §1). Next action: technical flats for the Warrior Flow Dress-Skort from its brief (`08`).
 
 ## Design boards
 
