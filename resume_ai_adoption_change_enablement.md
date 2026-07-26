@@ -58,4 +58,12 @@ AI adoption strategy • Change management & enablement • Workflow & journey m
 Human-Centered Design Facilitator, **IDEO U** (2023–2024) — guided global professionals through design thinking and implementation methods. Design Thinking Instructor, Invent Learning Hub (2023–2024) — 15+ prototype-based learning experiences with assessment and feedback loops.
 
 ## EDUCATION
-MFA, Transdisciplinary Design (or as applicable) — **Parsons School of Design**, New York, NY
+
+- **MBA Candidate**, Entrepreneurship, Innovation & Technology — Johns Hopkins Carey Business School *(In Progress)*
+- **M.S., Strategic Design & Management** — Parsons School of Design
+- **International Master's Degree, Conflictology** — Universitat Oberta de Catalunya *(directly relevant: change resistance, stakeholder conflict, negotiated adoption)*
+- **B.Ed.** — University of Botswana
+
+## TOOLS & CERTIFICATIONS
+**Tools:** Figma, Notion, Excel, Jira, Firebase, Supabase, VS Code, Webflow, ChatGPT, Claude / Claude Code, Perplexity
+**Certifications:** Praxis Project / Program / Portfolio; Workshopper Master
