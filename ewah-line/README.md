@@ -74,7 +74,7 @@ Branding is always **gold** — embroidery or heat-transfer, matte finish.
 | `15-rfq-specs-set-and-layer-dress.md` | One-page RFQ specs for the Sculpt Flow Set and Throw-On Layer Dress — completes the RFQ package |
 | `boards/` | The original design boards these documents are built from |
 
-**Current status:** concept phase closed. First capsule frozen at five products (`07` §1). **Founder testing round: Warrior Flow Dress-Skort + Sculpt Flow Set + Throw-On Layer Dress** — the layer dress chosen as the one funded long dress; the Warrior Flow Wrap Dress and Flow Maxi Overlay defer to Phase 2 as statement pieces (`07` §5). **Sourcing route: manufacturer** (`10`) — factory sample development with production intent; local maker (`09`) is the fallback. Next action: take measurements (`09` §6), shortlist 5–8 manufacturers, send the RFQ (`10` §3) to the best 3.
+**Current status:** concept phase closed. First capsule frozen at five products (`07` §1). **Founder testing round: Warrior Flow Dress-Skort + Sculpt Flow Set + Throw-On Layer Dress** — the layer dress chosen as the one funded long dress; the Warrior Flow Wrap Dress and Flow Maxi Overlay defer to Phase 2 as statement pieces (`07` §5). **Sourcing route: manufacturer** (`10`) — factory sample development with production intent; local maker (`09`) is the fallback. **Budget mode: zero-budget path** (`14` §7) — all paid protections deferred on upgrade triggers; minimum-cash entry is the Dress-Skort sample alone (~$100–200). Next action: take measurements (`09` §6), send the RFQ (`10` §3) to 3–4 factories, order one sample.
 
 ## Design boards
 

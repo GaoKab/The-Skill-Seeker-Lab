@@ -75,3 +75,19 @@ The founder's instinct is right. Most paid brand-building programs resell three 
 4. On choosing a Chinese factory: **NNN signed before tech packs move**; EU/UK factory: NDA + development agreement
 5. When flats exist: file UK (and optionally EU) registered designs for the Dress-Skort and Sculpt Flow silhouettes — budget ≈ £150–€700 total
 6. Escrow/Trade-Assurance payments; QC inspection on first production run
+
+## 7. The zero-budget path (OPERATIVE — funds currently cover samples only)
+
+Every paid protection above is deferred, safely, on this logic:
+
+| Paid item | Zero-budget substitute | Why it's safe to wait |
+|---|---|---|
+| NNN (~$600–1,500) | Information diet (one garment spec at a time, framework never leaves home) + escrow payments + free plain-language development agreement (drafted in-house) | An NNN matters when full tech packs and production volumes are at stake — i.e., when there's revenue to fund it. A factory holding one dress spec cannot steal a brand |
+| Trademark filing | Use ™ (free, no registration needed); accumulate dated use evidence (this repo, social posts, invoices) = common-law rights | Register before **scaling**, not before sampling; DIY filing when first revenue lands |
+| Registered designs (£150–€700) | UK/EU **12-month grace period runs from first public disclosure** — launch first, file within the year | The clock starts at launch, not at sampling |
+| QC inspection (~$300) | Founder inspects own samples (the wear-test circuit IS the inspection) | Paid inspection is for bulk production, which doesn't exist yet |
+| Lawyer-drafted contracts | Written email confirmation of terms (specs are EWAH property; patterns not to be reused; payment via escrow) — a factory's written "confirmed" has evidentiary weight | Upgrade to formal contracts at first production order |
+
+**Minimum-cash entry:** sample the **Dress-Skort alone** first — one sample fee ($50–150) + courier (~$50) ≈ **$100–200 total**. The Set and Layer Dress join round 2 once the factory has proven itself on the hardest garment. RFQ still quotes all four garments (so prices are known), but the first order is one piece.
+
+**Upgrade triggers (spend when, not before):** first production order → NNN/contract + QC inspection · first sales revenue → trademark registration · launch day → 12-month registered-design clock starts, file within it.
