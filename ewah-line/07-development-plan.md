@@ -1,5 +1,7 @@
 # EWAH Development Plan — From Imagery to Product
 
+> **⚠️ Capsule scope superseded (August 2026):** the five-product freeze in §1 and the founder-round look list in §5 are replaced by the eight-product **Capsule 01 Master** (`17-capsule-01-master.md`, source: `tech-packs/EWAH-Capsule-01-full-development-pack.docx`). Round 1 = Warrior Flow Dress-Skort + Air Sculpt Short Dress. The design standard (§2), fit system (§3), flats standard (§4), testing (§6), validation circle (§7), and IP approach (§8) in this document remain in force.
+
 The concept phase is closed. No more looks get generated. This plan turns the strongest ideas into products that can be patterned, sampled, worn, washed, and sold.
 
 ---

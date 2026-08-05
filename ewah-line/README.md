@@ -72,11 +72,12 @@ Branding is always **gold** — embroidery or heat-transfer, matte finish.
 | `13-brand-identity.md` | Brand identity spec — wordmark, emblem, colors (hex/Pantone), typography, label/tag production checklist |
 | `14-manufacturer-trust-ip-strategy.md` | Threat model + protection stack: NNN agreements, registered designs, region trust comparison, faithfulness incentives |
 | `15-rfq-specs-set-and-layer-dress.md` | One-page RFQ specs for the Sculpt Flow Set and Throw-On Layer Dress — completes the RFQ package |
-| `16-tech-pack-review.md` | Review of the four v0.1 tech pack drafts: WF-01 approved for factory use after corrections; three new styles filed as Phase 2 |
-| `tech-packs/` | Factory-facing tech pack documents (WF-01 Dress-Skort + three Phase 2 candidates) |
+| `16-tech-pack-review.md` | Review of the four v0.1 tech pack drafts (corrections list for WF-01 still applies) |
+| `17-capsule-01-master.md` | **Operative capsule definition** — eight products, four prototype rounds, reconciliation with the earlier plan |
+| `tech-packs/` | Factory-facing documents: Capsule 01 master pack + per-style tech packs |
 | `boards/` | The original design boards these documents are built from |
 
-**Current status:** concept phase closed. First capsule frozen at five products (`07` §1). **Founder testing round: Warrior Flow Dress-Skort + Sculpt Flow Set + Throw-On Layer Dress** — the layer dress chosen as the one funded long dress; the Warrior Flow Wrap Dress and Flow Maxi Overlay defer to Phase 2 as statement pieces (`07` §5). **Sourcing route: manufacturer** (`10`) — factory sample development with production intent; local maker (`09`) is the fallback. **Budget mode: zero-budget path** (`14` §7) — all paid protections deferred on upgrade triggers; minimum-cash entry is the Dress-Skort sample alone (~$100–200). Next action: take measurements (`09` §6), send the RFQ (`10` §3) to 3–4 factories, order one sample.
+**Current status:** concept phase closed. **Capsule 01 adopted: eight products in four prototype rounds (`17`)** — Round 1 is Warrior Flow Dress-Skort (WF-01) + Air Sculpt Short Dress (ST-02). **Sourcing route: manufacturer** (`10`); local maker (`09`) is the fallback. **Budget mode: zero-budget path** (`14` §7) — Round 1 samples ≈ $150–400 all-in; if cash allows only one, WF-01 goes alone. Next action: take measurements (`09` §6), then RFQ (`10` §3) with the WF-01 + ST-02 briefs and their per-style factory questions to 3 factories.
 
 ## Design boards
 
