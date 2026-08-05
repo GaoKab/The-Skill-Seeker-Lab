@@ -44,6 +44,10 @@
 3. **Zero-budget protections** unchanged: information diet (send WF-01 + ST-02 briefs only — never the full 8-product pack to a factory that hasn't signed terms), watermarks, escrow payments, evidence trail.
 4. **RFQ flow (`10`)** unchanged, now carrying WF-01 + ST-02 with their per-style factory questions.
 
+## Open design decision for WF-01 (before flats)
+
+Two skirt-geometry variants exist on the boards (`01` catalogue, `boards/wf01-variant-*.jpeg`): **tulip wrap** (soft curved overlap) vs **angular wrap** (pointed asymmetric hem, longer back). Proto 1 commits to one; the other becomes a later derivative. Trade-off: tulip drapes safer over fuller hips; angular is more distinctly EWAH-architectural but its hem points need motion validation.
+
 ## Immediate next actions (from the pack's own roadmap, merged with ours)
 
 1. Measurements (`09` §6) — still first, still free

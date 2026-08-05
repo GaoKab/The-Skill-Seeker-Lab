@@ -183,6 +183,31 @@ Fabric promise: **Lightweight · Breathable · Sweat-wicking · 4-way stretch**
 - **Not a new style — direct visual reference for the Warrior Flow Dress-Skort (P1)**: shows the wrap language at training length
 - (See `boards/wrap-dresskort-reference-onyx.png`)
 
+### WF-01 skirt-geometry variants (decision needed at flats stage)
+- **Tulip wrap** (`boards/wf01-variant-tulip-wrap.jpeg`): crossover wrap bodice over inner crew layer, wrap tie waist, soft curved tulip overlap skirt — rounded hem, gentle drape
+- **Angular wrap** (`boards/wf01-variant-angular-wrap.jpeg`): crew neck, angular seam map through bodice, pointed asymmetric wrap skirt with longer back — sharper, more architectural
+- Same block, two hem geometries; both carry contrast topstitch on seam lines. Proto 1 must commit to one (the other becomes a derivative colorway/drop later). Considerations: tulip = softer drape over fuller hips, lower snag/flip risk; angular = stronger EWAH "architectural" identity, pointed corners need drape-weight validation so they don't flip in motion
+
+## Warrior Flow campaign board
+- *Discipline · Strength · Flow* — three long-sleeve modest looks: Onyx asymmetric wrap tunic + flow harem pant (contrast piping), Aubergine sculpt tunic + legging, Rust long wrap duster + legging with obi belt and dual slits
+- Campaign/lookbook art direction for the Warrior Flow capsule (Phase 2+ garments)
+- (See `boards/warrior-flow-campaign.png`)
+
+## Summer Line 01 — full 14-product line sheet
+The expanded line sheet (`boards/summer-line-01-full-linesheet.png`) lays out the complete summer assortment with per-style colorways:
+
+| # | Style | # | Style |
+|---|---|---|---|
+| 01 | Warrior Flow Dress | 08 | **Long Tunic (Light)** — everyday slip-on layer *(new)* |
+| 02 | Back Detail (signature branding) | 09 | **Sculpt Bra** — medium support, sculpted for shape *(new — pulled forward from the future roadmap `12` H1)* |
+| 03 | Center Pleat Dress | 10 | Curve Legging (no front seam, high waist) |
+| 04 | Side Flow Dress | 11 | **Motion Short** — soft compression, no ride *(new)* |
+| 05 | Throw-On Layer Dress | 12 | Flow Pant |
+| 06 | Oversized Tee Dress | 13 | Flow Pleat Skort |
+| 07 | Sculpt Tunic (Long) | 14 | **Clean Pleat Skort** — minimal pleats *(new)* |
+
+**Core palette expansion (line sheet):** the sheet shows an 8-color palette — Onyx, **Navy** *(new)*, **Mauve/Rose** *(new)*, **Brown/Cocoa**, Olive, **Grey** *(new)*, Sand/Clay, **White** *(new)*. Merchandising palette for the summer line; the three identity colors (`13`) still govern branding. Line promise icons: sculpted seams · modest coverage · built for movement · strength in flow. Footer locks the merchandising language: *"Designed for African & curvier bodies · Modest is a choice, not a limitation · Engineered for performance & presence · Strength. Femininity. Freedom."*
+
 ## Related silhouette: Sculpt + Flow Set (transitional)
 - Structured short-sleeve top with flutter sleeve and sculpted seams
 - **Flow Pant**: voluminous tapered performance pant (harem silhouette), sculpted seams, elastic cuff
