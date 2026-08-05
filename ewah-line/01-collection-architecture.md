@@ -208,6 +208,13 @@ The expanded line sheet (`boards/summer-line-01-full-linesheet.png`) lays out th
 
 **Core palette expansion (line sheet):** the sheet shows an 8-color palette — Onyx, **Navy** *(new)*, **Mauve/Rose** *(new)*, **Brown/Cocoa**, Olive, **Grey** *(new)*, Sand/Clay, **White** *(new)*. Merchandising palette for the summer line; the three identity colors (`13`) still govern branding. Line promise icons: sculpted seams · modest coverage · built for movement · strength in flow. Footer locks the merchandising language: *"Designed for African & curvier bodies · Modest is a choice, not a limitation · Engineered for performance & presence · Strength. Femininity. Freedom."*
 
+## Capsule 01 merchandising line sheet (v2)
+Revised 14-product sheet titled "Capsule 01: Sculpted in Motion" (`boards/capsule-01-linesheet-v2.png`). Changes vs the summer sheet: **Sculpt Long Sleeve** joins (contoured seams, thumbholes — "support without restriction"); the Throw-On Layer Dress gains a **mauve long-sleeve mock-neck variant**; palette swaps Navy for Aubergine. **Scope discipline:** this "Capsule 01" is the *merchandising* vision (14 retail products); the Capsule 01 *development* pack (`17`) remains eight products in four rounds — the sheet is where development products land when they're real.
+
+## Product photography (asset library)
+- **Sculpt Tunic Dress, Aubergine — front/back product shot** (`boards/sculpt-tunic-dress-product-shot-aubergine.jpeg`): clean e-commerce-style imagery of style 07; half-zip mock neck, thumbholes, curved hem, gold chest wordmark + emblem/vertical spine at back. Usable as PDP/lookbook placeholder until real samples are shot
+- **Flow Maxi Overlay — wrap variant, Rose Clay** (`boards/flow-maxi-overlay-wrap-variant-rose.png`): cap-sleeve V-wrap bodice with tie belt over bike shorts, open-front maxi overlay — a wrap-bodice variant of the Flow Maxi Overlay family (mock-neck variants already catalogued above)
+
 ## Related silhouette: Sculpt + Flow Set (transitional)
 - Structured short-sleeve top with flutter sleeve and sculpted seams
 - **Flow Pant**: voluminous tapered performance pant (harem silhouette), sculpted seams, elastic cuff
