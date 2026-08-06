@@ -1,0 +1,58 @@
+# EWAH Hardware Development — HW-01 Signature Emblem System
+
+Phase 01 of the hardware family: **the first physical EWAH product, developed before the hats.** Goal: luxury fashion hardware that becomes recognizable as EWAH design language (the way Hermès' H or Chanel's CC hardware is), not a logo pin. Full founder brief received August 2026; this document adds the engineering critique, the proposed system architecture, manufacturer research, and the RFQ.
+
+## Hardware family roadmap (as briefed)
+
+HW-01 Signature Brooch (now) → HW-02 mini stud · HW-03 magnetic emblem · HW-04 zip pull · HW-05 drawcord hardware · HW-06 premium button · HW-07 rivet. One visual language across all.
+
+## Founder spec (HW-01, as briefed)
+
+- Interlocked EWAH emblem; minimal, sculptural, architectural; no flourishes or sharp edges
+- **24–26 mm diameter, ~3 mm thick**; solid brass preferred (zinc alloy fallback)
+- Finishes: brushed antique gold (primary), gunmetal, matte black (RONE Reverence)
+- Rounded edges, fabric- and skin-safe
+- One face, four backs: A locking pin (shawls/wraps/dresses) · B low-profile screw/factory mount (hats — no exposed pin inside crown) · C magnetic (future outerwear) · D sew-on plate (permanent apparel)
+- Hidden luxury detail: back engraving (EWAH / SCULPT · FLOW · FREEDOM / SCULPTED FOR MOVEMENT) — a discovery for the wearer, not marketing
+- Jewellery-grade packaging: rigid box (cream or matte black), gold foil, microfiber pouch, certificate card
+- Evaluation on receipt: visual quality, luxury feel, weight, comfort, attachment security, scratch/sweat/plating durability, ease of removal, compatibility with hats/wraps/dresses, packaging
+
+## Engineering critique (industrial-designer pass — challenges and fixes)
+
+1. **Openwork monogram will snag and won't cast crisply at 25 mm.** The interlocked emblem's strokes at this scale are ~1 mm — open (pierced) construction risks casting fill defects, bent strokes in wear, and snagging on knits and mesh (EWAH's core fabrics). **Fix: make Version 1 a solid disc with the emblem in raised relief — a seal/medallion, not a cut-out.** Crisper rendering, zero snag, structurally rigid at 3 mm, and the back stays flat for engraving. It also reads culturally rich (seal / coin / gold-weight lineage) without cliché. The pierced openwork version becomes a later fine-jewellery piece where it belongs.
+2. **A flat 3 mm disc reads industrial, not jewellery.** **Fix: lens/dome profile** — ~3 mm at center tapering to ~2 mm at a rounded rim. Catches light like jewellery, feels finished in the hand, still low-profile on fabric.
+3. **Manufacturing route matters more than material.** For a 25 mm relief medallion, **die-struck brass** (coin/insignia method) gives the sharpest emblem lines and modest tooling cost; lost-wax or MIM only if the design goes truly 3-D. Zinc die-casting is the budget fallback but softens detail — accept only after seeing struck brass side-by-side.
+4. **Weight check (do the math before the supplier does):** 25 mm × ~2.5 mm average solid brass ≈ **10–11 g** — exactly the premium-feel range. Zinc alloy at the same geometry ≈ 8 g; noticeable but acceptable.
+5. **Plating: specify PVD, not standard electroplate, for anything worn in sweat.** Brushed antique gold PVD (or heavy e-coat over plate) survives salt sweat and abrasion far longer than costume electroplate; it's also nickel-safe. Salt-spray test 24–48 h in the spec; plating thickness stated in microns on the quote.
+6. **Pins must never meet performance knits.** A pin pierces elastane and starts runs. Scope Version A (locking pin) to **wovens only** — shawls, RONE crepe, jackets. On knits and technical fabrics, only B (mount), C (magnet), or D (sew-on). Write this on the spec sheet so no one "helpfully" pins a dress sample.
+7. **Magnets (Version C): feasible, with three cautions** — N45–N52 pairs need corrosion-sealed coating (sweat kills bare neodymium), holding power drops fast with fabric thickness (>1.5 mm needs bigger magnets), and packaging needs the standard magnet-safety note. Keep for coats/outerwear as briefed; don't force it into v1.
+
+## The bigger idea: the EWAH Dock system (proposed — this is the proprietary play)
+
+The brief asks for one face with interchangeable backs. Take it one step further and **invert it: standardize the *garment side*, not the brooch side.**
+
+- **The Dock:** a small, low-profile receiving fitting — a discreet reinforced eyelet/plate, sewn or riveted — built into EWAH products at a standard position: bucket hat side panel, RONE wrap crown edge, dress hem corner, jacket lapel, tote strap.
+- **The Emblem head:** one medallion with a **quarter-turn (bayonet) lock** on its back that seats into any Dock. Insert, twist 90°, locked; twist back to release. No pin, no fabric damage, no snag, one-handed, secure under movement.
+- **What this buys:** a true hardware *ecosystem* — one emblem travels across every EWAH and RONE product ("move your crown from your hat to your wrap"); garments ship with the subtle Dock and the emblem becomes a purchasable accessory (jewellery-margin revenue, gifting, colorway collecting); and the mechanism itself — not just the logo — becomes the recognizable, ownable signature. A quarter-turn medallion lock is patent/registered-design territory in a way a brooch never is.
+- **Engineering:** the Dock is a ~10–12 mm anodized/PVD ring with two internal lugs; the emblem back carries the mating bayonet plate. Both parts die-cast or machined; pull-off in locked state ≥ 70 N; rotation detent so it can't self-release. Prototype alongside the classic pin version — the pin version still serves non-EWAH garments (a brooch anyone can wear on anything is the gateway; the Dock is the ecosystem).
+- Quarter-turn beats magnets (secure under impact, no card/pacemaker concerns) and beats threads (fast, satisfying, one-handed — the "click" is part of the luxury).
+
+**Recommended v1 scope:** solid relief medallion, dome profile, die-struck brass, PVD antique gold + matte black, with **two backs tooled: locking pin (A) and quarter-turn bayonet (proto of the Dock system)**. Screw-mount hat version (B) derives from the bayonet tooling. Magnet (C) and sew-plate (D) in round 2.
+
+## Manufacturer research (July–Aug 2026)
+
+| Supplier | Country | Profile | Notes for EWAH |
+|---|---|---|---|
+| **Micromet Srl** | Italy (luxury district) | Metal accessories specifically for high fashion/luxury houses; brass/bronze; premium finishing | The "trust anchor" quote — highest quality + EU legal reach; expect higher tooling/unit cost, possibly higher MOQs; ask about small-brand programs |
+| **TALMUD** | China | Custom brooch manufacturer since 2005, OEM/ODM, accepts sample submissions | Mid-route candidate; verify luxury-grade plating (PVD) capability |
+| Guangzhou/Dongguan/Shenzhen metal-hardware cluster | China | Deep capability: casting, die-striking, machining, PVD, laser engraving; MOQs often 100–500; tooling ~$100–500 | Source via verified-supplier search ("die struck brass badge PVD", "luxury metal fashion hardware OEM"); apply `11` §2 verification and `14` escrow rules |
+| Yiwu accessories cluster (e.g., Jintang) | China | Badges, buckles, buttons at commodity scale | **Caution tier** — promotional-pin DNA; use only with a physical luxury reference sample in hand |
+| Jewellery casters (local) | Botswana/SA or founder's market | Lost-wax brass casting, small runs | Wildcard for RONE-narrative limited editions ("cast in Botswana") — expensive per unit, priceless as story |
+
+**RFQ fields (per the brief):** country · MOQ · prototype capability + cost · tooling cost and **EWAH ownership of tooling in writing** · lead time · luxury clients if disclosable (treat name-drops per `11` §2 — verify or ignore) · plating spec in microns + salt-spray results · communication quality across first 3 emails.
+
+**Cost picture (typical, verify by quote):** tooling/die $100–500 one-time per face/back · prototypes $30–80 each · production $0.80–3.00/unit at 300–500 pcs (brass, PVD, China) — Italy roughly 3–5×. Packaging (rigid box + pouch + card) $1.50–4.00/set at small runs.
+
+## Sequencing
+
+HW-01 is now **the first physical product** (before hats). It's also the cheapest confidence win available (~$300–700 all-in to hold three finished finishes). It does **not** touch the Capsule 01 apparel budget: run it as a parallel micro-track. Blocking item (unchanged, now urgent): **the emblem vector from the identity designer** — the hardware supplier needs it as clean vector/DXF; nothing tools until it exists. The hidden-engraving and packaging specs go in the first RFQ so they're quoted together.
