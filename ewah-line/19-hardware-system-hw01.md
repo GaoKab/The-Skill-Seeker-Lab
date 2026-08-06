@@ -53,7 +53,21 @@ The brief asks for one face with interchangeable backs. Take it one step further
 
 **Cost picture (typical, verify by quote):** tooling/die $100–500 one-time per face/back · prototypes $30–80 each · production $0.80–3.00/unit at 300–500 pcs (brass, PVD, China) — Italy roughly 3–5×. Packaging (rigid box + pouch + card) $1.50–4.00/set at small runs.
 
-## Hardware Design Review (gate before CAD commission)
+## ✅ LOCKED v1 DESIGN (August 2026) — see `boards/hw01-medallion-design-board.png`
+
+The founder's revised board locks the design and closes the review gate. **Founder decision: TRUE-TO-LOGO OPENWORK** — the interlocked emblem pierced within the ring, overruling the solid-relief-disc recommendation below. The revision resolves the original fragility objection by **bolding the letterforms (~2 mm strokes, fully interconnected)**; the openwork concern stands only as the mitigation list below.
+
+**Confirmed key specs (from the board):** Ø 25.0 mm · 3.0 mm center / 2.0 mm rim · relief raised 0.4–0.6 mm · rim 1.8 mm (1.5–2.0 range) · smooth rounded bullnose edge · solid brass, 10–11 g · finishes: antique gold, gunmetal, matte black (PVD) · back engraving SCULPT · FLOW · FREEDOM perimeter ring on all versions · four backs (A pin/wovens, B hat screw-bayonet mount, C magnetic, D sew-on) · **no pins through performance knits** · **Dock quarter-turn system = Phase 2, not in v1 prototype** · gold/gunmetal: brushed field + polished rim + raised polished emblem; matte black: uniform matte + polished emblem tops.
+
+**One spec ambiguity to resolve in CAD (the only open question):** the board says both "openwork" (front views show full piercing — see-through) and "raised 0.4–0.6 mm over recessed field" (implies a solid backing plane). Two valid readings: **(A) fully pierced** ring monogram (as rendered), or **(B) solid backplate with recessed field** behind raised letters. Recommendation: pierced (A) for pin/jewelry versions; the hat screw-mount version may need a small solid boss behind center for the fastener regardless — let the jeweler resolve in CAD and state the choice in the proportions rationale.
+
+**Openwork engineering mitigations (carry into the CAD brief):** minimum stroke width ≥ 1.8 mm · every letter element connected to ring or neighbor (no cantilevers) · all pierced inner edges radiused + polished (snag-test against platform-A knit and mesh before approval) · manufacturing route becomes stamped + pierced brass or lost-wax cast (die-strike alone can't pierce) — get both quoted.
+
+**Roadmap status:** Step 1 done (this lock) → Step 2 (vector from identity designer) is the active blocker. The board itself carries drafted versions of the three outreach emails (identity designer / 89 Carat Street / hardware RFQ) — consistent with `20` and the RFQ fields here.
+
+---
+
+## Hardware Design Review (gate before CAD commission — CLOSED by the lock above; kept for the record)
 
 Seven decisions answered before the jeweler opens Rhino — so they design one object rather than discover it. Recommendations below; founder confirms or adjusts each.
 
