@@ -74,6 +74,7 @@ Branding is always **gold** — embroidery or heat-transfer, matte finish.
 | `15-rfq-specs-set-and-layer-dress.md` | One-page RFQ specs for the Sculpt Flow Set and Throw-On Layer Dress — completes the RFQ package |
 | `16-tech-pack-review.md` | Review of the four v0.1 tech pack drafts (corrections list for WF-01 still applies) |
 | `17-capsule-01-master.md` | **Operative capsule definition** — eight products, four prototype rounds, reconciliation with the earlier plan |
+| `18-headwear-rone-program.md` | Headwear + RONE ceremony program — Hat Block 01/Sculpt Essential brief, emblem-brooch hardware spec, RONE Reverence Short Drape brief, Botswana research gate |
 | `tech-packs/` | Factory-facing documents: Capsule 01 master pack + per-style tech packs |
 | `boards/` | The original design boards these documents are built from |
 
