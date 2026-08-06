@@ -53,7 +53,23 @@ The brief asks for one face with interchangeable backs. Take it one step further
 
 **Cost picture (typical, verify by quote):** tooling/die $100–500 one-time per face/back · prototypes $30–80 each · production $0.80–3.00/unit at 300–500 pcs (brass, PVD, China) — Italy roughly 3–5×. Packaging (rigid box + pouch + card) $1.50–4.00/set at small runs.
 
-## ✅ LOCKED v1 DESIGN (August 2026) — see `boards/hw01-medallion-design-board.png`
+## ✅✅ REFINEMENT v2 — OFFICIAL: OVAL OPENWORK EMBLEM (see `boards/hw01-medallion-oval-refinement.png`)
+
+Second iteration supersedes the circular board below where they conflict. **Official direction: oval openwork medallion at the original emblem proportions** — true to the identity mark — in fine rounded-wire construction, antique gold, shown applied to the Air Sculpt and Layered Safari hats.
+
+**What the oval + wire construction changes (engineering consequences, for the CAD brief):**
+1. **Dimensions:** circular Ø25 mm no longer applies. Propose **~28 × 19 mm** (matches the identity emblem's proportions; similar visual mass to Ø25) — confirm against hat crown at scale.
+2. **Construction route:** fine rounded-wire openwork = **lost-wax cast brass** (stamping can't produce round-section wire forms). Minimum wire section **Ø ≥ 1.5 mm**; consider a slightly deeper-than-wide (elliptical) section for stiffness across the long spans; the rim carries the structure.
+3. **Weight:** wire openwork is much lighter than the solid-relief spec — expect **~4–6 g**, not 10–11 g. If premium heft matters, thicken the rim (the E/W/A/H wires stay fine); decide at the resin-print stage, in hand.
+4. **Back engraving relocates:** there is no back plane on wire construction. SCULPT · FLOW · FREEDOM moves to the **outer rim band** (engraved around the oval rim edge) or a small integrated back bar — jeweler resolves in CAD.
+5. **Snag discipline doubles:** open loops + fine wire on knits/mesh demands fully polished, radiused wire everywhere and the snag test against platform-A knit, mesh, AND hat brim fabric before approval.
+6. **The oval turns the future Dock into a feature:** a quarter-turn lock with an oval face makes orientation *legible* — insert sideways, twist upright, seated. The "crowning" gesture becomes part of the product ritual. Keep for Phase 2, but design the rim's back with this in mind.
+
+**Trade-off accepted with this direction:** fine-wire cast openwork is more jewellery, more identity-true, and more delicate than the bold pierced disc — slightly higher unit cost (casting + hand-finish), slightly lower durability tolerance. The evaluation criteria (scratch, sweat, attachment security, snag) now do real gatekeeping: **if the wire version fails wear testing on hats, the bold circular v1 below is the pre-approved fallback.** Both boards stay in the repo for exactly that reason.
+
+---
+
+## LOCKED v1 DESIGN (August 2026) — circular bold openwork — now the FALLBACK (see `boards/hw01-medallion-design-board.png`)
 
 The founder's revised board locks the design and closes the review gate. **Founder decision: TRUE-TO-LOGO OPENWORK** — the interlocked emblem pierced within the ring, overruling the solid-relief-disc recommendation below. The revision resolves the original fragility objection by **bolding the letterforms (~2 mm strokes, fully interconnected)**; the openwork concern stands only as the mitigation list below.
 
