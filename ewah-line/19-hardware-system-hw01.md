@@ -53,6 +53,43 @@ The brief asks for one face with interchangeable backs. Take it one step further
 
 **Cost picture (typical, verify by quote):** tooling/die $100–500 one-time per face/back · prototypes $30–80 each · production $0.80–3.00/unit at 300–500 pcs (brass, PVD, China) — Italy roughly 3–5×. Packaging (rigid box + pouch + card) $1.50–4.00/set at small runs.
 
+## Hardware Design Review (gate before CAD commission)
+
+Seven decisions answered before the jeweler opens Rhino — so they design one object rather than discover it. Recommendations below; founder confirms or adjusts each.
+
+| # | Question | Recommendation | Reasoning |
+|---|---|---|---|
+| 1 | Circular or organic outline? | **Circle** | The emblem itself is organic/interlocked; a circle frames it with architecture and reads coin/seal. Critically, the quarter-turn Dock needs rotational symmetry — an oval face would sit sideways mid-twist. The identity sheet's oval enclosure lives on *inside* the relief artwork; the medallion body is circular. (If the founder prefers the oval identity shape, it's viable for the pin version but complicates the Dock — decide here.) |
+| 2 | Raised vs recessed? | **Emblem raised 0.4–0.6 mm over a lightly recessed field; two levels only** | Two-level relief die-strikes crisply; more levels muddy at 25 mm |
+| 3 | Rim width? | **1.5–2.0 mm** at 25 mm diameter | Enough frame to read as a coin/seal without shrinking the emblem |
+| 4 | Rim polished, center brushed? | **Yes — polished rim + brushed field** (gold/gunmetal). Matte black version: uniform matte with polished emblem top surfaces only | The classic luxury-coin contrast; controlled light-catch |
+| 5 | Back engraving placement? | **Perimeter ring: SCULPT · FLOW · FREEDOM around the edge** | Works identically on the flat pin-back AND the Dock bayonet back (whose center is occupied by mechanism) — one engraving spec for all versions |
+| 6 | Edge profile? | **Smooth rounded (bullnose)** | No coin knurling (abrasive against knits), no sharp bevel; comfortable against skin and fabric |
+| 7 | One size or two? | **25 mm only for v1** | The 18 mm mini is HW-02 — don't double tooling cost before the design is validated in the wild |
+
+## Expanded CAD deliverables (per design review feedback)
+
+Beyond CAD + print + finishing notes, the commission also requires: **high-quality renders in all three finishes** and **a short written rationale for the chosen proportions and relief depths** — filed here as the start of the EWAH Atelier archive, so the reasoning survives for future revisits.
+
+## Hardware review session (on prototype arrival — do NOT approve same-day)
+
+Lay the prototypes on a table with: bucket-hat fabric candidates · black crepe (RONE) · performance jersey (platform A) · logo printouts · **two lighting conditions (daylight + warm indoor)**. Then judge:
+- Does it feel expensive? · Does it catch too much light? · Too heavy? · Does it overpower the garment? · **Would someone wear it as jewelry on its own?**
+Record verdicts in the revision log. This session carries the same weight as the CAD itself.
+
+## Roadmap (locked sequence — minimizes rework)
+
+1. Hardware Design Review — confirm the seven answers above
+2. Emblem vector from identity designer *(blocking)*
+3. Commission to the alum (`20`)
+4. Receive + review CAD (renders judged against fabrics before tooling)
+5. Prototype quotes from 3–5 luxury hardware manufacturers
+6. Physical samples → hardware review session
+7. Approve HW-01 Signature Medallion
+8. Only then integrate into the first bucket-hat prototype
+
+**Strategic note:** starting with the medallion means the first perfected asset is *reusable across decades of product* — hats, wraps, dresses, outerwear, bags — rather than a single flagship garment. The medallion is the first artifact of the brand: EWAH exists the day it's in hand.
+
 ## Sequencing
 
 HW-01 is now **the first physical product** (before hats). It's also the cheapest confidence win available (~$300–700 all-in to hold three finished finishes). It does **not** touch the Capsule 01 apparel budget: run it as a parallel micro-track. Blocking item (unchanged, now urgent): **the emblem vector from the identity designer** — the hardware supplier needs it as clean vector/DXF; nothing tools until it exists. The hidden-engraving and packaging specs go in the first RFQ so they're quoted together.
