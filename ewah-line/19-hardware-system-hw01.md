@@ -53,7 +53,20 @@ The brief asks for one face with interchangeable backs. Take it one step further
 
 **Cost picture (typical, verify by quote):** tooling/die $100–500 one-time per face/back · prototypes $30–80 each · production $0.80–3.00/unit at 300–500 pcs (brass, PVD, China) — Italy roughly 3–5×. Packaging (rigid box + pouch + card) $1.50–4.00/set at small runs.
 
-## ⚠️ EMBLEM CORRECTION GATE (before any CAD)
+## ✅ CORRECTION GATE PASSED — corrected monogram adopted (August 2026)
+
+The redrawn monogram spells **E-W-A-H, each letter once** — serif letterforms with spear finials, heraldic character. Letter-by-letter check passes on the boards; repeat the check on the delivered vector before acceptance. Boards: `hw01-corrected-emblem-oval-framed-hat.png`, `hw01-corrected-monogram-unframed-hat.png`, `hw01-corrected-emblem-spec-sheet.png`.
+
+**Variant decision:** the **oval-framed emblem with spear finials is the hardware signature** (medallion, hats, future Dock) — the frame provides structure, presence, and matches the identity's oval. The **unframed monogram** is retained as the embroidery/print variant where metal structure is irrelevant. The mirrored double-E version is retired.
+
+**Spec deltas on the corrected board (v3) vs. earlier engineering notes — resolve at CAD/RFQ:**
+- Dimensions now **28 × 22 mm, 2.2 mm thick, ~4.8 g** — consistent with the wire-openwork weight prediction
+- Material listed as **zinc alloy** (earlier preference: solid brass). Fine for cost; quote **both** — brass casts finer detail for the spear finials and takes PVD better; decide on quotes
+- Attachment listed as **secure post screw + locking butterfly clutch**. Acceptable **only as the locking type** (mechanism-secured); plain friction butterfly remains banned per the earlier spec. Hats still get the screw-post/flat-back version (no exposed pin inside crown)
+- Finish options expand to four (polished gold, brushed gold, black nickel, silver) — prototype in polished gold + black nickel first; silver is off-palette, park it
+- Spear finials at the compass points: reinforce these joints in CAD (finial-to-rim junctions are the highest-stress points in wear)
+
+## ⚠️ EMBLEM CORRECTION GATE (record of the issue — RESOLVED above)
 
 The emblem artwork on all boards contains a lettering error: **two E's instead of one** — the monogram does not correctly render E-W-A-H. Caught before vectors, CAD, or tooling exist, so cost ≈ zero. Two legitimate resolution paths for the identity designer + founder to choose:
 
