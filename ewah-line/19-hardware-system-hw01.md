@@ -53,6 +53,24 @@ The brief asks for one face with interchangeable backs. Take it one step further
 
 **Cost picture (typical, verify by quote):** tooling/die $100–500 one-time per face/back · prototypes $30–80 each · production $0.80–3.00/unit at 300–500 pcs (brass, PVD, China) — Italy roughly 3–5×. Packaging (rigid box + pouch + card) $1.50–4.00/set at small runs.
 
+## 🔒 IDENTITY DIRECTION LOCKED FOR PRODUCT DEVELOPMENT (final register, August 2026)
+
+Only exact metal geometry remains provisional — that belongs to the CAD/jewellery-engineering stage.
+
+1. **Corrected E-W-A-H monogram only**; mirrored double-E version retired
+2. **Oval-framed emblem = hardware signature**; **unframed monogram = embroidery/print/soft-goods variant**
+3. **Finials softened:** shorter, softer, less literal than the render — *sculpted terminals, not weapon points*. This is the anti-heraldic/costume guardrail AND a fragility fix; it goes verbatim in the CAD brief
+4. **Open metal construction** — no solid background plate for the core hat hardware
+5. Size: **~20–22 mm for Air Sculpt** (the 28 mm render scale is for wraps/statement placements; hat hardware runs smaller)
+6. **Two-point / screw-post attachment for hats** (no exposed pin inside crown; resists rotation)
+7. **Brass quoted alongside zinc alloy** — never assume zinc by default
+8. Prototype finishes: **polished/antique gold + black nickel**; **no silver in V1**
+9. **Reinforce finial/rim AND W/A intersections** in CAD
+10. **Letter-by-letter QA on the delivered vector** before CAD starts
+11. **Air Sculpt rule:** the emblem stays **visually secondary** to the hat's sculptural silhouette and airflow architecture — the final piece of jewellery on the product, never the main event
+
+---
+
 ## ✅ CORRECTION GATE PASSED — corrected monogram adopted (August 2026)
 
 The redrawn monogram spells **E-W-A-H, each letter once** — serif letterforms with spear finials, heraldic character. Letter-by-letter check passes on the boards; repeat the check on the delivered vector before acceptance. Boards: `hw01-corrected-emblem-oval-framed-hat.png`, `hw01-corrected-monogram-unframed-hat.png`, `hw01-corrected-emblem-spec-sheet.png`.

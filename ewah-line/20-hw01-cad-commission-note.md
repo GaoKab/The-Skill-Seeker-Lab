@@ -18,7 +18,9 @@ We're developing a **signature emblem medallion** — think of the role Hermès'
 
 Deliverables: the editable source CAD + manufacturing-ready STEP/STL, the print/cast, **high-quality renders in all three finishes** (antique gold, gunmetal, matte black), your finishing notes, and **a short written note on why you chose the proportions and relief depths** — I archive design reasoning so future versions can build on it.
 
-(You won't be discovering the object from scratch — I'll send a decided design sheet with the spec pack: outline shape, relief levels, rim width, finish contrast, engraving placement, edge profile, and size. Your craft goes into executing it beautifully, and pushing back where you think a decision is wrong.)
+(You won't be discovering the object from scratch — I'll send a decided design sheet with the spec pack: outline shape, construction, rim, finish contrast, engraving placement, edge profile, and sizes. Your craft goes into executing it beautifully, and pushing back where you think a decision is wrong.)
+
+One art-direction note that matters most: the reference render's spear finials are too literal. I want them **shorter, softer, and more sculpted — jewellery terminals, not weapon points** — and the finial-to-rim and W/A intersections reinforced. The piece should feel like an heirloom, never a costume.
 
 **On fee — two options, your pick:**
 - **A flat project fee** you quote for the scope above (I'm a bootstrapping founder, so I'll be honest about budget, but I want this done properly and paid fairly), or
