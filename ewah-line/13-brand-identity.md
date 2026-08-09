@@ -1,5 +1,7 @@
 # EWAH Brand Identity Specification
 
+> **⚠️ EMBLEM ARTWORK ERROR — PRODUCTION HOLD (August 2026):** the interlocked emblem as rendered on the identity sheet and all concept boards contains a lettering error — **two E's instead of one** (the monogram does not correctly spell E-W-A-H). Every emblem appearance in `boards/` is concept-only. **No vector delivery, CAD, tooling, embroidery, weaving, or printing may proceed until the identity designer issues a corrected emblem** — see the resolution paths in `19` (strict correction vs. deliberate mirrored-letter symmetry). The wordmark E W A H is unaffected.
+
 Source of truth: `boards/brand-identity-sheet.png`. This document translates the identity into production-usable specs for factories, label suppliers, and packaging.
 
 **Positioning line:** Luxury activewear for African & curvier bodies.

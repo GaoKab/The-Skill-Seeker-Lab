@@ -53,7 +53,16 @@ The brief asks for one face with interchangeable backs. Take it one step further
 
 **Cost picture (typical, verify by quote):** tooling/die $100–500 one-time per face/back · prototypes $30–80 each · production $0.80–3.00/unit at 300–500 pcs (brass, PVD, China) — Italy roughly 3–5×. Packaging (rigid box + pouch + card) $1.50–4.00/set at small runs.
 
-## ✅✅ REFINEMENT v2 — OFFICIAL: OVAL OPENWORK EMBLEM (see `boards/hw01-medallion-oval-refinement.png`)
+## ⚠️ EMBLEM CORRECTION GATE (before any CAD)
+
+The emblem artwork on all boards contains a lettering error: **two E's instead of one** — the monogram does not correctly render E-W-A-H. Caught before vectors, CAD, or tooling exist, so cost ≈ zero. Two legitimate resolution paths for the identity designer + founder to choose:
+
+1. **Strict correction:** redraw the interlock so E, W, A, H each appear exactly once. Safest for meaning (each letter carries a brand value: Strength · Flow · Form · Harmony — a missing or doubled letter breaks that story).
+2. **Deliberate mirrored symmetry:** luxury monograms routinely mirror a letter for balance — Chanel's mirrored C's, Gucci's interlocked G's, Fendi's FF. A design where the E is intentionally mirrored as bookends *can* be legitimate — but only if W, A, and H are all genuinely present, and only as a *deliberate, documented* choice, not a preserved accident.
+
+Either way: the corrected emblem must be re-verified letter-by-letter (E? W? A? H? once each, or mirrored by intent?) before the vector package is accepted — add this check to the acceptance of the designer's files. The CAD commission (`20`) does not start until the corrected vector exists.
+
+## ✅✅ REFINEMENT v2 — OFFICIAL: OVAL OPENWORK EMBLEM (see `boards/hw01-medallion-oval-refinement.png`) — *geometry direction only; letterforms pending the correction gate above*
 
 Second iteration supersedes the circular board below where they conflict. **Official direction: oval openwork medallion at the original emblem proportions** — true to the identity mark — in fine rounded-wire construction, antique gold, shown applied to the Air Sculpt and Layered Safari hats.
 
