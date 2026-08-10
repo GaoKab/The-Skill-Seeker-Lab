@@ -53,6 +53,15 @@ The brief asks for one face with interchangeable backs. Take it one step further
 
 **Cost picture (typical, verify by quote):** tooling/die $100–500 one-time per face/back · prototypes $30–80 each · production $0.80–3.00/unit at 300–500 pcs (brass, PVD, China) — Italy roughly 3–5×. Packaging (rigid box + pouch + card) $1.50–4.00/set at small runs.
 
+## ▶ COMMISSION ACTIVE (August 2026)
+
+**89 Carat Street engaged for the HW-01 CAD — $50.** Working reference: `boards/hw01-air-sculpt-v2-cad-reference.png` (Air Sculpt V2 board — implements the locked register: sculpted terminals, reinforced W/A + finial/rim intersections, 20–22 mm H × 16–18 mm W, ~2.0–2.2 mm, 4.5–5.2 g, dual screw post with locking backs, brass preferred / zinc quoted, PVD gold + black nickel protos, no silver).
+
+**Open items on the engagement (close in writing, this week):**
+1. **Scope confirmation at $50:** does it cover editable source CAD + STEP/STL + renders in finishes + the proportions rationale, and how many revision rounds? At this price, assume it covers less than the full `20` deliverables list — get the inclusions/exclusions in one reply so "that'll be extra" never surprises anyone
+2. **Ownership terms agreed anyway** — the one-page work-for-hire/confidentiality terms from `20` apply regardless of price; cheap engagements are where paperwork gets skipped and regretted
+3. **Vector QA before CAD acceptance:** the CAD must be built from (or verified against) the corrected E-W-A-H vector — letter-by-letter check runs on the delivered CAD, not just the board renders
+
 ## 🔒 IDENTITY DIRECTION LOCKED FOR PRODUCT DEVELOPMENT (final register, August 2026)
 
 Only exact metal geometry remains provisional — that belongs to the CAD/jewellery-engineering stage.
