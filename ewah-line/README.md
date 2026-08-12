@@ -75,7 +75,9 @@ Branding is always **gold** — embroidery or heat-transfer, matte finish.
 | `16-tech-pack-review.md` | Review of the four v0.1 tech pack drafts (corrections list for WF-01 still applies) |
 | `17-capsule-01-master.md` | **Operative capsule definition** — eight products, four prototype rounds, reconciliation with the earlier plan |
 | `18-headwear-rone-program.md` | Headwear + RONE ceremony program — Hat Block 01/Sculpt Essential brief, emblem-brooch hardware spec, RONE Reverence Short Drape brief, Botswana research gate |
-| `19-hardware-system-hw01.md` | HW-01 Signature Emblem system — engineering critique, the EWAH Dock quarter-turn proposal, hardware manufacturer research + RFQ |
+| `19-hardware-system-hw01.md` | HW-01 Signature Emblem system — locked identity register, ACTIVE $50 CAD commission, engineering critique, Dock proposal, hardware manufacturer research |
+| `20-hw01-cad-commission-note.md` | Jewelry-CAD commission letter + agreement terms (engagement now active) |
+| `21-bucket-hat-session-handoff.md` | **Fresh-session handoff for the bucket hat workstream** — scope, state of play, next actions, guardrails |
 | `tech-packs/` | Factory-facing documents: Capsule 01 master pack + per-style tech packs |
 | `boards/` | The original design boards these documents are built from |
 
