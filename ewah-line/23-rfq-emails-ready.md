@@ -12,7 +12,7 @@ Three complete, personalized RFQs. Contact addresses verified from the manufactu
 
 Hello Aung Crown team,
 
-I'm the founder of EWAH, a luxury performance-wear brand for African and curvier bodies. I'm developing our first headwear piece and looking for a manufacturing partner who can develop an ORIGINAL hat block from our specifications — not decorate a stock blank — and produce 100–300 pieces per colorway once the fit is approved. I'm contacting you because of your focus on custom bucket hats.
+I'm the founder of EWAH, a luxury performance-wear brand for African and curvier bodies. I'm developing our first headwear piece and looking for a manufacturing partner who can develop an ORIGINAL hat block from our specifications — not decorate a stock blank — and produce a first run of 50–100 pieces per colorway once the fit is approved, with reorders as we sell through. I'm contacting you because of your focus on custom bucket hats.
 
 The style: a clean, architectural everyday bucket hat.
 - Medium-depth crown (~10–11 cm), gently downward brim (~6.5–7.5 cm) with soft memory interlining — structured but never stiff or floppy
@@ -23,7 +23,7 @@ The style: a clean, architectural everyday bucket hat.
 
 Please quote:
 1. Sample/block development cost and lead time (sample made to our measurements)
-2. Bulk price at 150 and 300 pcs
+2. Bulk price at 50 and 150 pcs per colorway
 3. MOQ and payment terms (we pay via escrow/Trade Assurance)
 4. Photos of custom-block hats you have developed for other brands (not catalog blanks)
 
