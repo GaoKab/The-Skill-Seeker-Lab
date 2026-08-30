@@ -1,5 +1,7 @@
 # Hat RFQ Emails — Fully Addressed, Ready to Send
 
+> **Gmail note:** the connected account is **gao.kabubi@gmail.com** — all Claude-created drafts land in that account's Drafts folder. The original generic draft there (100–300 wording, no recipient) is superseded — delete it; the corrected emails are below.
+
 Three complete, personalized RFQs. Contact addresses verified from the manufacturers' sites August 2026. If the Gmail drafts aren't created yet (permission pending), these are copy-paste complete — nothing to assemble.
 
 **Attach to each:** ONE watermarked hat reference image (e.g., the Air Sculpt or Sculpt Essential render). Never the full handoff PDF.
