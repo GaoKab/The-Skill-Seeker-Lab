@@ -1,4 +1,8 @@
-# Hat RFQ Emails — Fully Addressed, Ready to Send (humanized final versions)
+# Hat RFQ Emails — SENT ✅
+
+**Status: all three RFQs sent (end of August 2026)** — Aung Crown, FIMY Apparel, Hongyu Apparel. First outbound contact of the company.
+**Follow-up rule:** any factory silent after 4 business days gets one short nudge ("checking you received my inquiry, happy to answer questions"). One nudge only; silence after that is an answer.
+**Reply handling:** do not negotiate ad hoc — bring every reply to the session to score against the vetting filters (block-vs-blank answer, interlining answer, custom-work photos, escrow acceptance).
 
 > **Gmail note:** the connected account is **gao.kabubi@gmail.com** — delete the old generic draft there; the versions below are final.
 > These are deliberately written in a natural founder voice (no em-dashes, no bullet templates). Send as-is.
