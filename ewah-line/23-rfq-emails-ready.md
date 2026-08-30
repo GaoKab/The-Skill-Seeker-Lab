@@ -1,60 +1,39 @@
-# Hat RFQ Emails — Fully Addressed, Ready to Send
+# Hat RFQ Emails — Fully Addressed, Ready to Send (humanized final versions)
 
-> **Gmail note:** the connected account is **gao.kabubi@gmail.com** — all Claude-created drafts land in that account's Drafts folder. The original generic draft there (100–300 wording, no recipient) is superseded — delete it; the corrected emails are below.
-
-Three complete, personalized RFQs. Contact addresses verified from the manufacturers' sites August 2026. If the Gmail drafts aren't created yet (permission pending), these are copy-paste complete — nothing to assemble.
-
-**Attach to each:** ONE watermarked hat reference image (e.g., the Air Sculpt or Sculpt Essential render). Never the full handoff PDF.
-
----
+> **Gmail note:** the connected account is **gao.kabubi@gmail.com** — delete the old generic draft there; the versions below are final.
+> These are deliberately written in a natural founder voice (no em-dashes, no bullet templates). Send as-is.
 
 ## 1 → Aung Crown — `info@aungcrown.com`
 
-**Subject:** Sample development request — custom performance bucket hat (original block, low MOQ)
+**Subject:** Custom bucket hat development inquiry
 
 Hello Aung Crown team,
 
-I'm the founder of EWAH, a luxury performance-wear brand for African and curvier bodies. I'm developing our first headwear piece and looking for a manufacturing partner who can develop an ORIGINAL hat block from our specifications — not decorate a stock blank — and produce a first run of 50–100 pieces per colorway once the fit is approved, with reorders as we sell through. I'm contacting you because of your focus on custom bucket hats.
+My name is Gao and I run EWAH, a new performance wear brand for African and curvier women. Our first headwear piece is a bucket hat and I am looking for a factory that can develop an original block from our measurements rather than putting a logo on an existing blank.
 
-The style: a clean, architectural everyday bucket hat.
-- Medium-depth crown (~10–11 cm), gently downward brim (~6.5–7.5 cm) with soft memory interlining — structured but never stiff or floppy
-- Two sizes (S/M, M/L) with a hidden internal size adjuster (no external hardware)
-- Matte black performance twill or bonded knit; moisture-wicking anti-slip sweatband; soft breathable lining with interior volume for braids and natural hair
-- A reinforced attachment point on the left side panel for our custom metal emblem (dual screw-post, supplied by us)
-- Interior woven label (artwork supplied); no printed logos on the shell
+A quick description of what we want to make. It is a clean everyday bucket hat in matte black performance twill. Medium depth crown around 10 to 11cm, brim around 7cm with a soft interlining that keeps its shape but never goes stiff. We want two sizes, S/M and M/L, with a hidden internal size adjuster instead of any external hardware. Inside we need a moisture wicking sweatband, a soft breathable lining with enough room for braids and natural hair, and a woven label (we supply the artwork). There are no printed logos on the outside, just a reinforced point on the left side panel where our own metal emblem attaches with a screw post. We supply the emblem.
 
-Please quote:
-1. Sample/block development cost and lead time (sample made to our measurements)
-2. Bulk price at 50 and 150 pcs per colorway
-3. MOQ and payment terms (we pay via escrow/Trade Assurance)
-4. Photos of custom-block hats you have developed for other brands (not catalog blanks)
+Could you send me a quote for the sample and block development cost with lead time, plus bulk pricing at 50 and 150 pieces per colorway? Our first production run would be 50 to 100 pieces per colorway and we reorder as we sell through. Please also let me know your MOQ and payment terms, we normally pay through Trade Assurance or escrow.
 
-Two questions that matter most to us: Can you develop an original block from measurements rather than adapt an existing blank? And what interlining options do you use so a soft brim recovers its shape after being packed in a bag?
+Two questions before anything else. Can you actually develop a new block from measurements, and what interlining do you use so a soft brim recovers after being packed in a bag? If you have photos of custom blocks you developed for other brands rather than catalog styles, I would love to see them.
 
-Our design specifications are our property and patterns developed from them are not to be reused for other clients — we'll confirm simple terms in writing before sending the full spec pack. Reference images and the full measurement spec will follow as soon as you confirm capability.
+One more thing, our designs and specifications remain our property and any patterns developed from them cannot be reused for other clients. We will confirm simple terms in writing before I send the full spec pack and reference images.
 
-Thank you — I look forward to your reply.
+Thanks very much, looking forward to hearing from you.
 
 Gao
 Founder, EWAH
 
----
-
 ## 2 → FIMY Apparel — `sales@fimyapparel.com`
 
-Same body as above, with the greeting **"Hello FIMY Apparel team,"** and the contact-reason line replaced with: *"I'm contacting you because of your low-MOQ custom hat program."*
-
----
+Same body. Greeting: "Hello FIMY team,". End of first paragraph becomes: "I found you through your low MOQ custom hat program and it looks like a good fit for what we need."
 
 ## 3 → Hongyu Apparel — `info@hongyuapparel.com`
 
-Same body as above, with the greeting **"Hello Hongyu Apparel team,"** and the contact-reason line replaced with: *"I'm contacting you because of your custom bucket hat manufacturing with low minimums."*
-
----
+Same body. Greeting: "Hello Hongyu team,". End of first paragraph becomes: "I came across your custom bucket hat manufacturing and your low minimums are what caught my attention."
 
 ## The anti-forgetting system
 
-1. **Drafts fully addressed** (no assembly left) — created in Gmail once access is approved
-2. **Inbox alert:** a summary email lands in the founder's inbox (which she checks) listing the three ready drafts — the trigger lives where attention lives, not in the Drafts folder
-3. **24-hour reminder:** a one-shot Routine wakes the session tomorrow to ask "sent, or what's blocking?"
-4. **Weekly Monday check-in** (already live) treats any unsent RFQ older than 4 business days as the top item
+1. Full final email text lives here and was delivered into the chat as a file
+2. Weekly Monday check-in routine treats any unsent RFQ older than 4 business days as the top item
+3. On "sent": log dates in this file, follow up with any factory silent after 4 business days
