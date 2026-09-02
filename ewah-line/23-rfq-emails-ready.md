@@ -4,6 +4,21 @@
 **Follow-up rule:** any factory silent after 4 business days gets one short nudge ("checking you received my inquiry, happy to answer questions"). One nudge only; silence after that is an answer.
 **Reply handling:** do not negotiate ad hoc — bring every reply to the session to score against the vetting filters (block-vs-blank answer, interlining answer, custom-work photos, escrow acceptance).
 
+## Reply scoring (2 Sept 2026)
+
+| Filter | Hongyu (Kira, replied <12h) | Aung Crown (Yolanda, replied 2d) | FIMY |
+|---|---|---|---|
+| Custom block from measurements | ✅ explicit | ✅ explicit, engaged with the actual dimensions | silent (nudge Fri 4 Sept, then out) |
+| Interlining/packability answer | ❌ skipped — re-asked | ✅ real engineering answer | — |
+| Sample fee / lead | $50 / not stated — re-asked | $35–50 / 12–15 days | — |
+| MOQ | 100/color (asked for 50–75 flex) | ❌ dodged — re-asked; 500-pc deduction threshold hints high comfort volume | — |
+| 50/150 bulk pricing | pending design pics | ❌ dodged — re-asked | — |
+| IP | ✅ strongest: will sign written agreement before spec pack | ✅ confirm in writing | — |
+| Payment | ok | Trade Assurance ✅ | — |
+
+**Status: both alive; neither receives the spec pack until (1) written IP terms signed/confirmed and (2) the open numbers land. Replies drafted and given to founder 2 Sept.**
+**Blocking founder items: head measurement (both factories sample to it) + ImportYeti check on both legal names (Aung Crown Clothing Group Ltd; Dongguan City Hongyu Apparel Co Ltd).**
+
 > **Gmail note:** the connected account is **gao.kabubi@gmail.com** — delete the old generic draft there; the versions below are final.
 > These are deliberately written in a natural founder voice (no em-dashes, no bullet templates). Send as-is.
 
