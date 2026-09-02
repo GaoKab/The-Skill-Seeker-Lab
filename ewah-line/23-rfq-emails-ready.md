@@ -19,6 +19,19 @@
 **Status: both alive; neither receives the spec pack until (1) written IP terms signed/confirmed and (2) the open numbers land. Replies drafted and given to founder 2 Sept.**
 **Blocking founder items: head measurement (both factories sample to it) + ImportYeti check on both legal names (Aung Crown Clothing Group Ltd; Dongguan City Hongyu Apparel Co Ltd).**
 
+## Reply revisions adopted (2 Sept, after cross-AI review)
+
+Final reply texts (ChatGPT-refined, adopted): AC is asked for the IP/confidentiality AGREEMENT DOCUMENT itself (not re-asked for willingness) + MOQ + 50/100/150 pricing + custom-project photos. Hongyu is asked for their agreement to review, interlining recommendation, sample lead time, 50-75 piece first-run flex, and examples of blocks developed from scratch.
+
+**Agreement review rule:** any factory-drafted agreement comes to the session BEFORE signing. Check: who owns developed patterns (must be EWAH — deal-breaker if reversed), whether it binds both parties or only EWAH (reject one-way NDAs), venue/liability oddities.
+
+## Hat sizing architecture (locked 2 Sept — before any final block is cut)
+
+The founder's head is fit-model-zero for Sample 1 only; it is NOT the EWAH fit standard. Graded block architecture:
+- S/M: 55-57 cm head circumference · M/L: 57-59 cm · hidden adjuster ~±1.5 cm each (true span ~53.5-60.5 cm)
+- Every fit measured in TWO hair states: hair down/close AND hair up (braids/bun/volume). Crown must fit the larger state without sitting high/tight on the smaller — internal volume (crown depth + lining give), not just circumference
+- Before block finalization: sample tried on 3+ heads beyond the founder, across the size range and hair states
+
 ## Decision mechanism: the dual-sample bake-off (adopted 2 Sept 2026)
 
 Once each factory closes its open hole (AC: MOQ + 50/150 pricing; Hongyu: interlining + lead time + MOQ flex) AND confirms IP terms in writing, BOTH receive the identical one-page limited brief (crown/brim spec + founder head measurement + one watermarked reference image — never the full pack) and both make a Sculpt Essential sample (~$85–100 total fees + shipping). The winner is chosen on the physical objects: brim recovery after a night crushed in a bag, stitch and finish quality, fit over braids/natural hair, sweatband comfort in a real session. Emails compare sales language; samples compare capability. FIMY: one nudge Fri 5 Sept, then silence = out.
