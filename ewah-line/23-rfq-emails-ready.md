@@ -21,7 +21,37 @@
 
 ## Reply revisions adopted (2 Sept, after cross-AI review)
 
-Final reply texts (ChatGPT-refined, adopted): AC is asked for the IP/confidentiality AGREEMENT DOCUMENT itself (not re-asked for willingness) + MOQ + 50/100/150 pricing + custom-project photos. Hongyu is asked for their agreement to review, interlining recommendation, sample lead time, 50-75 piece first-run flex, and examples of blocks developed from scratch.
+## 🔒 FINAL REPLIES (locked 2 Sept 2026 — sent in existing threads)
+
+**→ Yolanda / Aung Crown:**
+
+Hi Yolanda,
+
+Thank you, especially for addressing the brim construction, that is exactly the kind of engineering thinking I was hoping for. Yes please send the photos of previous custom block projects you mentioned.
+
+Before I send the full spec pack I need two more things. Could you confirm your MOQ per color per style, and give me indicative pricing at 50, 100 and 150 pieces? I want to be honest that our first run will be small, 50 to 100 pieces per colorway, followed by reorders as we sell through. If that model does not work for your factory I would rather know now than after sampling.
+
+Please also send the IP and confidentiality agreement you use for custom development so we can have that in place first.
+
+Thanks again,
+Gao
+
+**→ Kira / Hongyu:**
+
+Hi Kira,
+
+Thank you for the quick and clear reply. Please send your confidentiality agreement and I will review it before sending the full design pack.
+
+I also need three things before moving forward. What interlining or construction would you recommend for a soft brim that recovers its shape after being packed in a bag? What is your sample lead time? And could you accommodate a first production run of 50 to 75 pieces at a slightly higher unit price rather than the 100 piece MOQ, given that we reorder as we sell through?
+
+If possible, please also send examples of hats where you developed the block and pattern from scratch for a client rather than from your catalog.
+
+The label terms are fine, 1000 pieces at 100 dollars works for us.
+
+Thanks,
+Gao
+
+**→ FIMY (Friday, only if still silent):** "Hello FIMY team, just checking you received my inquiry from the 30th about custom bucket hat development. Happy to answer any questions. If custom block work is not something you take on at our volumes, no problem, just let me know. Thanks, Gao"
 
 **Agreement review rule:** any factory-drafted agreement comes to the session BEFORE signing. Check: who owns developed patterns (must be EWAH — deal-breaker if reversed), whether it binds both parties or only EWAH (reject one-way NDAs), venue/liability oddities.
 
