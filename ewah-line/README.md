@@ -81,7 +81,7 @@ Branding is always **gold** — embroidery or heat-transfer, matte finish.
 | `tech-packs/` | Factory-facing documents: Capsule 01 master pack + per-style tech packs |
 | `boards/` | The original design boards these documents are built from |
 
-**Scoreboard:** HW-01 CAD commissioned ✅ · hat RFQs sent to 3 factories ✅ · body measurements ☐ · apparel RFQ ☐
+**Scoreboard:** HW-01 CAD commissioned ✅ · hat RFQs sent ✅ · hat negotiation round 2 sent ✅ · **apparel RFQs drafted (Aolafree, Hongyu, Hucai-form) — send** · body + head measurements ☐ (CRITICAL: blocks all samples)
 
 **Current status:** concept phase closed. **Capsule 01 adopted: eight products in four prototype rounds (`17`)** — Round 1 is Warrior Flow Dress-Skort (WF-01) + Air Sculpt Short Dress (ST-02). **Sourcing route: manufacturer** (`10`); local maker (`09`) is the fallback. **Budget mode: zero-budget path** (`14` §7) — Round 1 samples ≈ $150–400 all-in; if cash allows only one, WF-01 goes alone. Next action: take measurements (`09` §6), then RFQ (`10` §3) with the WF-01 + ST-02 briefs and their per-style factory questions to 3 factories.
 
