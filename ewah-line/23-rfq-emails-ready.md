@@ -8,7 +8,7 @@
 
 | Filter | Hongyu (Kira, replied <12h) | Aung Crown (Yolanda, replied 2d) | FIMY |
 |---|---|---|---|
-| Custom block from measurements | ✅ explicit | ✅ explicit, engaged with the actual dimensions | silent (nudge Fri 4 Sept, then out) |
+| Custom block from measurements | ✅ explicit | ✅ explicit, engaged with the actual dimensions | ⚠️ replied 2 Sept with EMPTY body + business card PNG only (Faraz) — zero questions answered. One recovery prompt sent (replaces the Friday nudge); next non-answer = out |
 | Interlining/packability answer | ❌ skipped — re-asked | ✅ real engineering answer | — |
 | Sample fee / lead | $50 / not stated — re-asked | $35–50 / 12–15 days | — |
 | MOQ | 100/color (asked for 50–75 flex) | ❌ dodged — re-asked; 500-pc deduction threshold hints high comfort volume | — |
