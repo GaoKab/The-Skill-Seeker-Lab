@@ -19,6 +19,10 @@
 **Status: both alive; neither receives the spec pack until (1) written IP terms signed/confirmed and (2) the open numbers land. Replies drafted and given to founder 2 Sept.**
 **Blocking founder items: head measurement (both factories sample to it) + ImportYeti check on both legal names (Aung Crown Clothing Group Ltd; Dongguan City Hongyu Apparel Co Ltd).**
 
+## Decision mechanism: the dual-sample bake-off (adopted 2 Sept 2026)
+
+Once each factory closes its open hole (AC: MOQ + 50/150 pricing; Hongyu: interlining + lead time + MOQ flex) AND confirms IP terms in writing, BOTH receive the identical one-page limited brief (crown/brim spec + founder head measurement + one watermarked reference image — never the full pack) and both make a Sculpt Essential sample (~$85–100 total fees + shipping). The winner is chosen on the physical objects: brim recovery after a night crushed in a bag, stitch and finish quality, fit over braids/natural hair, sweatband comfort in a real session. Emails compare sales language; samples compare capability. FIMY: one nudge Fri 5 Sept, then silence = out.
+
 > **Gmail note:** the connected account is **gao.kabubi@gmail.com** — delete the old generic draft there; the versions below are final.
 > These are deliberately written in a natural founder voice (no em-dashes, no bullet templates). Send as-is.
 
