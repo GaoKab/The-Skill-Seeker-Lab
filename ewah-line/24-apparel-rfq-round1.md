@@ -6,6 +6,8 @@
 
 That is the exact customer problem Capsule 01 Round 1 was designed for — experienced by the founder, on a real gym day, with no product in market. ST-02 (Air Sculpt Short Dress) IS the answer to that day: above-knee coverage, built-in shorts, perforated ventilation, squat-proof opacity. This quote is the founder story for the launch page.
 
+**The dress itself (photo reviewed 3 Sept; kept out of the repo for the founder's privacy):** black cotton-jersey V-neck tee dress, knee length, short sleeves. Why she reached for it: thigh coverage + non-clinging volume — the Ease/dress thesis validated by instinct. Why it failed as gym wear, each failure mapping to an ST-02 spec line: no built-in shorts (coverage lost on bend/lunge/bench → 5" no-front-seam liner) · cotton holds sweat and clings when wet (→ wicking matte knit + perforation) · V-neck gapes on forward bend (→ secure high-round neck, hinge-tested) · no stretch engineering, rides on machines (→ 4-way stretch, sculpted seams, squat-proof). The gap between this dress and ST-02 is the product.
+
 ## RFQ targets (Round 1 apparel: WF-01 + ST-02, quote-level descriptions only — no full specs sent)
 
 | Target | Contact | Status |
