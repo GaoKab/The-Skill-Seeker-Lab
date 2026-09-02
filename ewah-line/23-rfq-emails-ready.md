@@ -16,7 +16,8 @@
 | IP | ✅ strongest: will sign written agreement before spec pack | ✅ confirm in writing | — |
 | Payment | ok | Trade Assurance ✅ | — |
 
-**Status: both alive; neither receives the spec pack until (1) written IP terms signed/confirmed and (2) the open numbers land. Replies drafted and given to founder 2 Sept.**
+**Status: both alive; neither receives the spec pack until (1) written IP terms signed/confirmed and (2) the open numbers land.**
+**Round 2 SENT (3 Sept 2026): all three follow-ups out — Yolanda (agreement doc + MOQ + tiered pricing), Kira (agreement + interlining + lead time + 50-75 flex), Faraz (empty-reply recovery). Follow-up clocks: any thread silent by Tue 9 Sept gets one nudge. Next inbound: agreements → session review BEFORE signing; numbers → scoring table; both holes closed → bake-off brief goes out.**
 **Blocking founder items: head measurement (both factories sample to it) + ImportYeti check on both legal names (Aung Crown Clothing Group Ltd; Dongguan City Hongyu Apparel Co Ltd).**
 
 ## Reply revisions adopted (2 Sept, after cross-AI review)
