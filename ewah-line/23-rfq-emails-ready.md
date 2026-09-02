@@ -64,7 +64,18 @@ The founder's head is fit-model-zero for Sample 1 only; it is NOT the EWAH fit s
 
 ## Decision mechanism: the dual-sample bake-off (adopted 2 Sept 2026)
 
-Once each factory closes its open hole (AC: MOQ + 50/150 pricing; Hongyu: interlining + lead time + MOQ flex) AND confirms IP terms in writing, BOTH receive the identical one-page limited brief (crown/brim spec + founder head measurement + one watermarked reference image — never the full pack) and both make a Sculpt Essential sample (~$85–100 total fees + shipping). The winner is chosen on the physical objects: brim recovery after a night crushed in a bag, stitch and finish quality, fit over braids/natural hair, sweatband comfort in a real session. Emails compare sales language; samples compare capability. FIMY: one nudge Fri 5 Sept, then silence = out.
+Once each factory closes its open hole (AC: MOQ + 50/150 pricing; Hongyu: interlining + lead time + MOQ flex) AND confirms IP terms in writing, BOTH receive the identical one-page limited brief (crown/brim spec + founder head measurement + one watermarked reference image — never the full pack) and both make a Sculpt Essential sample (~$85–100 total fees + shipping). **Scorecard — both samples judged on the same six criteria, scored BEFORE looking at price, same photos, same wear time:**
+1. Fit over natural hair/braids (both hair states)
+2. Brim recovery after overnight compression
+3. Crown shape after repeated wear
+4. Sweatband comfort during an actual workout
+5. Construction quality around the reinforced emblem point
+6. **Hairline friction protocol:** several hours incl. training — migration? band grabbing edges? pressure line on removal? abrasion on rotation?
+
+**Hairline Contact Zone paragraph for the limited sample brief (send verbatim, and ask both factories HOW they would engineer it — their answer is part of the capability test):**
+"Hairline Contact Zone: Internal circumference must minimize friction and concentrated pressure at the hairline. Develop a soft, wide, low-friction contact surface suitable for natural/textured hair and protective styles while retaining sweat-management performance. No abrasive binding, exposed rough seams, or hard components at the forehead/temple contact area. Please describe the construction you would propose."
+
+**Diligence note:** ImportYeti is ONE signal, not a gate — factories shipping via trading entities or other legal names can have thin footprints. Weigh it alongside business registration, Alibaba history, responsiveness, payment protection, and above all sample quality. Emails compare sales language; samples compare capability. FIMY: one nudge Fri 5 Sept, then silence = out.
 
 > **Gmail note:** the connected account is **gao.kabubi@gmail.com** — delete the old generic draft there; the versions below are final.
 > These are deliberately written in a natural founder voice (no em-dashes, no bullet templates). Send as-is.

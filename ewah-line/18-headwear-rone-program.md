@@ -34,10 +34,10 @@
 | Brim | ~6.5–7.5 cm, gently downward; holds shape after packing (memory interlining) |
 | Sizing | S/M + M/L with internal adjuster (hidden drawcord or gripper band — no external hardware) |
 | Fabric | Outer: matte performance twill or the apparel platform-A knit bonded for structure; lining: wicking mesh or soft anti-slip band; Onyx first |
-| Sweatband | Soft anti-slip, hair-friendly (satin-option interior edge — ties to hair-conscious accessories, `12` H1) |
+| Sweatband | **Hairline Contact Zone (core requirement, from founder's lived experience of hairline erosion):** two-layer system — hair → smooth low-friction contact facing (satin/silk-like performance face) → moisture-management structure beneath. Wide, soft pressure distribution (no narrow band concentrating on one line); no abrasive binding, exposed rough seams, or hard components at forehead/temples; adjuster hardware and bulky seams banned from the temple/hairline area | 
 | Brooch interface | Reinforced attachment point at left side panel (see Brief B); on performance versions riveted/fixed, on lifestyle removable |
 | Branding | The brooch IS the branding; at most a small tonal interior transfer. No printed logo on the shell |
-| Tests | Wear (gym/walk/travel), wind (brim stability), sweat + wash, packability recovery, hair-friction, sunglasses clearance |
+| Tests | Wear (gym/walk/travel), wind (brim stability), sweat + wash, packability recovery, sunglasses clearance, **hair-friction protocol**: several hours' wear incl. training — does it migrate, does the band grab the edges, is there a pressure line on removal, is rotation abrasive |
 
 **Factory questions:** Can you develop an original block from measurements rather than adapt a stock blank? What interlining options hold a soft-structured brim through packing? Can the crown be graded in two sizes with a hidden adjuster? MOQ for a 2-size, 1-color first run?
 
