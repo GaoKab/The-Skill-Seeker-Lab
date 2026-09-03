@@ -15,6 +15,7 @@ That is the exact customer problem Capsule 01 Round 1 was designed for — exper
 | Aolafree (tennis-dress specialist) | elena@aolawear.com (verified from site) | Gmail draft created in thread — send |
 | Hongyu (general apparel, warm from hat thread) | kira@hongyuapparel.com | Gmail draft created (separate subject: "Second project") — send |
 | Hucai / HC Activewear | Contact form only at hcactivewear.com (real emails end @hcsportswear.com / @fcsportswear.com — anything else is fake) | Founder pastes the Aolafree email text into their form |
+| **ASBX (Portugal — trust + naturals anchor)** | sales@asbx.pt (verified; Barcelos, own facility, 30+ yrs) | Gmail draft created 3 Sept — includes TENCEL/organic-cotton-rich and GOTS quote questions per `25` |
 
 Same filters as the hat race: curve-block-from-measurements confirmation, squat-proof opacity handling, sample cost/lead, 50/150 pricing, MOQ, escrow, IP terms in writing before spec pack. Same reply protocol: score in session, agreements reviewed before signing.
 

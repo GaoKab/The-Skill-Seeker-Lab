@@ -8,7 +8,7 @@
 
 | Filter | Hongyu (Kira, replied <12h) | Aung Crown (Yolanda, replied 2d) | FIMY |
 |---|---|---|---|
-| Custom block from measurements | ✅ explicit | ✅ explicit, engaged with the actual dimensions | ⚠️ replied 2 Sept with EMPTY body + business card PNG only (Faraz) — zero questions answered. One recovery prompt sent (replaces the Friday nudge); next non-answer = out |
+| Custom block from measurements | ✅ explicit | ✅ explicit, engaged with the actual dimensions | ✅ (3 Sept, after recovery prompt): "completely original custom hat block" from measurements, 5-step process, apologized for empty reply. **BUT zero numbers across two asks** (no sample fee, lead, pricing, MOQ), re-asked quantity already given, wants specs before pricing, skipped interlining + custom-photo questions. Mild flag: "our digital design team can assist" = blank-decorator workflow language. Reply drafted 3 Sept demanding the three numbers WITHOUT specs — if the next reply still has no sample fee, he is stalling → out |
 | Interlining/packability answer | ❌ skipped — re-asked | ✅ real engineering answer | — |
 | Sample fee / lead | $50 / not stated — re-asked | $35–50 / 12–15 days | — |
 | MOQ | 100/color (asked for 50–75 flex) | ❌ dodged — re-asked; 500-pc deduction threshold hints high comfort volume | — |
