@@ -19,9 +19,9 @@ That is the exact customer problem Capsule 01 Round 1 was designed for — exper
 
 Same filters as the hat race: curve-block-from-measurements confirmation, squat-proof opacity handling, sample cost/lead, 50/150 pricing, MOQ, escrow, IP terms in writing before spec pack. Same reply protocol: score in session, agreements reviewed before signing.
 
-## What was deliberately withheld (information diet)
+## What was deliberately withheld (information diet — MAXIMUM setting, founder-directed 3 Sept)
 
-Wrap geometry details, pleat maps, seam architecture, fit-body system, boards. Factories got enough to quote: silhouette, liner spec, fabric class, opacity requirement, curve-block requirement.
+Second trim at the founder's direction: pre-agreement emails now carry ONLY category ("training dresses with built-in shorts, two styles"), the curve-block capability question, quantities, and commercial asks. Withheld until a signed agreement: ALL design details AND all technical specs — wrap geometry, pleat maps, perforation, pocket, fabric weight/gsm, liner construction, opacity requirement, seam architecture, fit-body system, boards. The emails state the terms-first rule explicitly: "I keep design and technical details confidential until an agreement is in place." Standing rule for every future first-contact email in any category.
 
 ## The gate that is now CRITICAL
 
