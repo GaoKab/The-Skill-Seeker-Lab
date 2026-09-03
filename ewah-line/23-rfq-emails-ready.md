@@ -17,6 +17,16 @@
 | Payment | ok | Trade Assurance ✅ | — |
 
 **Status: both alive; neither receives the spec pack until (1) written IP terms signed/confirmed and (2) the open numbers land.**
+## Round 3 developments (3 Sept, afternoon)
+
+**Aung Crown / Yolanda — BREAKTHROUGH:** MOQ dealbreaker test PASSED — "flexible MOQ of 50–100 pcs per style/color/size" for a new customer. Sent their bilingual Confidentiality Agreement PDF (⚠️ REVIEW IN SESSION BEFORE SIGNING — founder to attach the PDF to chat; Gmail connector cannot download attachments) + full cap catalog (p35 referenced). Still open: indicative unit pricing at 50/100/150 (MOQ answered, pricing not), and catalog ≠ the requested photos of custom-developed blocks. Reply to Yolanda HELD until the agreement review is done — one email carries agreement comments + remaining asks.
+
+**Hongyu / Kira — dodge:** "send me your design, discuss on WhatsApp" — answered none of the three questions, did not send the promised agreement. Redirect drafted: agreement first, three questions need no design, negotiations stay on email (WhatsApp later for day-to-day during sampling). Second consecutive skip of the interlining question noted.
+
+**FIMY / Faraz:** numbers-test reply drafted (no specs required for a sample fee). Next non-answer = out.
+
+**Race standing after round 3: Aung Crown clearly ahead** (engineering answer + MOQ flex + agreement volunteered on paper); Hongyu drifting (commercial-first but twice dodged technical substance and now pushing off-record channels); FIMY on probation.
+
 **Round 2 SENT (3 Sept 2026): all three follow-ups out — Yolanda (agreement doc + MOQ + tiered pricing), Kira (agreement + interlining + lead time + 50-75 flex), Faraz (empty-reply recovery). Follow-up clocks: any thread silent by Tue 9 Sept gets one nudge. Next inbound: agreements → session review BEFORE signing; numbers → scoring table; both holes closed → bake-off brief goes out.**
 **Blocking founder items: head measurement (both factories sample to it) + ImportYeti check on both legal names (Aung Crown Clothing Group Ltd; Dongguan City Hongyu Apparel Co Ltd).**
 
