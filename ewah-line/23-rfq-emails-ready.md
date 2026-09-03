@@ -17,6 +17,12 @@
 | Payment | ok | Trade Assurance ✅ | — |
 
 **Status: both alive; neither receives the spec pack until (1) written IP terms signed/confirmed and (2) the open numbers land.**
+## Aung Crown agreement — REVIEWED, SAFE TO SIGN (3 Sept)
+
+Bilingual NNN-style agreement (Non-Disclosure, Non-Use, Non-Circumvention). Verdict: mildly in EWAH's favor. Clause 2 bars Party B (AC) from any IP registration derived from EWAH's info and from any use outside the Project; confidentiality is mutual (2.1); PRC law + PRC/Singapore arbitration = the enforceable structure for a Chinese counterparty; English prevails. Duration 3 years (standard; acceptable). No claims over EWAH designs, no exclusivity, no one-way traps.
+
+Signing conditions sent to Yolanda: (1) add explicit sentence — patterns/blocks/samples/technical files developed from Party A's info are Party A's exclusive property, not for other clients; (2) verify the Chinese chop matches the real legal entity 深圳昂冠实业有限公司 (Shenzhen Angguan Industrial Co., Ltd. — NOT the English trading name; also the ImportYeti lookup name); (3) Party A signs as "Gaofenngwe Kabubi, trading as EWAH" until incorporation. Reply text delivered to founder (Gmail token expired — no draft created; re-auth connector at claude.ai Settings → Connectors → Gmail).
+
 ## Round 3 developments (3 Sept, afternoon)
 
 **Aung Crown / Yolanda — BREAKTHROUGH:** MOQ dealbreaker test PASSED — "flexible MOQ of 50–100 pcs per style/color/size" for a new customer. Sent their bilingual Confidentiality Agreement PDF (⚠️ REVIEW IN SESSION BEFORE SIGNING — founder to attach the PDF to chat; Gmail connector cannot download attachments) + full cap catalog (p35 referenced). Still open: indicative unit pricing at 50/100/150 (MOQ answered, pricing not), and catalog ≠ the requested photos of custom-developed blocks. Reply to Yolanda HELD until the agreement review is done — one email carries agreement comments + remaining asks.
