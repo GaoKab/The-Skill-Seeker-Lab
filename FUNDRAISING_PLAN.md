@@ -1,136 +1,82 @@
-# Botswana Independence Day Fundraising Plan (US-based)
+# Boipuso 60 Trip Fund — Sell, Don't Solicit
 
-**Goal:** Raise funds for transportation and lodging for our group's Independence Day trip.
-**Deadline:** 30 September (Boipuso) — 2026 marks **60 years of independence**, a powerful hook for donors and sponsors.
-**Time available:** ~3 weeks (started 4 September). **We are fundraising from the USA**, which makes payments and merch production much easier.
+**Who:** Two of us, funding our own trip from the USA to Botswana's **60th Independence celebration** (30 September).
+**What we're covering:** Flights + lodging.
+**How:** Earn it by selling things people actually want — led by the **PULA / Rain Objects** apparel drop. No donation asks; every dollar in is a sale.
+**Time:** ~3 weeks (started 4 September).
 
 ---
 
-## Step 1 — Set the target (Day 1–2)
+## Step 1 — Know the number (today)
 
-You cannot fundraise effectively without a number. Fill this in first:
-
-| Item | Details | Est. cost (USD) |
+| Item | Notes | Est. (USD, 2 people) |
 |---|---|---|
-| Transport (flights/bus/van hire) | ___ people | |
-| Lodging | ___ people × ___ nights × rate | |
-| Meals / incidentals | | |
-| Buffer (10–15%) | | |
-| **TOTAL TARGET** | | **$ ______** |
+| Flights US → Botswana | Book by ~Sept 12–15; US–GBE/JNB fares climb fast inside 2 weeks | $2,400–3,600 |
+| Lodging | ___ nights × rate ÷ shared room | |
+| Ground transport + incidentals | | |
+| Buffer 10–15% | | |
+| **TARGET** | | **$ ______** |
 
-Divide the total by the number of travelers — that's your "per head" figure. Donors respond to concrete asks: *"$150 sponsors one person's lodging for the weekend."* A **"Sponsor a Seat"** tier (one full person's transport + lodging) is your premium ask.
+Two decisions to make **now**, because they set the target:
+1. **Book flights early.** Even before all the money is in, a refundable hold or points booking around Sept 12–15 can save more than a week of merch profit.
+2. **Set a floor and a stretch.** Floor = flights covered; stretch = flights + lodging. Sell to the stretch, commit at the floor.
 
-## Step 2 — Set up how money comes in (Day 1–2)
+## Step 2 — Engine 1: The PULA / Rain Objects drop (primary earner)
 
-Being in the US, this is the easy part — open channels **before** you start asking:
+The line (Rain Tee, Let There Be Rain, After Rain crop, beanie, bucket hat, Pula Rain Hoodie) is genuinely good product — sell it as a **limited Boipuso 60 drop**, with the trip as the story, not the ask: *"Every piece funds our trip home for the 60th."* People love buying merch with a story; nobody has to be a donor.
 
-- **Zelle** — free, instant, no fees; best for community members.
-- **Venmo / Cash App** — easiest for younger donors; put the handle on every flyer.
-- **GoFundMe** — fully supported in the US; gives you a shareable link, a public thermometer, and credit-card donations from strangers. Fees ~2.9% + $0.30 per donation.
-- **PayPal** — for anyone abroad who wants to give.
+### Run it sell-first, print-second
+1. **Paid pre-orders only** (Venmo/Zelle/Cash App at order time), window open now, **closes Sept 17**, one production run sized to orders. Zero stock risk; cash arrives before costs.
+2. **Two production routes:**
+   - **Local screen printer** — best margin at 30+ units/design: tee ≈ $9–14 all-in → sell $30–35; hoodie ≈ $18–26 → $60–70. Book the slot by Sept 17.
+   - **Print-on-demand (Printful/Printify)** — no minimums, ships direct anywhere in the US; thinner margin (~$10–14/tee) but zero cash outlay and zero fulfillment work. **Hybrid:** screen-print local orders, point out-of-state buyers at the POD storefront.
+3. **Push 2 SKUs** (Rain Tee + one headwear). Hold the **Pula Rain Hoodie as a numbered 60-piece limited edition at $65–75** — numbered pieces sell themselves.
+4. **Standard print for this run** — save the puff/reflective execution for a proper drop after the trip; it adds cost and lead time you don't have.
+5. **Distribution channels:** your personal networks, Botswana diaspora WhatsApp/Facebook groups nationwide (home merch for Independence Day is an easy yes), African student associations, and **bulk asks** — one association chapter ordering 20 tees for the 30th beats a week of singles.
 
-Route everything to **one treasurer** with a second person as checker. Post a running total in the group chat every 2–3 days — transparency drives more giving. (If donations get large, note that personal fundraising like this is generally treated as gifts, not tax-deductible donations — don't promise donors a tax receipt unless you partner with a 501(c)(3).)
+**Rough math:** 50 tees + 30 hats + 20 hoodies at the margins above ≈ **$1,600–2,400 profit**; every bulk order stacks on top.
 
-## Step 3 — The three-week timeline
-
-### Week 1 (Sept 4–10): Set up and start the pledge drive
-- Finalize the budget and target; agree roles (coordinator, treasurer, publicity, merch lead).
-- **Launch the pledge drive immediately** — fastest money. Every member asks 5–10 family members, friends, and coworkers for a fixed pledge ($20/$50/$100) via Zelle/Venmo. A 15-person group each raising $200 = $3,000 in week one.
-- **Stand up the GoFundMe** with the 60-years story and share it to Botswana diaspora networks: community association chapters, African student associations, your churches, alumni groups. Ask the **Botswana Embassy / honorary consuls' community mailing lists** to share if appropriate.
-- **Open the PULA / Rain Objects pre-order** (see Step 4) — printer decision and order form must be live this week for delivery before the 30th.
-- Send **sponsorship asks** (template below) to African restaurants, braid shops/salons, remittance/money-transfer agents, African grocery stores — businesses that serve the diaspora and want its goodwill.
-
-### Week 2 (Sept 11–17): Events + merch selling window
-- **Payday push:** many US paychecks land on the **15th** — time your hardest ask for Sept 12–16.
-- Run **one** earning event your group can staff: a braai/cookout plate sale ($15–20/plate — seswaa travels well), a game night or watch party with a cover charge, or a car wash. One event, multiple income lines: plates + raffle + merch table.
-- Keep the merch selling window hot: daily WhatsApp status posts, countdown to order close.
-- **Sept 17: merch orders close.** Confirm quantities, pay the printer.
-
-### Week 3 (Sept 18–26): Close the gap
-- Publish the running total: *"We're at $__ of $__ — help us close the last $__!"* Final-week urgency converts fence-sitters.
-- Second payday push around **Sept 25–26** (end-of-month checks) targeting everyone who said "remind me."
-- Collect outstanding pledges; make shortfall decisions early (cheaper lodging, shared rooms, one van instead of two) rather than at the last minute.
-- **Sept 24–27:** pay deposits, confirm all bookings in writing; merch delivered/distributed.
-
-### Sept 29–30: Travel and celebrate 🇧🇼
-- Treasurer publishes the final income/expense statement to the whole group within a week after the trip — that trust is what makes **next year's** fundraising easier.
-
-## Step 4 — The PULA / Rain Objects merch drop (our biggest earner)
-
-The rain-motif line (Rain Tee, Let There Be Rain, After Rain crop, beanies, bucket hats, Pula Rain Hoodie) is the strongest asset we have — and US production makes it low-risk. With 3 weeks it only works one way:
-
-### Run it as a PRE-ORDER, not a stock business
-1. **Sell first, print second.** Take paid pre-orders (Venmo/Zelle upfront, no "pay on pickup") for ~10 days, close **Sept 17**, then do one production run sized exactly to orders. Zero stock risk; money arrives before costs.
-2. **Two production routes — pick by volume:**
-   - **Local screen printer** (best margin at 30+ units/design): tee blank + print ≈ $9–14 → sell $30–35; hoodie ≈ $18–26 → sell $60–70. Book the print slot by Sept 17 for delivery by ~Sept 26.
-   - **Print-on-demand (Printful/Printify)** (no minimums, ships direct to buyers, handles diaspora orders in other states automatically): margins are thinner (~$10–14/tee, ~$15–20/hoodie) but there's literally zero cash outlay and no distribution work. **Hybrid is smart:** screen-print the local bulk, point out-of-state buyers to a POD storefront.
-3. **Cut the range for this drop.** Push **2 SKUs** hard — the Rain Tee and one headwear piece. Hold the **Pula Rain Hoodie as a numbered "60 Years" limited edition (01/60–60/60) at $65–75** — scarcity sells, and numbered pieces become keepsakes.
-4. **Simplify the print for the fundraiser run.** Raised cord/puff and reflective ink are beautiful but add cost and lead time; run a **standard-print fundraiser edition** now and save the full execution for a proper drop after Independence.
-5. **The "60 Years" angle is the marketing.** "Rain made tactile, blessing made visible" + Boipuso 60 is a story the diaspora shares for you. *Pula* is rain, blessing, **and money** — this campaign literally asks people to make it rain.
-
-### Where the orders come from
-- **Diaspora networks nationwide:** Batswana across the US want home merch for Independence Day — POD or a consolidated ship handles them.
-- **Group members' networks:** each member is a sales agent with a personal target (e.g. 5 tees each).
-- **Bulk orders:** pitch diaspora association chapters and African businesses on tees for their staff/members to wear on the 30th — one 20-unit order beats a week of singles.
-- **Order form:** Google Form + payment reference; treasurer reconciles daily. Rough math: 50 tees + 30 hats + 20 hoodies at the margins above ≈ **$1,600–2,400 profit**, more with bulk orders.
-
-### Pre-order timeline
+### Drop timeline
 | Dates | Action |
 |---|---|
-| Sept 4–8 | Printer quotes / POD storefront up, final artwork for 2 SKUs, prices set, order form live |
-| Sept 8–17 | Selling window (hardest push Sept 12–16 payday) |
-| Sept 17 | Orders close, confirm quantities, pay printer deposit |
+| Sept 4–8 | Printer quote / POD store live, artwork final, order form + drop page live |
+| Sept 8–17 | Selling window — hardest push Sept 12–16 (mid-month payday) |
+| Sept 17 | Orders close, quantities locked, printer paid |
 | Sept 18–25 | Production |
-| Sept 25–29 | Distribution — wear it on the 30th 🇧🇼 |
+| Sept 25–29 | Delivery — everyone wears it on the 30th 🇧🇼 |
 
-## Step 5 — More vigorous avenues (stack these on top)
+## Step 3 — Engine 2: One paid event
 
-- **Sponsorship tiers with merch as the benefit:** $100 = social shout-out; $300 = logo on the event banner + 3 tees; $500+ = "official transport/lodging partner" named on everything. Businesses buy visibility, not charity.
-- **"Sponsor a Seat":** one donor covers one traveler's full transport + lodging, named (or anonymous) on the campaign page. Five seats sponsored can be half the goal.
-- **Ticketed pre-independence social / watch party:** cover charge + plate sales + raffle draw + merch table in one evening — one event, four income lines.
-- **Raffle with donated prizes** ($5–10/ticket, draw at the social; check your state's small-raffle rules — most allow informal community raffles, some require the beneficiary to be a nonprofit, in which case call it a "door prize" with entry included in the ticket).
-- **Auction hoodie #01/60** live at the social — a single numbered piece can go for several times retail in the room's excitement.
+One evening, multiple income lines, all sales:
+- **Boipuso 60 watch party / cookout** — ticket $10–15, plates $15–20 (seswaa travels well), merch table live.
+- **Auction hoodie #01/60** at the event — a single numbered piece can go for several times retail in a good room.
+- Time it for the weekend of **Sept 13–14** (after mid-month payday, before orders close) so the event *feeds* the pre-order window.
 
-## Step 6 — Sponsorship letter template
+## Step 4 — Engine 3: Skill hustles (fits the Lab)
 
-> **[Group name / The Skill Seeker Lab]**
-> [Contact person, phone, email]
-> [Date]
->
-> Dear [Business name / Owner],
->
-> **Re: Sponsorship request — Botswana's 60th Independence Anniversary trip**
->
-> We are [who you are — e.g. a community group of __ members based in __]. This year Botswana celebrates 60 years of independence, and our group is traveling to [destination] to take part in the celebrations on 30 September.
->
-> We are raising **$[target]** to cover transportation and lodging, and we are asking [Business name] to support us with a contribution of **$[specific amount]** or in-kind support such as [transport / accommodation / prizes for our raffle].
->
-> In return, we will [display your banner at our events, acknowledge you on our social media and campaign page, feature your logo on our trip T-shirts].
->
-> Contributions can be made via [payment details]. We are happy to visit or call to discuss. Thank you for supporting your community.
->
-> Pula!
-> [Name, role, signature]
+You run The Skill Seeker Lab — sell what you know for 3 weeks:
+- A **paid mini-workshop** (design, AI tools, career skills — whatever you two actually do) at $20–40/seat, online, one evening.
+- **Flash services**: design work, resume/LinkedIn glow-ups, small builds — priced per job, delivered before you fly.
+- These are pure margin and they market the Lab at the same time.
 
-**Tip:** always name a specific amount and a specific benefit. "Any support welcome" gets less than "$300 puts your logo on 25 T-shirts."
+## Step 5 — Money mechanics
 
-## Step 7 — Tracking
+- **Checkout, not charity:** Venmo/Zelle/Cash App with item + size + name in the note; one of you is treasurer, the other reconciles against the order form (Google Form or the drop page) daily.
+- Keep a simple sheet: **Orders** (buyer, item, size, paid, delivered) and **Costs** (blanks, printing, event inputs). Profit = the trip fund; know the number daily.
+- Small-scale personal sales are simple, but keep records — sales income is still income.
 
-Keep one shared Google Sheet with three tabs:
+## The 3-week shape
 
-1. **Pledges:** name, amount promised, amount received, method, date.
-2. **Sponsors:** business, contact, ask sent, follow-up date, outcome.
-3. **Merch orders:** buyer, item, size, qty, paid?, delivered?
+- **Week 1 (Sept 4–10):** target set, flights priced/held, drop page + order form live, first wave of posts, event announced, workshop scheduled.
+- **Week 2 (Sept 11–17):** payday push Sept 12–16, event on the 13th–14th, hoodie #01 auction, orders close the 17th, printer paid, **book flights**.
+- **Week 3 (Sept 18–27):** production + delivery, workshop/services delivered, lodging booked, gap-closing "last pieces left" push (limited-run scarcity is your closer).
+- **Sept 29–30:** Fly. Celebrate 60 years. Pula! 🇧🇼
 
----
+## Reality check (order of reliability)
 
-## Quick reality check
+1. **Merch pre-orders** — the engine; scarcity + story + payday timing.
+2. **The event** — tickets, plates, and the #01/60 auction in one night.
+3. **Skill hustles** — pure margin, fastest to deliver.
+4. Bulk/association orders — slower to land, biggest single wins.
 
-In 3 weeks, the money almost always comes (in order of reliability):
-1. **Member pledges from personal networks** — fastest, start today.
-2. **Merch pre-orders** — high margin and zero risk run sell-first/print-second with the window closing Sept 17; POD covers out-of-state buyers.
-3. **One well-run social event** — plates, raffle, merch table, and the hoodie auction in one evening.
-4. **GoFundMe + diaspora networks** — real money in the US, especially with the 60-years story.
-5. **Business sponsorship / bulk tee orders** — slower, but "official partner" status converts.
-
-Start the pledge drive **today**, get the GoFundMe and order form live **this week**, and aim your two hardest pushes at the **Sept 15 and Sept 25 paydays**.
+The single most important thing this week: **get the drop page and order form live, and price the flights.**
