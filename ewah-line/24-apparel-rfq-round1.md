@@ -17,6 +17,10 @@ That is the exact customer problem Capsule 01 Round 1 was designed for — exper
 | Hucai / HC Activewear | Contact form only at hcactivewear.com (real emails end @hcsportswear.com / @fcsportswear.com — anything else is fake) | Founder pastes the Aolafree email text into their form |
 | **ASBX (Portugal — trust + naturals anchor)** | sales@asbx.pt (verified; Barcelos, own facility, 30+ yrs) | Gmail draft created 3 Sept — includes TENCEL/organic-cotton-rich and GOTS quote questions per `25` |
 
+**First apparel reply (4 Sept, Kira/Hongyu):** sample lead 12-18 days for custom style; "we can customize the size according to your needs" — SOFT answer, not a confirmation of original curve-proportion pattern development (size customization ≠ new block); bulk price after seeing design (acceptable at max information diet); no sample cost; no agreement yet. Score: partial. Next response waits for her agreement + the hat-thread answers — one combined reply once those land.
+
+**Automation live (5 Sept):** the weekly check-in upgraded to a DAILY 08:00 UTC ops routine — reads new factory replies, scores them into these files, drafts responses in Gmail (drafts only, never sends), flags stale threads, reports the day's single founder action. Founder actions that remain non-delegable: sending, signing, paying, measuring, fit approval.
+
 Same filters as the hat race: curve-block-from-measurements confirmation, squat-proof opacity handling, sample cost/lead, 50/150 pricing, MOQ, escrow, IP terms in writing before spec pack. Same reply protocol: score in session, agreements reviewed before signing.
 
 ## What was deliberately withheld (information diet — MAXIMUM setting, founder-directed 3 Sept)
