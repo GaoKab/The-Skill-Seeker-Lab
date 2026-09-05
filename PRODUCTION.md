@@ -24,6 +24,17 @@ No simple print. The board specs three signature details, and each maps to a rea
 - **StreetWearHouse, Inkdnylon** — streetwear-focused contract printing with specialty inks
 - Plus whoever prints for streetwear brands in **your own city** — check the shops local brands tag on Instagram; ask every candidate: "Do you run high-density/puff and 3M reflective ink, and can you strike-off both on a Comfort Colors 1717 by next week?"
 
+### Minneapolis / St. Paul shortlist (call in this order)
+1. **Rebel Ink Printing** — 2050 Marshall Ave, St. Paul · (651) 647-0655 · info@rebelinkprinting.com. Full-service since 2004; **specialty inks confirmed: puff, metallic, foil**; plastisol up to 4 colors at 15"×16". Ask directly about high-density and reflective — not listed on the site, but reflective ink is stocked by local suppliers (SPSI in Minneapolis, ScreenPrinting.com's MN branch), so a shop that wants the job can get it in days.
+2. **Screen Pro (St. Paul)** and **ScreenPlay (Twin Cities)** — apparel decoration studios doing contract/specialty work and heat-applied materials; ask the same puff/HD/reflective questions.
+3. **Twin Cities Print** — full-service co-manufacturer (screen + digital + embroidery + dropshipping); useful if you want one vendor to also handle out-of-state shipping.
+4. **Embroidery for the beanies:** I'm In Stitches or Classy Threads of MN (both Twin Cities embroidery houses).
+5. **Instagram check:** look at which shops Minneapolis streetwear brands tag in their drop credits and add the top one or two to the call list — the local brand printers are often not the ones that rank on Google.
+
+**Reflective fallback that any Twin Cities shop can do:** 3M Scotchlite reflective heat-transfer vinyl. If nobody local will screen reflective ink on this timeline, the thin rain-streak lines cut beautifully in reflective HTV and press onto the puff-printed garments — same low-light flash, zero exotic setup. Mail-order backup remains DTLA Print / Culture Studio (both ship).
+
+**Fit note for the art:** Rebel Ink's 4-color limit is not a constraint — the rain-streak designs are essentially 1–2 ink colors plus the puff and reflective layers per placement.
+
 ### The sample (strike-off) flow — start today
 1. **Art files print-ready today** — vector/300dpi, each technique on its own layer (puff layer, reflective layer, base layer). This gates everything.
 2. Contact 4–5 shops (2 local + the specialty houses above): ask for price at 24/48/96 with **two-technique prints**, strike-off cost (often $50–150, usually credited to the order) and **guaranteed turnaround** — you need goods by Sept 26–27.
