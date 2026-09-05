@@ -4,39 +4,52 @@ Focus: get physical samples in hand fast, lock a manufacturer, and expand the pr
 
 ---
 
-## 1. Getting samples — two tracks in parallel, starting today
+## 1. Premium production — the details ARE the product
 
-### Track A: Print-on-demand samples (fastest, order tonight)
-Set up a free **Printful** (or Printify) account, upload the artwork, and order **one sample of each core SKU** shipped to yourselves:
-- Rain Tee (navy + bone colorways), beanie, bucket hat, hoodie.
-- Cost: roughly $15–35 per sample; Printful gives a sample discount (~20%) once your store is live. Production 2–5 business days + shipping — **samples in hand early next week** if ordered now.
-- What POD can and can't do: DTG print handles the rain-streak graphics fine; it **cannot** do puff/raised-cord or reflective ink. Embroidery (beanie PULA tab) it does well.
-- Even if you screen-print the real run, POD samples let you check fit, blank quality, and how the art reads on fabric — and the POD store doubles as your out-of-state fulfillment channel.
+No simple print. The board specs three signature details, and each maps to a real technique US specialty shops run every day:
 
-### Track B: Local screen printer strike-offs (best quality + margin for the bulk run)
-- **Find 3 shops:** search "[your city] screen printing" + check Instagram for shops printing for local streetwear brands (the shops brands tag in credits are the good ones). National rush options if local falls through: **RushOrderTees, UberPrints, Custom Ink** — all do guaranteed rush delivery inside your window.
-- **Ask each shop for:** price per unit at 24 / 48 / 96 pieces (per design, per placement), a **strike-off (test print) on the actual blank**, turnaround after art approval, and whether they stock **puff additive** and **reflective ink** — many streetwear-oriented shops do, and that's how you keep the raised-cord/reflective details without overseas manufacturing.
-- Strike-offs typically cost little or nothing against a deposit and take 3–7 days after art approval — which is why art files go out **this week**.
+| Board detail | Technique | Who does it |
+|---|---|---|
+| Raised cord / puff rain streaks | **High-density (HD) or puff plastisol** screen print — heat-reactive additive raises the lines in one pass | Specialty/streetwear screen shops |
+| Reflective ink in low light | **Authentic 3M reflective ink or transfers** — reads subtle grey by day, flashes white in light | Same shops; ask for 3M specifically |
+| Matte-black PULA. side tab | **Woven label** sewn as a side tab (~10–14 days from label makers like Dutch Label Shop) | Label maker + the printer's finishing dept |
+| Washed navy / bone garments | **Garment-dyed blanks** (Comfort Colors 1717, LA Apparel wash) — the wash is in the blank, no custom dyeing needed | Blank suppliers |
+| Beanie rain streaks | For Sept 30: **embroidery** on a premium blank. True knit-in (jacquard) is a 4–6 week program — that's Drop 002 | Embroiderer now; knit factory later |
+| Bucket underside reveal | Screen/DTF print on the underbrim of quality blanks | Same shops |
 
-### Blanks (this is what makes it feel like a real brand, not fundraiser tees)
-Tell the printer which blanks you want — don't take the default cheap tee:
-- **Washed/heavyweight tees:** Comfort Colors 1717 (garment-washed, matches the washed navy/bone look), Shaka Wear or Los Angeles Apparel for boxy heavyweight; Bella+Canvas 3001 if you want a lighter, cheaper base.
-- **Hoodies:** Independent Trading Co. IND4000 or Shaka Wear heavyweight; sky-blue hood lining means a contrast-lined blank or accepting a standard lining for run 1.
-- **Beanies:** Yupoong 1501 ribbed; **bucket hats:** blank washed-denim buckets from cap wholesalers (the printer can source).
-- **Numbered hoodie edition:** number 01–60 with a small heat-press transfer or hand-finished tag — cheap, and it's the whole story of the piece.
-- Skip woven labels/custom tags for run 1 (lead time); add them on the post-Boipuso drop.
+### Shops known for exactly this work (verified they advertise puff/HD + 3M reflective)
+- **DTLA Print (Los Angeles)** — dedicated 3D puff and authentic-3M reflective services
+- **Culture Studio (Chicago)** — specialty ink house: puff, HD, reflective, gel; prints for major brands
+- **Sharprint (Chicago)** and **Garment Decor** — specialty/puff programs
+- **StreetWearHouse, Inkdnylon** — streetwear-focused contract printing with specialty inks
+- Plus whoever prints for streetwear brands in **your own city** — check the shops local brands tag on Instagram; ask every candidate: "Do you run high-density/puff and 3M reflective ink, and can you strike-off both on a Comfort Colors 1717 by next week?"
 
-### Art files — the thing that actually gates everything
-Printers need: vector or 300-dpi PNG at print size, colors separated per placement, on transparent background. Get the rain-streak art into that shape **today**; every quote and sample waits on it.
+### The sample (strike-off) flow — start today
+1. **Art files print-ready today** — vector/300dpi, each technique on its own layer (puff layer, reflective layer, base layer). This gates everything.
+2. Contact 4–5 shops (2 local + the specialty houses above): ask for price at 24/48/96 with **two-technique prints**, strike-off cost (often $50–150, usually credited to the order) and **guaranteed turnaround** — you need goods by Sept 26–27.
+3. **Strike-offs by ~Sept 12–16**, approve immediately, production booked same day. It's tight but shops do rush runs constantly — say the date up front and get it in writing.
+4. **Order woven PULA. tabs today** (they take ~2 weeks) so the printer can sew them during finishing.
+5. In parallel, order **plain POD samples** (Printful) of each blank/fit tonight — not for print quality, purely to verify fit and blank feel while the strike-offs cook.
 
-### The math to hold in your head
-| Route | Tee cost all-in | Sell | Use for |
-|---|---|---|---|
-| Local screen print (48+ units) | $9–14 | $30–35 | The bulk pre-order run |
-| POD (Printful DTG) | $16–22 shipped | $30–35 | Samples now + out-of-state orders |
-| Rush nationals (RushOrderTees etc.) | $12–18 | $30–35 | Backup if local shops are booked |
+### Premium math (price like the product you're making)
+Two-technique specialty printing costs more — and commands more:
 
----
+| Piece | Cost all-in (48+ units) | Sell |
+|---|---|---|
+| Rain Tee (puff + reflective on garment-dyed blank) | $14–20 | $38–45 |
+| Hoodie, numbered /60 (puff + reflective + tab) | $28–38 | $75–85 |
+| Beanie (embroidered streaks + tab) | $10–15 | $28–32 |
+| Bucket hat (underbrim print) | $12–16 | $30–35 |
+
+Margins stay at ~50% and the product earns its price — a numbered, reflective, puff-printed hoodie at $75 is *cheap* by streetwear standards.
+
+### Fallback if a strike-off slips past ~Sept 18
+Don't drop to plain print across the board — **split the run**: hero pieces (the /60 hoodie + Rain Tee) wait for the full treatment even if they deliver in DC or the week after, and only the supporting pieces (hats, second tee) ship simpler. Late-and-premium keeps the brand; on-time-and-flat kills it.
+
+### Drop 002 — start the clock now
+The pieces that physically can't exist by Sept 30 become the post-Boipuso release, and their lead times start whenever you order:
+- **Jacquard knit beanies** (streaks knitted in, not printed): US option **Fourbital Factory** (Vermont, 25–50 minimums, 4–6 weeks) or no-minimum platforms like Knitwise (~$28/pc) to prototype. Order this week → holiday-season drop.
+- **Cut & sew** (sky-lined hood, custom bucket, full garment spec): 6–10 week overseas program — brief it after the trip, funded by Drop 001.
 
 ## 2. Physical products that sell at Independence celebrations
 
@@ -65,10 +78,12 @@ Two buckets — things that **earn** and things that **sell the merch**:
 
 ## 4. This week's checklist (sourcing edition)
 
-- [ ] Art files print-ready (vector/300dpi, separated) — gates everything
-- [ ] Printful store live, 1 sample of each SKU ordered to yourselves
-- [ ] 3 local screen printers contacted: quotes at 24/48/96 + strike-off + puff/reflective capability
-- [ ] Blanks chosen (Comfort Colors / Shaka / Independent) and named in the quote requests
+- [ ] Art files print-ready, techniques layered (puff / reflective / base) — gates everything
+- [ ] 4–5 specialty shops contacted (DTLA Print, Culture Studio + local): 24/48/96 pricing, strike-off, guaranteed date
+- [ ] Woven PULA. side tabs ordered (2-week lead — today)
+- [ ] Blanks chosen (Comfort Colors 1717 / Shaka / Independent) and named in quote requests
+- [ ] Printful fit samples of each blank ordered to yourselves
+- [ ] Fourbital/Knitwise contacted for the Drop 002 jacquard beanie program
 - [ ] Sticker + bandana orders placed (they're fast — order before the apparel is settled)
 - [ ] Wholesale flags ordered
 - [ ] Party-kit printables designed (or briefed to Claude)
