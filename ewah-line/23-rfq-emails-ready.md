@@ -17,6 +17,10 @@
 | Payment | ok | Trade Assurance ✅ | — |
 
 **Status: both alive; neither receives the spec pack until (1) written IP terms signed/confirmed and (2) the open numbers land.**
+## Ops log 7 Sept (Mon)
+
+New founder-initiated thread to Yolanda: "Botswana Independence Limited-Edition Collection" (declared separate from EWAH). Yolanda engaged 7 Sept, asking product + quantity — awaiting founder's answers before a draft can be written. Timeline flag raised: 30 Sept (Botswana's 60th) is unreachable for new product (sample+bulk+shipping ≈ 50-60 days); target next cycle or radically simplify. MAIN FLAG: the EWAH agreement reply to Yolanda remains UNSENT (drafted 4 Sept) — 4 days; it gates both projects. Faraz + Kira-hat silent since 3 Sept, nudges arm midweek. Elena/ASBX/Hucai sends unconfirmed. Measurements outstanding.
+
 ## Aung Crown agreement — REVIEWED, SAFE TO SIGN (3 Sept)
 
 Bilingual NNN-style agreement (Non-Disclosure, Non-Use, Non-Circumvention). Verdict: mildly in EWAH's favor. Clause 2 bars Party B (AC) from any IP registration derived from EWAH's info and from any use outside the Project; confidentiality is mutual (2.1); PRC law + PRC/Singapore arbitration = the enforceable structure for a Chinese counterparty; English prevails. Duration 3 years (standard; acceptable). No claims over EWAH designs, no exclusivity, no one-way traps.
