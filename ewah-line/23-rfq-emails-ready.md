@@ -17,6 +17,10 @@
 | Payment | ok | Trade Assurance ✅ | — |
 
 **Status: both alive; neither receives the spec pack until (1) written IP terms signed/confirmed and (2) the open numbers land.**
+## Ops log 8 Sept (Tue) — CORRECTION
+
+The EWAH agreement reply to Yolanda was in fact SENT Saturday 5 Sept 15:06 — the 6-7 Sept reports flagged it unsent due to a flawed check (search matched only factory-inbound mail, making founder sends invisible). Check fixed: outbound verification now uses in:sent queries. Current state: ball with Yolanda since Saturday (owes updated agreement with ownership sentence, 50/100/150 pricing, custom-block photos); nudge arms Thu 10 if silent. Faraz + Kira-hat at 3 business days silent — nudge drafts Wed 9. Botswana thread awaits founder's product+quantity answer.
+
 ## Ops log 7 Sept (Mon)
 
 New founder-initiated thread to Yolanda: "Botswana Independence Limited-Edition Collection" (declared separate from EWAH). Yolanda engaged 7 Sept, asking product + quantity — awaiting founder's answers before a draft can be written. Timeline flag raised: 30 Sept (Botswana's 60th) is unreachable for new product (sample+bulk+shipping ≈ 50-60 days); target next cycle or radically simplify. MAIN FLAG: the EWAH agreement reply to Yolanda remains UNSENT (drafted 4 Sept) — 4 days; it gates both projects. Faraz + Kira-hat silent since 3 Sept, nudges arm midweek. Elena/ASBX/Hucai sends unconfirmed. Measurements outstanding.
