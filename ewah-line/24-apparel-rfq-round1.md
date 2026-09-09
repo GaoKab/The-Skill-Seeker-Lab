@@ -21,6 +21,10 @@ That is the exact customer problem Capsule 01 Round 1 was designed for — exper
 
 **Automation live (5 Sept):** the weekly check-in upgraded to a DAILY 08:00 UTC ops routine — reads new factory replies, scores them into these files, drafts responses in Gmail (drafts only, never sends), flags stale threads, reports the day's single founder action. Founder actions that remain non-delegable: sending, signing, paying, measuring, fit approval.
 
+**ASBX / Maria Almeida — OUT for EWAH, IN for PULA (replied 7 Sept, after an autoresponder on 4 Sept):** clear and honest — *"we do not produce activewear"*. They are streetwear only: hoodies, tees, joggers, crewnecks, heavy GSM, with DTG, screen print, embroidery, **puff print**, woven labels and custom packaging. So the Portugal trust-and-naturals angle dies for EWAH dresses. **But their capability list is almost exactly the PULA tee spec**, so the thread was redirected there rather than closed. Their terms: MOQ 100/design standard, **50/design available at extra cost**, stock samples 1–3+ weeks, PP samples ~1.5 months, **bulk 8–12+ weeks** (too slow for 30 Sept — asked whether decorating existing stock is faster). They require a tech pack for any quote, which PULA already has. Reply drafted 9 Sept.
+
+**Portugal/naturals for EWAH must be re-sourced.** ASBX was the trust anchor; find a Portuguese *activewear* house instead (`25` lists Athleisure Basics/ABM, TMR, Friendly Factories — ABM is the activewear specialist of that group).
+
 Same filters as the hat race: curve-block-from-measurements confirmation, squat-proof opacity handling, sample cost/lead, 50/150 pricing, MOQ, escrow, IP terms in writing before spec pack. Same reply protocol: score in session, agreements reviewed before signing.
 
 ## What was deliberately withheld (information diet — MAXIMUM setting, founder-directed 3 Sept)
