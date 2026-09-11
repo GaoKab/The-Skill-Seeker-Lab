@@ -146,11 +146,33 @@ Same body. Greeting: "Hello Hongyu team,". End of first paragraph becomes: "I ca
 
 | Thread | Last movement | Silent (business days) | Action taken |
 |---|---|---|---|
-| Aung Crown — hat (Yolanda) | our reply 5 Sept (amended clause 2 + signature terms) | 5 | **Nudge drafted** — asks for the amended agreement, sample cost, per-piece at 50/100, and the custom-block photos she offered |
-| Aung Crown — Botswana/PULA (Yolanda) | her question 7 Sept | n/a (our move) | Reply still sitting **unsent** in drafts since 8 Sept |
+| Aung Crown — hat (Yolanda) | **her reply 7 Sept: amended agreement + pricing + custom examples** | 0 | **Reply drafted** — see the correction note below |
+| Aung Crown — Botswana/PULA (Yolanda) | **founder sent the scope reply 11 Sept 08:41 UTC** | 0 | None needed, ball is with Yolanda |
 | FIMY (Faraz) | our reply 3 Sept | 6 | **Nudge drafted** — the three numbers only (sample fee, 50/100 price, sample lead). Standing rule applies: no sample fee in the next reply means he is stalling → out |
 | Hongyu — hat (Kira) | our reply 3 Sept | 6 | **Nudge drafted** — agreement, plus the two capability questions she has now dodged twice (soft inner band at the head seam, underside-brim printing before assembly) |
 
-**Aung Crown is now the only live hat candidate with real substance, and it has stopped moving.** Five days of silence after a founder asks for a one-sentence amendment is either legal review or drift. The nudge finds out which. If Aung Crown also goes cold the hat race has no finalist, and the bake-off plan needs a fourth name rather than a longer wait.
+### CORRECTION — this log was wrong when first written (same day, founder caught it)
 
-**Correction discipline holding:** all outbound claims in this log were checked with `in:sent` queries, per the 8 Sept fix.
+The first version of this entry reported Aung Crown silent since 5 Sept and drafted a nudge. Both were false.
+
+**What actually happened:** Yolanda replied **7 Sept 08:21 UTC** with the amended Confidentiality Agreement (new provision at **clause 2.2**), indicative pricing, and five photos of previously customised products. Separately, the founder **sent** the Botswana/PULA scope reply on **11 Sept 08:41 UTC**, so that draft is cleared too.
+
+**Root cause, and it is a new failure mode, not the old one.** The 8 Sept fix covered outbound verification (`in:sent`). This was an *inbound* miss with a different mechanism: `search_threads` returns previews containing only the roughly five OLDEST messages of a thread, with no truncation marker. The Aung Crown hat thread already held exactly five messages, so message six was structurally invisible to search. Every daily check since 7 Sept inherited the same blind spot.
+
+**Permanent rule added:** for any thread on the active supplier list, never score from search previews. Call `get_thread` on each active thread and read the message list to the end. Search is for discovering new threads only, never for reading known ones.
+
+### The pricing, scored
+
+| Qty | Indicative unit price | Read |
+|---|---|---|
+| 50 pcs | US$8.20–12.00 | Setup is being amortised over a tiny run |
+| 100 pcs | US$4.70–9.50 | The real break point, roughly 45% off the 50-pc floor |
+| 150 pcs | US$4.30–8.50 | Only a small further gain, so 150 is not worth stretching for on run one |
+
+**Verdict: workable, but it is a band and not a quote.** The spread is close to 2x inside every tier, which means nothing has been costed against the actual construction yet. At 100 pieces, even the top of the band leaves room for freight, duty, the emblem hardware and labels and still supports a healthy multiple at a $45–55 retail. The 50-piece tier is expensive enough that the first run should be 100 if cash allows.
+
+**What is still missing, and it is the part that counts:** no sample cost, no block development cost, no lead time, no payment terms. All four were in the first email. A factory quoting unit prices while withholding the sample fee is quoting the easy number. **And the open question underneath all of it: do those prices describe an original block developed from our measurements, or a catalog block wearing our labels?** If it is the latter, the price is irrelevant, because the block is the entire reason for choosing this route. The drafted reply asks exactly that and nothing else.
+
+**Agreement review — NOT done, and cannot be done from here.** The amended PDF is a mail attachment and this session cannot download attachment content. Clause 2.2 is therefore **unverified**. Do not sign on the strength of Yolanda's summary of her own edit. The text to check is the sentence requested on 5 Sept: *"Any patterns, blocks, samples, or technical files developed from Party A's Confidential Information shall be the exclusive property of Party A and shall not be used for or disclosed to any other client."* Save the PDF into `ewah-line/` or paste clause 2.2 into chat and it gets reviewed properly, against the same checks applied to the original: chop must read 深圳昂冠实业有限公司 / Shenzhen Angguan Industrial Co., Ltd., and Party A signs as "Gaofenngwe Kabubi, trading as EWAH".
+
+**Stray draft to delete manually:** an earlier version of today's Aung Crown reply was edited and lost its thread link, so it would send as a new email rather than a reply. This session lacks the Gmail scope to trash it. The correct draft is the one sitting inside the hat thread.

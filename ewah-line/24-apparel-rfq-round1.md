@@ -43,6 +43,6 @@ Second trim at the founder's direction: pre-agreement emails now carry ONLY cate
 
 **Lesson recorded:** "wait for one combined reply" is only a strategy while the other side is still moving. Past 4 business days it is just silence on our side, and it reads as a founder who is not serious. Reply on each thread's own clock.
 
-**ASBX/PULA redirect (drafted 9 Sept) is still unsent.**
+**ASBX/PULA redirect (drafted 9 Sept) is still unsent.** The Aung Crown Botswana reply that sat beside it was sent by the founder on 11 Sept.
 
 **The measurement gate is now 8 days old and unchanged.** No pricing conversation on this page can convert into a sample without it.
