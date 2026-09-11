@@ -34,3 +34,15 @@ Second trim at the founder's direction: pre-agreement emails now carry ONLY cate
 ## The gate that is now CRITICAL
 
 **Body measurements (the 13-number set in `09` §6) are required before any apparel sample can be cut.** Every day without them is a day a factory could be sewing. This is the oldest open item in the project and it now blocks both the hat sample (head) and the dress samples (body).
+
+## Ops log — Fri 11 Sept 2026
+
+**New inbound: none.** Elena/Aolafree has been silent since the RFQ went out 8 Sept (2 business days, not yet stale). Hucai's contact form still has nothing pasted into it.
+
+**The overdue item here was ours, not theirs.** Kira replied on the apparel thread on **4 Sept** and never got an answer, because the plan was to hold for one combined reply once her agreement and the hat answers landed. Neither landed, so the wait became a stall. **Reply drafted today** in the apparel thread: agreement first, then three pre-agreement questions that cost nothing to ask — whether she grades to supplied measurements with a wider waist-to-hip ratio or only works from her own base blocks, the sample fee per style, and per-piece at 50 and 100 for a sleeveless knit dress with a built-in short. Two styles to start.
+
+**Lesson recorded:** "wait for one combined reply" is only a strategy while the other side is still moving. Past 4 business days it is just silence on our side, and it reads as a founder who is not serious. Reply on each thread's own clock.
+
+**ASBX/PULA redirect (drafted 9 Sept) is still unsent.**
+
+**The measurement gate is now 8 days old and unchanged.** No pricing conversation on this page can convert into a sample without it.

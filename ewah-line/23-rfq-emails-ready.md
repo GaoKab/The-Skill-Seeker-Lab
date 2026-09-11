@@ -139,3 +139,18 @@ Same body. Greeting: "Hello Hongyu team,". End of first paragraph becomes: "I ca
 1. Full final email text lives here and was delivered into the chat as a file
 2. Weekly Monday check-in routine treats any unsent RFQ older than 4 business days as the top item
 3. On "sent": log dates in this file, follow up with any factory silent after 4 business days
+
+## Ops log — Fri 11 Sept 2026
+
+**New inbound: none.** Verified inbound across aungcrown.com, fimyapparel.com, hongyuapparel.com, aolawear.com, asbx.pt (4-day window) and outbound with `in:sent`. The hat race has gone quiet in all three threads at once, which is itself the finding.
+
+| Thread | Last movement | Silent (business days) | Action taken |
+|---|---|---|---|
+| Aung Crown — hat (Yolanda) | our reply 5 Sept (amended clause 2 + signature terms) | 5 | **Nudge drafted** — asks for the amended agreement, sample cost, per-piece at 50/100, and the custom-block photos she offered |
+| Aung Crown — Botswana/PULA (Yolanda) | her question 7 Sept | n/a (our move) | Reply still sitting **unsent** in drafts since 8 Sept |
+| FIMY (Faraz) | our reply 3 Sept | 6 | **Nudge drafted** — the three numbers only (sample fee, 50/100 price, sample lead). Standing rule applies: no sample fee in the next reply means he is stalling → out |
+| Hongyu — hat (Kira) | our reply 3 Sept | 6 | **Nudge drafted** — agreement, plus the two capability questions she has now dodged twice (soft inner band at the head seam, underside-brim printing before assembly) |
+
+**Aung Crown is now the only live hat candidate with real substance, and it has stopped moving.** Five days of silence after a founder asks for a one-sentence amendment is either legal review or drift. The nudge finds out which. If Aung Crown also goes cold the hat race has no finalist, and the bake-off plan needs a fourth name rather than a longer wait.
+
+**Correction discipline holding:** all outbound claims in this log were checked with `in:sent` queries, per the 8 Sept fix.
