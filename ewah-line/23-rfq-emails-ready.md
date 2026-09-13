@@ -176,3 +176,29 @@ The first version of this entry reported Aung Crown silent since 5 Sept and draf
 **Agreement review — NOT done, and cannot be done from here.** The amended PDF is a mail attachment and this session cannot download attachment content. Clause 2.2 is therefore **unverified**. Do not sign on the strength of Yolanda's summary of her own edit. The text to check is the sentence requested on 5 Sept: *"Any patterns, blocks, samples, or technical files developed from Party A's Confidential Information shall be the exclusive property of Party A and shall not be used for or disclosed to any other client."* Save the PDF into `ewah-line/` or paste clause 2.2 into chat and it gets reviewed properly, against the same checks applied to the original: chop must read 深圳昂冠实业有限公司 / Shenzhen Angguan Industrial Co., Ltd., and Party A signs as "Gaofenngwe Kabubi, trading as EWAH".
 
 **Stray draft to delete manually:** an earlier version of today's Aung Crown reply was edited and lost its thread link, so it would send as a new email rather than a reply. This session lacks the Gmail scope to trash it. The correct draft is the one sitting inside the hat thread.
+
+## Ops log — Sat 12 / Sun 13 Sept 2026
+
+**The new get_thread rule caught two more missed replies on its first run.** Both FIMY and Hongyu's hat thread also held exactly five messages in search preview, so message six was invisible in both. That makes three threads where the same blind spot hid a reply. The 11 Sept nudges to FIMY and Kira were therefore both wrong and have been replaced.
+
+### FIMY / Faraz — OUT (replied 4 Sept)
+
+Answered at length and gave real timings: sample plus custom development 15–25 days, bulk 20–30 days, MOQ normally 200 but 50 or 150 possible. Offered to sign an NDA and confirmed in writing that patterns stay ours. That part is fine.
+
+**The disqualifier is the payment term: 100% in advance.** On a first order with an unverified supplier that puts the entire sum at risk with nothing held back against inspection. Aung Crown and Hongyu both work with normal structures. Second strike, and the one already written into the filter: **still no sample or development fee after three asks.** His reason is that a custom manufacturer cannot quote without the full pack, which sounds principled until you notice Hongyu quoted a $50 sample fee without seeing anything at all. Not being able to price the bulk is honest. Not being able to price a sample is a choice.
+
+**Close-out drafted.** It names both reasons and leaves the door open if he changes the payment structure. Worth leaving open, because his process answers were the most complete of the three.
+
+### Hongyu / Kira — the "dodge" was partly my misreading (replied 4 Sept)
+
+Her full reply: *"The NDA will need to be provided by you, the buyer, then we can sign it."* That is normal and reasonable, not evasion. The log previously recorded that she "never sent her agreement" and that framing was unfair to her.
+
+**What she has actually given, across both threads:** custom block development from our measurements confirmed in writing · **sample fee USD 50** · MOQ 100 per colour per style · woven labels 1000 pcs for USD 100 · sample lead 12–18 days · written acceptance that developed patterns belong exclusively to EWAH and will not be reused.
+
+That is the most commercially complete response of the three factories, and it was sitting unread for nine days.
+
+**Still genuinely unanswered, and this one is a real dodge:** the brim interlining and construction question, now asked three times and never addressed. It is the question that decides whether the hat holds its shape, and a factory that keeps skipping it either does not know or does not want to commit. Re-asked in the drafted reply. If the next reply skips it a fourth time, that is the answer.
+
+### Scoreboard shift
+
+Aung Crown and Hongyu are now both live, with different strengths. Aung Crown gave unit pricing and an amended agreement but no sample fee. Hongyu gave a sample fee and terms but no unit pricing and no construction answer. Neither is ahead. **The bake-off from `23` is now the right call and is affordable: $50 for a Hongyu sample, plus whatever Aung Crown's sample costs once she names it.** Two samples settle in three weeks what another month of email will not.

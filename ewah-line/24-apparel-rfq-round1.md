@@ -46,3 +46,21 @@ Second trim at the founder's direction: pre-agreement emails now carry ONLY cate
 **ASBX/PULA redirect (drafted 9 Sept) is still unsent.** The Aung Crown Botswana reply that sat beside it was sent by the founder on 11 Sept.
 
 **The measurement gate is now 8 days old and unchanged.** No pricing conversation on this page can convert into a sample without it.
+
+## Ops log — Sat 12 / Sun 13 Sept 2026
+
+**ASBX / Maria replied 11 Sept**, a few hours after the founder sent the PULA redirect. Straight answers, no padding.
+
+- **MOQ 50 pieces per colour per design** for this project, confirmed, without the earlier "additional cost" hedge attached
+- **30 September is impossible for custom work**, stated plainly rather than hedged
+- **Offered to ship existing uncustomised ASBX garments by 30 Sept** so the quality, fabric and construction can be judged directly
+- Puff, reflective and fine-line feasibility to be assessed once she has the tech pack
+- Asked for the tech pack to price the project
+
+**Score: the best supplier behaviour seen in either category so far.** She turned a deadline she could not meet into a concrete offer of blank samples, which is what a maker does when it wants the relationship rather than the order. Second independent confirmation that **30 September cannot come from Portugal**, matching the verdict already in `26`. The BOIPUSO 60 tee drop goes local and DTF per `27`, and ASBX becomes the rain-season partner where an 8–12 week lead is fine and the puff and reflective work can be done properly.
+
+**Reply drafted:** accept the blank samples and offer to pay for them, hold the tech pack until a mutual confidentiality agreement is signed, and ask for the four numbers that matter once she has it, with lead time counted from artwork approval rather than from order date. She asked for the tech pack without offering any agreement, so the information diet holds.
+
+**Elena / Aolafree:** silent since the RFQ went out 8 Sept, which is 3 business days. Not yet stale. Monday makes 4 and a nudge is due then.
+
+**New blocker, and it is now the binding one: EWAH has to supply the confidentiality agreement itself.** Hongyu said so explicitly, ASBX implied it by offering none. Aung Crown providing their own was the exception. Written and ready to send: **`28-confidentiality-agreement-to-send.md`** — a one-page mutual NNN with per-supplier governing law, the pattern and block ownership clause as the centre of it, and signature rules for Chinese entities. Nothing moves to sampling until that goes out.
