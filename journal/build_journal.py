@@ -23,7 +23,7 @@ from reportlab.lib.utils import simpleSplit
 # ----------------------------------------------------------------------------
 # EDIT THESE FOUR LINES AND RE-RUN — everything else follows automatically.
 # ----------------------------------------------------------------------------
-AUTHOR      = "The Skill Seeker Lab"   # name printed on cover, spine, title page
+AUTHOR      = "Gao Kab"                 # name printed on cover, spine, title page
 IMPRINT     = "The Skill Seeker Lab"   # publisher line on the copyright page
 YEAR        = "2026"
 ISBN        = ""                       # leave "" to use a free KDP ASIN instead

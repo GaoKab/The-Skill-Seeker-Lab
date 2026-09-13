@@ -50,14 +50,15 @@ The four things most people want to change are the first four lines of the
 config block at the top of `build_journal.py`:
 
 ```python
-AUTHOR  = "The Skill Seeker Lab"   # cover, spine, title page
+AUTHOR  = "Gao Kab"                # cover, spine, title page
 IMPRINT = "The Skill Seeker Lab"   # publisher line on the copyright page
 YEAR    = "2026"
 ISBN    = ""                       # leave empty to use a free KDP ASIN
 ```
 
-Put your own name in `AUTHOR` if you want the book credited to a person. The
-cover title auto-shrinks to fit, and the spine width and cover dimensions are
+`AUTHOR` is the name on the cover, spine, title page and copyright page;
+`IMPRINT` is the publisher line, kept separate so the book can be credited to a
+person while still being published under the lab. The cover title auto-shrinks to fit, and the spine width and cover dimensions are
 recalculated from the page count on every build, so a change to the page count
 never desynchronises the cover.
 

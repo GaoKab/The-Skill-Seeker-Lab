@@ -21,10 +21,14 @@ The Skill Seeker Journal
 
 **Series** leave blank · **Edition number** 1
 
-**Author** — whatever you set as `AUTHOR` in `build_journal.py`. It currently
-reads *The Skill Seeker Lab*. If you want it credited to you, change that
-constant, rebuild, and use the same name here. **The name on the cover and the
-name in this field must match**, or KDP flags it in review.
+**Author**
+```
+Gao Kab
+```
+This matches the name now printed on the cover, spine, title page and
+copyright page. **The name here and the name on the cover must match**, or KDP
+flags it in review. To change it, edit `AUTHOR` in `build_journal.py`, rebuild,
+and update this field too.
 
 **Description** (paste as-is; KDP accepts basic HTML, ~4000 char limit)
 
