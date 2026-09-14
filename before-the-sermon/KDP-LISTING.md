@@ -92,13 +92,13 @@ plus a rebuild. Printing cost is roughly double.
 
 All territories · Amazon.com primary.
 
-Printing ~ **$2.40** for 128pp B&W cream 6 × 9 (check KDP's live figure).
+Printing **$2.54** for 128pp B&W cream 6 × 9 ($1.00 fixed + $0.012/page; check KDP's live figure).
 
 | List | Royalty |
 |---|---|
-| $12.99 | ~$5.39 |
-| $14.99 | ~$6.59 |
-| $16.99 | ~$7.79 |
+| $12.99 | ~$5.25 |
+| $14.99 | ~$6.45 |
+| $16.99 | ~$7.65 |
 
 Guided Scripture notebooks with real structure sit at $14–18; the cream stock
 and the restraint of the design support the upper end.
