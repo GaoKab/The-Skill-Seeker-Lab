@@ -82,6 +82,17 @@ PPI   = (0.002347 if COLOR_INTERIOR else 0.0025) * inch
 BLEED = 0.125 * inch
 SAFE  = 0.25 * inch
 
+# ---- KDP HARDCOVER (case laminate) geometry ---------------------------------
+# White paper only. Wrap and hinge are KDP-published; the spine formula is the
+# consensus of two third-party calculators (0.002252 in/page + 0.06 in board).
+# BEFORE UPLOADING: run KDP's cover calculator for 6x9 / 128 pages, and if its
+# template shows different spine / wrap / hinge figures, set them here and
+# rebuild. Three constants, one rebuild.
+HC_WRAP  = 0.51 * inch                     # KDP: art extends 0.51 in (15 mm) past trim, incl. bleed
+HC_HINGE = 0.40 * inch                     # KDP: 0.4 in (10 mm) between spine and safe area
+HC_SPINE = (PAGES * 0.002252 + 0.06) * inch
+HC_SAFE  = 0.635 * inch                    # KDP: text/images 0.635 in (16 mm) from book edge
+
 HERE  = os.path.dirname(os.path.abspath(__file__))
 DIST  = os.path.join(HERE, "dist")
 FONTS = os.path.join(HERE, "assets", "fonts")
@@ -699,16 +710,21 @@ def back_matter(b):
 # ============================================================================
 # COVER
 # ============================================================================
-def build_cover(path, pages):
-    spine = pages * PPI
-    W = BLEED * 2 + PW * 2 + spine
-    H = BLEED * 2 + PH
+def build_cover(path, pages, hardcover=False):
+    if hardcover:
+        spine, edge, hinge, safe = HC_SPINE, HC_WRAP, HC_HINGE, HC_SAFE
+    else:
+        spine, edge, hinge, safe = pages * PPI, BLEED, 0.0, SAFE
+    W = 2 * (edge + PW + hinge) + spine
+    H = 2 * edge + PH
     c = canvas.Canvas(path, pagesize=(W, H))
-    c.setTitle("Before the Sermon — cover"); c.setAuthor(AUTHOR)
-    bx, by = BLEED, BLEED
-    sx = BLEED + PW
-    fx = sx + spine
-    top = BLEED + PH
+    c.setTitle("Before the Sermon \u2014 " + ("hardcover" if hardcover else "cover"))
+    c.setAuthor(AUTHOR)
+    bx, by = edge, edge                     # back-cover trim origin
+    sx = edge + PW + hinge                  # spine left edge
+    fx = sx + spine + hinge                 # front-cover trim origin
+    top = edge + PH
+    SAFE_ = safe
 
     c.setFillColor(CV_BG); c.rect(0, 0, W, H, stroke=0, fill=1)
 
@@ -724,7 +740,7 @@ def build_cover(path, pages):
     # ---- front -------------------------------------------------------------
     cxm = fx + PW / 2
     # thin double frame
-    for inset, lw in ((SAFE + 6, 0.9), (SAFE + 11, 0.4)):
+    for inset, lw in ((SAFE_ + 6, 0.9), (SAFE_ + 11, 0.4)):
         c.setStrokeColor(CV_GOLD); c.setLineWidth(lw)
         c.rect(fx + inset, by + inset, PW - 2 * inset, PH - 2 * inset,
                stroke=1, fill=0)
@@ -732,7 +748,7 @@ def build_cover(path, pages):
     track(TAGLINE.upper(), top - 1.55 * inch, UI, 7.4, CV_DIM, cxm, 3.2)
 
     size = 54.0
-    while pdfmetrics.stringWidth(TITLE2, DISP_B, size) > PW - 2 * (SAFE + 40):
+    while pdfmetrics.stringWidth(TITLE2, DISP_B, size) > PW - 2 * (SAFE_ + 40):
         size -= 0.5
     c.setFillColor(CV_GOLD); c.setFont(DISP_B, size)
     ty = top - 3.45 * inch
@@ -771,8 +787,8 @@ def build_cover(path, pages):
         c.restoreState()
 
     # ---- back --------------------------------------------------------------
-    lx = bx + SAFE + 16
-    lw = PW - 2 * (SAFE + 16)
+    lx = bx + SAFE_ + 16
+    lw = PW - 2 * (SAFE_ + 16)
     bcx = bx + PW / 2
     yy = top - 1.25 * inch
     track("A NOTEBOOK FOR THOUGHTFUL READING", yy, UI, 7.2, CV_GOLD, bcx, 3.0)
@@ -812,17 +828,22 @@ def build_cover(path, pages):
     for ln in simpleSplit(voice, UI, 7.4, lw):
         c.drawCentredString(bcx, yy, ln); yy -= 11
 
-    c.setFillColor(CV_DIM); c.setFont(UI, 6.8)
-    c.drawString(lx, by + 0.42 * inch, IMPRINT.upper())
-    c.setFont(BODY_I, 8.2)
-    c.drawString(lx, by + 0.42 * inch - 12,
-                 "A reading companion, not a replacement for sermons.")
+    iy = by + SAFE_ + 4                     # imprint block sits on the safe line
     if ISBN:
-        c.setFont(UI, 6.4); c.drawString(lx, by + 0.42 * inch - 24, f"ISBN {ISBN}")
+        c.setFillColor(CV_DIM); c.setFont(UI, 6.4)
+        c.drawString(lx, iy, f"ISBN {ISBN}"); iy += 12
+    c.setFillColor(CV_DIM); c.setFont(BODY_I, 8.2)
+    c.drawString(lx, iy, "A reading companion, not a replacement for sermons.")
+    c.setFont(UI, 6.8)
+    c.drawString(lx, iy + 12, IMPRINT.upper())
 
     c.setFillColor(HexColor("#FFFFFF"))
-    c.rect(bx + PW - SAFE - 2.0 * inch, by + SAFE, 2.0 * inch, 1.2 * inch,
-           stroke=0, fill=1)
+    if hardcover:
+        c.rect(bx + PW - 0.25 * inch - 2.0 * inch, by + 0.76 * inch,
+               2.0 * inch, 1.2 * inch, stroke=0, fill=1)
+    else:
+        c.rect(bx + PW - SAFE - 2.0 * inch, by + SAFE, 2.0 * inch, 1.2 * inch,
+               stroke=0, fill=1)
     c.showPage(); c.save()
     return spine, W, H
 
@@ -841,10 +862,15 @@ def main():
     assert n % 2 == 0 and n == PAGES, f"expected {PAGES} pages, produced {n}"
     cover = os.path.join(DIST, f"before-the-sermon_cover_6x9_{n}pp.pdf")
     spine, W, H = build_cover(cover, n)
+    hc = os.path.join(DIST, f"before-the-sermon_cover-HARDCOVER_6x9_{n}pp.pdf")
+    hs, HW, HH = build_cover(hc, n, hardcover=True)
     print(f"interior : {interior}\n           {n} pages, 6 x 9 in, "
           f"{'colour' if COLOR_INTERIOR else 'B&W on cream'}, no bleed")
-    print(f"cover    : {cover}\n           {W/inch:.3f} x {H/inch:.3f} in incl. "
-          f"bleed, spine {spine/inch:.4f} in")
+    print(f"cover    : {cover}\n           paperback {W/inch:.3f} x {H/inch:.3f} in "
+          f"incl. bleed, spine {spine/inch:.4f} in")
+    print(f"hardcover: {hc}\n           {HW/inch:.3f} x {HH/inch:.3f} in incl. "
+          f"{HC_WRAP/inch:.2f} in wrap, hinge {HC_HINGE/inch:.2f} in, spine "
+          f"{hs/inch:.3f} in  \u2014 CONFIRM AGAINST KDP'S TEMPLATE BEFORE UPLOAD")
 
 
 if __name__ == "__main__":

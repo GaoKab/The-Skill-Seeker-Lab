@@ -4,12 +4,21 @@ A guided reading notebook: six questions, repeated across 52 facing-page spreads
 to help someone sit with a passage of Scripture before anyone explains it. Not a
 devotional, commentary, or theology guide. It never interprets the text.
 
-Two upload-ready PDFs live in `dist/`. Nothing else needs doing to them.
+Three upload-ready PDFs live in `dist/` — one interior, two covers (paperback and hardcover share the interior).
 
 | File | What it is | Upload as |
 |---|---|---|
 | `dist/before-the-sermon_interior_6x9_128pp.pdf` | 128 pages, 6 × 9 in, no bleed | KDP **Manuscript** |
-| `dist/before-the-sermon_cover_6x9_128pp.pdf` | 12.570 × 9.250 in full wrap, 0.125 in bleed, 0.320 in spine | KDP **Book Cover** |
+| `dist/before-the-sermon_cover_6x9_128pp.pdf` | paperback: 12.570 × 9.250 in full wrap, 0.125 in bleed, 0.320 in spine | KDP **Paperback → Book Cover** |
+| `dist/before-the-sermon_cover-HARDCOVER_6x9_128pp.pdf` | hardcover: 14.168 × 10.020 in, 0.51 in wrap, 0.40 in hinges, 0.348 in spine, white paper | KDP **Hardcover → Book Cover** |
+
+> **Hardcover geometry — confirm before upload.** KDP publishes the wrap (0.51 in)
+> and hinge (0.40 in); the spine formula (pages × 0.002252 + 0.06) is the consensus
+> of two third-party calculators, not KDP's page. Run KDP's cover calculator for
+> 6 × 9 / 128 pages / white and compare its template to these three numbers. If
+> any differ, set `HC_WRAP`, `HC_HINGE`, `HC_SPINE` in `build_notebook.py` and
+> rebuild. KDP's previewer rejects a mismatched hardcover cover, so this is a
+> two-minute check, not a risk.
 
 ## Where the words came from
 

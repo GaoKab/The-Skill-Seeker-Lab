@@ -83,10 +83,21 @@ christian journal for seekers
 > cover file already uses the cream figure. If you pick white paper, or switch
 > to a colour interior, rebuild first.
 
-**Hardcover option:** KDP also offers a 6 × 9 case-laminate hardcover. It needs
-its own cover file with a wider wrap (KDP's hardcover template adds ~0.6 in
-each side for the boards) — say the word and it's a one-line change to `BLEED`
-plus a rebuild. Printing cost is roughly double.
+## 2b · Hardcover (same listing, second format)
+
+After the paperback is created, choose **Create hardcover** on the same title.
+
+| Field | Value |
+|---|---|
+| Print options | **Black & white interior, white paper** (KDP hardcover has no cream) |
+| Trim size | 6 × 9 in |
+| Bleed | No bleed |
+| Cover finish | **Matte** |
+| Manuscript | the same `dist/before-the-sermon_interior_6x9_128pp.pdf` |
+| Book cover | `dist/before-the-sermon_cover-HARDCOVER_6x9_128pp.pdf` — **first run KDP's cover calculator and confirm wrap 0.51 / hinge 0.40 / spine 0.348** (see README) |
+| List price | **$24.99** → print $7.19 → royalty ≈ $7.80 |
+
+Order an **author proof** of both formats before publishing (~$8 + shipping).
 
 ## 3 · Rights & Pricing
 
