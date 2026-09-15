@@ -202,3 +202,25 @@ That is the most commercially complete response of the three factories, and it w
 ### Scoreboard shift
 
 Aung Crown and Hongyu are now both live, with different strengths. Aung Crown gave unit pricing and an amended agreement but no sample fee. Hongyu gave a sample fee and terms but no unit pricing and no construction answer. Neither is ahead. **The bake-off from `23` is now the right call and is affordable: $50 for a Hongyu sample, plus whatever Aung Crown's sample costs once she names it.** Two samples settle in three weeks what another month of email will not.
+
+## Ops log — Mon 14 / Tue 15 Sept 2026
+
+**Founder sent all five queued emails overnight on 14 Sept.** Aung Crown hat, FIMY close-out, Hongyu hat, Hongyu apparel, and ASBX. The backlog is clear for the first time since this log started.
+
+### Hongyu / Kira — fourth skip, and now it means something
+
+Her 14 Sept reply in full: *"I can give you accurate answers to these questions once I receive your design."*
+
+That is the brim construction question skipped a **fourth** time, and the rule written on 13 Sept said the fourth skip is itself the answer. It is worth being precise about what it tells us, because the obvious reading is not quite right. She is not dodging out of bad faith. She answers every commercial question fast and accurately: sample fee, MOQ, lead time, label cost, pattern ownership. She has never once answered a construction question. **That is the profile of a competent salesperson with no technician on the thread**, which is extremely common and not disqualifying by itself.
+
+What it does mean is that **no amount of further email will produce the interlining answer.** It will come from the factory floor with a sample in hand, or not at all. So the strategy changes rather than the supplier: stop asking a fifth time, get the agreement signed, and spend the **$50** to make the factory build one.
+
+**Drafted:** agreement attached, design pack follows on return, the construction question reframed honestly as something her technical team can answer on the sample but that must be answered before any bulk order, plus confirmation of what the $50 covers and how to pay.
+
+### Aung Crown — no reply yet to the 14 Sept questions
+
+Yolanda has not answered whether the quoted prices are for an original block or a catalog block, and still owes the sample cost, development cost, lead time and payment terms. One business day only, not stale. Watch it.
+
+### The bake-off is now affordable and should be booked
+
+Hongyu $50, Aung Crown cost unknown but likely similar. Two custom blocks from two factories, judged on the bench, settles what two more weeks of email will not. **Blocked on one thing only: head measurements.**

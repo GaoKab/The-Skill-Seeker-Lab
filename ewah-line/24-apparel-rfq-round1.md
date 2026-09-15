@@ -64,3 +64,25 @@ Second trim at the founder's direction: pre-agreement emails now carry ONLY cate
 **Elena / Aolafree:** silent since the RFQ went out 8 Sept, which is 3 business days. Not yet stale. Monday makes 4 and a nudge is due then.
 
 **New blocker, and it is now the binding one: EWAH has to supply the confidentiality agreement itself.** Hongyu said so explicitly, ASBX implied it by offering none. Aung Crown providing their own was the exception. Written and ready to send: **`28-confidentiality-agreement-to-send.md`** — a one-page mutual NNN with per-supplier governing law, the pattern and block ownership clause as the centre of it, and signature rules for Chinese entities. Nothing moves to sampling until that goes out.
+
+## Ops log — Mon 14 / Tue 15 Sept 2026
+
+### ASBX — they will not sign any confidentiality agreement
+
+Maria, 14 Sept: *"please feel free to send over your standard form for us to review but ASBX does not work with Ndas."* Send it, but we do not do them. The practical meaning is no agreement, and they still require the tech pack before they will quote.
+
+**This is a genuine fork, and it deserves clear eyes.** ASBX is a decorator that also runs its own streetwear label at asbxstore.com. A supplier who sells competing product of their own and refuses any confidentiality instrument is precisely the profile flagged in `14`. Against that: refusing to sign third-party paperwork is normal for small European firms who do not want legal review costs on every enquiry, and it is not by itself evidence of bad intent.
+
+**The resolution drafted is neither capitulation nor walking away.** Three things asked for as a written confirmation inside the email thread rather than as a contract: the artwork and tech pack remain the founder's property, they are used only to quote and produce her order, and they are not reused, adapted or shown for any other client or in ASBX samples or marketing. An email confirmation of those three points is evidentially useful and costs them nothing, so a refusal to give even that would be the real signal.
+
+**Also drafted, and this is the part that matters commercially:** the puff-plus-reflective feasibility question does not need the tech pack at all. Neither does fine-line screen holding. A decorator quotes from technique, ink count, coverage area and quantity. Asking those without the pack breaks the deadlock that ASBX created by demanding the pack up front.
+
+**The stock samples are live.** She pointed at asbxstore.com and will invoice once the items are chosen. Founder picks two garments this week. **This is the cheapest quality signal available in the whole project** and it arrives before any commitment.
+
+### Elena / Aolafree — nudged at 5 business days
+
+Silent since the 8 Sept RFQ. One-nudge follow-up drafted, deliberately shorter than the original, with an explicit invitation to decline. The original may simply have been too long to answer.
+
+### The unchanged blocker
+
+Measurements. 12 days open now. Hongyu's $50 sample, Aung Crown's sample, and the whole bake-off all sit behind it.
