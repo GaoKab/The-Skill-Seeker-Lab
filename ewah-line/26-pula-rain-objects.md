@@ -88,3 +88,38 @@ Tech pack v1 puts an event deadline on the accessory capsule, so the schedule ha
 - **Yolanda / Aung Crown:** asked which product + quantity. **Reply drafted in the Botswana thread** — scoped to beanie + bucket hat only, 50–100 pcs per style, two capability questions (raised/reflective cord on knit ribbing; underside-brim printing before assembly), timing deliberately set to rain season not 30 Sept, artwork withheld until the confidentiality agreement covers both projects.
 - **Not yet started:** local/US screen printer RFQ for the tee capsule · promotional supplier for can coolers and coasters · vector artwork rebuild (the critical path).
 - Boards were shown in chat but not saved as files — re-attach the two PULA boards as images if you want them archived in `boards/`.
+
+## DECISION (16 Sept 2026): print in the US, diaspora-first. Botswana is phase two.
+
+Founder's call, and it is the right one for this deadline: **print locally in the US now, establish a second print operation in Botswana later if the margins there justify it.**
+
+This resolves the open question from `29` and it settles several things at once.
+
+### What it makes easy
+
+- **Comfort Colors 1717 was always a US-stocked blank.** The whole tech pack is now aligned with the supply chain instead of fighting it. No import, no freight, no customs on the blanks
+- **Domestic shipping.** A tee posted inside the US costs a few dollars instead of more than the garment
+- **USD pricing with real margin.** A garment-dyed heavyweight tee at $45–55 against a blank plus decoration cost in the teens
+- **Speed.** A local printer is the only route that still reaches 30 September
+- **Storefront is simple.** US-based, USD, domestic shipping, which is exactly what the free-tier platforms in `29` handle well
+
+### The thing to be honest about in the launch copy
+
+**A US-printed tee will not be on a body in Gaborone on 30 September.** International post takes one to three weeks and it is not reliable to a date. So 30 September is the **drop date**, not a delivery date for anyone in Botswana.
+
+Two ways to handle it, and the choice belongs in the product copy rather than being discovered by a disappointed customer:
+
+1. **Diaspora-first framing.** The collection is for Botswana's people abroad, marking the 60th from wherever they are. Honest, specific, and it makes the US printing a feature rather than a compromise
+2. **Botswana orders as pre-orders**, shipped in October, or held for the phase two local run at a local price
+
+Do not let anyone in Botswana order on 30 September believing it arrives that week.
+
+### Phase two, Botswana
+
+The founder's thesis is that margins are better there. Worth testing rather than assuming, since the trade-off is real: a local printer means no international shipping and probably a lower-competition market, against a smaller blank selection and likely higher per-unit print cost on specialty work like puff and reflective.
+
+The trigger for phase two should be demand, not enthusiasm. If the diaspora drop sells through and there is a visible queue of Botswana-based buyers who could not get one, that is the signal. **Rain season, November to March, is the natural window for it**, which is already the plan for the RAIN OBJECTS tier, so the two line up.
+
+### What this does not change
+
+The critical path is still the artwork. A local printer cannot quote, proof or schedule from mockups, and no storefront decision substitutes for the vectors.
