@@ -123,3 +123,33 @@ The trigger for phase two should be demand, not enthusiasm. If the diaspora drop
 ### What this does not change
 
 The critical path is still the artwork. A local printer cannot quote, proof or schedule from mockups, and no storefront decision substitutes for the vectors.
+
+## Aung Crown accepts both PULA headwear pieces (reply 15 Sept, read 19 Sept)
+
+**Logged late. My error:** the daily checks on 16 and 17 Sept read the five EWAH threads and skipped this one, so a good reply sat unread for three days. The rule from 13 Sept said read every active thread with `get_thread`; I applied it to a subset and called it complete. **Corrected rule: the active thread list includes the PULA thread, and "active" means every thread in `23` and `24` plus this file, checked by name, not from memory.**
+
+### What Yolanda confirmed
+
+| Item | Answer |
+|---|---|
+| Both styles, 50–100 pcs per style, 1–2 colourways | **Workable** |
+| Beanie raised cord for the falling-rain texture | **Can explore it**, construction depends on beanie structure and yarn, feasibility confirmed before sampling |
+| Reflective on the beanie | Reflective **yarn or coating**, to be chosen with the artwork |
+| **Bucket hat underside-brim printing** | **Yes, printed on the fabric before assembly** — hidden with the brim down, revealed when turned up |
+| Artwork ownership | Remains the founder's property, not reused, reproduced or shared with other clients |
+| One agreement covering both projects | **Agreed** |
+| Rain-season timing rather than 30 Sept | **Agreed, explicitly** |
+
+**Score: the strongest technical reply received from any supplier in either category.** She engaged with the actual construction questions instead of deferring them, and the brim answer describes the exact reveal detail specified on the boards, unprompted. Compare this against Hongyu, who has skipped the equivalent question four times. On technical engagement Aung Crown is now clearly ahead.
+
+**Still deferred to artwork:** sample cost and lead time for each style, and unit pricing at 50 and 100. Reasonable in principle, since the cord and the brim print genuinely drive cost. Less reasonable as a pattern, because this is the third exchange where a number was promised and did not arrive. **The drafted reply separates a budget range from a quotation** and asks only for the range, so development can be planned without waiting for artwork.
+
+### The signing path is now clear, and it is one document
+
+*"Please feel free to fill your information in NDA agreement and then we can Stamp."*
+
+That is the correct sequence and it matches the signature discipline in `28`: Party A fills in and signs, Party B applies the **company chop**. One agreement now unlocks three products across two brands — the EWAH bucket hat, the PULA beanie, and the PULA bucket hat.
+
+**Unchanged and still blocking: clause 2.2 has never been verified.** The amended PDF cannot be opened from this session. Do not fill in and return a document whose operative clause nobody has read. Save it into `ewah-line/` or paste the clause text.
+
+**Also asked in the draft:** written confirmation that the agreement covers both brands. Yolanda agreed to it in email, which is worth something, but the document itself should say so, because that is the piece that survives a change of sales contact.
