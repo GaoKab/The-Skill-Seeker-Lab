@@ -6,6 +6,14 @@
 
 **What this is not.** Legal advice, and not a substitute for a lawyer once there is money at stake. It is the zero-budget instrument from `14` §7, written to be good enough to send today rather than perfect in six months. The clause that actually earns its keep is 2(b), the ownership of patterns and blocks. That is the one to never delete for any supplier's convenience.
 
+## The sendable file
+
+**`agreements/EWAH-NNN-Hongyu-Apparel.docx`** — generated 19 Sept, Hongyu version, clause 7 already set to PRC law with CIETAC as the arbitration option. The markdown below is the source text; the .docx is the thing you actually attach to an email.
+
+Before sending, fill in three blanks: the date, Party A's address, and Party B's address. Leave everything else for the parties to complete on signature. Party B's block asks for the **registered** company name and a **company chop**, which is deliberate.
+
+Rendering was not visually verified because LibreOffice cannot convert files in this environment. The document text was checked clause by clause against the source below and is complete. Open it once before sending to confirm it looks right.
+
 ---
 
 ## Send-ready text
