@@ -224,3 +224,37 @@ Yolanda has not answered whether the quoted prices are for an original block or 
 ### The bake-off is now affordable and should be booked
 
 Hongyu $50, Aung Crown cost unknown but likely similar. Two custom blocks from two factories, judged on the bench, settles what two more weeks of email will not. **Blocked on one thing only: head measurements.**
+
+## ACTIVE THREAD REGISTER — read every one of these, by ID, on every check
+
+The 13 Sept rule said read active threads with `get_thread` rather than scoring from search previews. It was then applied to a subset on 15, 16 and 17 Sept, which hid Yolanda's PULA reply for three days and Faraz's reply for five. A rule held in memory is not a rule. This is the list.
+
+| # | Thread | Contact | Gmail thread ID |
+|---|---|---|---|
+| 1 | Aung Crown — EWAH bucket hat | Yolanda Xiong, ac10@aungcrown.com | `1a0542d6a80a3974` |
+| 2 | Aung Crown — PULA beanie + bucket hat | Yolanda Xiong | `1a07471d6cabcf04` |
+| 3 | FIMY — bucket hat | Faraz, sales@fimyapparel.com | `1a05432d90420270` |
+| 4 | Hongyu — bucket hat | Kira, kira@hongyuapparel.com | `1a0543889f9c5169` |
+| 5 | Hongyu — training dress | Kira | `1a068b2f13cbb8d9` |
+| 6 | ASBX — PULA tees | Maria Almeida, sales@asbx.pt | `1a068b32b7fa7e6a` |
+| 7 | Aolafree — training dress | Elena, elena@aolawear.com | `1a068b2bb389675e` |
+
+All seven, every check, no exceptions. Add a row when a new supplier thread opens; never remove one without recording why.
+
+## Ops log — Sat 19 Sept 2026
+
+**Founder sent three overnight:** Yolanda on PULA, Elena's nudge, and Maria at ASBX. The Kira reply is correctly still held, because it references the NNN attachment which only became a real file today.
+
+**The NNN is now an actual document.** `agreements/EWAH-NNN-Hongyu-Apparel.docx`. It had existed only as markdown in this repo, which cannot be attached to an email, so telling the founder to "send the agreement" was never actionable. That was the real reason the Hongyu thread sat still for a week, and it was an operator failure, not a founder one.
+
+### FIMY — reopened, and the close-out worked (reply 14 Sept, read 19 Sept)
+
+The close-out email named two conditions. He met one properly and dodged the other.
+
+**Met: payment structure.** Now **70% advance, 30% before shipment**, with detailed photos and videos of finished goods for inspection before the balance is released. That is a normal, workable structure and a genuine concession from 100% upfront. It also tells us something useful: he wants this business enough to change terms, which is worth more than a polished process description.
+
+**Dodged again: the sample fee.** He apologises for not giving a number, explains at length why samples are expensive, and then does not give a number. **Fourth ask.** The explanation is that a custom manufacturer cannot price without the spec, but Hongyu quoted $50 having seen nothing and Aung Crown quoted unit bands, so this is a sales approach rather than a constraint of custom manufacturing: get the customer invested in a spec pack first, price after.
+
+**Drafted:** accept the payment terms warmly, then ask the number a fifth time and only that. The draft states plainly that another factory quoted $50 sight unseen, so the question is demonstrably answerable. Pack goes the same day the figure arrives.
+
+**Standing verdict: back in the race, conditionally.** Two of three hat factories now have a viable commercial shape. None has produced a sample.
