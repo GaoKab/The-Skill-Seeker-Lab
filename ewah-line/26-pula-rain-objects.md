@@ -153,3 +153,51 @@ That is the correct sequence and it matches the signature discipline in `28`: Pa
 **Unchanged and still blocking: clause 2.2 has never been verified.** The amended PDF cannot be opened from this session. Do not fill in and return a document whose operative clause nobody has read. Save it into `ewah-line/` or paste the clause text.
 
 **Also asked in the draft:** written confirmation that the agreement covers both brands. Yolanda agreed to it in email, which is worth something, but the document itself should say so, because that is the piece that survives a change of sales contact.
+
+## DECISION (21 Sept 2026): 30 September is dead. PULA becomes a brand, not a commemorative drop.
+
+Founder's call, made with nine days still on the clock rather than at the last moment. That distinction matters: this is a decision, not a failure.
+
+### What was actually lost, and it is less than it looks
+
+The **day** is gone. The **anniversary is not.** Botswana's independence was 30 September 1966, so the sixtieth **anniversary year** runs through 2026 and into 2027. A collection released in November is still a 60th anniversary collection. Nothing in the approved vocabulary expires on the 30th: PULA, A ENE!!, FATSHE LENO, BOIPUSO 60, 1966-2026, INDEPENDENCE LIVES ON all remain accurate for months.
+
+What is lost is the moment of national attention on the day itself. That is worth something and it is worth being honest about. It is not worth shipping warped AI lettering carrying a line of the national anthem.
+
+### What is gained, and this is the larger point
+
+**The anniversary was a reason to launch. It was never the brand.** Building toward a single date produced a one-off souvenir with a shelf life measured in weeks. Remove the date and the brand has to stand on its own thesis, and it comfortably can:
+
+> *Pula* is rain, blessing, and the currency. Rain in Botswana is not weather, it is fortune. **RAIN OBJECTS** are things made for the season when the blessing arrives.
+
+That is repeatable, seasonal, and ownable in a way a commemorative tee is not. It comes back every November. It has a natural product logic already written into this file: beanies, bucket hats, a rain jacket, reflective detailing that reads in low light. The anniversary capsule becomes **one capsule inside PULA** rather than the whole of it.
+
+### The restructure
+
+| Was | Now |
+|---|---|
+| PULA = BOIPUSO 60 commemorative collection | PULA = a Botswana rain-and-blessing label |
+| Anniversary is the identity | **BOIPUSO 60 is a capsule within it**, released during the anniversary year |
+| One drop, 30 September, then nothing | **Seasonal: rain season, November to March**, returning annually |
+| Tees only, because tees were fast | Tees, plus the headwear Aung Crown already confirmed, plus the objects tier |
+
+### The replacement date, because a brand with no date never ships
+
+Killing a deadline without replacing it is how projects drift for a year. **The new target is a launch in early November**, timed to the first rains.
+
+That is roughly six weeks, and it makes everything that was impossible comfortable:
+
+| Week | What happens |
+|---|---|
+| 1 | Commission the vectors. No rush premium, proper review of the letterforms at full size |
+| 2 | Vectors back, reviewed, corrected. DTF sample ordered from a local printer |
+| 3 | Sample in hand, worn, washed, photographed. Screen printing quoted properly with puff and reflective |
+| 4 | Production run ordered. Storefront built on the free tier. Product photography with the sample |
+| 5 | Aung Crown headwear sampling runs in parallel, on their own confirmed timeline |
+| 6 | **Launch into the first rains** |
+
+Every step here was previously being compressed into two or three days. None of it is now.
+
+### What does not change
+
+The artwork is still the critical path and still has not been commissioned. Six weeks of runway only helps if week one starts. The brief and the pre-vectorised rain system are both ready in `27`.
