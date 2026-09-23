@@ -28,6 +28,7 @@ AUTHOR         = "Gao Kab"
 IMPRINT        = "Before the Sermon"
 YEAR           = "2026"
 ISBN           = ""
+AUTHOR_ON_TITLE_PAGE = False  # Gao asked for her name off the interior title page (23 Sep)
 COLOR_INTERIOR = False        # False: B&W on cream paper (cheapest, matches the
                               #        mockups' stock). True: terracotta accent,
                               #        KDP standard colour, white paper only.
@@ -381,7 +382,8 @@ def front_matter(b):
     b.text(TITLE2, y, DISP_B, 40, INK, "c", M_GUT, CW)
     y -= 40
     b.text(SUBTITLE, y, DISP_I, 17, MID, "c", M_GUT, CW)
-    b.kicker(AUTHOR, 1.55 * inch, 7.6, INK, M_GUT, CW, "c")
+    if AUTHOR_ON_TITLE_PAGE:
+        b.kicker(AUTHOR, 1.55 * inch, 7.6, INK, M_GUT, CW, "c")
 
     # 4 copyright
     b.np(folio=False)
