@@ -3,6 +3,8 @@
 
 **Copyright and Scripture.** Default: cite the reference, don't reprint the verse. If quoting: ≤2 verses, public-domain translation (WEB, KJV) *or* Gao's own translation with the publisher's required attribution line (ESV, NIV, CSB all permit short quotation without permission). Never reproduce a study-Bible note, a commentary, or another creator's reading. Policy decision: D-07.
 
+**Spot the Difference cards.** The one format where we assert something about the text, so it carries the highest accuracy risk. Rule: cite the exact verse range; every option must be checkable *inside that range*; the "does not align" option must be unarguably absent from or contradicted by the text — never a matter of emphasis or timing; two readers verify against the verses before it posts. Being corrected on what the text says is the one error this brand cannot afford.
+
 **Attribution.** Every idea we borrow gets named. Nothing from She Reads Truth, The Bible Recap, or any creator is paraphrased as ours.
 
 **Factual accuracy.** No claims about what a passage "means" — that would violate the product itself. No statistics without a source in the post file. No "studies show".

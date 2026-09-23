@@ -43,6 +43,7 @@ The white space: **pre-interpretation, for the unconfident, without assumption.*
 ## Repeatable formats
 | Format | Cadence | Shape | Why |
 |---|---|---|---|
+| **Spot the Difference** *(Gao's format, already live)* | 1/wk | One passage, four statements, "three align with the text, one does not". Answer before checking. | Tests *observation* only — question 1 of the notebook as a game. Shareable, arguable, on-brand. **Every card verified against the cited verses by two readers before posting.** |
 | **Sit With It carousel** | 1/wk | Slide 1 passage ref + "read it twice". Slides 2–4 one question each with white space. Slide 5 "what did you notice? — no right answers". | Save-driven; the product demonstrated. |
 | **One Question card** | 2/wk | Single cream text card, one of the six questions, one line of hint. | Cheap, on-brand, builds recognition of the six. |
 | **Before Sunday** | Sat, weekly | Passage for tomorrow + one question. | Ritual; the name; shareable to church friends. |
@@ -51,7 +52,7 @@ The white space: **pre-interpretation, for the unconfident, without assumption.*
 | **Email: The Sunday Page** | Weekly | One passage, the six questions, printable. | List-building; the free spread is the lead magnet. |
 
 ## Growth model
-Organic IG (saves + shares over likes) → link to a **free printable spread** (email capture) → weekly Sunday email → Amazon. Collaborations with small-group leaders and 5–30K faith accounts who share the "slow" ethos, not the megabrands. Pinterest as a controlled experiment in month 3 (journals index well there). Amazon listing tuned for "bible study journal for beginners" / "scripture reading notebook". **No paid media for 90 days.**
+Organic IG (saves + shares over likes) → link to a **free printable spread** (email capture; consider a *Spot the Difference* pack as the alternative hook — it's the more shareable of the two) → weekly Sunday email → Amazon. Collaborations with small-group leaders and 5–30K faith accounts who share the "slow" ethos, not the megabrands. Pinterest as a controlled experiment in month 3 (journals index well there). Amazon listing tuned for "bible study journal for beginners" / "scripture reading notebook". **No paid media for 90 days.**
 
 ## Monetization model (in order)
 1. **KDP paperback ($14.99) and hardcover ($24.99)** — live first, zero capital.

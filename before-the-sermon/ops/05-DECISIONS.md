@@ -59,6 +59,25 @@
 ### D-11 · Small-group leader outreach (P2)
 - Not before Nov. Requires a separate approval with the list attached. Placeholder.
 
+### D-12 · Authorship: Gao Kab or Before the Sermon? (P0)
+- **Context:** name removed from the interior title page at Gao's request (23 Sep). Cover, spine, copyright line and KDP author field still say Gao Kab.
+- **Recommendation:** brand-authored — `AUTHOR = "Before the Sermon"`. The notebook speaks in its own voice; the site never carried a person's name; a book that refuses to tell you what to believe sits oddly under an author's name. Skill Seeker stays under Gao's name — that one is hers by design.
+- **Risk:** none reversible before print. **Next:** Gao chooses; one-line rebuild.
+
+### D-13 · Visual system: dark on screen, cream on paper (P1)
+- **Context:** IG cards are near-black + gold; the book is cream + terracotta + gold. Same serif lockup on both.
+- **Recommendation:** commit to it deliberately — gold and Cormorant are the constants; the ground flips by medium. Review at week 4 with saves data.
+- **Next:** APPROVE or pick one ground for both.
+
+### D-14 · One tagline (P1)
+- Three in circulation: *A Notebook for Thoughtful Reading* (site) · *Sitting With Scripture* (cover subtitle) · *Prompts that help you look again* (IG post 1).
+- **Recommendation:** *Sitting With Scripture* is the subtitle and stays. Of the other two, **"Prompts that help you look again"** is the better line — it's a verb, it's Gao's, and it describes the Spot the Difference posts exactly. Retire "A Notebook for Thoughtful Reading" from the cover kicker at the next rebuild.
+- **Next:** Gao picks.
+
+### D-15 · Post 2 (Matthew 14:29–31) correction (P0)
+- **Recommendation:** add a caption note today acknowledging that D is supported by the verse order and A is outside the cited range, and ask readers which they'd pick — that turns the flaw into the brand's own move ("look again"). Or replace the card. Do not leave it as is.
+- **Next:** Gao's call; GM drafts either version on request.
+
 ## Log — decided
 | Date | Decision | By |
 |---|---|---|

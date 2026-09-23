@@ -59,3 +59,38 @@
 | Manus hosting | **Revise if not owned** | Move to a domain Gao controls if Manus can't guarantee that. |
 | DustOff teach-first playbook format | **Adopt the format, not the voice** | Pillar / format / CTA tables and batch-drafting worked for Gao before. The tone here is quieter. |
 | Print route (KDP first) | **Retain** | Researched; numbers in `../PRINT-ROUTES.md`. |
+
+
+---
+
+## Instagram audit — @beforesermon · 23 Sep 2026
+*From Gao's own-profile screenshot. Follower/reach numbers still unknown (Insights screenshots pending). The account is new: "Complete your profile 3 of 4", fewer than five accounts followed.*
+
+### What's there — three posts
+| # | Post | Format | Read |
+|---|---|---|---|
+| 1 | "Interactive Scripture — Prompts that help you look again." over a warm photo (open Bible, mug, window) | Photo + headline | On-voice. But it introduces a **third tagline** (site: *A Notebook for Thoughtful Reading*; cover: *Sitting With Scripture*). Pick one. |
+| 2 | **"Spot the Difference" — Matthew 14:29–31, Peter walks on water.** "Three of these align with the text. One does not." A–D. Footer: *"Answer before checking. Your instinct often knows."* | Dark card, serif, quiz | **The best idea on the account** — see below. Also has a **text-accuracy problem** — see below. |
+| 3 | "Before the Sermon / You are allowed to sit with Scripture before anyone explains it." over a photo (Bible, pen, plant, wood) | Photo + headline | The core promise, verbatim, in the voice. Keep; this is the pinned post. |
+
+Profile image: the BEFORE / SERMON mark in gold on near-black. Name field complete.
+
+### What's strong
+- **Spot the Difference is a format, not a post.** It turns question 1 of the notebook — *what does the text actually say?* — into a 20-second game that people will answer in their heads before they scroll. It tests *observation*, not *interpretation*, so it stays inside the brand's rule of never telling anyone what a passage means. "Answer before checking" is exactly the notebook's stance. This should become a weekly pillar format and the lead-magnet mechanic. (Added to `02-STRATEGY.md`.)
+- Photography is real-looking, warm, and restrained. Better than the AI mockups in the site bundle.
+- Post 3 is the promise in one sentence over an image. Nothing to fix.
+
+### What's weak or unclear
+1. **Post 2's "one does not align" is not clearly true of any option.** Matthew 14:29–31: Peter steps out and walks on the water toward Jesus (v29); *when he sees the wind* he is afraid and begins to sink (v30); Jesus immediately reaches out (v31). So **B and C align. D — "Peter walked on water before he had any doubt" — is supported by the order of v29–30.** A — "Peter asked Jesus to call him out of the boat" — is true, but it is **verse 28, outside the cited range**. If D was meant as the odd one out, a careful reader will correct it in the comments, and for a brand whose entire promise is *look at what the text actually says*, being corrected on what the text actually says is the one mistake that costs real trust. If A was meant (out-of-range technicality), the card should say so. **Recommendation: edit the caption to acknowledge the ambiguity, or replace the card with a passage where the odd option is unarguable.** Every future Spot the Difference gets a two-reader check against the cited verses before posting (rule added to `08-RISK-AND-QUALITY.md`).
+2. **Two visual systems.** IG cards are near-black with gold/cream type; the book is cream with terracotta and gold. Both use the same gold serif lockup, so it can work as *dark on screen, cream on paper* — but it has to be a decision, not an accident (D-13).
+3. **Three taglines** across site, cover and post 1. One should win (D-14).
+4. Account setup incomplete; no link in bio yet (nothing to link to until the listing is live — fine for now).
+
+### Retain / revise / test / discard
+| Item | Call |
+|---|---|
+| Post 3 (the promise) | **Retain; pin it** |
+| Post 1 | **Retain; revise the tagline** when D-14 is decided |
+| Post 2 | **Revise now** (caption note or replacement), then **keep the format** |
+| Spot the Difference format | **Adopt weekly**; make it the free download's mechanic |
+| Dark card system | **Test 4 weeks** as the on-screen system, gold constant; decide at week 4 |

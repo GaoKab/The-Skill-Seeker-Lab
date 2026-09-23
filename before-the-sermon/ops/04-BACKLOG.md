@@ -2,6 +2,8 @@
 *P0 = this week · P1 = next two weeks · P2 = this quarter · P3 = parked. Newest changes at top of each section.*
 
 ## P0
+- [ ] **Gao: fix or annotate IG post 2** (Matthew 14:29–31 — D-15) — today
+- [ ] GM: Spot the Difference ×4 — verified cards for the next month → `content/SPOT-01.md`
 - [ ] **Gao: approve/edit the six questions** (D-01) — blocks the final interior
 - [x] Gao: IG handle → **@beforesermon** (23 Sep)
 - [ ] **Gao: 4 IG screenshots** (profile · Insights 90-day overview · top posts by saves · audience) — blocks the IG audit
