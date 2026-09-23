@@ -3,7 +3,8 @@
 
 ## P0
 - [ ] **Gao: approve/edit the six questions** (D-01) — blocks the final interior
-- [ ] **Gao: IG handle + numbers** — blocks the IG audit and bio rewrite
+- [x] Gao: IG handle → **@beforesermon** (23 Sep)
+- [ ] **Gao: 4 IG screenshots** (profile · Insights 90-day overview · top posts by saves · audience) — blocks the IG audit
 - [ ] **Gao: run KDP hardcover calculator (6×9, 128pp, white)** and send the three numbers — blocks hardcover upload
 - [ ] GM: Content Batch 01 → `content/BATCH-01.md` *(drafted, awaiting approval)*
 - [ ] GM: free printable spread PDF (single Sit-With-It page, letter + A4)

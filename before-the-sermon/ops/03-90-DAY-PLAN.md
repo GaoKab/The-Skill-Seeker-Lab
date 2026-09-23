@@ -1,5 +1,5 @@
 # 03 · 90-Day Operating Plan
-*15 Sep – 13 Dec 2026. Owners: **G** = Gao (approve / publish / anything live) · **GM** = this role (prepare, draft, analyse).*
+*Re-based 23 Sep: Phase 0 runs 23 Sep – 6 Oct; every later date shifts +8 days. Original span 15 Sep – 13 Dec 2026. Owners: **G** = Gao (approve / publish / anything live) · **GM** = this role (prepare, draft, analyse).*
 
 ## Phase 0 — Foundations (Wk 1–2, Sep 15–28)
 | Deliverable | Owner | Due | Done when |
@@ -8,7 +8,7 @@
 | Rebuild notebook with approved copy | GM | +1 day | Files in `dist/`, checks green |
 | Confirm hardcover geometry against KDP's template | G runs calculator · GM rebuilds | Sep 19 | Numbers match or constants updated |
 | KDP: create paperback + hardcover, upload, order **author proofs** | G | Sep 20 | Proofs ordered (~$8 + ship) |
-| Share IG handle, follower count, top 3 posts, posting history | G | Sep 17 | IG audit appended to `01-AUDIT.md` |
+| ~~Share IG handle~~ done · send 4 Insights screenshots | G | Sep 25 | IG audit appended to `01-AUDIT.md` |
 | IG bio, link, highlights plan | GM drafts · G applies | Sep 22 | Live |
 | Free printable spread (lead magnet) + landing page copy | GM | Sep 24 | PDF built; copy approved |
 | Email tool on free tier (MailerLite or Kit — D-06) | G | Sep 26 | Signup works |

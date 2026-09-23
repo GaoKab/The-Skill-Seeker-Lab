@@ -11,7 +11,7 @@
 | **Interior mockup** | Uploaded image | Six-question spread, terracotta italic headings, cream stock. Prompt wording differs from the site's list. |
 | **Lifestyle photography** ×2 | Uploaded images | AI-generated scene mockups (coffee, Bible, notebook, "Patience in the stillness / March 15"). Usable for mood; **not** product photography of a real object. |
 | **The notebook itself** | `../dist/` | **Built this week**: 128-page interior, paperback cover, hardcover cover, KDP listing sheet, print-route research. Verified against KDP safe areas; fonts embedded. |
-| **Instagram account** | Exists per Gao | **Not inspected** — no handle in Drive, Gmail or the bundle; not findable by search. Needs handle + current numbers from Gao. |
+| **Instagram account** | **@beforesermon** (confirmed 23 Sep) | **Not inspectable from here** — Instagram returns 429 to unauthenticated readers and no connector exists. Audit runs from Gao's screenshots: profile, Insights overview (90 days), top posts by saves, audience. Handle noted: it drops the word *the* — see Profile note. |
 | **Email list / capture** | — | None found. |
 | **Amazon / KDP listing** | — | Not created. |
 | **Planning docs for this brand** | — | None. (Extensive DustOff social playbooks exist in Drive: teach-first post structure, pillar/format/CTA calendars, launch plan — a proven working format that this brand should reuse.) |
@@ -37,7 +37,7 @@
 
 ## What is missing
 
-- IG handle, follower count, top posts, posting history (**blocking for the IG audit only**)
+- IG **numbers**: follower count, post count, posting history, top 3 posts by saves, audience split (**blocking for the IG audit only** — handle now known)
 - Live site URL and control of the domain
 - An email capture mechanism and a reason to give an email (lead magnet)
 - Real product photography

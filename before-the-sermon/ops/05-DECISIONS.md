@@ -66,3 +66,4 @@
 | 13 Sep 2026 | Author credit on both: Gao Kab | Gao |
 | 14 Sep 2026 | Print route: KDP paperback + hardcover first; linen run only after demand gate | Gao ("perfect lets do that") |
 | 14 Sep 2026 | GM role and operating principles adopted | Gao |
+| 23 Sep 2026 | Instagram handle confirmed: @beforesermon | Gao |

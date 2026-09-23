@@ -1,4 +1,6 @@
 # Instagram profile — proposed
+
+**Handle:** `@beforesermon` (existing). Note it omits *the*. Fine for a handle; the **name field** should carry the full title so search and the shelf match: *Before the Sermon*.
 *Status: awaiting approval (D-04 strategy). Apply only after Gao approves; she applies it.*
 
 **Name field** (searchable): `Before the Sermon · Sitting With Scripture`
