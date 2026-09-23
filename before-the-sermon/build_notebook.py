@@ -24,11 +24,12 @@ from reportlab.lib.utils import simpleSplit
 # ----------------------------------------------------------------------------
 # EDIT THESE AND RE-RUN.
 # ----------------------------------------------------------------------------
-AUTHOR         = "Gao Kab"
+AUTHOR         = "Before the Sermon"     # brand-authored (D-12, 23 Sep)
 IMPRINT        = "Before the Sermon"
 YEAR           = "2026"
 ISBN           = ""
-AUTHOR_ON_TITLE_PAGE = False  # Gao asked for her name off the interior title page (23 Sep)
+AUTHOR_ON_TITLE_PAGE = False  # no author line inside (23 Sep)
+SHOW_AUTHOR_ON_COVER = AUTHOR.strip().lower() != "before the sermon"  # title already says it
 COLOR_INTERIOR = False        # False: B&W on cream paper (cheapest, matches the
                               #        mockups' stock). True: terracotta accent,
                               #        KDP standard colour, white paper only.
@@ -367,7 +368,26 @@ def front_matter(b):
     b.np(folio=False)
     b.text("Before the Sermon", PH / 2 + 6, DISP_SB, 22, INK, "c", M_GUT, CW)
     b.ornament(PH / 2 - 12, M_GUT, CW)
-    b.blank(1)                                                        # 2
+
+    # 2 gift inscription (verso, faces the title page)
+    b.np(folio=False)
+    gx, gw = M_OUT + 0.3 * inch, CW - 0.6 * inch
+    y = PH - 2.6 * inch
+    b.kicker("If this came as a gift", y, 7.0, MID, gx, gw, "c")
+    y -= 48
+    for lab, n in (("For", 1), ("From", 1), ("On", 1), ("Because", 2)):
+        c.setFont(DISP_I, 12.5); c.setFillColor(MID)
+        c.drawString(gx, y, lab)
+        lx = gx + pdfmetrics.stringWidth(lab, DISP_I, 12.5) + 8
+        b.hline(y - 3.5, lx, gx + gw - lx, RULE, 0.6)
+        y -= 30
+        for _ in range(n - 1):
+            b.hline(y - 3.5, gx, gw, RULE, 0.6)
+            y -= 30
+        y -= 6
+    y -= 12
+    b.para("No one has to finish it. Someone only has to open it.", y, BODY_I,
+           10.4, 14.4, MID, gx, gw, "c")
 
     # 3 title page
     b.np(folio=False)
@@ -769,11 +789,12 @@ def build_cover(path, pages, hardcover=False):
     c.setFont(DISP_I, 20); c.setFillColor(CV_INK)
     c.drawCentredString(cxm, sy, SUBTITLE)
 
-    # small leaf-less ornament near the foot, then author
+    # foot: ornament, and the author line only when a person is credited
     c.setStrokeColor(CV_GOLD); c.setLineWidth(0.7)
     c.line(cxm - 18, by + 1.62 * inch, cxm + 18, by + 1.62 * inch)
     c.setFillColor(CV_GOLD); c.circle(cxm, by + 1.62 * inch, 1.6, stroke=0, fill=1)
-    track(AUTHOR.upper(), by + 1.22 * inch, UI, 8.4, CV_INK, cxm, 3.0)
+    if SHOW_AUTHOR_ON_COVER:
+        track(AUTHOR.upper(), by + 1.22 * inch, UI, 8.4, CV_INK, cxm, 3.0)
 
     # ---- spine -------------------------------------------------------------
     if pages >= 100:
@@ -784,8 +805,9 @@ def build_cover(path, pages, hardcover=False):
         c.setFont(DISP_I, 8.5); c.setFillColor(CV_DIM)
         w1 = pdfmetrics.stringWidth("BEFORE THE SERMON", DISP_SB, 9.5)
         c.drawString(-PH / 2 + 0.7 * inch + w1 + 10, -3.0, SUBTITLE)
-        c.setFont(UI, 6.6); c.setFillColor(CV_INK)
-        c.drawRightString(PH / 2 - 0.7 * inch, -2.4, AUTHOR.upper())
+        if SHOW_AUTHOR_ON_COVER:
+            c.setFont(UI, 6.6); c.setFillColor(CV_INK)
+            c.drawRightString(PH / 2 - 0.7 * inch, -2.4, AUTHOR.upper())
         c.restoreState()
 
     # ---- back --------------------------------------------------------------

@@ -35,6 +35,7 @@ bringing" prompt carried across. Change them in the `PROMPTS` list at the top of
 Copy written **new for print** (not recovered — read it, and replace anything
 that isn't in your voice):
 
+* p2 — gift page: "If this came as a gift" · For / From / On / Because · "No one has to finish it. Someone only has to open it."
 * p5 — "There is no right pace for this…"
 * p10 — the whole *Before you begin* page, and "You are never being tested here."
 * p13 — the *How to use a spread* explanations, and "Turn the page."

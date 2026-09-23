@@ -16,9 +16,9 @@ Sitting With Scripture — A Guided Reading Notebook for Engaging the Bible Slow
 ```
 **Author**
 ```
-Gao Kab
+Before the Sermon
 ```
-Must match the cover. To change it, edit `AUTHOR` in `build_notebook.py`, rebuild, update here.
+Brand-authored (D-12). KDP accepts an imprint as the author; it must match the cover, which now carries no personal name. Gao Kab can be added under **Contributors → Creator** if she wants her name in the listing metadata without it on the cover.
 
 **Description** (paste as-is)
 ```html

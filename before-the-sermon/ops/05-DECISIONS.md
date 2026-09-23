@@ -59,7 +59,7 @@
 ### D-11 · Small-group leader outreach (P2)
 - Not before Nov. Requires a separate approval with the list attached. Placeholder.
 
-### D-12 · Authorship: Gao Kab or Before the Sermon? (P0)
+### ~~D-12 · Authorship~~ — DECIDED 23 Sep: Before the Sermon
 - **Context:** name removed from the interior title page at Gao's request (23 Sep). Cover, spine, copyright line and KDP author field still say Gao Kab.
 - **Recommendation:** brand-authored — `AUTHOR = "Before the Sermon"`. The notebook speaks in its own voice; the site never carried a person's name; a book that refuses to tell you what to believe sits oddly under an author's name. Skill Seeker stays under Gao's name — that one is hers by design.
 - **Risk:** none reversible before print. **Next:** Gao chooses; one-line rebuild.
@@ -86,3 +86,5 @@
 | 14 Sep 2026 | Print route: KDP paperback + hardcover first; linen run only after demand gate | Gao ("perfect lets do that") |
 | 14 Sep 2026 | GM role and operating principles adopted | Gao |
 | 23 Sep 2026 | Instagram handle confirmed: @beforesermon | Gao |
+| 23 Sep 2026 | **D-12 decided:** brand-authored — "by Before the Sermon". Name off cover, spine, copyright, listing. | Gao |
+| 23 Sep 2026 | Gift inscription page added (p2): For / From / On / Because | Gao |
