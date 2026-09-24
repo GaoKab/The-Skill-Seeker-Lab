@@ -258,3 +258,31 @@ The close-out email named two conditions. He met one properly and dodged the oth
 **Drafted:** accept the payment terms warmly, then ask the number a fifth time and only that. The draft states plainly that another factory quoted $50 sight unseen, so the question is demonstrably answerable. Pack goes the same day the figure arrives.
 
 **Standing verdict: back in the race, conditionally.** Two of three hat factories now have a viable commercial shape. None has produced a sample.
+
+## Ops log — 21–24 Sept 2026: the hat sample race is fully priced
+
+Two replies landed on 21 Sept. For the first time since this started, **every hat factory has named a sample price.**
+
+### The bake-off, costed
+
+| Factory | Sample price | What it includes | Terms |
+|---|---|---|---|
+| **Aung Crown** | **~$40** bucket hat, ~$55 beanie | Original block from measurements. Setup fees extra for printing, labels, patches, tags. Shipping not stated | Amended agreement in hand, unsigned |
+| **Hongyu** | **$50** | Stated sight unseen on 31 Aug, never varied | Wants EWAH to supply the agreement, document now ready |
+| **FIMY** | **$250** | **3 hats, shipping included**, branding included | 70% advance, 30% on inspection photos |
+
+**Aung Crown answered the block question.** From the 21 Sept reply: *"The prices are based on an original block developed according to measurements."* That is the confirmation this log has chased for two weeks, though it was written about the new sample prices rather than the earlier EWAH unit bands, so the drafted reply asks for one straight yes or no on whether it covers those too.
+
+**FIMY finally answered on the fifth ask.** $250 for three hats with shipping is not unreasonable once freight is counted, and per-piece it lands near the others. But five asks to get a number is itself the finding, and the entry cost is the highest of the three.
+
+### Decision: run Aung Crown first, Hongyu second, FIMY on the bench
+
+**Aung Crown leads on every axis that matters.** Cheapest sample, the only factory that engaged with construction rather than deferring it, an agreement already amended to EWAH's wording, and a written statement that its prices assume an original block. Hongyu is close behind on price and has been commercially crisp throughout, but has skipped the brim construction question four times.
+
+**Drafted to FIMY: a clean decline that is not a door slam.** It names the real reason, cost at this stage, credits his payment terms as the best of the three, and promises to return if the first sample disappoints. It also declines his offer to prepare the artwork file, because a factory that authors the design files muddies ownership exactly where `28` clause 2(b) is trying to keep it clean.
+
+**Drafted to Aung Crown:** accept the sample prices, ask what the setup fees actually come to for the cord, the brim print and a woven label, sample lead time from artwork, how to pay, and the block confirmation.
+
+### The agreement is still unread
+
+Yolanda has now sent the amended PDF **twice**, 7 and 21 Sept. This session cannot open mail attachments, so **clause 2.2 has never been read by anyone but her.** She is waiting on it filled in and stamped, and it now gates three products across two brands. Save it into `ewah-line/` or paste the clause text.
