@@ -15,6 +15,8 @@ channel and product business. If it isn't written here, it isn't decided.
 | `08-RISK-AND-QUALITY.md` | Copyright, translation policy, platform, brand-safety, AI-use rules | GM enforces |
 | `content/` | Every piece of content, one file per batch, with status | GM drafts · **Gao approves** |
 
+**Skill Seeker.** Its challenge/season plan lives in `../../journal/ops/CHALLENGE.md`; it shares this decision log and weekly review until it needs its own.
+
 **Roles.** Gao Kabubi is the founder: vision, brand, accounts, money, final say.
 The GM (this role) prepares, analyses, drafts, and recommends — and never
 publishes, spends, contacts anyone, signs anything, or touches a live account

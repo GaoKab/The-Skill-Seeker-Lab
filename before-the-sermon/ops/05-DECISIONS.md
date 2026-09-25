@@ -33,7 +33,7 @@
 - **Risk:** hardcover at $24.99 may be slow; it exists mainly to give the buyer who wants an object a way to pay. Price test scheduled for Phase 2.
 - **Next:** APPROVE. Gao creates the listing (live account).
 
-### D-06 · Email tool (P1)
+### ~~D-06 · Email tool~~ — DECIDED 25 Sep: Kit (free, 10k subscribers; MailerLite's free tier dropped to 250 in July 2026). Gao signs up; setup and copy in `content/EMAIL-01.md`.
 - **Recommendation:** MailerLite free tier (up to 500 subscribers, automations included) or Kit free tier. Either; MailerLite if undecided.
 - **Cost:** $0. **Next:** Gao signs up; GM writes welcome + Sunday Page.
 
@@ -92,6 +92,9 @@
 | 23 Sep 2026 | Instagram handle confirmed: @beforesermon | Gao |
 | 23 Sep 2026 | **D-12 decided:** brand-authored — "by Before the Sermon". Name off cover, spine, copyright, listing. | Gao |
 | 23 Sep 2026 | Gift inscription page added (p2): For / From / On / Because | Gao |
+| 25 Sep 2026 | **Publish tomorrow (26 Sep), all three formats**, previewer as the gate; author copies ordered same day; files updated afterwards if a copy shows a defect | Gao |
+| 25 Sep 2026 | **Skill Seeker = a public challenge; YouTube the main driver.** Season plan in `journal/ops/CHALLENGE.md` | Gao |
+| 25 Sep 2026 | D-06: Kit | Gao |
 | 25 Sep 2026 | **Skill Seeker Journal brand-authored too** — no personal name on either book (author: The Skill Seeker Lab) | Gao |
 | 25 Sep 2026 | **Consumable model adopted** — both books are repeat purchases; write-in fields and next-copy lines added; repeat-purchase emails backlogged | Gao |
 | 25 Sep 2026 | Operating rule adopted: *done means public* — finish and ship what was started | Gao |
