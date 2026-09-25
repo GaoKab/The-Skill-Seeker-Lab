@@ -78,6 +78,10 @@
 - **Recommendation:** add a caption note today acknowledging that D is supported by the verse order and A is outside the cited range, and ask readers which they'd pick — that turns the flaw into the brand's own move ("look again"). Or replace the card. Do not leave it as is.
 - **Next:** Gao's call; GM drafts either version on request.
 
+### D-16 · Free KDP ISBN vs own ISBN (decide at upload)
+- **Recommendation:** take the **free KDP ISBN** now. It's permanent for this edition and works for Amazon and KDP's own Expanded Distribution. If bookstores or IngramSpark ever matter, that is a separate edition with its own ISBN (Bowker, $125 single / $295 for ten) — not a reason to spend today.
+- **Also:** do **not** tick "low-content book" (loses free ISBN, Look Inside, Expanded Distribution).
+
 ## Log — decided
 | Date | Decision | By |
 |---|---|---|

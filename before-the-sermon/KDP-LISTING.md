@@ -49,6 +49,10 @@ Confusion, silence, and "I don't know" are treated as valid outcomes.
 A reading companion, not a replacement for sermons.
 ```
 
+**Low-content book?** → **No, leave unticked.** Ticking it removes the free ISBN, Look Inside, and Expanded Distribution. This notebook has 13 pages of method and a fixed six-question structure; it is a guided reading notebook, not a blank journal.
+
+**Description field** — KDP's description box accepts raw HTML. Paste the block above exactly (from a plain-text editor, not Word); the `<b>` and `<i>` tags render as bold and italic. Do **not** use the rich-text toolbar on top of it.
+
 **Publishing Rights** I own the copyright · **Primary audience** not for children · Adult content: No
 
 **Categories**
