@@ -15,7 +15,7 @@ def build(path, size):
     c = canvas.Canvas(path, pagesize=size)
     c.setTitle("The Sunday Page — Before the Sermon")
     c.setAuthor("Before the Sermon")
-    M = 0.85 * inch
+    M = 0.7 * inch
     x0, x1 = M, W - M
     cw = x1 - x0
     y = H - M
@@ -56,15 +56,18 @@ def build(path, size):
     line(y, col=N.INK, lw=0.7)
     y -= 6
 
-    # six questions, distributed to the closing block
-    NL = 3
-    qh = 13 + 11.6 + 2 + NL * 17.5
+    # six questions, evenly spaced down to the closing block
+    NL, PITCH = 2, 18.0
+    qh = 13 + 12.5 + 2 + NL * PITCH
     closing_h = 16 + 2 * 26
     foot = M + 30
+    y -= 14
     avail = y - foot - closing_h
-    gap = (avail - 6 * qh) / 6
+    gap = max(8.0, (avail - 6 * qh) / 6)
+    assert gap >= 8.0, f"Sunday Page overflows: gap {gap:.1f}"
     for i, (q, hint) in enumerate(N.PROMPTS, 1):
-        y -= gap
+        if i > 1:
+            y -= gap
         c.setFont(N.DISP_SI, 13.5); c.setFillColor(N.ACCENT)
         num = f"{i}."; c.drawString(x0, y, num)
         nx = x0 + pdfmetrics.stringWidth(num, N.DISP_SI, 13.5) + 5
@@ -73,7 +76,7 @@ def build(path, size):
         c.setFont(N.BODY, 8.6); c.setFillColor(N.MID); c.drawString(nx, y, hint)
         y -= 2
         for _ in range(NL):
-            y -= 17.5; line(y)
+            y -= PITCH; line(y)
     # closing
     y -= 22
     c.setFont(N.DISP_SI, 12); c.setFillColor(N.MID); c.drawString(x0, y, N.CLOSING[0])
