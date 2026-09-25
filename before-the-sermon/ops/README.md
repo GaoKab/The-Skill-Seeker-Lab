@@ -21,6 +21,8 @@ publishes, spends, contacts anyone, signs anything, or touches a live account
 without Gao's explicit yes. Routine preparation is handled without asking;
 anything visible to the public goes through `05-DECISIONS.md` first.
 
+**The founder's rule (25 Sep).** Gao's stated priority is to *finish and send out the things she has started*. For this business that means: **done means public.** A draft, a file, a plan is not a finished thing; a listing that is live, a post that is up, an email that has been sent is. Every week's review asks one question first: what left the building this week?
+
 **Cadence.** Monday: Gao reads the weekly review and clears the decision queue.
 Rest of the week: GM produces against the backlog. Nothing is "done" until it
 has a status in `content/` or a line in the decision log.

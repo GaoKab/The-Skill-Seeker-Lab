@@ -92,4 +92,5 @@
 | 23 Sep 2026 | Instagram handle confirmed: @beforesermon | Gao |
 | 23 Sep 2026 | **D-12 decided:** brand-authored — "by Before the Sermon". Name off cover, spine, copyright, listing. | Gao |
 | 23 Sep 2026 | Gift inscription page added (p2): For / From / On / Because | Gao |
+| 25 Sep 2026 | Operating rule adopted: *done means public* — finish and ship what was started | Gao |
 | 25 Sep 2026 | **D-01–D-05 approved**: merged six questions; print copy as written; all-caps serif cover; strategy; $14.99 / $24.99 | Gao |

@@ -5,6 +5,8 @@
 
 ## Week 1 · 15–25 September 2026
 
+**What left the building this week:** nothing yet — deliberately. Everything is finished and waiting on one session: **KDP upload, Sat 26 Sep 10:00–11:30 ET, on Gao's calendar.**
+
 **Completed**
 - Gao: name off the title page; brand authorship (D-12); gift page; IG handle; **D-01–D-05 approved 25 Sep.**
 - GM: hardcover cover; print-route research and recommendation; the operating system; IG content audit of @beforesermon; The Sunday Page (free printable, letter + A4); Spot the Difference cards 01–04, verified.
@@ -29,7 +31,7 @@
 **Decisions Gao needs** — D-07 (quotation policy), D-09 (Monday routine), D-10 (AI imagery), D-13 (dark/cream), D-14 (tagline), **D-15 (fix post 2)**.
 
 **Next week's priorities**
-1. **KDP listing up, proofs ordered** (Gao). This is the week the product goes live.
+1. **KDP listing up, proofs ordered** (Gao, Sat 26 Sep — calendared). This is the week the product goes public.
 2. Fix post 2; second-read SPOT-01; post 01 next Wednesday.
 3. Email tool → Sunday Page collected → link in bio.
 4. IG Insights screenshots → numbers under the audit.
@@ -79,3 +81,4 @@
 **Decisions Gao needs to make** — D-xx …
 **Next week's priorities** — 1. 2. 3.
 ```
+*First line of every review: **What left the building this week?***
