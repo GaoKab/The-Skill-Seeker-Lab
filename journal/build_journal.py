@@ -23,7 +23,7 @@ from reportlab.lib.utils import simpleSplit
 # ----------------------------------------------------------------------------
 # EDIT THESE FOUR LINES AND RE-RUN — everything else follows automatically.
 # ----------------------------------------------------------------------------
-AUTHOR      = "Gao Kab"                 # name printed on cover, spine, title page
+AUTHOR      = "The Skill Seeker Lab"   # brand-authored (25 Sep); no personal name anywhere
 IMPRINT     = "The Skill Seeker Lab"   # publisher line on the copyright page
 YEAR        = "2026"
 ISBN        = ""                       # leave "" to use a free KDP ASIN instead
@@ -1236,6 +1236,8 @@ def back_matter(b):
     b.field("The first rep of the next twelve weeks", ys[2], 2)
     b.field("What I am keeping from this journal that worked", ys[3], 3)
     b.field("What I am changing about how I practise", ys[4], 3)
+    b.text("One skill, one journal. The next skill starts on page one of a "
+           "fresh one.", ys[5] + 6, SERIF, 9.4, MID)
 
     half = (CW - 20) / 2
     b.hline(ys[5] - 14, b.x0, half, INK, 0.8)
@@ -1361,7 +1363,16 @@ def build_cover(path, pages):
     track("TWELVE WEEKS · SEVENTY-TWO SESSIONS · ONE SKILL",
           ty - 20, UI_B, 6.8, CV_DIM, cxm, 2.2)
 
-    # author
+    # write-in: one journal per skill — the owner names this one
+    wy = by + 1.58 * inch
+    c.setFont(UI_B, 6.6); c.setFillColor(CV_ACC)
+    lab = "THIS JOURNAL IS FOR"
+    lw_ = pdfmetrics.stringWidth(lab, UI_B, 6.6)
+    c.drawString(cxm - 1.55 * inch, wy, lab)
+    c.setStrokeColor(CV_DIM); c.setLineWidth(0.7)
+    c.line(cxm - 1.55 * inch + lw_ + 8, wy - 2, cxm + 1.55 * inch, wy - 2)
+
+    # imprint
     track(AUTHOR.upper(), by + 1.05 * inch, UI_B, 10.0, CV_FG, cxm, 2.6)
 
     # ---------------- spine -------------------------------------------------

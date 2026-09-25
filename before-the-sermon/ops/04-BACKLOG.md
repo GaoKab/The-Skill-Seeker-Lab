@@ -15,6 +15,7 @@
 - [ ] GM: `08-RISK-AND-QUALITY.md` translation policy options for D-07
 
 ## P1
+- [ ] GM: repeat-purchase emails — Skill Seeker week-10 "next skill"; Before the Sermon reading-45 "next notebook" (needs email tool, D-06)
 - [ ] Gao: order author proofs (both formats)
 - [ ] Gao: email tool signup (free tier); GM: welcome email + Sunday Page template
 - [ ] GM: website CTA/copy revisions for Manus (Amazon links, email capture block)

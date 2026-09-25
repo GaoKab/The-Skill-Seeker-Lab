@@ -54,6 +54,21 @@ The white space: **pre-interpretation, for the unconfident, without assumption.*
 ## Growth model
 Organic IG (saves + shares over likes) → link to a **free printable spread** (email capture; consider a *Spot the Difference* pack as the alternative hook — it's the more shareable of the two) → weekly Sunday email → Amazon. Collaborations with small-group leaders and 5–30K faith accounts who share the "slow" ethos, not the megabrands. Pinterest as a controlled experiment in month 3 (journals index well there). Amazon listing tuned for "bible study journal for beginners" / "scripture reading notebook". **No paid media for 90 days.**
 
+## The consumable model — Gao's observation, 25 Sep
+Both books are **used up**. Skill Seeker is built for exactly one skill and twelve weeks; the next skill needs the next copy. Before the Sermon holds fifty-two readings — a year of Sundays, or a season if read daily — and then it's full. That makes them repeat purchases, not one-offs, and it changes what we optimise for:
+
+| | One-off book | Consumable |
+|---|---|---|
+| What matters | first sale | **second sale** |
+| Who drives it | Amazon search | **the email list** and the last page of the book |
+| Pricing | maximise margin | keep the re-buy price frictionless ($14.99 stays) |
+| The object | generic | **each copy distinct** — a write-in on the Skill Seeker cover ("This journal is for ____"), a *Notebook no.* line in Before the Sermon |
+| Later SKUs | none | 3-packs (offset run), a "Volume" series, gift pairs |
+
+Applied today: cover write-in line on Skill Seeker; "Notebook no." on Before the Sermon's belongs-to page; a closing line in each book pointing to the next copy (*"One skill, one journal. The next skill starts on page one of a fresh one."* / *"There are fifty-two readings in this notebook. There are more than fifty-two Sundays."*); the Skill Seeker listing says *one skill, one journal*.
+
+Still to build: a **week-10 email** for Skill Seeker buyers ("what's the next skill?") and a **reading-45 email** for Before the Sermon — the email list is the only place we can see a repeat buyer, because KDP reports units, not people. Repeat rate becomes a metric once the list exists.
+
 ## Monetization model (in order)
 1. **KDP paperback ($14.99) and hardcover ($24.99)** — live first, zero capital.
 2. **Small-group / church bulk** (10+) — direct, once the proof copy exists.

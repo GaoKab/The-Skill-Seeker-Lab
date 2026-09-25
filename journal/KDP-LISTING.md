@@ -23,12 +23,10 @@ The Skill Seeker Journal
 
 **Author**
 ```
-Gao Kab
+The Skill Seeker Lab
 ```
-This matches the name now printed on the cover, spine, title page and
-copyright page. **The name here and the name on the cover must match**, or KDP
-flags it in review. To change it, edit `AUTHOR` in `build_journal.py`, rebuild,
-and update this field too.
+Brand-authored — no personal name anywhere on or in the book. Must match the
+cover (it does). To change it, edit `AUTHOR` in `build_journal.py` and rebuild.
 
 **Description** (paste as-is; KDP accepts basic HTML, ~4000 char limit)
 
@@ -50,6 +48,8 @@ This is a working notebook for the twelve weeks after you decide. One skill. Six
 • An Evidence Ledger — proof of what you made, not hours you logged
 • Resource log, wins log, stuck-to-solved tracker and people-to-ask list
 • A twelve-week debrief and a page that sets up your next twelve
+
+<b>One skill, one journal.</b> Twelve weeks is the whole arc of a skill, so each journal is built for exactly one. When you pick the next skill, you start a fresh one — and the cover has a line to write which skill this copy was for.
 
 <b>Details</b> 128 pages · 6 × 9 inches · matte cover · lined and structured interior · undated, so you can start on any Monday you like.
 

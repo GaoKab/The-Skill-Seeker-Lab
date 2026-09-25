@@ -433,11 +433,11 @@ def front_matter(b):
     y -= 46
     b.hline(y, M_GUT + 0.3 * inch, CW - 0.6 * inch, INK, 0.7)
     y -= 58
-    b.kicker("Begun", y + 12, 6.4, MID, M_GUT + 0.3 * inch, CW * 0.4)
-    b.hline(y, M_GUT + 0.3 * inch, CW * 0.42, RULE, 0.6)
-    b.kicker("Translation I am reading", y + 12, 6.4, MID,
-             M_GUT + 0.3 * inch + CW * 0.5, CW * 0.4)
-    b.hline(y, M_GUT + 0.3 * inch + CW * 0.5, CW * 0.42, RULE, 0.6)
+    gx = M_GUT + 0.3 * inch; gw = CW - 0.6 * inch
+    for fx_, fw_, lab in [(0.00, 0.26, "Begun"), (0.32, 0.22, "Notebook no."),
+                          (0.60, 0.40, "Translation I am reading")]:
+        b.kicker(lab, y + 12, 6.0, MID, gx + gw * fx_, gw * fw_)
+        b.hline(y, gx + gw * fx_, gw * fw_, RULE, 0.6)
     y -= 70
     b.para("There is no right pace for this. Some readings will take an "
            "evening. Some will take a season.", y, BODY_I, 10.4, 14.4, MID,
@@ -693,7 +693,9 @@ def back_matter(b):
         "was allowed from the start.\n\n"
         "What you have now is not a set of answers. It is a record of "
         "having looked — slowly, honestly, on your own — before "
-        "anyone told you what to see.",
+        "anyone told you what to see.\n\n"
+        "There are fifty-two readings in this notebook. There are more than "
+        "fifty-two Sundays.",
         y, BODY, 11.0, 16.0, INK, M_OUT + 0.25 * inch, CW - 0.5 * inch, "c")
     y -= 12
     b.ornament(y, M_OUT, CW)

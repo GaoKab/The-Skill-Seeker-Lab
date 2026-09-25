@@ -50,7 +50,7 @@ The four things most people want to change are the first four lines of the
 config block at the top of `build_journal.py`:
 
 ```python
-AUTHOR  = "Gao Kab"                # cover, spine, title page
+AUTHOR  = "The Skill Seeker Lab"   # brand-authored; cover, spine, title page
 IMPRINT = "The Skill Seeker Lab"   # publisher line on the copyright page
 YEAR    = "2026"
 ISBN    = ""                       # leave empty to use a free KDP ASIN

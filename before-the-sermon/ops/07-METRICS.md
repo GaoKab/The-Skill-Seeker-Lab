@@ -12,6 +12,7 @@
 | **Free-spread downloads → subscribers** | Lead-magnet fit | Email tool | ≥ 40% |
 | **Sunday email open rate** | Whether the weekly ritual holds | Email tool | ≥ 45% |
 | **Posting streak** (weeks with 4 feed + 1 reel + Before Sunday) | Discipline is the strategy | this file | 12/12 |
+| **Repeat buyers** (same subscriber, second purchase) | The consumable model, proven or not | email tool + KDP dates (KDP can't show it) | measurable from month 4 |
 | **Linen gate:** hardcover units in first 90 days | Go/no-go for the offshore run | KDP | ≥ 150 → go |
 
 Experiments (one at a time, two weeks each, one variable): carousel vs card vs reel · $14.99 vs $16.99 · Pinterest on/off.
