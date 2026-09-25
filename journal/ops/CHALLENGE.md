@@ -39,8 +39,14 @@
 
 ## Four questions for Gao — the season can't be planned past this line without them
 1. **What is the skill?** Season 1 lives or dies here. Real, specific, twelve-weeks-sized, and something she actually wants — not something that films well.
-2. **Does a YouTube channel exist?** Handle, or none yet.
+2. **Does a YouTube channel exist?** Gao believes it was deleted (25 Sep). Checked: no deletion or termination email from YouTube on gao.kabubi@gmail.com; that account *did* hold a channel with advanced-features verification >1 year ago (expiry notices June/July 2026). Three-minute check for Gao below. **Name collision:** "The Skill Seeker" (@theskillseekerr), "skill seeker" and "Skill Seeker" already exist as channels — the new or restored channel should be **The Skill Seeker Lab** with a handle like `@skillseekerlab`, which also matches the imprint on the book.
 3. **Start date:** Mon 12 Oct as proposed, or later?
 4. **Filming:** phone + window light is enough. Is there a stand, and a quiet 30 minutes on Sundays?
+
+## Finding the channel — 3 minutes, Gao
+1. studio.youtube.com signed in as **gao.kabubi@gmail.com** → top-right avatar → **Switch account**. Every channel that account owns, including brand channels, is listed there. Repeat for **gao@dustoffreset.com**.
+2. Not listed anywhere → youtube.com/account_advanced on each account. If it says *"You don't have a channel yet"* it was **deleted**, which YouTube treats as permanent (only a whole-Google-account deletion is recoverable, within ~20 days).
+3. **Hidden, not deleted** is the common case: hiding a channel from *Advanced settings → Remove YouTube content → "I want to hide my content"* keeps everything; choosing **Create channel** on that account restores it, videos included.
+4. Whatever the outcome, the answer is the same for Season 1: a channel named **The Skill Seeker Lab** exists by 28 Sep, empty is fine. Creating one takes five minutes; it needs 24 h and phone verification before Shorts over 15 s, custom thumbnails, and links are allowed — do it *before* the announce week, not during it.
 
 *Status: skeleton. Becomes a plan the day question 1 is answered.*
