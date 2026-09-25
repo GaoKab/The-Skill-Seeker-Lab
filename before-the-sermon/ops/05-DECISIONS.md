@@ -3,7 +3,7 @@
 
 ## Queue — needs Gao
 
-### D-01 · The six questions (P0, blocks the final interior)
+### ~~D-01 · The six questions (P0, blocks the final interior)~~ — APPROVED 25 Sep
 - **Recommendation:** approve the merged set now in `build_notebook.py` `PROMPTS`, or edit in place.
 - **Why it matters:** printed 52 times per copy, the spine of the product and of every "Sit With It" post.
 - **Evidence:** the mockup's question form reads as the reader's own voice; the site's "identify assumptions" prompt is the most distinctive idea in either list; the mockup's #1/#2 overlapped.
@@ -11,23 +11,23 @@
 - **Cost:** 20 minutes of Gao's reading. **Risk:** none reversible — until printed.
 - **Next action:** Gao edits the list or writes APPROVED. → GM rebuilds.
 
-### D-02 · New-for-print copy (P0)
+### ~~D-02 · New-for-print copy (P0)~~ — APPROVED 25 Sep
 - **Recommendation:** read the list in `../README.md` ("Copy written new for print"); keep, rewrite, or cut each line.
 - **Why:** the brand promise is honesty; those lines should be Gao's, not mine.
 - **Cost:** 30 min. **Risk:** low. **Next:** Gao marks each line.
 
-### D-03 · Cover lockup (P0)
+### ~~D-03 · Cover lockup (P0)~~ — APPROVED 25 Sep
 - **Recommendation:** the all-caps serif (built). Park the script.
 - **Why:** one identity; serif matches the "considered object" price point.
 - **Risk:** low; reversible before print. **Next:** APPROVE or request the script version.
 
-### D-04 · Strategy (`02-STRATEGY.md`) (P0)
+### ~~D-04 · Strategy (`02-STRATEGY.md`) (P0)~~ — APPROVED 25 Sep
 - **Recommendation:** approve the core promise, audience, pillars and formats as the working strategy for 90 days.
 - **Why:** everything in the backlog hangs off it.
 - **Risk:** medium — a wrong audience call wastes a quarter. Mitigated by week-4 recalibration.
 - **Next:** APPROVE / EDIT.
 
-### D-05 · KDP pricing and formats (P0)
+### ~~D-05 · KDP pricing and formats (P0)~~ — APPROVED 25 Sep
 - **Recommendation:** paperback **$14.99**, hardcover **$24.99**, both live on one listing; categories/keywords per `../KDP-LISTING.md`.
 - **Evidence:** `../PRINT-ROUTES.md` — $6.45 / $7.80 per copy; category clusters at <$10 and $10–20; we sit above on design and method, not features.
 - **Risk:** hardcover at $24.99 may be slow; it exists mainly to give the buyer who wants an object a way to pay. Price test scheduled for Phase 2.
@@ -88,3 +88,4 @@
 | 23 Sep 2026 | Instagram handle confirmed: @beforesermon | Gao |
 | 23 Sep 2026 | **D-12 decided:** brand-authored — "by Before the Sermon". Name off cover, spine, copyright, listing. | Gao |
 | 23 Sep 2026 | Gift inscription page added (p2): For / From / On / Because | Gao |
+| 25 Sep 2026 | **D-01–D-05 approved**: merged six questions; print copy as written; all-caps serif cover; strategy; $14.99 / $24.99 | Gao |

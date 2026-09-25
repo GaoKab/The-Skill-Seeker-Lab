@@ -2,14 +2,15 @@
 *P0 = this week · P1 = next two weeks · P2 = this quarter · P3 = parked. Newest changes at top of each section.*
 
 ## P0
+- [ ] **Gao: KDP — create paperback + hardcover, upload the three files, order author proofs** (everything is approved; nothing else blocks this)
 - [ ] **Gao: fix or annotate IG post 2** (Matthew 14:29–31 — D-15) — today
-- [ ] GM: Spot the Difference ×4 — verified cards for the next month → `content/SPOT-01.md`
-- [ ] **Gao: approve/edit the six questions** (D-01) — blocks the final interior
+- [x] GM: Spot the Difference ×4 → `content/SPOT-01.md` — needs Gao's second read
+- [x] D-01–D-05 approved (25 Sep)
 - [x] Gao: IG handle → **@beforesermon** (23 Sep)
 - [ ] **Gao: 4 IG screenshots** (profile · Insights 90-day overview · top posts by saves · audience) — blocks the IG audit
 - [ ] **Gao: run KDP hardcover calculator (6×9, 128pp, white)** and send the three numbers — blocks hardcover upload
-- [ ] GM: Content Batch 01 → `content/BATCH-01.md` *(drafted, awaiting approval)*
-- [ ] GM: free printable spread PDF (single Sit-With-It page, letter + A4)
+- [ ] Gao: caption voice-pass on Batch 01 (strategy approved; captions still hers to own)
+- [x] GM: The Sunday Page — `dist/the-sunday-page_letter.pdf` / `_A4.pdf` (25 Sep)
 - [ ] GM: IG bio + link-in-bio copy → `content/PROFILE.md`
 - [ ] GM: `08-RISK-AND-QUALITY.md` translation policy options for D-07
 
