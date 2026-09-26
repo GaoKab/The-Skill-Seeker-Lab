@@ -86,3 +86,29 @@ Silent since the 8 Sept RFQ. One-nudge follow-up drafted, deliberately shorter t
 ### The unchanged blocker
 
 Measurements. 12 days open now. Hongyu's $50 sample, Aung Crown's sample, and the whole bake-off all sit behind it.
+
+## Ops log — 26 Sept 2026
+
+### ASBX / Maria gave the confidentiality wording, two thirds of it (reply 25 Sept)
+
+Verbatim: *"We maintain full confidentiality regarding all materials and information provided by our clients, including artwork and intellectual property. These materials are used strictly in connection with your project."*
+
+Scored against the three things asked for on 19 Sept:
+
+| Asked | Given |
+|---|---|
+| Artwork and tech pack **remain my property** | **No.** Not addressed |
+| Used **only to quote and produce my order** | **Yes.** "Used strictly in connection with your project" |
+| **Not reused, adapted or shown** for another client or in ASBX samples and marketing | **Partly.** Covered by implication in "strictly in connection with your project", not stated |
+
+**This is worth having.** A written statement in a live email thread is real evidence, and for a company that refuses to sign anything it is close to the practical limit. The gap is ownership, which is the one that matters most on a collection whose entire value is the artwork. **Drafted: one sentence requested, nothing more.**
+
+**Third deferral on the technique question.** Puff plus reflective on one garment, and fine-line screen holding, have now been deferred to artwork review three times. For a decorator this is soft, though the puff-and-reflective interaction does genuinely depend on the final layout.
+
+**But this is not actually a blocker, and the drafted reply says so honestly.** The production vectors do not exist. There is no file worth sending, so ASBX cannot be at fault for waiting on one. More usefully, **the technique question does not need ASBX at all** — any local printer approached for the DTF sample can answer whether puff and reflective coexist, and that conversation is on the critical path anyway.
+
+**Stock garments:** she confirmed they are bought directly from asbxstore.com. Founder picks models and sizes and sends the list. Still the cheapest quality signal available in the project.
+
+### Aolafree / Elena — OUT
+
+Two emails, 8 and 19 Sept, no reply in eighteen days. Treat the thread as dead and stop nudging. **The apparel side now has no live supplier**, which is the real consequence: Hongyu is the only name left on the dress project and it has not been given the agreement yet. A replacement candidate is needed, from the list in `25` rather than a fresh search.
