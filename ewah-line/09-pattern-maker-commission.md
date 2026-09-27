@@ -77,3 +77,21 @@ Have these taken (by the maker at first fitting is fine, but self-taken starts t
 ## 8. After delivery — the test loop
 
 Final samples enter the `08` §10 test circuit immediately: wear each in real sessions for two weeks, log every tug and failure against the fit-failure catalogue, wash five times. What survives becomes the graded-block candidate; what fails goes back as a paid revision or a pattern note for round two. Either way the patterns — EWAH's real IP — are now physical, owned, and improving.
+
+## MEASUREMENTS TAKEN — head, 27 Sept 2026
+
+**Head circumference: 58–59 cm**, measured over hair as worn.
+
+The first real measurement in the project, and the one that unblocks hat sampling. Both Aung Crown and Hongyu can now be given a block brief.
+
+### What it means for sizing
+
+58–59 cm sits in the **M/L** band of standard headwear sizing (roughly UK 7 1/4 to 7 3/8, US 7 1/4 to 7 3/8). Hat Block 01 was specified as two sizes, S/M and M/L, so:
+
+- **The founder is the M/L fit body.** The first sample should be cut to M/L, because it has to be wearable and testable on her own head. A sample in a size she cannot wear proves nothing about fit, comfort, or the Hairline Contact Zone.
+- **S/M gets graded from the approved M/L block**, not sampled first. That is the cheaper order and it keeps the founder as the fit authority on round one.
+- The range brief to the factory should read: **develop the block at 58–59 cm as M/L, then grade down to S/M at roughly 55–57 cm.**
+
+### Still open on measurements
+
+- **Body set for the dress samples.** Per the correction in `29`, a first dress sample does not need the full 13-number set. It needs flat measurements of the reference garment, the black V-neck tee dress, plus bust, waist and hip. That remains untaken.
