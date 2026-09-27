@@ -318,3 +318,39 @@ The earlier amendment draft opened "Following up on my own message" and was writ
 ### Still true
 
 No agreement signed. No sample ordered. No measurements taken. Hongyu has had the NNN ready for eight days and has not received it.
+
+## STATE OF PLAY — 27 Sept 2026, end of day
+
+**The biggest single day of the project.** Every queued draft sent, the measurement gate closed after nineteen days, and the agreement that blocked three products reviewed and signed.
+
+### Done today
+
+| Item | Detail |
+|---|---|
+| **Measurements** | Head 58–59, bust 104, waist 80 / 86, hip 132. **W:H 0.61** |
+| **NNN signed and sent to Kira** | 10:41, with the signed PDF attached. Nineteen days blocked, now clear |
+| **Aung Crown reply sent** | 10:40. Setup-fee trap, Alibaba over bank transfer, block confirmation, clause 2.2 amendments |
+| **ASBX reply sent** | 10:48. Ownership sentence requested, 250 GSM sample ordered, garment-dyed sourcing question |
+
+### Waiting on suppliers, nothing owed by EWAH
+
+| Thread | Waiting for | Since |
+|---|---|---|
+| Hongyu, both threads | Kira to sign and chop the NNN, then answer construction and pricing | 27 Sept |
+| Aung Crown | Amended clause 2.2, setup-fee clarification, payment link | 27 Sept |
+| ASBX | Ownership sentence, sample invoice, garment-dyed answer | 27 Sept |
+
+FIMY and Aolafree are closed. **Three live suppliers, all with a ball in their court, none owed anything.**
+
+### What is actually left, and both are the founder's
+
+1. **PULA production artwork.** Not commissioned. Unchanged for three weeks. One of six elements exists.
+2. **Flat-measure the black V-neck reference dress.** Twenty minutes with a table, per the table in `29`. Unlocks the first dress sample brief.
+
+Nothing else in either brand is blocked on anything else.
+
+### The pattern worth naming
+
+Across EWAH, PULA and FAANO, the identical bottleneck appears three times: **artwork, assigned to the founder, undone.** The emblem vectors, the PULA rain collection lettering, and FAANO's art001, art002 and art005. Three brands, three supply chains, one task type, one owner, zero progress.
+
+That is not a scheduling problem and it will not be solved by another list. It means the work either gets commissioned or gets produced by someone other than the founder.
