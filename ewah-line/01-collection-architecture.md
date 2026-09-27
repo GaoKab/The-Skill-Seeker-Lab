@@ -219,3 +219,26 @@ Revised 14-product sheet titled "Capsule 01: Sculpted in Motion" (`boards/capsul
 - Structured short-sleeve top with flutter sleeve and sculpted seams
 - **Flow Pant**: voluminous tapered performance pant (harem silhouette), sculpted seams, elastic cuff
 - Performance, movement, comfort — the modest alternative to leggings-only training
+
+## Reference boards added 27 Sept 2026
+
+Filed for reference, not as a scope change. Capsule 01 development remains eight products in four rounds per `17`.
+
+| Board | File |
+|---|---|
+| Warrior Flow Gym Dress — back logo options, placement system, packaging | `boards/warrior-flow-gym-dress-branding-packaging.webp` |
+| Warrior Flow Wrap Dress — full product board | `boards/warrior-flow-wrap-dress-board.webp` |
+| Campaign, "Sculpted, not exposed" trio | `boards/campaign-sculpted-not-exposed.webp` |
+| Campaign, Warrior Flow trio | `boards/campaign-warrior-flow-trio.webp` |
+| Collection architecture v2 | `boards/collection-architecture-v2.webp` |
+| Line sheets, Capsule 01 + Summer Line 01 | `boards/linesheets-capsule01-and-summer01.webp` |
+| Line sheet, Capsule 01 sculpted essentials | `boards/linesheet-capsule01-sculpted-essentials.webp` |
+| Side Flow maxi over short, mauve | `boards/side-flow-maxi-over-short-mauve.webp` |
+
+### Three things in these boards that change decisions
+
+**1. The Warrior Flow Wrap Dress is the strongest Round 2 candidate, and for a structural reason.** Its board specifies contoured seams, wrap neckline, cinched waist with obi tie, dual side slits, built-in short, 4-way stretch. **A wrap closure is inherently adjustable across waist-to-hip ratios.** Where every other garment in the line has to be graded precisely to a ratio, a tie wrap accommodates a range by construction. For a brand whose founder sits at 0.61 while the framework assumes 0.70–0.75, that is not a styling detail, it is risk reduction: the wrap fits more of the intended customer with less grading precision than any other silhouette in the collection. It is also the most distinctive thing EWAH makes.
+
+**2. Modest and hijab-compatible dressing is present in the core campaign, not future.** Both campaign boards place a hijabi model in the three-woman lineup. `12` currently lists a "hijab-compatible training layer system" under future roadmap. The imagery is already making the promise. **Consequence for the fit process: the 12–20 woman validation panel in `06` must include at least one hijabi tester.** Otherwise the campaign promises coverage the fit protocol never tested, which is the exact gap the brand exists to close.
+
+**3. Packaging is specified to a level that carries real minimums.** Matte black box with gold foil, printed hang tag, cast spear charm, woven care label, sealed tissue. Plausibly $1,500–3,000 in minimum orders before a garment exists. **Split these: the woven care label is a US legal requirement and must be costed into the first run. Everything else is optional and waits.** Do not let them be ordered as one project.
