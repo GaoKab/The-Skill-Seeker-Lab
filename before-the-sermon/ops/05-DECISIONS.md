@@ -7,7 +7,7 @@
 - **Fact:** KDP terminated gao.kabubi@gmail.com on 30 Apr for a *missed* identity-verification deadline (asked 15 Apr, due 29 Apr, reminded twice). No appeal was ever sent. Amazon's terms forbid a new KDP account by the same person.
 - **Recommendation — do both, today:**
   1. **Appeal.** One reply in the termination thread with ID + proof of address (draft in Gmail; `content/KDP-APPEAL.md`). Missed-deadline terminations are the category KDP reverses.
-  2. **Publish on Lulu now, in parallel.** Free ISBN, cream paper, print-on-demand, live on Lulu's own store within a day, paperbacks distributed to Amazon through Ingram within weeks. Hardcover distributes to bookstores, not Amazon. Zero cost. Nothing about the Lulu edition conflicts with a later KDP reinstatement — a book can exist on both.
+  2. **Publish on Lulu now, in parallel.** Free ISBN, cream paper, print-on-demand, live on Lulu's own store within a day, paperbacks reach Amazon through Ingram in **≈12 weeks or longer**. Hardcover distributes to bookstores, not Amazon. Zero cost. Nothing about the Lulu edition conflicts with a later KDP reinstatement — a book can exist on both.
 - **Do not:** open a second KDP account under any email.
 - **Cost:** $0. **Risk:** appeal refused → Lulu + IngramSpark become the permanent route (Ingram needs Bowker ISBNs, ~$295/10). **Next:** send the appeal; create the Lulu account; send GM the Lulu cover template numbers → covers rebuilt in minutes (scripts now take any printer's spine/bleed).
 

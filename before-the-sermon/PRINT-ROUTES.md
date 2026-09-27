@@ -140,3 +140,31 @@ PrintNinja MOQ, options, lead time, pricing — <https://printninja.com/printing
 Gorham cloth hardcover price chart — <https://gorhamprinting.com/prices-book-printing/price-charts.html>
 Bookmobile short-run — <https://www.bookmobile.com/art-book-printing/short-run-hardcover-book-printing/>
 Amazon book referral + closing fee — <https://www.dotcomreps.com/blog/amazon-fba-fees-books> · FBA 2026 fees + surcharge — <https://warehousingcosts.com/guides/amazon-fba-fulfillment-fees> · <https://amzprep.com/amazon-fba-fees/>
+
+
+---
+
+## Addendum, 27 Sep 2026 — KDP account terminated; the route now
+
+**Fact:** the KDP account (gao.kabubi@gmail.com) was terminated 30 Apr 2026 for a missed
+identity-verification deadline (asked 15 Apr, due 29 Apr, two reminders, no reply). Amazon's
+terms bar a new KDP account by the same person. An appeal is drafted (`ops/content/KDP-APPEAL.md`).
+
+**Route while the appeal runs — Lulu, immediately:**
+| | |
+|---|---|
+| Cost | $0 · free Lulu ISBN (required for distribution) |
+| Live on Lulu's own store | same day; a real buy link for the challenge and the bio |
+| Amazon | via Lulu Global Distribution → Ingram: **≈12 weeks or longer** to appear, paperbacks only |
+| Bookstores / libraries | via Ingram, paperbacks and casewrap hardcover |
+| Cream paper | Lulu prints it; **Ingram may not offer 60# cream for every size** — if the wizard greys cream out under Global Distribution for 6×9, choose white for the distributed paperback |
+| Hardcover on Amazon | not through Lulu. Needs KDP reinstated, or IngramSpark direct (own ISBN, Bowker $295/10) |
+| Revenue timing | Lulu-store sales monthly; distribution sales credited 6–8 weeks after purchase |
+
+**If the appeal succeeds:** publish on KDP as originally planned. The Lulu edition can stay
+(different ISBN, different channel) or be retired — a decision for that day.
+**If it fails:** IngramSpark direct becomes the Amazon route for both formats — buy the
+Bowker ISBN block once, ~$295, and reuse for every future title.
+
+Both cover build scripts now accept any printer's spine and bleed:
+`COVER_SPINE_IN=… COVER_BLEED_IN=… COVER_SUFFIX=lulu python3 <script>`.
