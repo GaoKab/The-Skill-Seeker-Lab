@@ -7,7 +7,8 @@
 | Round | Code | Product | Role |
 |---|---|---|---|
 | **1** | EWAH-WF-01 | Warrior Flow Dress-Skort | Hero + factory capability test |
-| **1** | EWAH-ST-02 | Air Sculpt Short Dress | Short breathable summer hero + curve-fit proof |
+| **1** | **EWAH-CL-07** | **Curve Legging** | **Season-correct curve-fit proof + hardest factory test** (substituted for ST-02, 27 Sept, brief `32`) |
+| ~~1~~ → 2 | EWAH-ST-02 | Air Sculpt Short Dress | Moved to Round 2. Summer hero, and it carries the mesh-platform test |
 | 2 | EWAH-ST-03 | Breeze / Warrior Flow Dress Family | One upper block, two lengths (maxi + short) |
 | 2 | EWAH-SM-03 | Mesh Flow Short Set | Perforated top + above-knee skirt, opaque short |
 | 3 | EWAH-CP-03 | Center Pleat Training Dress | Signature feminine movement piece |
@@ -55,3 +56,16 @@ Two skirt-geometry variants exist on the boards (`01` catalogue, `boards/wf01-va
 3. Sample Round 1 (both styles, founder's size, escrow payment)
 4. First fit session on at least two curvy bodies; record every movement failure against the pack's test lists
 5. Revise and seal WF-01/ST-02 → then Round 2
+
+
+## Round 1 substitution — 27 Sept 2026
+
+**ST-02 out of Round 1, Curve Legging in.** Round 1 remains two garments, so the budget position is unchanged.
+
+**Reasoning.** ST-02 is this pack's own "short breathable summer hero." Sampling it in October means testing a summer garment through a Minnesota winter and launching in spring at the earliest. The Curve Legging is season-correct, is the highest-repeat category in activewear, and is the most unforgiving test of both the block and the factory: a loose dress forgives a bad block, a compression legging exposes one instantly through gape, roll-down, front seam definition and squat opacity.
+
+It is also where the founder's measured **0.61 waist-to-hip ratio** bites hardest. A 132 cm hip on a mainstream chart is drawn with a 110–115 cm waist, so every legging fitting her hips carries a waistband roughly 30 cm too big. That gap is the product.
+
+**Cost of the substitution, stated plainly.** ST-02 was the cheap early test of the perforation and mesh platform that **four of the eight capsule styles depend on**. Moving it to Round 2 defers that risk rather than removing it, and if mesh disappoints in Round 2 then Rounds 2 and 4 re-sequence as `17` already anticipates. Compression knit is also harder to sample well than a drapey dress, so a disappointing Proto 1 is more likely here than it would have been with ST-02.
+
+**Brief:** `32-product-brief-curve-legging.md`. **Round 1 is now WF-01 + CL-07.**
