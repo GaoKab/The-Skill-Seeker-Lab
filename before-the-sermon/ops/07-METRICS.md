@@ -15,4 +15,6 @@
 | **Repeat buyers** (same subscriber, second purchase) | The consumable model, proven or not | email tool + KDP dates (KDP can't show it) | measurable from month 4 |
 | **Linen gate:** hardcover units in first 90 days | Go/no-go for the offshore run | KDP | ≥ 150 → go |
 
+**Spend log** (the $0-for-90-days rule, proof copies excepted): 27 Sep — Lulu proof order USD-C4477656, $18.71. Running total: **$18.71**.
+
 Experiments (one at a time, two weeks each, one variable): carousel vs card vs reel · $14.99 vs $16.99 · Pinterest on/off.

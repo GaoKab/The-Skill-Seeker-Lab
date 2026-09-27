@@ -5,7 +5,7 @@
 
 ## Week 2 · 26–27 September 2026 (interim)
 
-**What left the building:** both books now exist as real, printable projects on Lulu (account live, covers accepted, private access). Not yet public — but for the first time a copy can be ordered. Before the Sermon reached Lulu's final review screen at **$5.19 a copy** (vs the $2.54 KDP would have charged: the price of the KDP account lapse, per copy, until the appeal lands). The KDP session revealed that account was terminated on 30 April for a missed ID deadline; appeal sent.
+**What left the building:** both books are **printing**. Lulu order USD-C4477656 placed 27 Sep, one copy of each, $18.71 all in, arriving 11–14 Oct. Six months after Before the Sermon was conceived, it is a physical object with a tracking number. Not yet public, but for the first time it is out of the file and into the world. Before the Sermon reached Lulu's final review screen at **$5.19 a copy** (vs the $2.54 KDP would have charged: the price of the KDP account lapse, per copy, until the appeal lands). The KDP session revealed that account was terminated on 30 April for a missed ID deadline; appeal sent.
 
 **Done:** timeline established from the inbox; appeal drafted into Gmail; both build scripts made printer-agnostic (any spine/bleed); Lulu chosen as the parallel route; D-17 raised.
 

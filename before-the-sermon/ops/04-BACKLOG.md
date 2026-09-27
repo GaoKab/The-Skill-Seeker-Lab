@@ -4,7 +4,8 @@
 ## P0
 - [x] Gao: KDP appeal sent (27 Sep)
 - [x] Gao: Lulu account + both projects + covers accepted (27 Sep)
-- [ ] Gao: **order 2 private copies of each** on Lulu (the photos, the trailer, the first real look)
+- [x] Gao: **proof copies ordered on Lulu** — 1 of each, order USD-C4477656, $18.71 all in, due 11–14 Oct (27 Sep)
+- [ ] Gao: when the copies land — photograph front, spine on a shelf, one opened spread; write in each for a week; report spine centring (BTS) and page feel / size (Skill Seeker, D-18)
 - [ ] Gao: Kit signup · YouTube channel (The Skill Seeker Lab) · fix/annotate Matthew card — Mon 28 Sep block
 - [ ] Gao: **the skill for Season 1** — still the gating question for the challenge
 - [ ] 12 Oct: appeal decision point (calendared)
