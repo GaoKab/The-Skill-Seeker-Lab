@@ -751,6 +751,9 @@ def build_cover(path, pages, hardcover=False):
         spine, edge, hinge, safe = pages * PPI, BLEED, 0.0, SAFE
         if _OV_SPINE: spine = float(_OV_SPINE) * inch
         if _OV_BLEED: edge = float(_OV_BLEED) * inch
+    other_printer = bool(COVER_SUFFIX) and not hardcover
+    if other_printer:
+        safe = 0.5 * inch                   # Lulu / Ingram keep text 0.5 in from trim
     W = 2 * (edge + PW + hinge) + spine
     H = 2 * edge + PH
     c = canvas.Canvas(path, pagesize=(W, H))
@@ -776,7 +779,8 @@ def build_cover(path, pages, hardcover=False):
     # ---- front -------------------------------------------------------------
     cxm = fx + PW / 2
     # thin double frame
-    for inset, lw in ((SAFE_ + 6, 0.9), (SAFE_ + 11, 0.4)):
+    fr = max(SAFE_, 0.5 * inch)
+    for inset, lw in ((fr + 6, 0.9), (fr + 11, 0.4)):
         c.setStrokeColor(CV_GOLD); c.setLineWidth(lw)
         c.rect(fx + inset, by + inset, PW - 2 * inset, PH - 2 * inset,
                stroke=1, fill=0)
@@ -876,7 +880,9 @@ def build_cover(path, pages, hardcover=False):
     c.drawString(lx, iy + 12, IMPRINT.upper())
 
     c.setFillColor(HexColor("#FFFFFF"))
-    if hardcover:
+    if other_printer:
+        pass                                # Lulu/Ingram place their own barcode with its own white box
+    elif hardcover:
         c.rect(bx + PW - 0.25 * inch - 2.0 * inch, by + 0.76 * inch,
                2.0 * inch, 1.2 * inch, stroke=0, fill=1)
     else:

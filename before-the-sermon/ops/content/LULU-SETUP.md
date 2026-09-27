@@ -7,7 +7,7 @@
 | Before the Sermon | `before-the-sermon_interior_6x9_128pp.pdf` | `before-the-sermon_cover_6x9_128pp_lulu.pdf` — 12.598 × 9.25 in, spine 0.348 |
 | Skill Seeker Journal | `skill-seeker-journal_interior_6x9_128pp.pdf` | `skill-seeker-journal_cover_6x9_128pp_lulu.pdf` — 12.598 × 9.25 in, spine 0.348 |
 
-Spine from Lulu's own formula (pages ÷ 444 + 0.06). **Lulu shows its number on the cover template step** — if it differs from 0.348 by more than 0.01, send it and the cover is rebuilt in a minute. Page numbers now sit 0.51 in from the foot, inside Lulu's 0.5 in safety rule.
+**Re-upload these covers (rebuilt 27 Sep):** Lulu's preview showed three things inside its 0.5 in safety zone — the imprint lines, KDP's barcode box, and the outer frame. The `_lulu` covers now keep all text 0.5 in from trim, carry **no barcode box** (Lulu places its own, with its own white background, only on distributed copies), and set the frame 0.5 in in. Spine from Lulu's own formula (pages ÷ 444 + 0.06); Lulu shows 0.35. **Lulu shows its number on the cover template step** — if it differs from 0.348 by more than 0.01, send it and the cover is rebuilt in a minute. Page numbers now sit 0.51 in from the foot, inside Lulu's 0.5 in safety rule.
 
 ## The wizard — Before the Sermon (repeat for Skill Seeker)
 1. **lulu.com → Sign up** (free). Then **Create → Print Book**.

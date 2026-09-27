@@ -1300,6 +1300,8 @@ PPI     = 0.002252 * inch      # KDP: white paper, black & white interior
 def build_cover(path, pages):
     spine = float(_OV_SPINE) * inch if _OV_SPINE else pages * PPI
     bleed = float(_OV_BLEED) * inch if _OV_BLEED else BLEED
+    other_printer = bool(COVER_SUFFIX)
+    safe = 0.5 * inch if other_printer else SAFE
     W = bleed * 2 + PW * 2 + spine
     H = bleed * 2 + PH
     c = canvas.Canvas(path, pagesize=(W, H))
@@ -1319,9 +1321,9 @@ def build_cover(path, pages):
     cxm = fx + PW / 2
 
     # hairline frame inside the safe area
+    fr = max(safe, 0.5 * inch) + 8
     c.setStrokeColor(CV_ACC); c.setLineWidth(0.7)
-    c.rect(fx + SAFE + 8, by + SAFE + 8, PW - 2 * (SAFE + 8),
-           PH - 2 * (SAFE + 8), stroke=1, fill=0)
+    c.rect(fx + fr, by + fr, PW - 2 * fr, PH - 2 * fr, stroke=1, fill=0)
 
     # kicker
     def track(txt, y, font, size, color, cx, tracking):
@@ -1401,8 +1403,8 @@ def build_cover(path, pages):
         c.restoreState()
 
     # ---------------- back cover -------------------------------------------
-    lx = bx + SAFE + 14
-    lw = PW - 2 * (SAFE + 14)
+    lx = bx + safe + 14
+    lw = PW - 2 * (safe + 14)
     yy = top - 1.15 * inch
 
     track("STOP COLLECTING SKILLS. FINISH ONE.", yy, UI_B, 8.2, CV_ACC,
@@ -1475,17 +1477,19 @@ def build_cover(path, pages):
     c.drawCentredString(bx + PW / 2, yy, "Everything you need is in here.")
 
     # imprint, kept clear of the barcode block
+    iy = by + safe + 6
     c.setFillColor(CV_DIM)
-    c.setFont(UI_B, 7.4)
-    c.drawString(lx, by + 0.42 * inch, IMPRINT.upper())
     if ISBN:
-        c.setFont(UI, 6.6)
-        c.drawString(lx, by + 0.42 * inch - 11, f"ISBN {ISBN}")
+        c.setFont(UI, 6.6); c.drawString(lx, iy, f"ISBN {ISBN}"); iy += 11
+    c.setFont(UI_B, 7.4)
+    c.drawString(lx, iy, IMPRINT.upper())
 
-    # KDP barcode reserve: 2.0 x 1.2 in, clear white, bottom-right of back cover
-    c.setFillColor(HexColor("#FFFFFF"))
-    c.rect(bx + PW - SAFE - 2.0 * inch, by + SAFE,
-           2.0 * inch, 1.2 * inch, stroke=0, fill=1)
+    # KDP barcode reserve: 2.0 x 1.2 in, clear white, bottom-right of back cover.
+    # Other printers place their own barcode with its own white box.
+    if not other_printer:
+        c.setFillColor(HexColor("#FFFFFF"))
+        c.rect(bx + PW - SAFE - 2.0 * inch, by + SAFE,
+               2.0 * inch, 1.2 * inch, stroke=0, fill=1)
 
     c.showPage()
     c.save()
