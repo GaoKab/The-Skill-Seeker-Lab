@@ -3,6 +3,8 @@
 
 ## P0
 - [x] Gao: KDP appeal sent (27 Sep)
+- [x] Gao: Lulu account + both projects + covers accepted (27 Sep)
+- [ ] Gao: **order 2 private copies of each** on Lulu (the photos, the trailer, the first real look)
 - [ ] Gao: Kit signup · YouTube channel (The Skill Seeker Lab) · fix/annotate Matthew card — Mon 28 Sep block
 - [ ] Gao: **the skill for Season 1** — still the gating question for the challenge
 - [ ] 12 Oct: appeal decision point (calendared)

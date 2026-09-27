@@ -5,7 +5,7 @@
 
 ## Week 2 · 26–27 September 2026 (interim)
 
-**What left the building:** nothing. The KDP session revealed the account was terminated on 30 April for a missed ID deadline.
+**What left the building:** both books now exist as real, printable projects on Lulu (account live, covers accepted, private access). Not yet public — but for the first time a copy can be ordered. The KDP session revealed that account was terminated on 30 April for a missed ID deadline; appeal sent.
 
 **Done:** timeline established from the inbox; appeal drafted into Gmail; both build scripts made printer-agnostic (any spine/bleed); Lulu chosen as the parallel route; D-17 raised.
 
