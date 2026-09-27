@@ -815,17 +815,26 @@ def build_cover(path, pages, hardcover=False):
         track(AUTHOR.upper(), by + 1.22 * inch, UI, 8.4, CV_INK, cxm, 3.0)
 
     # ---- spine -------------------------------------------------------------
+    # Title + subtitle centred as one unit along the spine; a small gold mark at
+    # the foot where a publisher's device sits. Reads top-to-bottom (US convention).
     if pages >= 100:
         c.saveState()
         c.translate(sx + spine / 2, by + PH / 2); c.rotate(-90)
-        c.setFillColor(CV_INK); c.setFont(DISP_SB, 9.5)
-        c.drawString(-PH / 2 + 0.7 * inch, -3.2, "BEFORE THE SERMON")
-        c.setFont(DISP_I, 8.5); c.setFillColor(CV_DIM)
-        w1 = pdfmetrics.stringWidth("BEFORE THE SERMON", DISP_SB, 9.5)
-        c.drawString(-PH / 2 + 0.7 * inch + w1 + 10, -3.0, SUBTITLE)
+        t1, t2 = "BEFORE THE SERMON", SUBTITLE
+        w1 = pdfmetrics.stringWidth(t1, DISP_SB, 9.5)
+        w2 = pdfmetrics.stringWidth(t2, DISP_I, 8.5)
+        gap = 12
+        x = -(w1 + gap + w2) / 2
+        c.setFillColor(CV_INK); c.setFont(DISP_SB, 9.5); c.drawString(x, -3.2, t1)
+        c.setFillColor(CV_DIM); c.setFont(DISP_I, 8.5); c.drawString(x + w1 + gap, -3.0, t2)
         if SHOW_AUTHOR_ON_COVER:
             c.setFont(UI, 6.6); c.setFillColor(CV_INK)
             c.drawRightString(PH / 2 - 0.7 * inch, -2.4, AUTHOR.upper())
+        else:
+            fy = PH / 2 - 0.62 * inch           # the foot mark: line · line
+            c.setStrokeColor(CV_GOLD); c.setLineWidth(0.6)
+            c.line(fy - 10, 0, fy - 3.5, 0); c.line(fy + 3.5, 0, fy + 10, 0)
+            c.setFillColor(CV_GOLD); c.circle(fy, 0, 1.3, stroke=0, fill=1)
         c.restoreState()
 
     # ---- back --------------------------------------------------------------
