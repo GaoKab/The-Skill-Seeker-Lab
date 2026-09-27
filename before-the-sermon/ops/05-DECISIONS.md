@@ -110,6 +110,7 @@
 | 23 Sep 2026 | Instagram handle confirmed: @beforesermon | Gao |
 | 23 Sep 2026 | **D-12 decided:** brand-authored — "by Before the Sermon". Name off cover, spine, copyright, listing. | Gao |
 | 23 Sep 2026 | Gift inscription page added (p2): For / From / On / Because | Gao |
+| 27 Sep 2026 | **Publish gate set:** Gao — the books go public on Lulu as soon as the proof copies pass inspection (11–14 Oct). Not before, not dependent on the KDP appeal. GM prepares the switch (pricing, description, Global Distribution checklist) so it is a five-minute step on the day | Gao |
 | 27 Sep 2026 | **FIRST ORDER PLACED.** Lulu order USD-C4477656: Before the Sermon ×1 ($5.19) + Skill Seeker Journal ×1 ($5.19), shipping $6.94, tax $1.39, **total $18.71**. Delivery 11–14 Oct. First money spent on either product (within the proof-copy exception to the $0 rule). Six months from concept to a printed Before the Sermon | Gao |
 | 27 Sep 2026 | **D-18 raised:** Skill Seeker trim size (lab-book format?). Recommendation: keep 6 × 9 for the proof; decide on the printed copy | GM |
 | 27 Sep 2026 | Before the Sermon at Lulu **Review** step: spec confirmed (US Trade 6×9, 128 pp, Standard B&W, 60# cream uncoated, perfect bound, matte). **Print cost $5.19/copy.** Private project (print-only, no distribution). Centred spine cover re-uploaded | Gao |

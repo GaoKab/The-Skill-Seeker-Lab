@@ -9,6 +9,7 @@
 - [ ] Gao: Kit signup · YouTube channel (The Skill Seeker Lab) · fix/annotate Matthew card — Mon 28 Sep block
 - [ ] Gao: **the skill for Season 1** — still the gating question for the challenge
 - [ ] 12 Oct: appeal decision point (calendared)
+- [ ] GM before 11 Oct: Lulu publish-day checklist ready (retail price, description, categories, Global Distribution steps, white-paper fallback if cream is not distributable) so the switch takes five minutes once the proofs pass
 - [ ] ~~Gao: KDP upload~~ blocked by termination; resumes the day the appeal succeeds
 - [ ] **Gao: fix or annotate IG post 2** (Matthew 14:29–31 — D-15) — today
 - [x] GM: Spot the Difference ×4 → `content/SPOT-01.md` — needs Gao's second read
