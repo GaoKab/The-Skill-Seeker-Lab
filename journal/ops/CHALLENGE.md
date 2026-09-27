@@ -20,11 +20,11 @@
 ## Timeline (proposed)
 | Date | Milestone |
 |---|---|
-| Sat 26 Sep | Journal live on Amazon |
-| Mon 28 Sep – Sun 11 Oct | **Announce:** the skill, the start date, the journal. 2 weeks so copies arrive. Trailer short (60 s): "I'm learning ___ for twelve weeks. Here's the journal. Start with me on the 12th." |
-| **Mon 12 Oct** | **Season 1, Week 1 begins** |
-| Sun 3 Jan 2027 | Week 12 Debrief — the final episode |
-| Week 10 (Mon 14 Dec) | Cohort email: what's the next skill? Season 2 announced |
+| ~~Sat 26 Sep~~ | ~~Journal live on Amazon~~ KDP account terminated; Lulu instead, public from 15 Oct if proofs pass |
+| Mon 28 Sep – Wed 14 Oct | **Announce:** the skill, the start date, the journal. Trailer short (60 s): "I'm learning ___ for twelve weeks. Here's the journal. Start with me on the 19th." |
+| **Mon 19 Oct** | **Season 1, Week 1 begins** (see the dated timeline below) |
+| Sun 10 Jan 2027 | Week 12 Debrief — the final episode |
+| Week 9 (Mon 14 Dec) | Cohort email: what's the next skill? Season 2 announced |
 
 ## Metrics that matter (not views)
 - **Joiners:** journals sold in the 2 announce weeks + week 1 (KDP) · emails on the `bought-journal` tag
@@ -61,12 +61,26 @@ Gao listed: pole dancing · riding a bike · skating · kizomba / any dance · S
 - **Season 3 (late Apr–Jul): riding a bike.** Snow gone, trails open, the adult-learner story with room for a 20 km finish.
 - Knotting/sewing become the indoor fallback or a summer season; languages private; pole when the format is proven.
 
-**Proposed timeline (revised for the Lulu proofs):** proofs land 11–14 Oct → publish ~15 Oct → announce 15 Oct–1 Nov (trailer + "start with me") → **Season 1 Week 1 = Mon 2 Nov 2026** → Week 12 Debrief Sun 24 Jan 2027. Week 8 (21–27 Dec) is declared a light week in advance.
+**Timeline — Gao wants an October start (decided 27 Sep):**
+| Date | Milestone |
+|---|---|
+| Mon 28 Sep | Kit form live · YouTube channel exists · **Season 1 announced** on IG + a 60-s trailer: "I'm learning ___ for twelve weeks, starting 19 October. The journal is out on the 15th." Show the book on screen from the preview render; no claims about copies that don't exist yet. |
+| 28 Sep – 14 Oct | Announce fortnight. Three friction-free reels: why this skill, the baseline test, the journal spread. Sunday Page → Kit list grows. |
+| 11–14 Oct | Proofs land → inspection (spine, page feel) |
+| Thu 15 Oct | **If the proofs pass: Lulu → public + Global Distribution the same day.** Buy link goes into every bio and the pinned post. |
+| Sun 18 Oct | Gao's **Week 0**: the honest-baseline page in the journal, filmed. Max push-ups, longest hang or plank, whatever the target needs. This is the first clip of the before/after. |
+| **Mon 19 Oct** | **Season 1, Week 1.** Gao starts. |
+| Rolling | Joiners start **the Monday after their journal arrives** — the journal is undated for exactly this. Anyone who starts by Mon 2 Nov is in the Season 1 cohort; the Monday email carries that week's brief whichever week the reader is on. |
+| 21–27 Dec | Week 10 — declared a light week now |
+| Sun 10 Jan 2027 | Week 12 Debrief — the final episode |
+| Mon 14 Dec (wk 9) | Cohort email: what's the next skill? Season 2 (ice skating, Jan–Mar) announced |
+
+Why 19 Oct and not 12: the proof copy arrives 11–14 Oct and Gao should hold the real book before week 1. Why not wait for 2 Nov: Gao asked for October, and a season that starts while the announce is still warm beats a tidier one that starts cold. The rolling start is the honest version of "start with me" for a first season with no cohort yet.
 
 ## Four questions for Gao — the season can't be planned past this line without them
 1. **What is the skill?** Season 1 lives or dies here. Real, specific, twelve-weeks-sized, and something she actually wants — not something that films well.
 2. **Does a YouTube channel exist?** Gao believes it was deleted (25 Sep). Checked: no deletion or termination email from YouTube on gao.kabubi@gmail.com; that account *did* hold a channel with advanced-features verification >1 year ago (expiry notices June/July 2026). Three-minute check for Gao below. **Name collision:** "The Skill Seeker" (@theskillseekerr), "skill seeker" and "Skill Seeker" already exist as channels — the new or restored channel should be **The Skill Seeker Lab** with a handle like `@skillseekerlab`, which also matches the imprint on the book.
-3. **Start date:** Mon 12 Oct as proposed, or later?
+3. ~~**Start date:**~~ decided: **Mon 19 Oct** (Gao wants October).
 4. **Filming:** phone + window light is enough. Is there a stand, and a quiet 30 minutes on Sundays?
 
 ## Finding the channel — 3 minutes, Gao
