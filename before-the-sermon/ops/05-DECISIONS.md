@@ -3,6 +3,14 @@
 
 ## Queue — needs Gao
 
+### D-18 · Skill Seeker trim size — 6 × 9 journal or a larger "lab entry book"? (raised by Gao 27 Sep; decide with the proof copy in hand)
+- **Recommendation: keep 6 × 9 for the first edition and order the proof at that size.** Decide the size question on the printed object, not on a guess.
+- **Why:** the lab feel is already in the content (Daily Lab pages, evidence ledger, stuck→solved tracker, numbered pages), and content is what makes a lab book, not width. 6 × 9 is the size that goes in a bag to wherever the skill is practised; a 7 × 10 or 8.5 × 11 book lives on a desk. On camera, 6 × 9 reads as a journal you carry; letter size reads as a workbook. The 6 × 9 files are finished and verified at both printers; the same trim on KDP keeps the two editions identical.
+- **What a size change costs:** the trim is one constant in the builder, but every page layout (line counts, grids, the week map) is tuned to 6 × 9 and would need a re-layout and re-verification pass (about one working session), a new cover build, a new Lulu project, and a slightly higher print cost per copy on Lulu (larger formats price higher; get the on-screen figure before deciding). It does not touch Before the Sermon.
+- **Reversible:** yes. A second edition at another size can be released later without withdrawing the 6 × 9.
+- **Ask of Gao:** write in the 6 × 9 proof for a week of the challenge. If the pages feel cramped, we resize for edition 2; if not, the question is closed.
+- **Cost:** $0 now. **Risk:** low. **Approval needed:** none to keep 6 × 9; yes to resize.
+
 ### D-17 · KDP account terminated — **Gao decided 27 Sep: appeal sent; Lulu deferred; wait. Decision point Mon 12 Oct (calendared).**
 - **Fact:** KDP terminated gao.kabubi@gmail.com on 30 Apr for a *missed* identity-verification deadline (asked 15 Apr, due 29 Apr, reminded twice). No appeal was ever sent. Amazon's terms forbid a new KDP account by the same person.
 - **Recommendation — do both, today:**
@@ -102,6 +110,7 @@
 | 23 Sep 2026 | Instagram handle confirmed: @beforesermon | Gao |
 | 23 Sep 2026 | **D-12 decided:** brand-authored — "by Before the Sermon". Name off cover, spine, copyright, listing. | Gao |
 | 23 Sep 2026 | Gift inscription page added (p2): For / From / On / Because | Gao |
+| 27 Sep 2026 | **D-18 raised:** Skill Seeker trim size (lab-book format?). Recommendation: keep 6 × 9 for the proof; decide on the printed copy | GM |
 | 27 Sep 2026 | Before the Sermon at Lulu **Review** step: spec confirmed (US Trade 6×9, 128 pp, Standard B&W, 60# cream uncoated, perfect bound, matte). **Print cost $5.19/copy.** Private project (print-only, no distribution). Centred spine cover re-uploaded | Gao |
 | 27 Sep 2026 | **Lulu account live; both projects created; covers accepted** (Lulu spine 0.35 = our 0.348 rounded). Private access. Next: order 2 copies each; publish switch remains Gao's | Gao |
 | 27 Sep 2026 | **D-17 amended:** Lulu approved — account + private print copies now; publishing on Lulu is Gao's switch to flip (before or at the 12 Oct decision point). Covers prebuilt to Lulu's spine; page numbers raised to clear Lulu's 0.5 in margin | Gao |
