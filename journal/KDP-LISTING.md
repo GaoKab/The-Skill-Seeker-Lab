@@ -142,3 +142,18 @@ The same PDFs upload as-is to **IngramSpark** and **Lulu**, both of which use
 the same 6 × 9 trim and accept a full-wrap cover PDF. IngramSpark computes
 spine width slightly differently (paper stock varies), so regenerate the cover
 with their spine figure in `PPI` if you go that route.
+
+### Lulu spec (project created 27 Sep 2026)
+
+| Lulu step | Choose |
+|---|---|
+| Book size | US Trade 6 × 9 in |
+| Interior color | Standard Black & White |
+| Paper type | **60# White, uncoated** (not cream: dark cover, working notebook with boxes and ledgers, matches the KDP spec) |
+| Binding | Paperback Perfect Bound (not coil: the wrap cover is built for a 0.35 in spine) |
+| Cover finish | Matte |
+| Cover file | `dist/skill-seeker-journal_cover_6x9_128pp_lulu.pdf` (spine 0.3483 in; Lulu shows 0.35) |
+| Access | private project, print-only; publishing is a separate switch |
+
+If Lulu's spine figure for white paper is not 0.35 in, stop and rebuild with
+`COVER_SPINE_IN=<figure> COVER_SUFFIX=lulu python3 build_journal.py`.
