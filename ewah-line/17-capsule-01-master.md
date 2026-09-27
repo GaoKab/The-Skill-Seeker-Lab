@@ -69,3 +69,16 @@ It is also where the founder's measured **0.61 waist-to-hip ratio** bites hardes
 **Cost of the substitution, stated plainly.** ST-02 was the cheap early test of the perforation and mesh platform that **four of the eight capsule styles depend on**. Moving it to Round 2 defers that risk rather than removing it, and if mesh disappoints in Round 2 then Rounds 2 and 4 re-sequence as `17` already anticipates. Compression knit is also harder to sample well than a drapey dress, so a disappointing Proto 1 is more likely here than it would have been with ST-02.
 
 **Brief:** `32-product-brief-curve-legging.md`. **Round 1 is now WF-01 + CL-07.**
+
+
+## Round 2 hero named — 27 Sept 2026
+
+**EWAH-WW-08, Warrior Flow Wrap Dress.** Brief: `33-product-brief-warrior-flow-wrap-dress.md`.
+
+Chosen over the half-zip Sculpt Long Sleeve for a structural reason rather than an aesthetic one. **A wrap closure with a tie accommodates a range of waist-to-hip ratios by construction**, where every other garment in the line must be graded precisely to one. The founder measures 0.61, the framework assumes 0.70-0.75, the market assumes 0.78-0.80, and the wrap is the only silhouette that serves that whole span without three blocks.
+
+It is also the piece that makes the campaign imagery true, including the hijabi model who appears in both campaign boards while `12` still files hijab-compatible dressing under future roadmap.
+
+**Round 2 now reads:** WW-08 as hero, with ST-02 and its mesh-platform test alongside it, since ST-02 moved out of Round 1 when the Curve Legging came in.
+
+**Not started until Round 1 passes its gates.** Sequencing discipline unchanged.
