@@ -95,3 +95,40 @@ The first real measurement in the project, and the one that unblocks hat samplin
 ### Still open on measurements
 
 - **Body set for the dress samples.** Per the correction in `29`, a first dress sample does not need the full 13-number set. It needs flat measurements of the reference garment, the black V-neck tee dress, plus bust, waist and hip. That remains untaken.
+
+## MEASUREMENTS — body, partial, 27 Sept 2026
+
+### Recorded as usable
+
+| Point | Value | Note |
+|---|---|---|
+| **Waist at navel** | **86 cm** | |
+| **Waist at smallest** | **80 cm** | |
+
+**The 6 cm gap between the two is a real design input, not a rounding difference.** It locates the true waist above the navel, which decides where a waistband, a wrap tie or a sculpted seam should sit so it stays put instead of rolling down during movement. Most tech packs carry one waist number and lose this. Keep both on every fit body.
+
+### NOT usable yet: bust
+
+Reported as "38–40 cm, no bra, lying on my back." Two problems, and each alone would produce a wrong sample.
+
+**The unit is almost certainly inches, not centimetres.** A bust circumference of 38–40 cm is anatomically impossible; it would be smaller than half the recorded waist. 38–40 inches converts to **96.5–101.5 cm**, which is coherent against a waist of 80 cm and consistent with the brand's curve thesis. It must be confirmed rather than converted on assumption, because a tech pack sent in the wrong unit produces a garment nobody can wear.
+
+**Lying down and without a bra are both the wrong conditions.** Breast tissue spreads and flattens against the ribcage when supine, so a measurement taken lying on the back can differ from a standing one by several centimetres. Garments are worn standing and in motion. And EWAH training pieces are worn **over a sports bra**, so the fit measurement has to include what the body will actually be wearing underneath.
+
+**Retake as: standing upright, arms relaxed at the sides, wearing the sports bra you would train in, tape level all the way round at the fullest point of the bust, snug without compressing.** Record in centimetres and note which bra.
+
+### STILL MISSING, and it is the most important number in the brand
+
+**Hip at fullest.** Not recorded.
+
+The entire EWAH thesis is the waist-to-hip ratio: roughly 0.72 against an industry standard of 0.78 to 0.80. Without the hip measurement that ratio cannot be calculated, which means the curve-adjusted grading that distinguishes this brand from resized activewear cannot be specified at all. Every other number is secondary to it.
+
+**Take as: standing, feet together, tape level around the fullest part of the hips and glutes, usually 18 to 22 cm below the waist. Snug, not compressing. Find the widest point by moving the tape up and down a little before reading it.**
+
+### Sequence from here
+
+1. Retake bust standing, in a sports bra, in centimetres
+2. Take hip at fullest
+3. Flat-measure the black V-neck reference dress per the table in `29`
+
+With those, a first dress sample can be briefed. The hat is already unblocked at 58–59 cm.
