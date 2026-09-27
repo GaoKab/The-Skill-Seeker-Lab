@@ -3,7 +3,7 @@
 
 ## Queue — needs Gao
 
-### D-17 · KDP account terminated (30 Apr 2026) — route decision (P0, today)
+### D-17 · KDP account terminated — **Gao decided 27 Sep: appeal sent; Lulu deferred; wait. Decision point Mon 12 Oct (calendared).**
 - **Fact:** KDP terminated gao.kabubi@gmail.com on 30 Apr for a *missed* identity-verification deadline (asked 15 Apr, due 29 Apr, reminded twice). No appeal was ever sent. Amazon's terms forbid a new KDP account by the same person.
 - **Recommendation — do both, today:**
   1. **Appeal.** One reply in the termination thread with ID + proof of address (draft in Gmail; `content/KDP-APPEAL.md`). Missed-deadline terminations are the category KDP reverses.
@@ -102,6 +102,7 @@
 | 23 Sep 2026 | Instagram handle confirmed: @beforesermon | Gao |
 | 23 Sep 2026 | **D-12 decided:** brand-authored — "by Before the Sermon". Name off cover, spine, copyright, listing. | Gao |
 | 23 Sep 2026 | Gift inscription page added (p2): For / From / On / Because | Gao |
+| 27 Sep 2026 | **D-17:** appeal sent to KDP (reply in the 30 Apr thread). Lulu deferred — Gao prefers to wait. Review 12 Oct; if silence or refusal, books go public elsewhere | Gao |
 | 27 Sep 2026 | KDP publish day did not happen — account found terminated since 30 Apr. Route re-decided under D-17 | — |
 | 25 Sep 2026 | ~~Publish tomorrow (26 Sep), all three formats~~ superseded by D-17, previewer as the gate; author copies ordered same day; files updated afterwards if a copy shows a defect | Gao |
 | 25 Sep 2026 | **Skill Seeker = a public challenge; YouTube the main driver.** Season plan in `journal/ops/CHALLENGE.md` | Gao |

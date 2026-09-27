@@ -11,7 +11,7 @@
 
 **Lesson:** I planned a launch on a platform whose account I never verified existed. A one-line question in week 0 — "is your KDP account in good standing?" — would have found this three weeks earlier. Added to the audit checklist for every future platform: **confirm the account before planning the launch.**
 
-**Decisions Gao needs:** D-17 (appeal + Lulu). Everything else waits behind it.
+**Decided same day:** appeal sent; Lulu deferred; decision point 12 Oct. Platform-independent work continues (Kit, YouTube channel, IG fix, the Season 1 skill).
 
 ---
 

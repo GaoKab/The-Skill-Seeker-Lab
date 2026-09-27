@@ -2,7 +2,11 @@
 *P0 = this week · P1 = next two weeks · P2 = this quarter · P3 = parked. Newest changes at top of each section.*
 
 ## P0
-- [ ] **Gao: KDP — create paperback + hardcover, upload the three files, order author proofs** (everything is approved; nothing else blocks this)
+- [x] Gao: KDP appeal sent (27 Sep)
+- [ ] Gao: Kit signup · YouTube channel (The Skill Seeker Lab) · fix/annotate Matthew card — Mon 28 Sep block
+- [ ] Gao: **the skill for Season 1** — still the gating question for the challenge
+- [ ] 12 Oct: appeal decision point (calendared)
+- [ ] ~~Gao: KDP upload~~ blocked by termination; resumes the day the appeal succeeds
 - [ ] **Gao: fix or annotate IG post 2** (Matthew 14:29–31 — D-15) — today
 - [x] GM: Spot the Difference ×4 → `content/SPOT-01.md` — needs Gao's second read
 - [x] D-01–D-05 approved (25 Sep)
