@@ -102,6 +102,7 @@
 | 23 Sep 2026 | Instagram handle confirmed: @beforesermon | Gao |
 | 23 Sep 2026 | **D-12 decided:** brand-authored — "by Before the Sermon". Name off cover, spine, copyright, listing. | Gao |
 | 23 Sep 2026 | Gift inscription page added (p2): For / From / On / Because | Gao |
+| 27 Sep 2026 | Before the Sermon at Lulu **Review** step: spec confirmed (US Trade 6×9, 128 pp, Standard B&W, 60# cream uncoated, perfect bound, matte). **Print cost $5.19/copy.** Private project (print-only, no distribution). Centred spine cover re-uploaded | Gao |
 | 27 Sep 2026 | **Lulu account live; both projects created; covers accepted** (Lulu spine 0.35 = our 0.348 rounded). Private access. Next: order 2 copies each; publish switch remains Gao's | Gao |
 | 27 Sep 2026 | **D-17 amended:** Lulu approved — account + private print copies now; publishing on Lulu is Gao's switch to flip (before or at the 12 Oct decision point). Covers prebuilt to Lulu's spine; page numbers raised to clear Lulu's 0.5 in margin | Gao |
 | 27 Sep 2026 | **D-17:** appeal sent to KDP (reply in the 30 Apr thread). Lulu deferred — Gao prefers to wait. Review 12 Oct; if silence or refusal, books go public elsewhere | Gao |

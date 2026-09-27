@@ -19,7 +19,7 @@ reasoning and the numbers are below.
 | | |
 |---|---|
 | Object | matte softcover, cream stock, cover printed in ink (cream + gold-ochre) |
-| Print cost | $1.00 + 128 × $0.012 = **$2.54** |
+| Print cost | $1.00 + 128 × $0.012 = **$2.54** (KDP). **Lulu, confirmed on screen 27 Sep: $5.19** for the same spec on 60# cream |
 | At $14.99 list | 60% × 14.99 − 2.54 = **$6.45 per copy** |
 | Upfront | $0 · inventory $0 · Prime-eligible · live in ~72 h |
 | What you lose vs mockup | hardness, cloth, foil, ribbon |
