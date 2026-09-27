@@ -132,3 +132,46 @@ The entire EWAH thesis is the waist-to-hip ratio: roughly 0.72 against an indust
 3. Flat-measure the black V-neck reference dress per the table in `29`
 
 With those, a first dress sample can be briefed. The hat is already unblocked at 58–59 cm.
+
+## MEASUREMENTS COMPLETE — core set, 27 Sept 2026
+
+| Point | Value |
+|---|---|
+| Head circumference | **58–59 cm** (over hair as worn) |
+| Bust | **104 cm** |
+| Waist, smallest | **80 cm** |
+| Waist, at navel | **86 cm** |
+| Hip, fullest | **132 cm** |
+
+### The ratio, and it is more extreme than the framework assumed
+
+**Waist to hip: 80 / 132 = 0.61.** At the navel, 86 / 132 = 0.65.
+
+| Reference | W:H |
+|---|---|
+| Mainstream activewear blocks | 0.78 – 0.80 |
+| EWAH Curved Body Fit Framework assumption (`06`) | 0.72 |
+| **Founder, actual** | **0.61** |
+
+**Hip exceeds waist by 52 cm. Hip exceeds bust by 28 cm.**
+
+### What this proves, in numbers rather than in feeling
+
+A 132 cm hip puts the founder, on a mainstream size chart, in a band whose waist is drawn at roughly 110 to 115 cm. Her waist is 80 cm. **The garment that fits her hips is built with a waist about 30 cm too big.**
+
+That is not a preference, a styling complaint or a confidence problem. It is a measurable 30 cm engineering error, repeated across almost every brand on the market, and it is the entire reason this company exists. The founder's own words on 3 Sept, about wearing a dress to the gym because leggings would not work, now have a number attached: **30 cm.** Use it in the launch copy. It is more persuasive than any adjective.
+
+### The consequence the framework has to absorb
+
+`06` was written around a curve profile of 0.72. **The founder sits at 0.61, which is outside her own framework.** Two things follow and they pull in different directions.
+
+**For sample one, build to 0.61.** She is the fit authority, the sample has to be wearable and testable on her body, and a block cut to a hypothetical 0.72 customer would fail the only tester available.
+
+**For grading and production, 0.61 cannot be the only block.** A range built solely on the founder's proportions would fail a customer at 0.72 nearly as badly as the market currently fails the founder, just in the opposite direction. The fit profiles in `06` need to span roughly **0.61 to 0.78**, with the founder marked as the deep end of that range rather than its centre.
+
+**This is a real strategic fork and should be decided deliberately, not drifted into.** Option one: EWAH is built for the deep-curve end, 0.61 to 0.68, and owns a segment nobody serves. Option two: EWAH spans 0.61 to 0.78 and needs two base blocks rather than one, which roughly doubles pattern development cost. Option one is cheaper, sharper and truer to the founding story. Option two is a bigger market and a bigger bill.
+
+### Now unblocked
+
+- **Hat sample**, at 58–59 cm as M/L. Ready to brief.
+- **Dress sample**, once the black V-neck reference dress is flat-measured per the table in `29`. The body numbers are now sufficient.
