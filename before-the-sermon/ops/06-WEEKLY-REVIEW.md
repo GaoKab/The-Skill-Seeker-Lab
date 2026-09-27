@@ -3,6 +3,18 @@
 
 ---
 
+## Week 2 · 26–27 September 2026 (interim)
+
+**What left the building:** nothing. The KDP session revealed the account was terminated on 30 April for a missed ID deadline.
+
+**Done:** timeline established from the inbox; appeal drafted into Gmail; both build scripts made printer-agnostic (any spine/bleed); Lulu chosen as the parallel route; D-17 raised.
+
+**Lesson:** I planned a launch on a platform whose account I never verified existed. A one-line question in week 0 — "is your KDP account in good standing?" — would have found this three weeks earlier. Added to the audit checklist for every future platform: **confirm the account before planning the launch.**
+
+**Decisions Gao needs:** D-17 (appeal + Lulu). Everything else waits behind it.
+
+---
+
 ## Week 1 · 15–25 September 2026
 
 **What left the building this week:** nothing yet — deliberately. Everything is finished and waiting on one session: **KDP upload, Sat 26 Sep 10:00–11:30 ET, on Gao's calendar.**

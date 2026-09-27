@@ -3,6 +3,16 @@
 
 ## Queue — needs Gao
 
+### D-17 · KDP account terminated (30 Apr 2026) — route decision (P0, today)
+- **Fact:** KDP terminated gao.kabubi@gmail.com on 30 Apr for a *missed* identity-verification deadline (asked 15 Apr, due 29 Apr, reminded twice). No appeal was ever sent. Amazon's terms forbid a new KDP account by the same person.
+- **Recommendation — do both, today:**
+  1. **Appeal.** One reply in the termination thread with ID + proof of address (draft in Gmail; `content/KDP-APPEAL.md`). Missed-deadline terminations are the category KDP reverses.
+  2. **Publish on Lulu now, in parallel.** Free ISBN, cream paper, print-on-demand, live on Lulu's own store within a day, paperbacks distributed to Amazon through Ingram within weeks. Hardcover distributes to bookstores, not Amazon. Zero cost. Nothing about the Lulu edition conflicts with a later KDP reinstatement — a book can exist on both.
+- **Do not:** open a second KDP account under any email.
+- **Cost:** $0. **Risk:** appeal refused → Lulu + IngramSpark become the permanent route (Ingram needs Bowker ISBNs, ~$295/10). **Next:** send the appeal; create the Lulu account; send GM the Lulu cover template numbers → covers rebuilt in minutes (scripts now take any printer's spine/bleed).
+
+
+
 ### ~~D-01 · The six questions (P0, blocks the final interior)~~ — APPROVED 25 Sep
 - **Recommendation:** approve the merged set now in `build_notebook.py` `PROMPTS`, or edit in place.
 - **Why it matters:** printed 52 times per copy, the spine of the product and of every "Sit With It" post.
@@ -92,7 +102,8 @@
 | 23 Sep 2026 | Instagram handle confirmed: @beforesermon | Gao |
 | 23 Sep 2026 | **D-12 decided:** brand-authored — "by Before the Sermon". Name off cover, spine, copyright, listing. | Gao |
 | 23 Sep 2026 | Gift inscription page added (p2): For / From / On / Because | Gao |
-| 25 Sep 2026 | **Publish tomorrow (26 Sep), all three formats**, previewer as the gate; author copies ordered same day; files updated afterwards if a copy shows a defect | Gao |
+| 27 Sep 2026 | KDP publish day did not happen — account found terminated since 30 Apr. Route re-decided under D-17 | — |
+| 25 Sep 2026 | ~~Publish tomorrow (26 Sep), all three formats~~ superseded by D-17, previewer as the gate; author copies ordered same day; files updated afterwards if a copy shows a defect | Gao |
 | 25 Sep 2026 | **Skill Seeker = a public challenge; YouTube the main driver.** Season plan in `journal/ops/CHALLENGE.md` | Gao |
 | 25 Sep 2026 | D-06: Kit | Gao |
 | 25 Sep 2026 | **Skill Seeker Journal brand-authored too** — no personal name on either book (author: The Skill Seeker Lab) | Gao |

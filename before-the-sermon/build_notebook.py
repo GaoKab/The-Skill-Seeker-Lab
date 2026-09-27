@@ -95,6 +95,16 @@ HC_HINGE = 0.40 * inch                     # KDP: 0.4 in (10 mm) between spine a
 HC_SPINE = (PAGES * 0.002252 + 0.06) * inch
 HC_SAFE  = 0.635 * inch                    # KDP: text/images 0.635 in (16 mm) from book edge
 
+
+# ---- Other printers (Lulu, IngramSpark, a print shop) ------------------------
+# Every printer hands you its own spine width and bleed for your exact page
+# count and paper. Set them here (inches) and the paperback cover rebuilds to
+# that geometry with a suffixed filename; leave unset for KDP defaults.
+#   COVER_SPINE_IN=0.31 COVER_BLEED_IN=0.125 COVER_SUFFIX=lulu python3 <this script>
+_OV_SPINE  = os.environ.get("COVER_SPINE_IN")
+_OV_BLEED  = os.environ.get("COVER_BLEED_IN")
+COVER_SUFFIX = os.environ.get("COVER_SUFFIX", "")
+
 HERE  = os.path.dirname(os.path.abspath(__file__))
 DIST  = os.path.join(HERE, "dist")
 FONTS = os.path.join(HERE, "assets", "fonts")
@@ -739,6 +749,8 @@ def build_cover(path, pages, hardcover=False):
         spine, edge, hinge, safe = HC_SPINE, HC_WRAP, HC_HINGE, HC_SAFE
     else:
         spine, edge, hinge, safe = pages * PPI, BLEED, 0.0, SAFE
+        if _OV_SPINE: spine = float(_OV_SPINE) * inch
+        if _OV_BLEED: edge = float(_OV_BLEED) * inch
     W = 2 * (edge + PW + hinge) + spine
     H = 2 * edge + PH
     c = canvas.Canvas(path, pagesize=(W, H))
@@ -886,7 +898,8 @@ def main():
     n = b.page
     b.save()
     assert n % 2 == 0 and n == PAGES, f"expected {PAGES} pages, produced {n}"
-    cover = os.path.join(DIST, f"before-the-sermon_cover_6x9_{n}pp.pdf")
+    sfx = f"_{COVER_SUFFIX}" if COVER_SUFFIX else ""
+    cover = os.path.join(DIST, f"before-the-sermon_cover_6x9_{n}pp{sfx}.pdf")
     spine, W, H = build_cover(cover, n)
     hc = os.path.join(DIST, f"before-the-sermon_cover-HARDCOVER_6x9_{n}pp.pdf")
     hs, HW, HH = build_cover(hc, n, hardcover=True)

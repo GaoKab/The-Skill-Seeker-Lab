@@ -47,6 +47,16 @@ CB       = M_BOT                        # content bottom y
 
 LINE_GAP = 19.0                         # handwriting line pitch (~0.264")
 
+
+# ---- Other printers (Lulu, IngramSpark, a print shop) ------------------------
+# Every printer hands you its own spine width and bleed for your exact page
+# count and paper. Set them here (inches) and the paperback cover rebuilds to
+# that geometry with a suffixed filename; leave unset for KDP defaults.
+#   COVER_SPINE_IN=0.31 COVER_BLEED_IN=0.125 COVER_SUFFIX=lulu python3 <this script>
+_OV_SPINE  = os.environ.get("COVER_SPINE_IN")
+_OV_BLEED  = os.environ.get("COVER_BLEED_IN")
+COVER_SUFFIX = os.environ.get("COVER_SUFFIX", "")
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 DIST = os.path.join(HERE, "dist")
 FONTS = os.path.join(HERE, "assets", "fonts")
@@ -1288,17 +1298,18 @@ PPI     = 0.002252 * inch      # KDP: white paper, black & white interior
 
 
 def build_cover(path, pages):
-    spine = pages * PPI
-    W = BLEED * 2 + PW * 2 + spine
-    H = BLEED * 2 + PH
+    spine = float(_OV_SPINE) * inch if _OV_SPINE else pages * PPI
+    bleed = float(_OV_BLEED) * inch if _OV_BLEED else BLEED
+    W = bleed * 2 + PW * 2 + spine
+    H = bleed * 2 + PH
     c = canvas.Canvas(path, pagesize=(W, H))
     c.setTitle(f"{TITLE} {TITLE2} — cover")
     c.setAuthor(AUTHOR)
 
-    bx, by = BLEED, BLEED              # back-cover trim origin
-    sx = BLEED + PW                    # spine left edge
+    bx, by = bleed, bleed              # back-cover trim origin
+    sx = bleed + PW                    # spine left edge
     fx = sx + spine                    # front-cover trim origin
-    top = BLEED + PH
+    top = bleed + PH
 
     # full bleed background
     c.setFillColor(CV_BG)
@@ -1498,7 +1509,8 @@ def main():
     assert n % 2 == 0, f"page count {n} must be even for print"
     assert n == PAGES, f"expected {PAGES} pages, produced {n}"
 
-    cover = os.path.join(DIST, f"skill-seeker-journal_cover_6x9_{n}pp.pdf")
+    sfx = f"_{COVER_SUFFIX}" if COVER_SUFFIX else ""
+    cover = os.path.join(DIST, f"skill-seeker-journal_cover_6x9_{n}pp{sfx}.pdf")
     spine, W, H = build_cover(cover, n)
 
     print(f"interior : {interior}")

@@ -13,7 +13,7 @@
 | **The notebook itself** | `../dist/` | **Built this week**: 128-page interior, paperback cover, hardcover cover, KDP listing sheet, print-route research. Verified against KDP safe areas; fonts embedded. |
 | **Instagram account** | **@beforesermon** (confirmed 23 Sep) | **Not inspectable from here** — Instagram returns 429 to unauthenticated readers and no connector exists. Audit runs from Gao's screenshots: profile, Insights overview (90 days), top posts by saves, audience. Handle noted: it drops the word *the* — see Profile note. |
 | **Email list / capture** | — | None found. |
-| **Amazon / KDP listing** | — | Not created. |
+| **Amazon / KDP account** | gao.kabubi@gmail.com | **Terminated 30 Apr 2026** (missed identity-verification deadline). Discovered 26 Sep. Appeal drafted. See D-17. |
 | **Planning docs for this brand** | — | None. (Extensive DustOff social playbooks exist in Drive: teach-first post structure, pillar/format/CTA calendars, launch plan — a proven working format that this brand should reuse.) |
 
 ## What is strong
