@@ -37,6 +37,25 @@
 - **Public failure.** A skill that stalls at week 7 is the *best* possible episode — the Friction Log exists for it. Say so in the trailer.
 - **Two brands, one person.** Skill Seeker is Gao on camera. Before the Sermon is a voice without a face. Keep the accounts separate; cross-mention once a season at most.
 
+
+## Season 1 skill — Gao's shortlist (27 Sep) and the GM's read
+Gao listed: pole dancing · riding a bike · skating · kizomba / any dance · Spanish / French / Korean · knotting with projects for the house · sewing · (unsure) coding / a tool like Codex. Asked whether to do several at once.
+
+**One skill per season.** That is the product (one skill, one journal) and the only cadence that survives next to a job search. The rest of the list is not discarded: it is the Season 2–8 roadmap, and week 10's cohort email chooses the next one.
+
+| Skill | Real & specific? | 12-weeks-sized? | Shows on camera? | Oct–Jan, $0? | Read |
+|---|---|---|---|---|---|
+| **Knotting (macramé) — things for the house** | yes: a finished object every fortnight | yes: plant hanger → wall hanging → a large piece by wk 12 | hands-only filming, every week ends with a thing | indoor; cord ≈ $15–30 | **Recommended Season 1** |
+| Riding a bike | yes; adult-learner story is strong | too short (2–4 wks) unless the target is a 20 km ride | very | outdoor; Indiana Nov–Jan | **Season 2, start April** |
+| Skating | yes | yes | very | rink cost; cold | later |
+| Kizomba / dance | yes | yes | yes | needs partner/classes ($) | later |
+| Spanish / French / Korean | needs a target ("10-min conversation") | yes | weak on camera until wk 8+; crowded genre | free, indoor | Season 3 candidate, or private |
+| Sewing | yes, same shape as knotting | yes | yes | machine ($) | Season 2 alternative |
+| Pole dancing | yes | yes, one move/routine | yes, but body-on-camera + kit/classes ($$) | no | when the format is proven |
+| Coding / a tool | Gao unsure — "a week of" is not a season | no | no | free | park |
+
+**Proposed timeline (revised for the Lulu proofs):** proofs land 11–14 Oct → publish ~15 Oct → announce 15 Oct–1 Nov (trailer + "start with me") → **Season 1 Week 1 = Mon 2 Nov 2026** → Week 12 Debrief Sun 24 Jan 2027. Week 8 (21–27 Dec) is declared a light week in advance.
+
 ## Four questions for Gao — the season can't be planned past this line without them
 1. **What is the skill?** Season 1 lives or dies here. Real, specific, twelve-weeks-sized, and something she actually wants — not something that films well.
 2. **Does a YouTube channel exist?** Gao believes it was deleted (25 Sep). Checked: no deletion or termination email from YouTube on gao.kabubi@gmail.com; that account *did* hold a channel with advanced-features verification >1 year ago (expiry notices June/July 2026). Three-minute check for Gao below. **Name collision:** "The Skill Seeker" (@theskillseekerr), "skill seeker" and "Skill Seeker" already exist as channels — the new or restored channel should be **The Skill Seeker Lab** with a handle like `@skillseekerlab`, which also matches the imprint on the book.
