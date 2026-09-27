@@ -189,7 +189,7 @@ class Book:
 
     def _folio(self, running=""):
         c = self.c
-        y = M_BOT - 22
+        y = M_BOT - 11                     # folio baseline 0.51 in from trim: clears Lulu's 0.5 in safety margin as well as KDP's 0.25 in
         recto = self.page % 2 == 1
         if running:
             c.setFont(UI, 6.4); c.setFillColor(MID)

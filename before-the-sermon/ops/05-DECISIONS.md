@@ -102,6 +102,7 @@
 | 23 Sep 2026 | Instagram handle confirmed: @beforesermon | Gao |
 | 23 Sep 2026 | **D-12 decided:** brand-authored — "by Before the Sermon". Name off cover, spine, copyright, listing. | Gao |
 | 23 Sep 2026 | Gift inscription page added (p2): For / From / On / Because | Gao |
+| 27 Sep 2026 | **D-17 amended:** Lulu approved — account + private print copies now; publishing on Lulu is Gao's switch to flip (before or at the 12 Oct decision point). Covers prebuilt to Lulu's spine; page numbers raised to clear Lulu's 0.5 in margin | Gao |
 | 27 Sep 2026 | **D-17:** appeal sent to KDP (reply in the 30 Apr thread). Lulu deferred — Gao prefers to wait. Review 12 Oct; if silence or refusal, books go public elsewhere | Gao |
 | 27 Sep 2026 | KDP publish day did not happen — account found terminated since 30 Apr. Route re-decided under D-17 | — |
 | 25 Sep 2026 | ~~Publish tomorrow (26 Sep), all three formats~~ superseded by D-17, previewer as the gate; author copies ordered same day; files updated afterwards if a copy shows a defect | Gao |
