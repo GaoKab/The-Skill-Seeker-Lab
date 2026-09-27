@@ -45,14 +45,21 @@ Gao listed: pole dancing · riding a bike · skating · kizomba / any dance · S
 
 | Skill | Real & specific? | 12-weeks-sized? | Shows on camera? | Oct–Jan, $0? | Read |
 |---|---|---|---|---|---|
-| **Knotting (macramé) — things for the house** | yes: a finished object every fortnight | yes: plant hanger → wall hanging → a large piece by wk 12 | hands-only filming, every week ends with a thing | indoor; cord ≈ $15–30 | **Recommended Season 1** |
-| Riding a bike | yes; adult-learner story is strong | too short (2–4 wks) unless the target is a 20 km ride | very | outdoor; Indiana Nov–Jan | **Season 2, start April** |
-| Skating | yes | yes | very | rink cost; cold | later |
+| Knotting (macramé) — things for the house | yes: a finished object every fortnight | yes: plant hanger → wall hanging → a large piece by wk 12 | hands-only filming, every week ends with a thing | indoor; cord ≈ $15–30 | strong indoor alternative; Season 4 or a summer season |
+| Riding a bike | yes; adult-learner story is strong | too short (2–4 wks) unless the target is a 20 km ride | very | outdoor; **Minnesota** Nov–Jan | **Season 3, start late April** |
+| Ice skating | yes | yes | very; a Minnesota story | indoor rinks Nov–Dec ($5–8 open skate); outdoor park rinks free from mid-Dec; used skates ≈ $30–50 | **Season 2, Jan–Mar** |
 | Kizomba / dance | yes | yes | yes | needs partner/classes ($) | later |
 | Spanish / French / Korean | needs a target ("10-min conversation") | yes | weak on camera until wk 8+; crowded genre | free, indoor | Season 3 candidate, or private |
 | Sewing | yes, same shape as knotting | yes | yes | machine ($) | Season 2 alternative |
 | Pole dancing | yes | yes, one move/routine | yes, but body-on-camera + kit/classes ($$) | no | when the format is proven |
+| **Bodyweight training (calisthenics)** — added 27 Sep, Gao's ask | yes: first unassisted pull-up / 10 full push-ups / 60-s hollow hold, or a wall handstand — Gao picks the target | yes: the classic 12-week shape | reps are numbers; week 1 vs week 12 clips | indoor, $0 (doorframe bar ≈ $25 if pull-up is the target) | **Recommended Season 1** |
 | Coding / a tool | Gao unsure — "a week of" is not a season | no | no | free | park |
+
+**Correction 27 Sep:** Gao is in **Minnesota**, not Indiana (the calendar's Indianapolis time zone misled the GM). Winter is harder and longer; her pull is toward physical skills (bike, skating, pole, bodyweight training). Revised arc, one skill per season, all physical, each in its season:
+- **Season 1 (Nov–Jan): bodyweight training.** Indoor, free, a numeric target, the classic twelve-week shape. Gao names the target.
+- **Season 2 (Jan–Mar): ice skating.** Minnesota's free outdoor park rinks are open exactly then; the most Minnesotan story on the list.
+- **Season 3 (late Apr–Jul): riding a bike.** Snow gone, trails open, the adult-learner story with room for a 20 km finish.
+- Knotting/sewing become the indoor fallback or a summer season; languages private; pole when the format is proven.
 
 **Proposed timeline (revised for the Lulu proofs):** proofs land 11–14 Oct → publish ~15 Oct → announce 15 Oct–1 Nov (trailer + "start with me") → **Season 1 Week 1 = Mon 2 Nov 2026** → Week 12 Debrief Sun 24 Jan 2027. Week 8 (21–27 Dec) is declared a light week in advance.
 
