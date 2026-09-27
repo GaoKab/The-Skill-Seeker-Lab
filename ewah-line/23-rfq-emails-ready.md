@@ -286,3 +286,35 @@ Two replies landed on 21 Sept. For the first time since this started, **every ha
 ### The agreement is still unread
 
 Yolanda has now sent the amended PDF **twice**, 7 and 21 Sept. This session cannot open mail attachments, so **clause 2.2 has never been read by anyone but her.** She is waiting on it filled in and stamped, and it now gates three products across two brands. Save it into `ewah-line/` or paste the clause text.
+
+## Ops log — 27 Sept 2026: Aung Crown fully costed, and a trap in the setup fee
+
+Yolanda answered everything on 26 Sept except the agreement wording, which had not been asked yet because that draft was never sent.
+
+| Item | Answer |
+|---|---|
+| Setup fee, printing | **$35–100 per style, per size, per colour.** One-time, not recharged on reorder if nothing changes |
+| Sample lead time | **15–19 days**, design dependent |
+| Payment | PayPal, bank transfer, or **Alibaba** |
+| Block question | **"Yes!"** |
+| Caveat | All prices are reference quotes until the design is final |
+
+### The setup fee is quoted per size, and that is a real cost trap
+
+The bucket hat is **two sizes**, S/M and M/L, carrying the **same** underside-brim artwork. Read literally, "per style per size per colour" means **two setups, $70–200**, which can exceed the $40 hat sample itself. Nobody is being dishonest, it is a standard tariff line, but it needs pinning before an invoice appears. The drafted reply asks whether identical artwork across two sizes counts once or twice, and whether setup is charged at sample stage at all or only at production.
+
+### Payment: take Alibaba, refuse bank transfer
+
+Alibaba puts the order inside **Trade Assurance**, which is escrow and is exactly what the original RFQ asked for. PayPal is an acceptable second, it carries buyer protection. **Bank transfer carries none** and on a first order with a new supplier it puts the whole sum at risk. The drafted reply states the preference plainly.
+
+### "Yes!" is one word answering a two-option question
+
+The question offered a choice: original block from measurements, or existing block with EWAH trims. A bare "Yes!" most likely means the former, and that reading is supported by her 21 Sept sentence about prices being based on an original block. But the entire hat economics rest on it, so the drafted reply restates it as a flat sentence she only has to confirm or correct. Cheap to ask, expensive to have assumed wrong.
+
+### Draft handling note
+
+The earlier amendment draft opened "Following up on my own message" and was written before this reply existed. It was deleted and rewritten as a reply to her 26 Sept message, so it acknowledges her answers first and then makes the clause 2.2 requests. **Standing rule: a queued draft is stale the moment the other side writes again. Rewrite rather than send.**
+
+### Still true
+
+No agreement signed. No sample ordered. No measurements taken. Hongyu has had the NNN ready for eight days and has not received it.
