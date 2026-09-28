@@ -354,3 +354,52 @@ Nothing else in either brand is blocked on anything else.
 Across EWAH, PULA and FAANO, the identical bottleneck appears three times: **artwork, assigned to the founder, undone.** The emblem vectors, the PULA rain collection lettering, and FAANO's art001, art002 and art005. Three brands, three supply chains, one task type, one owner, zero progress.
 
 That is not a scheduling problem and it will not be solved by another list. It means the work either gets commissioned or gets produced by someone other than the founder.
+
+## Ops log — Mon 28 Sept 2026
+
+**Yolanda replied 27 Sept 15:51, and it is the best reply Aung Crown has sent.** Three of four open items closed.
+
+### The block question is now unambiguous
+
+Gao restated it flatly: *"the eight to twelve dollars at fifty pieces for the EWAH bucket hat is for a hat made on a new block developed from my measurements, not one of your existing blocks with my trims on it. Is that right?"*
+
+Yolanda: **"Yes."**
+
+That closes a question first asked on 19 Sept and dodged or half-answered three times. **The $8.20–12.00 at fifty pieces is an original-block price.** It is now on the record in her own words against a sentence that admits no other reading, which is why the question was restated as a flat proposition rather than asked a fourth time.
+
+### Setup fee explained, and it is better than feared
+
+*"The setup fee applies to the logo/design, not the bucket hat itself. If your design is all-over print on the hat, size is generally not a consideration. For positioned printing (e.g., directional prints), we will normally need to take size into account."*
+
+So the earlier fear that two sizes automatically means two setups is **wrong for all-over print and right only for positioned print**. The underside-brim print is positioned, so it may still count per size, but this is now a design decision rather than a fixed tariff. Good outcome from asking.
+
+### Payment settled
+
+*"Regarding the payment method, we can arrange it per your requirements."* **Alibaba, inside Trade Assurance**, accepted. This was the original RFQ's requirement and it is now agreed.
+
+### Agreement, accepted in principle with one hedge to watch
+
+*"I've reviewed the agreement points you raised. We will revise them in line with your requests **and our company's standard terms**. Rest assured, we will work on the agreement tomorrow."*
+
+**The hedge is the second half of that sentence.** "In line with your requests and our company's standard terms" is not the same as "we have made your two changes." When the revision arrives, check only two things and do not be distracted by anything else:
+
+1. Does clause 2.2 say **"based on or derived from"** rather than "solely based on"?
+2. Does it extend the restriction beyond third-party clients to **Party B's own products, samples, catalogue, website, showroom or trade show displays**?
+
+If either is missing, that is the negotiation, not a misunderstanding.
+
+### Still unanswered, and drafted
+
+**Is setup charged at the sample stage or only at production?** Asked 27 Sept, not answered. It matters: $40 for a hat sample versus $40 plus $35–100 of setup are different budgets. Short reply drafted asking only that, plus confirming Alibaba.
+
+### Scoreboard
+
+| Item | State |
+|---|---|
+| Aung Crown agreement | Revision promised for 28 Sept |
+| Original block confirmed | **Yes, in writing** |
+| Payment method | **Alibaba / Trade Assurance agreed** |
+| Setup fee at sample stage | Unanswered, drafted |
+| Hongyu NNN | Sent 27 Sept with signed PDF, no reply yet, 1 business day |
+| ASBX | Ownership sentence and sample invoice awaited, 1 business day |
+| Measurements | **Complete.** Head 58–59, bust 104, waist 80/86, hip 132 |
