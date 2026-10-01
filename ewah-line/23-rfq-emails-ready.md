@@ -238,8 +238,13 @@ The 13 Sept rule said read active threads with `get_thread` rather than scoring 
 | 5 | Hongyu — training dress | Kira | `1a068b2f13cbb8d9` |
 | 6 | ASBX — PULA tees | Maria Almeida, sales@asbx.pt | `1a068b32b7fa7e6a` |
 | 7 | Aolafree — training dress | Elena, elena@aolawear.com | `1a068b2bb389675e` |
+| 8 | Aung Crown — PULA, **new thread 30 Sept** | Yolanda Xiong | `1a0eabddd917c3e7` |
 
-All seven, every check, no exceptions. Add a row when a new supplier thread opens; never remove one without recording why.
+All eight, every check, no exceptions. Add a row when a new supplier thread opens; never remove one without recording why.
+
+**Thread 8 is a trap worth naming.** On 30 Sept the founder replied to Yolanda under the same subject line but in a *new* thread. Thread 2 (`1a07471d6cabcf04`) is now historical and holds a dead draft; thread 8 is where the live conversation and the revised agreement are. A register that lists only thread 2 would have missed the agreement arriving. Check both; treat 8 as the live one.
+
+**PULA print partners live in `34`**, not here. Five more threads opened 30 Sept (ThreadGhost, Couture LA, DTLA Print, Rodriguez Embroidery, WizardPins) and they are registered in that file so this register stays the factory register.
 
 ## Ops log — Sat 19 Sept 2026
 
@@ -403,3 +408,57 @@ If either is missing, that is the negotiation, not a misunderstanding.
 | Hongyu NNN | Sent 27 Sept with signed PDF, no reply yet, 1 business day |
 | ASBX | Ownership sentence and sample invoice awaited, 1 business day |
 | Measurements | **Complete.** Head 58–59, bust 104, waist 80/86, hip 132 |
+
+## Ops log — Thu 1 Oct 2026
+
+Checked all eight register threads by ID. Three inbound messages landed on 30 Sept while this log was not looking, all of them from the batch the founder sent herself at 03:00 that morning.
+
+### Aung Crown — the revised agreement has arrived (30 Sept 07:08, thread 8)
+
+> "Attached is the modified version of the agreement for your review. For any customized design or craft, a setup fee will be required, regardless of whether it is for a sample order or a bulk order. Regarding the setup fee, we cannot provide an exact price until we have checked the final design/artwork. For now, we can only provide an estimated price range, as mentioned previously. There is no problem with using Alibaba / Trade Assurance for the payment."
+
+Three things settled in four sentences.
+
+**1. The revision is in hand and cannot be read from here.** Filename: *"Confidentiality Agreement Template – Chinese&English-EWAH brand work and the Botswana collection.pdf"*, on message `1a0f125033c0a745`. The filename itself closes one of the four asks — **both projects are now named on the document**, not only in email, which was the point of asking. The clauses cannot be reviewed until the PDF is in `ewah-line/agreements/` or the 2.2 text is pasted in. Gmail attachments are not downloadable from this side. Nothing is signed or accepted on the founder's behalf; the review in `30` is the only output.
+
+**2. The setup fee is charged at sample stage.** Asked 27 Sept, drafted again 28 Sept, now answered flatly: *"regardless of whether it is for a sample order or a bulk order."* This is the answer the budget was waiting for and it is the worse of the two possibilities.
+
+| First hat sample, real cost |  |
+|---|---|
+| Sample | $40 |
+| Setup, printing | $35–100 per style/size/colour |
+| **Budget** | **$75–140, not $40** |
+
+The $35–100 is one-time and carries into production, so it is an entry cost rather than a recurring one. It is also a direct argument for **all-over print over positioned print on the first sample** — per Yolanda's 27 Sept clarification, all-over print generally ignores size, positioned print counts per size. Two sizes of positioned brim print could double the setup. Design decision, taken before artwork is finalised, not after.
+
+**3. Alibaba / Trade Assurance, confirmed a second time in writing.** Closed.
+
+### Stale draft in thread 2 — now fully dead
+
+Draft `r6082225643223345861`, 28 Sept, in the old thread `1a07471d6cabcf04`. It asks whether setup is charged at the sample stage and confirms Alibaba. Both were answered on 30 Sept, and the founder's own 30 Sept message in thread 8 already said the rest. **Nothing in it is still true as an open question.** It should be deleted so the drafts folder stops reading as a to-do list.
+
+### Hongyu and ASBX — nudges drafted, unsent, correct
+
+| Draft | Thread | Age of silence |
+|---|---|---|
+| Kira, Hongyu | `1a0543889f9c5169` | Signed NNN sent 27 Sept, 4 business days |
+| Maria, ASBX | `1a068b32b7fa7e6a` | 4 business days |
+
+Both sit in drafts waiting for the founder. Neither supplier has replied since. Four business days is the flag line, so these two are exactly at it — send today or the week turns into two.
+
+### Scoreboard
+
+| Item | State |
+|---|---|
+| Aung Crown revised agreement | **Arrived 30 Sept. Blocked on the PDF reaching the repo** |
+| Both projects named on the agreement | **Yes, in the filename** |
+| Setup fee at sample stage | **Answered: yes, charged at sample** |
+| First hat sample budget | **$75–140** |
+| Payment method | Alibaba / Trade Assurance, confirmed twice |
+| Hongyu | 4 business days silent, nudge drafted |
+| ASBX | 4 business days silent, nudge drafted |
+| FIMY | Out |
+| Aolafree | Out |
+| PULA print partners | 1 of 5 out, 1 address dead, 2 too early — see `34` |
+
+**Single highest-leverage action:** get that PDF into `ewah-line/agreements/`. One signed document releases three products across two brands, and it is the only thing in the project that is blocked purely on a file transfer rather than on another person.

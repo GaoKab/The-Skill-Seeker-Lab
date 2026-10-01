@@ -62,3 +62,26 @@ One signed document releases three products across two brands: the EWAH bucket h
 ## Standing caveat
 
 This is a commercial review, not legal advice. It is the zero-budget path from `14` §7. The changes above are the ones worth a founder's time; a lawyer would find more and charge more than the samples cost.
+
+---
+
+## Revision received 30 Sept 2026 — not yet reviewable
+
+**Where it is:** attached to Yolanda's message `1a0f125033c0a745` in thread `1a0eabddd917c3e7`, filename *"Confidentiality Agreement Template – Chinese&English-EWAH brand work and the Botswana collection.pdf"*.
+
+**Status: cannot be read from here.** Gmail attachments do not come down through this connector. To review it, the file has to land in `ewah-line/agreements/`, or clause 2.2 has to be pasted as text.
+
+**What the filename already tells us.** It names both EWAH and the Botswana collection. That was one of the four asks and it is the one most likely to be quietly dropped, because it protects against a change of sales contact rather than against a legal risk. It appears to have been honoured. Confirm it is in the Project definition inside the document and not only in the filename.
+
+**The review, when the file arrives, is two questions and nothing else.** Do not re-read the carve-out, do not re-open governing law, do not be drawn into whatever else moved:
+
+1. Does 2.2 say **"based on or derived from"** in place of "solely based on"?
+2. Does the restriction now reach **Party B's own products, samples, catalogue, website, showroom or trade show displays**, and not only third-party clients?
+
+Both present: sign, per the checklist above — personal trading name, company chop reading 深圳昂冠实业有限公司 / Shenzhen Angguan Industrial Co., Ltd.
+
+One present: sign if it is number 1. Number 1 is the load-bearing change; "solely based on" is the word that lets a factory argue its way out of the clause. Number 2 is worth one more email but not worth stalling three products.
+
+Neither present: that is the negotiation Yolanda's hedge of *"and our company's standard terms"* pointed at, and it is answered by naming the two sentences again rather than by sending the agreement back as a whole.
+
+**Unchanged:** nothing here is signed or accepted on the founder's behalf. Signing is hers.
