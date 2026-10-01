@@ -462,3 +462,7 @@ Both sit in drafts waiting for the founder. Neither supplier has replied since. 
 | PULA print partners | 1 of 5 out, 1 address dead, 2 too early — see `34` |
 
 **Single highest-leverage action:** get that PDF into `ewah-line/agreements/`. One signed document releases three products across two brands, and it is the only thing in the project that is blocked purely on a file transfer rather than on another person.
+
+### Same-day addendum — 08:05 check
+
+Nothing new inbound since 02:30. **The Kira nudge was sent at 02:51**, so the Hongyu silence clock resets today. The Maria draft was opened but not sent, so ASBX stands at 4 business days and the nudge is still the right move. The 28 Sept Aung Crown draft is still sitting in the folder and is still dead.
