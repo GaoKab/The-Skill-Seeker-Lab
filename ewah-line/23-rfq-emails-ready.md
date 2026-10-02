@@ -466,3 +466,37 @@ Both sit in drafts waiting for the founder. Neither supplier has replied since. 
 ### Same-day addendum — 08:05 check
 
 Nothing new inbound since 02:30. **The Kira nudge was sent at 02:51**, so the Hongyu silence clock resets today. The Maria draft was opened but not sent, so ASBX stands at 4 business days and the nudge is still the right move. The 28 Sept Aung Crown draft is still sitting in the folder and is still dead.
+
+## Ops log — Fri 2 Oct 2026
+
+**Nothing new inbound.** No supplier replied in the last 24 hours. Three things moved on the founder's side.
+
+### Sent: ASBX nudge, 01:59
+
+Thread `1a068b32b7fa7e6a`. The silence clock resets. Three items are now formally outstanding with Maria: the ownership sentence, the sample invoice, and whether ASBX can supply garment dyed.
+
+### Sent: the dead Aung Crown draft, 02:02
+
+The 28 Sept draft in the old thread `1a07471d6cabcf04` went out verbatim. It asks whether the setup fee is charged at the sample stage and says the revised agreement is still awaited. **Yolanda answered both on 30 Sept.** So she now has a message that reads as though her reply was never opened.
+
+This is a small cost, not a real one. Yolanda is a responsive sales contact and will simply answer again. But leaving it unaddressed wastes one of her cycles and makes the next exchange start from confusion, which is worth one short message to avoid.
+
+**Drafted in the new thread `1a0eabddd917c3e7`, not the old one:** a four-line note that says plainly the earlier message was sent before her reply had been read, confirms the setup fee answer is understood, states the agreement is under review, and thanks her for Alibaba again. No design detail, and the agreement is described as under review rather than accepted.
+
+The structural lesson is the one already recorded at the head of this register: **two live threads with the same subject line is the failure mode.** The old thread should now be treated as closed. Everything to Yolanda goes into thread 8.
+
+### Still not in the repo: the revised agreement
+
+`agreements/` holds only the 21 Sept version. The 30 Sept revision is still only an email attachment, so the two clause 2.2 changes remain unverified and nothing can be signed. **Second day blocked on a file transfer.**
+
+### Silence check
+
+| Thread | Last outbound | Business days silent |
+|---|---|---|
+| Hongyu bucket hat | 1 Oct nudge | 1 |
+| ASBX | 2 Oct nudge | 0 |
+| Aung Crown | 2 Oct | 0 |
+| ThreadGhost | 30 Sept | 2 |
+| DTLA Print | 30 Sept | 2 |
+
+Nothing is past four business days. No nudges needed today.
