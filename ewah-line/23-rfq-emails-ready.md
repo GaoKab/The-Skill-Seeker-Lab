@@ -517,3 +517,7 @@ First supplier in the project to confirm **puff and reflective on the same garme
 **The earlier draft in thread 8 is now superseded** and should be deleted rather than left sitting, which is the exact mistake that put the dead 28 Sept message in front of Yolanda a day ago.
 
 Remaining founder actions on this: fill in the date, sign as **Gaofenngwe Kabubi, trading as EWAH**, add her address, and when it comes back check that the chop reads **深圳昂冠实业有限公司**.
+
+### Addendum — 08:05 check
+
+Nothing new inbound. **The DTLA reply was sent at 06:25**, so that clock resets and the five technical and commercial questions are with Victor. Both Aung Crown drafts are still sitting in thread 8: the covering note for the signed agreement, and the superseded one from 2 Oct that has not been deleted. ThreadGhost is at 3 business days and crosses the flag line on Monday.
