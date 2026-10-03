@@ -239,8 +239,9 @@ The 13 Sept rule said read active threads with `get_thread` rather than scoring 
 | 6 | ASBX — PULA tees | Maria Almeida, sales@asbx.pt | `1a068b32b7fa7e6a` |
 | 7 | Aolafree — training dress | Elena, elena@aolawear.com | `1a068b2bb389675e` |
 | 8 | Aung Crown — PULA, **new thread 30 Sept** | Yolanda Xiong | `1a0eabddd917c3e7` |
+| 9 | DTLA Print — PULA specialty print | Victor, sales@dtlaprint.com | `1a0fed71f9192607` |
 
-All eight, every check, no exceptions. Add a row when a new supplier thread opens; never remove one without recording why.
+All nine, every check, no exceptions. Add a row when a new supplier thread opens; never remove one without recording why.
 
 **Thread 8 is a trap worth naming.** On 30 Sept the founder replied to Yolanda under the same subject line but in a *new* thread. Thread 2 (`1a07471d6cabcf04`) is now historical and holds a dead draft; thread 8 is where the live conversation and the revised agreement are. A register that lists only thread 2 would have missed the agreement arriving. Check both; treat 8 as the live one.
 
@@ -500,3 +501,7 @@ The structural lesson is the one already recorded at the head of this register: 
 | DTLA Print | 30 Sept | 2 |
 
 Nothing is past four business days. No nudges needed today.
+
+### Addendum — DTLA Print replied 2 Oct 22:58
+
+First supplier in the project to confirm **puff and reflective on the same garment**. Scored in full in `34`, reply drafted in the new thread `1a0fed71f9192607`, which is now register row 9. Four of seven questions answered; sample cost, turnaround and pricing all still missing, and the "3px" line-weight answer has to be restated in millimetres before the artwork can be adjusted.

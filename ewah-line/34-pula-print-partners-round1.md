@@ -65,3 +65,45 @@ Either is fine. What is not fine is sending the full artwork package to an unsig
 Build the list first, send once. Target shops that advertise puff or 3D print and reflective ink as named services, not general-purpose promo printers. Minnesota and Chicago local for the ability to inspect a physical sample by hand, plus any specialty shop nationally that names both techniques.
 
 The ask stays the same length and shape as round 1, and still carries no artwork.
+
+---
+
+## DTLA Print replies — the first yes, 2 Oct 22:58
+
+Victor at DTLA Print (Vernon, CA), new thread `1a0fed71f9192607`, reference #25063. The old thread `1a0eabcf7d2ff937` got no reply; the answer came back under a new ticket number, so **add the new thread and treat the old one as closed.**
+
+### What he answered
+
+> "yes, we definitely offer puff printing, and we can actually combine both puff and 3M ink on the same print for a really unique result. To ensure the highest quality print, please just make sure that the minimum line weight in your artwork file is at least 3px."
+> "For the blanks, we highly recommend using the 1801GD for this project, as it takes both of those inks incredibly well."
+> "our minimum for the bulk production run is 50 units, which would take place right after your sample is completed and approved."
+
+| Ask | Answer |
+|---|---|
+| Puff and reflective on the same garment | **Yes, on the same print** |
+| Minimum reflective line width | "at least 3px" — not usable as given, see below |
+| Puff or high density for the type | Not answered |
+| Sample cost | **Not given** |
+| Sample turnaround | **Not given** |
+| Recommended blanks | 1801GD, one blank, no colour range |
+| MOQ and production pricing | MOQ 50 after sample approval. **No pricing** |
+
+**Four of seven answered, and the one that decides everything is a yes.** This is the first supplier in the entire project, across both brands, to confirm puff and reflective on one garment. The screening question in this file now has a partner who passes it.
+
+### The 3px problem
+
+**"3px" is not a print specification.** A pixel has no physical size until the file's resolution and final print dimensions are fixed, so 3px could mean half a millimetre or three millimetres depending on the document. The rain lines are the finest element in the artwork and the whole reflective plate depends on them, so this has to come back as **millimetres or inches at final printed size** before `pula-artwork/v2/` can be adjusted. That is the first question in the reply.
+
+### The 1801GD may answer the question ASBX is stuck on
+
+The PULA tee is specified as a heavyweight garment dyed cotton, and the open question on the ASBX thread for two weeks has been whether they can supply garment dyed at all. If the 1801GD is a garment dyed heavyweight, a US route to the specified finish exists and the ASBX question stops being a blocker and becomes a comparison. **Do not assume it.** The reply asks Victor to confirm the make, the weight, whether it is garment dyed, and whether it comes in black and an ivory or natural.
+
+### Drafted, not sent
+
+In thread `1a0fed71f9192607`. It locks the technique answer, thanks him for it plainly, then asks the four things he skipped: the line weight in real units, sample cost and turnaround, puff or high density for the type with his recommendation rather than hers, and the blank's make, weight, finish and colours. One planning question on production price at 50 and 100. Fifty as a bulk minimum is accepted.
+
+No artwork goes with it.
+
+### One thing to record honestly
+
+The 30 Sept outreach carried two PNG concept mockups (`rain_objects_collection_t_shirt_board.png`, `rain_objects_t_shirt_lookbook.png`) to all five printers. So the information diet has a hole on the PULA side that it does not have on the EWAH side: concept mockups of a commemorative design are already out with five vendors and no agreement in place. The production vector is not, which is the part that matters most, and the artwork carries copyright from creation. It is not worth unwinding, but it should stop there: **the production file in `pula-artwork/v2/` does not leave until there is a reason and, where a vendor will sign, a signature.**
