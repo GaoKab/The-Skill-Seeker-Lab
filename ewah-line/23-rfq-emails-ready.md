@@ -505,3 +505,15 @@ Nothing is past four business days. No nudges needed today.
 ### Addendum — DTLA Print replied 2 Oct 22:58
 
 First supplier in the project to confirm **puff and reflective on the same garment**. Scored in full in `34`, reply drafted in the new thread `1a0fed71f9192607`, which is now register row 9. Four of seven questions answered; sample cost, turnaround and pricing all still missing, and the "3px" line-weight answer has to be restated in millimetres before the artwork can be adjusted.
+
+## Ops log — Sat 3 Oct 2026
+
+**The agreement blocker is closed.** The founder supplied the 30 Sept revised PDF. It is archived at `agreements/AungCrown-NNN-revised-2026-09-30.pdf` and reviewed in full in `30`.
+
+**Verdict: sign it.** All three requested changes were made, including the three-year point that the first review said to concede. Clause 2.2 now assigns the hybrid custom block to Party A in the words that describe how blocks are actually built, bars use in Aung Crown's own products, samples, catalogue, website, showroom and trade show displays, and is explicitly exempt from the three-year expiry in clause 3. Both brands are defined in the body of the document, not only in the filename. The Chinese text was checked against the English and mirrors it on all three points.
+
+**Drafted in thread 8:** a covering note for the signed copy. It corrects the stray message sent into the old thread on 2 Oct, accepts the agreement, confirms the setup fee answer is understood, and says the design pack and measurements follow once the countersigned copy is back. **It needs the signed PDF attached before sending.**
+
+**The earlier draft in thread 8 is now superseded** and should be deleted rather than left sitting, which is the exact mistake that put the dead 28 Sept message in front of Yolanda a day ago.
+
+Remaining founder actions on this: fill in the date, sign as **Gaofenngwe Kabubi, trading as EWAH**, add her address, and when it comes back check that the chop reads **深圳昂冠实业有限公司**.
